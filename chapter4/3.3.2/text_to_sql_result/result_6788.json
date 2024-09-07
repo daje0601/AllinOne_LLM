@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'player'가 'retirement'이고 'tournament'가 '2010 french open'인 조건을 추가하여 'points defending'의 최대값을 찾고 있습니다. 반면, 두 번째 쿼리는 모든 선수의 'points defending'를 기준으로 내림차순으로 정렬한 후 가장 높은 점수를 가진 선수를 단순히 선택합니다. 따라서 첫 번째 쿼리는 특정 선수의 포인트 방어만을 고려하고, 두 번째 쿼리는 모든 선수의 포인트 방어를 고려하므로 결과가 다를 수 있습니다.\"\n}"

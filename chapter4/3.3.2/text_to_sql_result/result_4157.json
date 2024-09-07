@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 customers 테이블에서 고객의 입주일(date_moved_in) 및 고객 ID(customer_id), 고객 상세 정보(customer_details)를 단순히 선택하고 있습니다. 그러나 두 번째 쿼리는 customers 테이블과 customer_events 테이블을 조인하여 고객 ID에 따라 입주일(date_moved_in)을 가져오고 있습니다. 첫 번째 쿼리는 입주일 정보를 포함하지 않고, 단순히 고객 정보만 보여줍니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

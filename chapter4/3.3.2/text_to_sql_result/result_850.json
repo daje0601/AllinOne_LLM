@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문이며, 같은 방식으로 demographic와 diagnoses 테이블을 조인하여 환자 ID가 9575인 환자의 주요 질병(diagnosis)과 진단의 짧은 제목(short_title)을 조회합니다. 결과적으로 이들은 의미적으로 동일한 결과를 반환합니다.\"\n}"

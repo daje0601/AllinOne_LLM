@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 정보를 조회합니다. 첫 번째 쿼리는 '54 holes' 열에서 'Justin Leonard, Phil Price'를 찾고 해당하는 'Margin of victory' 값을 반환합니다. 반면 두 번째 쿼리는 'Runner(s)-up' 열에서 'Justin Leonard, Phillip Price'를 찾고 그 수(count)를 반환합니다. 따라서 각각 조회하는 필드와 결과 형식이 달라 의미적으로 동일하지 않습니다.\"\n}"

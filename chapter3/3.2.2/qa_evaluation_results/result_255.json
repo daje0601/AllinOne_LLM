@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAbeR77xLJAmn77cfqhMXGu620r",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문의 주제를 잘 다루고 있으나, 인공위성이 연료를 어떻게 사용하는지에 대한 정보가 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 일부 정보는 부정확하다. 예를 들어, 발사 후 3-4개월에 연료를 보충한다는 내용은 사실이 아니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 중요한 정보들을 포함하고 있지만, 인공위성이 사용하는 연료의 종류와 작동 방식에 대한 내용을 충분히 설명하지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 언어는 대체로 명확하지만, 전문 용어 사용이 많아 일반 독자가 이해하기 어려울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 내용적으로 참조 답변과 관련이 있지만, 언급된 기술적 세부사항과 설명이 다르다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문의 주제를 잘 다루고 있으나, 인공위성이 연료를 어떻게 사용하는지에 대한 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 일부 정보는 부정확하다. 예를 들어, 발사 후 3-4개월에 연료를 보충한다는 내용은 사실이 아니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 중요한 정보들을 포함하고 있지만, 인공위성이 사용하는 연료의 종류와 작동 방식에 대한 내용을 충분히 설명하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 언어는 대체로 명확하지만, 전문 용어 사용이 많아 일반 독자가 이해하기 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 내용적으로 참조 답변과 관련이 있지만, 언급된 기술적 세부사항과 설명이 다르다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222461,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 727,
+        "total_tokens": 958
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAldYElPlQLFjPbkwlfappYnV9W",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 특정한 수입품목에 대한 정보 제공으로 질문에 답변하고 있으나, 농수산물과 같은 주요 품목을 언급하지 않아서 다소 관련성이 떨어진다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서는 2018년 기준으로 전기기구가 수입품목 중 가장 높은 비율을 차지한다고 명시하고 있지만, 이는 현재 데이터와 다를 수 있어 정확성에 의문이 든다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 몇 가지 주요 수입품목을 열거하며 추가적인 정보를 제공하지만, 가장 높은 비율을 차지하는 품목에 대한 명확한 형식이 없고, 농수산물을 포함하지 않아 불완전하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 명확하고 조직적이며 읽기 쉬운 구조를 가지고 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용의 유사성이 크지 않으며, 주제에 대한 접근 방식과 강조하는 품목 면에서 큰 차이가 있다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 특정한 수입품목에 대한 정보 제공으로 질문에 답변하고 있으나, 농수산물과 같은 주요 품목을 언급하지 않아서 다소 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서는 2018년 기준으로 전기기구가 수입품목 중 가장 높은 비율을 차지한다고 명시하고 있지만, 이는 현재 데이터와 다를 수 있어 정확성에 의문이 든다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 몇 가지 주요 수입품목을 열거하며 추가적인 정보를 제공하지만, 가장 높은 비율을 차지하는 품목에 대한 명확한 형식이 없고, 농수산물을 포함하지 않아 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 조직적이며 읽기 쉬운 구조를 가지고 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용의 유사성이 크지 않으며, 주제에 대한 접근 방식과 강조하는 품목 면에서 큰 차이가 있다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222471,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 283,
+        "prompt_tokens": 454,
+        "total_tokens": 737
+    }
+}

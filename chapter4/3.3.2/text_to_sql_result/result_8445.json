@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하여 문제에 대한 의미적으로 동일한 결과를 반환합니다. SELECT 문, WHERE 조건 및 COUNT 함수가 동일하며, 'Shot Pct.'가 88%이고 'Ends Won'이 31인 레코드를 기준으로 'Ends Lost'의 개수를 계산하고 있습니다.\"\n}"

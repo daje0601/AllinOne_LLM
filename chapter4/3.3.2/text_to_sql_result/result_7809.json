@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 대표자 이름을 사용하고 있습니다. 첫 번째 쿼리는 'Scott Elsasser'의 'First Elected'을 카운트하고, 두 번째 쿼리는 'Scott Oelslager'의 'Residence'을 카운트합니다. 따라서 대표자를 기준으로 하는 쿼리와 카운트하는 열이 다르기 때문에 의미적으로 동일하지 않습니다.\"\n}"

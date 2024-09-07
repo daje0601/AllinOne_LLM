@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Method'와 'Opponent' 값을 사용하고 있습니다. 첫 번째 쿼리는 'submission (technical submission)'과 'patu toimaunono'를 기준으로 하며, 두 번째 쿼리는 'technical knockout'과 'fatu tuimanono'를 기준으로 하고 있습니다. 따라서, 두 쿼리는 서로 다른 조건을 사용하여 서로 다른 결과를 반환할 것입니다.\"\n}"

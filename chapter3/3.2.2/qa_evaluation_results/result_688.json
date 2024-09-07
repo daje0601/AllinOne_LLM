@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBDVu8QGXdtvadL452z9Zsojb7e",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 부합하며 사실상 유사한 상황을 설명하고 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 응답은 개인적인 경험을 기반으로 하여 구체적인 날짜와 사건을 언급하고 있지만, 전체적인 경제에 대한 일반적인 정보는 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 개인적인 사례를 중심으로 설명했으며, 일반적인 휴면 계정 처리 과정 및 알림 메일 제도에 대한 정보는 언급하지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하나, 구체적인 세부사항이나 과정 설명이 부족해 다소 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용이 많이 다르며, 개인적인 경험에 중점을 두고 있어서 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 부합하며 사실상 유사한 상황을 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 응답은 개인적인 경험을 기반으로 하여 구체적인 날짜와 사건을 언급하고 있지만, 전체적인 경제에 대한 일반적인 정보는 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 개인적인 사례를 중심으로 설명했으며, 일반적인 휴면 계정 처리 과정 및 알림 메일 제도에 대한 정보는 언급하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하나, 구체적인 세부사항이나 과정 설명이 부족해 다소 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 많이 다르며, 개인적인 경험에 중점을 두고 있어서 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222499,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 227,
+        "prompt_tokens": 478,
+        "total_tokens": 705
+    }
+}

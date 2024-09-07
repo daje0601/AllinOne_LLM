@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 'defensive line' 포지션을 가진 플레이어 중에서 'grant high school'에 소속된 선수의 'College' 정보를 조회하므로 의미적으로 완전히 동일한 결과를 반환합니다.\"\n}"

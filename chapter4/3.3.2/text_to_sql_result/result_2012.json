@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 다루는 약물 이름이 다릅니다. 첫 번째 쿼리는 'proto-nips'를 사용하고, 두 번째 쿼리는 'protonix'를 사용합니다. 이로 인해 두 쿼리가 의미적으로 동일하지 않습니다. 또한 첫 번째 쿼리의 서브쿼리는 NSS 주입에 대해 잘못하였고, 'proto-nips'와 'nss infusion'이 아닌 'nss infusion'과 'protonix' 두 약물에 대해 참고하고 있습니다.\"\n}"

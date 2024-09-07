@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 lab 테이블에서 조회하는 labname 값이 'bedside glucose'와 'glucose'로 다릅니다. 이로 인해 첫 번째 쿼리는 'bedside glucose' 관련 lab에서 발생한 비용에 대한 합계를, 두 번째 쿼리는 'glucose' 관련 lab에서 발생한 비용에 대한 합계를 계산합니다. 따라서 같은 조건을 만족하지 않으므로 의미적으로 동일하지 않습니다.\"\n}"

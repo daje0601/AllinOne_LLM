@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNATvVK02g6VuEhNdlR2inu6JU17",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델은 질문과 관련된 정보를 제공했지만, 일부 정보는 부정확하거나 잘못된 분류를 포함하고 있다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 정보는 일부 정확하지만, 하늘다람쥐를 곰과에 포함시키는 등 명백한 오류가 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 기본적인 설명을 했지만, 질문의 모든 측면을 포괄하지 못했다. 특히 슈가글라이더와 주머니하늘다람쥐과의 관계에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 고객는 이해하기 어렵지 않지만, 정보의 불명확함으로 인해 혼란을 초래할 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 구조적으로 다르며, 일부 사실이 잘못된 채로 언급되었기 때문에 유사성이 매우 낮다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델은 질문과 관련된 정보를 제공했지만, 일부 정보는 부정확하거나 잘못된 분류를 포함하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 정보는 일부 정확하지만, 하늘다람쥐를 곰과에 포함시키는 등 명백한 오류가 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 기본적인 설명을 했지만, 질문의 모든 측면을 포괄하지 못했다. 특히 슈가글라이더와 주머니하늘다람쥐과의 관계에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 고객는 이해하기 어렵지 않지만, 정보의 불명확함으로 인해 혼란을 초래할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 구조적으로 다르며, 일부 사실이 잘못된 채로 언급되었기 때문에 유사성이 매우 낮다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222453,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 700,
+        "total_tokens": 941
+    }
+}

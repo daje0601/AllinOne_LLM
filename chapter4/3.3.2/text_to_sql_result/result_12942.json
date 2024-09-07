@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Europe' 열이 'january 23, 2013'이고 'Title'이 'the last story'인 경우에 'North America' 열의 값을 선택합니다. 반면 두 번째 쿼리는 'Japan' 열이 'january 23, 2013'인 경우에 'North America' 열의 값을 선택합니다. 따라서 두 쿼리는 서로 다른 필드와 조건을 참조하기 때문에 의미적으로 동일하지 않습니다.\"\n}"

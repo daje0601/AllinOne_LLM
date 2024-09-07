@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBJTVWvV2vQAGPHJR53fa5QA0Q8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 첫 서브 성공률의 중요성에 대한 설명이 있으나, 질문의 두 가지 요소 중 첫 서브 성공률의 중요성과 세컨드 서브 포함 여부에 대한 명확한 연결이 부족함.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 첫 서브와 세컨드 서브 성공률에 대한 설명은 정확하지만, 서브 성공률과 그 의미에 대한 분석이 다소 부족해 정확성이 낮게 평가됨.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 두 가지 질문에 대해 각각의 요소를 다루고 있으나, 깊이 있는 설명이나 예시 없이 요점만을 나열하여 완전성이 떨어짐.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적으로 이해할 수 있으나, 일부 문장 구조가 다소 복잡해 명확성에서 다소 저조함.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 주제는 유사하나, 내용의 전개 방식과 설명이 상당히 다르며, 내용의 깊이나 방식에서 unterscheiden.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 첫 서브 성공률의 중요성에 대한 설명이 있으나, 질문의 두 가지 요소 중 첫 서브 성공률의 중요성과 세컨드 서브 포함 여부에 대한 명확한 연결이 부족함."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 첫 서브와 세컨드 서브 성공률에 대한 설명은 정확하지만, 서브 성공률과 그 의미에 대한 분석이 다소 부족해 정확성이 낮게 평가됨."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 두 가지 질문에 대해 각각의 요소를 다루고 있으나, 깊이 있는 설명이나 예시 없이 요점만을 나열하여 완전성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적으로 이해할 수 있으나, 일부 문장 구조가 다소 복잡해 명확성에서 다소 저조함."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 유사하나, 내용의 전개 방식과 설명이 상당히 다르며, 내용의 깊이나 방식에서 unterscheiden."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222505,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 278,
+        "prompt_tokens": 629,
+        "total_tokens": 907
+    }
+}

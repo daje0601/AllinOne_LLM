@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 drugname의 값이 다릅니다. 첫 번째 쿼리의 약물 이름은 'albuterol sulf 2.5 mg in 3 ml inh soln'이고, 두 번째 쿼리의 약물 이름은 'albuterol sulfate 2.5 mg inhl neb soln'입니다. 약물 이름이 다르기 때문에 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

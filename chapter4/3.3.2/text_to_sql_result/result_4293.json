@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Away team'이 'essendon'인 모든 행의 'Crowd' 값을 합산하여 반환하지만, 두 번째 쿼리는 'Away team'이 'essendon'인 모든 행의 'Crowd' 값을 개별적으로 반환합니다. 따라서 두 쿼리는 결과의 형태와 의도에서 다릅니다.\"\n}"

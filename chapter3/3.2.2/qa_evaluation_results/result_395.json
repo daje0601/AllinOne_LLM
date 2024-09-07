@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAn2RRXQGkCd8EGRcVAq5eoosH6",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 차량 깜박이 원리에 대한 정보 대신 후미와 사고 위험을 언급하고 있어 질문과 관련성이 낮음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 릴레이의 기능에 대한 잘못된 정보를 제공하고 있으며, 전기적 작동 원리에 대한 설명이 아예 없음.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 릴레이 사용에 대한 전반적인 설명이 부족하고, 차량 방향지시등의 작동 원리에 대한 내용을 포함하지 않음.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 문장이 명확하지만, 전체적인 내용이 일관되지 않아 이해하기 어려움.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변의 내용과 유사하지 않으며, 다른 주제에 대해 기술하고 있음.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 차량 깜박이 원리에 대한 정보 대신 후미와 사고 위험을 언급하고 있어 질문과 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 릴레이의 기능에 대한 잘못된 정보를 제공하고 있으며, 전기적 작동 원리에 대한 설명이 아예 없음."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 릴레이 사용에 대한 전반적인 설명이 부족하고, 차량 방향지시등의 작동 원리에 대한 내용을 포함하지 않음."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 문장이 명확하지만, 전체적인 내용이 일관되지 않아 이해하기 어려움."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 유사하지 않으며, 다른 주제에 대해 기술하고 있음."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222473,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 663,
+        "total_tokens": 882
+    }
+}

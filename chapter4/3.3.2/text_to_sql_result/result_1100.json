@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 lab.label의 값이 서로 다릅니다. 첫 번째 쿼리에서는 'Lactate Dehydrogenase (CSF)'를 사용하고, 두 번째 쿼리에서는 'Lactate Dehydrogenase, CSF'를 사용합니다. 이 둘은 문자열이 다르므로, 서로 다른 결과를 반환할 것입니다.\"\n}"

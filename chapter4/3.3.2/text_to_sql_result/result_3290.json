@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 반환하는 rookie와 offensive의 값이 다릅니다. 생성된 쿼리는 'Drall Belthmann'과 'Mark Stienhuis'를 사용하고, 정답 쿼리는 'Daryl Veltman'과 'Mark Steenhuis'를 사용하므로, 서로 다른 인물에 대한 결과를 조회하게 됩니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

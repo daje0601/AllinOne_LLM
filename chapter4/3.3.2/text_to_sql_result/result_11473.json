@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 학교('potawatomi'와 'portage')에 대해 'Previous Conference'를 조회하고 있으므로, 의미적으로 동일한 결과를 반환하지 않습니다. 따라서 쿼리가 요구하는 문제의 문맥에서 같은 결과를 주지 않습니다.\"\n}"

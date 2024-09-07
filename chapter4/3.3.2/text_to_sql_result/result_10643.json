@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Winning driver'가 'João Overend Winnie'인 경우의 'Fastest lap'의 개수를 세고 있으며, 두 번째 쿼리는 'Fastest lap'이 'João Victor Horto'인 경우의 'Round'의 개수를 세고 있습니다. 두 쿼리는 서로 다른 조건을 사용하고 있어 의미적으로 동일하지 않습니다.\"\n}"

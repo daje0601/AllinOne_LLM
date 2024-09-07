@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'League'가 'USISL' 조건은 동일하지만, 'Regular Season' 조건이 다릅니다. 첫 번째 쿼리는 'Regular Season'이 '1st, South Atlantic'인 경우를 조회하고, 두 번째 쿼리는 '1st, Pacific'을 조회합니다. 따라서 반환되는 'Playoffs' 결과가 다를 수 있으며, 의미적으로 동일하지 않습니다.\"\n}"

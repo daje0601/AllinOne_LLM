@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 생성된 쿼리는 'away_team'이 'geelong'인 경우의 'home_team'을 선택하고, 정답 쿼리는 'away_team'이 'kwong wah'인 경우의 'home_team'을 선택합니다. 따라서 두 쿼리는 서로 다른 결과를 반환합니다.\"\n}"

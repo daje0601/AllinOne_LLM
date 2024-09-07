@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'province' 조건이 서로 다릅니다. 첫 번째 쿼리는 'northwestern'으로, 두 번째 쿼리는 'north western'으로 작성되어 있습니다. 이러한 차이로 인해 서로 다른 결과를 반환할 수 있습니다.\"\n}"

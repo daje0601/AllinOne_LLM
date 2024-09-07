@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBd8kzUWFkEEsiXawhePRcNnLAF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 온도계를 귀속에 대는 이유에 대한 질문에 어느 정도 관련이 있지만, 귀속의 중요성에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 귀속 체온 측정이 느리게 나타난다는 설명은 부정확하며, 귀속의 정확성에 대한 부분도 부실하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 체온 측정의 원리와 위치에 대해 설명하지만, 전체적으로 귀속 체온 측정의 중요성이나 이유를 포괄적으로 다루지 않음.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 다소 복잡하게 구성되어 있으며 일부 문장은 이해하기 어렵다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 유사한 내용이 적고, 구체적인 비교나 일관성이 떨어진다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 온도계를 귀속에 대는 이유에 대한 질문에 어느 정도 관련이 있지만, 귀속의 중요성에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 귀속 체온 측정이 느리게 나타난다는 설명은 부정확하며, 귀속의 정확성에 대한 부분도 부실하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 체온 측정의 원리와 위치에 대해 설명하지만, 전체적으로 귀속 체온 측정의 중요성이나 이유를 포괄적으로 다루지 않음."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 다소 복잡하게 구성되어 있으며 일부 문장은 이해하기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 내용이 적고, 구체적인 비교나 일관성이 떨어진다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 764,
+        "total_tokens": 1000
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 'malaysia airlines' 항공사와 연결된 공항을 찾는 동일한 조건을 사용하고 있습니다. WHERE 절의 조건과 SELECT 절은 동일하여 결과적으로 동일한 결과를 반환합니다.\"\n}"

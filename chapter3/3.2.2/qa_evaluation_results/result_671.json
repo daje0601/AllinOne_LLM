@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBBUeeMPmDJ3TyQZrEWp6GIZl5E",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 마우스 패드를 사용하는 이유와 관련하여 여러 가지 정보를 제공하지만, 직접적으로 책상에서 마우스를 사용하는 것에 대한 언급은 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변 중 일부는 정확하지만, 마우스 패드가 반드시 필요한 이유를 명확히 설명하지 않으며, 기술적인 세부 사항이 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 측면을 다루지만, 책상에서 마우스를 사용할 수 없거나 사용하는 것이 불편한 이유에 대한 언급이 부족하여 완전성이 떨어진다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 명확하다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 일부 포인트와 겹치지만, 전반적인 구조와 내용이 상당히 다르다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 마우스 패드를 사용하는 이유와 관련하여 여러 가지 정보를 제공하지만, 직접적으로 책상에서 마우스를 사용하는 것에 대한 언급은 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변 중 일부는 정확하지만, 마우스 패드가 반드시 필요한 이유를 명확히 설명하지 않으며, 기술적인 세부 사항이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 측면을 다루지만, 책상에서 마우스를 사용할 수 없거나 사용하는 것이 불편한 이유에 대한 언급이 부족하여 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 명확하다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 일부 포인트와 겹치지만, 전반적인 구조와 내용이 상당히 다르다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222497,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 663,
+        "total_tokens": 898
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 의미적으로 동일한 결과를 반환합니다. 두 쿼리 모두 'hypertension'이 1이거나 'systolic_blood_pressure_sbp'가 180을 초과하거나 'diastolic_blood_pressure_dbp'가 105를 초과하는 조건을 가지고 있습니다. 괄호의 위치는 다르지만, 마지막 조건은 OR 연산으로 결합되어 있으므로 쿼리의 결과에는 변화가 없습니다.\"\n}"

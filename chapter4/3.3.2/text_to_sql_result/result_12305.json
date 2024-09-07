@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다르게 취급하는 약물 이름 때문에 결과가 다를 수 있습니다. 생성된 쿼리는 'dexamethasone sod phos 4 mg/2ml ij soln'를 사용하고 반면 정답 쿼리는 'dexamethasone sod phosphate'를 사용합니다. 이들은 서로 다른 약물로 간주될 수 있으며, 따라서 동시에 처방된 환자들에게 가장 자주 처방된 약물의 목록이 달라질 수 있습니다.\"\n}"

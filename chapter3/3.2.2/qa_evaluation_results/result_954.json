@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBaf3vLXaqeUBPnNElkDclvqEcL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 부시 대통령이 먹은 과자에 대한 질문에 대해 적절하게 언급하지 않으며, 사실과 전혀 다른 내용을 포함하고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델은 부시 대통령의 사건에 관한 잘못된 정보를 제공하고 있으며, 목이 막혀 사망했다고 잘못 언급하고 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델은 질문에 대한 기본적인 정보조차 제공하지 못하고 있으며, 사건에 대한 대부분의 중요한 배경 정보를 생략하고 있다.\"},\"clarity\":{\"score\":3,\"explanation\":\"표현이 명확하지 않고, 잘못된 정보가 포함되어 독자가 오해할 수 있는 여지가 많으며, 전반적인 흐름이 어색하다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 사실관계와 내용이 거의 일치하지 않으며, 전혀 유사하지 않다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 부시 대통령이 먹은 과자에 대한 질문에 대해 적절하게 언급하지 않으며, 사실과 전혀 다른 내용을 포함하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델은 부시 대통령의 사건에 관한 잘못된 정보를 제공하고 있으며, 목이 막혀 사망했다고 잘못 언급하고 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델은 질문에 대한 기본적인 정보조차 제공하지 못하고 있으며, 사건에 대한 대부분의 중요한 배경 정보를 생략하고 있다."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "표현이 명확하지 않고, 잘못된 정보가 포함되어 독자가 오해할 수 있는 여지가 많으며, 전반적인 흐름이 어색하다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 사실관계와 내용이 거의 일치하지 않으며, 전혀 유사하지 않다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222522,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 590,
+        "total_tokens": 823
+    }
+}

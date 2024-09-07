@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"쿼리에서 비교하는 문자열 'Augustin H. Shepperd (J) 100%'와 'Augustine H. Shepperd (J) 100%'가 서로 다릅니다. 'Augustin'과 'Augustine'의 차이로 인해 두 쿼리의 결과는 동일하지 않습니다.\"\n}"

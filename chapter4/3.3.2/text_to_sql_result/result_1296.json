@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Original artist' 값을 사용하고 있으며, 첫 번째 쿼리는 'Gaskarth'를 조회하고, 두 번째 쿼리는 'Garth Brooks'를 조회하고 있습니다. 문제에서 요구하는 원래 아티스트는 'Garth Brooks'이므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

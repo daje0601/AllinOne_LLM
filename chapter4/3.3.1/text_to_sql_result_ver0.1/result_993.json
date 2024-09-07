@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단명을 사용하고 있습니다. 첫 번째 쿼리는 'Anemia in other chr disease'를 필터링하고, 두 번째 쿼리는 'Anemia-other chronic dis'를 필터링합니다. 이는 서로 다른 진단을 의미하므로, 결과적으로 반환되는 환자 수가 다를 것입니다.\"\n}"

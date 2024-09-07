@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조는 같지만, 사용된 쿼리와 정답 쿼리의 내용과 조건이 동일하여, 동일한 결과를 반환합니다. 즉, 'Final Position - Tour'이 54이고 'Final Position - Vuelta'이 55를 초과하는 연도의 평균을 계산하고 있습니다.\"\n}"

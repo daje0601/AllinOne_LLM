@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAN2KjPTpUWgJKTrbwVQOfeb3EA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에서 요청한 사항에 대한 정보를 제공하며 관련성이 높지만, 조금 더 구체적인 정보를 추가했으면 좋았을 것 같다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 대부분 정확하지만, \\\"양배추가 위염, 위궤양 등을 치료하는 것은 아니다\\\"라는 부분이 좀 더 설명이 필요했다. 원하는 효능에 대한 명확한 이해가 부족할 수 있다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 양배추의 효능과 섭취 방법을 다루었지만, 생으로 먹는 것이 가장 좋다는 포인트가 빠져 있다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉽지만, 몇몇 구절이 길어 다소 복잡하게 느껴질 수 있다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변과 유사한 포인트를 다루고 있지만, 설명 방식과 일부 내용이 다르다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에서 요청한 사항에 대한 정보를 제공하며 관련성이 높지만, 조금 더 구체적인 정보를 추가했으면 좋았을 것 같다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대부분 정확하지만, \"양배추가 위염, 위궤양 등을 치료하는 것은 아니다\"라는 부분이 좀 더 설명이 필요했다. 원하는 효능에 대한 명확한 이해가 부족할 수 있다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 양배추의 효능과 섭취 방법을 다루었지만, 생으로 먹는 것이 가장 좋다는 포인트가 빠져 있다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉽지만, 몇몇 구절이 길어 다소 복잡하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 포인트를 다루고 있지만, 설명 방식과 일부 내용이 다르다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222447,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 258,
+        "prompt_tokens": 686,
+        "total_tokens": 944
+    }
+}

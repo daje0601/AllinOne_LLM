@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAqkng06kDXsIPOGhl7xvrXyJVh",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 드라마 '야인시대'의 내용과 역사적 사실과의 차이에 대해 언급하고 있지만, 주로 송중기에 대한 정보로 집중되어 있어 질문의 의도와 완전히 일치하지 않음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 언급한 부분 중 일부는 실제 역사와 일치하지 않는 정보가 포함되어 있어 이 기준에서 낮은 점수를 받음.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 여러 가지 측면에서 드라마의 내용을 나열하고 있지만, 주어진 답변이 주제에 대한 전체적인 이해를 충분히 전달하지 않음.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 다소 장황하지만, 각 점들이 명확하게 나누어져 있기 때문에 이해하기 어렵지는 않음.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변이 드라마 '야인시대'의 역사적 정확성과 인물 간 관계에 대한 점에서 참조 답변과 일관성이 떨어짐.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 드라마 '야인시대'의 내용과 역사적 사실과의 차이에 대해 언급하고 있지만, 주로 송중기에 대한 정보로 집중되어 있어 질문의 의도와 완전히 일치하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 언급한 부분 중 일부는 실제 역사와 일치하지 않는 정보가 포함되어 있어 이 기준에서 낮은 점수를 받음."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 여러 가지 측면에서 드라마의 내용을 나열하고 있지만, 주어진 답변이 주제에 대한 전체적인 이해를 충분히 전달하지 않음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 다소 장황하지만, 각 점들이 명확하게 나누어져 있기 때문에 이해하기 어렵지는 않음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 드라마 '야인시대'의 역사적 정확성과 인물 간 관계에 대한 점에서 참조 답변과 일관성이 떨어짐."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222476,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 813,
+        "total_tokens": 1068
+    }
+}

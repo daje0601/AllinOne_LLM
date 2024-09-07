@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAQLwJjjCsCfOZL9Hh0MYkdFTbV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 왼쪽과 오른쪽 사이드 미러의 차이와 관련이 있지만, 질문에서 요구하는 주요 이유에 대한 정보가 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 방향과 구성 요소에 대한 정보에서 오류가 있으며, 왼쪽 사이드 미러에 대한 설명이 부정확하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 사이드 미러의 기능에 대해 일부 언급하지만, 왼쪽과 오른쪽 미러의 차이에 관한 전체적인 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 명확하지만, 표현이 혼란스러워 이해하는 데 어려움이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 내용을 일부 포함하지만, 전반적인 맥락과 세부 사항이 다르다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 왼쪽과 오른쪽 사이드 미러의 차이와 관련이 있지만, 질문에서 요구하는 주요 이유에 대한 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 방향과 구성 요소에 대한 정보에서 오류가 있으며, 왼쪽 사이드 미러에 대한 설명이 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 사이드 미러의 기능에 대해 일부 언급하지만, 왼쪽과 오른쪽 미러의 차이에 관한 전체적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 명확하지만, 표현이 혼란스러워 이해하는 데 어려움이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 내용을 일부 포함하지만, 전반적인 맥락과 세부 사항이 다르다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222450,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 229,
+        "prompt_tokens": 649,
+        "total_tokens": 878
+    }
+}

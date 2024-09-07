@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBNKKTk5Osb55JZHqBQoOw7Zl5f",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 폰을 찾는 방법에 대한 유용한 제안을 포함하고 있지만, 질문에서 언급된 꺼진 상태와 관련하여 구체적으로 언급하지 않아 다소 관련성이 떨어짐.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 응답은 유용하지만, 정확한 정보(예: SKT 고객센터의 전화번호, 운영 시간 등)와 공식 접근 방법을 구체적으로 다루지 않았음.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 가지 방법을 제안하지만, 참조 답변에 비해 필수적인 단계나 설명을 누락해 덜 포괄적임.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉽게 작성되었지만, 보다 명확한 절차나 단계별 설명이 추가되면 더 좋았을 것임.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 질문에 대한 다른 접근법을 제시했으나, 참조 답변의 내용과 방법이 크게 달라 유사성이 낮음.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 폰을 찾는 방법에 대한 유용한 제안을 포함하고 있지만, 질문에서 언급된 꺼진 상태와 관련하여 구체적으로 언급하지 않아 다소 관련성이 떨어짐."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 응답은 유용하지만, 정확한 정보(예: SKT 고객센터의 전화번호, 운영 시간 등)와 공식 접근 방법을 구체적으로 다루지 않았음."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 가지 방법을 제안하지만, 참조 답변에 비해 필수적인 단계나 설명을 누락해 덜 포괄적임."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉽게 작성되었지만, 보다 명확한 절차나 단계별 설명이 추가되면 더 좋았을 것임."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 질문에 대한 다른 접근법을 제시했으나, 참조 답변의 내용과 방법이 크게 달라 유사성이 낮음."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222509,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 265,
+        "prompt_tokens": 880,
+        "total_tokens": 1145
+    }
+}

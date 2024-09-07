@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"생성된 쿼리는 Position이 'f'인 Player 중에서 가장 작은 Round 값을 반환하는 쿼리인 반면, 정답 쿼리는 Position이 'f'인 모든 Player의 Round 값을 반환합니다. 따라서 결과가 다르므로 의미적으로 동일하지 않습니다.\"\n}"

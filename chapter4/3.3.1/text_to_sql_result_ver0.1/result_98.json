@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 'Cover model' 필드에서 동일한 문자열을 비교하고 있으며, 두 쿼리의 비교값이 'rena mero, torrie wilson (two alternative covers)'와 'rena mero , torrie wilson (two alternative covers)'로, 공백 하나의 차이로 되어 있지만, 이는 문자열의 의미적 비교에 있어 상관이 없으므로, 두 쿼리는 의미적으로 동일하다.\"\n}"

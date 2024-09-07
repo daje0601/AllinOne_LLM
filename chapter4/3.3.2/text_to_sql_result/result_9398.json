@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 쿼리이며, 동일한 조건을 사용하여 'table_dev_6'에서 심장 질환의 증상을 가진 레코드를 선택합니다. 'symptomatic_coronary_artery_disease = 1' 또는 'myocardial_infarction = 1' 조건에 기반하여 결과를 반환하므로 의미적으로 동일합니다.\"\n}"

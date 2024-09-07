@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAJWPWW704b1sdhtIZ35gtNkS5a",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문의 주제인 수면 시간과 줄이는 방법에 대해 논의하고 있으며, 관련된 정보를 제공하고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 6시간을 최적의 수면 시간으로 언급했지만, 전문가는 8시간이 이상적이라고 하여 정확도가 떨어진다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 수면 시간을 줄이는 여러 방법을 언급했으나, 참조 답변처럼 깊이 있는 설명이나 구체적인 방법은 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 잘 정리되어 있으며 이해하기 쉬운 문장으로 구성되어 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 관련된 부분이 있지만, 정보의 전개와 접근 방식에서 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문의 주제인 수면 시간과 줄이는 방법에 대해 논의하고 있으며, 관련된 정보를 제공하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 6시간을 최적의 수면 시간으로 언급했지만, 전문가는 8시간이 이상적이라고 하여 정확도가 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 수면 시간을 줄이는 여러 방법을 언급했으나, 참조 답변처럼 깊이 있는 설명이나 구체적인 방법은 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 잘 정리되어 있으며 이해하기 쉬운 문장으로 구성되어 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 관련된 부분이 있지만, 정보의 전개와 접근 방식에서 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222443,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 910,
+        "total_tokens": 1133
+    }
+}

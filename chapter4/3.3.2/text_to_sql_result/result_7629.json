@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'club' 필드에서 검색하는 값이 다릅니다. 첫 번째 쿼리는 'shanghai scorpions'를 검색하는 반면, 두 번째 쿼리는 'san antonio scorpions'를 검색합니다. 따라서 두 쿼리는 서로 다른 코치를 반환할 수 있으므로 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

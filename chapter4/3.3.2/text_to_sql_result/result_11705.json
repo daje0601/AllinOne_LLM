@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 결과를 반환합니다. 둘 다 demographic 테이블에서 주체 ID가 71798인 행의 혼인 상태(marital_status)와 종교(religion)를 선택합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB00Cya4Hmx9vuNjnJU0Ot2PfV3",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 동전이 원으로 도는 이유에 대한 질문과는 무관한 내용이며, 주로 역사적 배경 및 화폐의 가치에 대해 설명하고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 동전이 떨어질 때 회전하는 물리적 원리에 대한 오류가 있으며, 사실과 무관한 정보를 포함하고 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 주제에 대한 세부적인 설명을 제공하지 않으며, 질문에 대해 포괄적이지 않다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문장 구조가 명확하지만 내용이 질문과 관련이 없기 때문에 전체 이해도는 낮는다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제적 유사성이 전혀 없으며, 동전 또는 반지가 회전하는 이유에 대한 설명을 포함하고 있지 않다.\"},\"average_score\":2.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 동전이 원으로 도는 이유에 대한 질문과는 무관한 내용이며, 주로 역사적 배경 및 화폐의 가치에 대해 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 동전이 떨어질 때 회전하는 물리적 원리에 대한 오류가 있으며, 사실과 무관한 정보를 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 주제에 대한 세부적인 설명을 제공하지 않으며, 질문에 대해 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문장 구조가 명확하지만 내용이 질문과 관련이 없기 때문에 전체 이해도는 낮는다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제적 유사성이 전혀 없으며, 동전 또는 반지가 회전하는 이유에 대한 설명을 포함하고 있지 않다."
+                    },
+                    "average_score": 2.2
+                }
+            }
+        }
+    ],
+    "created": 1723222486,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 560,
+        "total_tokens": 802
+    }
+}

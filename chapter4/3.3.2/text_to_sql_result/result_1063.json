@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 마지막 RDW 값을 기록한 시점을 구하는 데 있어 서로 다릅니다. 첫 번째 쿼리는 'ORDER BY lab.labresult, lab.labresulttime DESC'로 RDW 결과를 큰 값부터 정렬하여 마지막으로 기록된 RDW 값의 시간을 찾으려 하고, 두 번째 쿼리는 'ORDER BY lab.labresult, lab.labresulttime'로 RDW 값을 정렬하나 정렬 방향이 명시되지 않아 기본적으로 오름차순으로 동작합니다. 따라서 두 쿼리는 같은 의도를 가지고 있으나, 결과적으로 마지막 RDW 값을 반영하는 방식에서 차이가 있습니다.\"\n}"

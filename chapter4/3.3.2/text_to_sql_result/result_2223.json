@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 diagnosisname의 문자열이 약간 다릅니다. 생성된 쿼리에서는 'acute coronary syndrome - acute myocardial infarction with st elevation'이라고 명시된 반면, 정답 쿼리에서는 'acute coronary syndrome - acute myocardial infarction (with st elevation)'이라고 되어 있습니다. 이 차이로 인해 두 쿼리는 서로 다른 데이터 집합을 참조할 가능성이 있으며, 따라서 의미적으로 동일한 결과를 보장하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 SELECT 문과 WHERE 조건을 사용하여 같은 테이블(demographic)에서 같은 열(days_stay, expire_flag)을 조회하고 있습니다. 결과적으로 의미적으로 동일한 결과를 반환합니다.\"\n}"

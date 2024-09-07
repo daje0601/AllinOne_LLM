@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기준으로 데이터를 검색합니다. 생성된 쿼리는 'Making Available Databases Systems'라는 조직의 발표 제목을 검색하지만, 정답 쿼리는 'Making database systems usable'이라는 특정 제목에 대한 reference_num을 검색합니다. 이로 인해 결과가 서로 다를 수 있으며 의미적으로 동일하지 않습니다.\"\n}"

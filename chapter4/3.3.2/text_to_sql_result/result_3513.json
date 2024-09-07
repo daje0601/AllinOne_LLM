@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'High rebounds'의 값을 기준으로 필터링하고 있지만, 서로 다른 이름의 선수 ('dwyane wade, rasheed louis (10)' vs 'dwight howard, rashard lewis (10)')를 비교하고 있습니다. 따라서 결과는 같지 않으며, 하나의 쿼리는 특정 선수 조합에 대한 하이 어시스트를 반환하고, 다른 쿼리는 다른 선수 조합에 대해 하이 어시스트를 반환합니다.\"\n}"

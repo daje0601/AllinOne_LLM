@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 약물 이름(drugname)에서 차이가 있습니다. 첫 번째 쿼리에서는 'glucagon (human recombinant) 1 mg/ml ij soln'을 사용하고, 두 번째 쿼리에서는 'glucagon (human recombinant) 1 mg/ml solution for injection'을 사용합니다. 이 두 문자열은 약물의 이름이 다르기 때문에, 동일한 약물이 처방된 여부를 확인하는 데 있어 결과가 달라질 수 있습니다.\"\n}"

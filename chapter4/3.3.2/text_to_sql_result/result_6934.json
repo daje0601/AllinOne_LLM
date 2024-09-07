@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조상 동일하고, 모두 'ed horowitz'가 쓴 원래 방송 날짜(original_airdate)를 조회하는 데 사용되고 있습니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

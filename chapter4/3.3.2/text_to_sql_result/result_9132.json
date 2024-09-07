@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Opponent' 조건의 값이 다릅니다. 첫 번째 쿼리는 'zénith saint-pétersbourg'를 사용하고, 두 번째 쿼리는 'zenit st. petersburg'를 사용하였기 때문에, 이 두 조건이 다르므로 쿼리의 결과가 의미적으로 동일하지 않습니다.\"\n}"

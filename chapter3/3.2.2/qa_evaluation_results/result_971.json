@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBbMRh9Iyzixvo6cYSFJt8ZAYnR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 핫도그의 이름의 유래에 대한 질문에 잘 연결되어 있으나, 일부 내용이 불명확하여 완전한 관련성을 가지지 못함.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에는 오류가 있으며, 다크스훈트의 스펠링 및 'stick with it' 표현에 대한 잘못된 해석이 포함됨.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 핫도그 이름의 유래에 대한 일부 요소를 포함하지만, 참조 답변에 비해 상세성이 부족함.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 이해하기 쉬운 언어로 작성되었으나, 일부 문장은 혼란을 초래할 수 있음.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 다소 다른 정보와 해석을 제공하며, 따라서 유사성이 낮음.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 핫도그의 이름의 유래에 대한 질문에 잘 연결되어 있으나, 일부 내용이 불명확하여 완전한 관련성을 가지지 못함."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에는 오류가 있으며, 다크스훈트의 스펠링 및 'stick with it' 표현에 대한 잘못된 해석이 포함됨."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 핫도그 이름의 유래에 대한 일부 요소를 포함하지만, 참조 답변에 비해 상세성이 부족함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 이해하기 쉬운 언어로 작성되었으나, 일부 문장은 혼란을 초래할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 다소 다른 정보와 해석을 제공하며, 따라서 유사성이 낮음."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222523,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 674,
+        "total_tokens": 914
+    }
+}

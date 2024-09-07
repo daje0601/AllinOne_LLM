@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 조건을 사용하여 달라스에서 샌프란시스코로 가는 항공편의 flight_id를 가져옵니다. 첫 번째 쿼리는 '생성된 쿼리'와 '정답 쿼리'에서 only a difference in the distinction of the way a table alias is named but does not alter the logic or the filtering conditions applied. Therefore, they are semantically equivalent.\"\n}"

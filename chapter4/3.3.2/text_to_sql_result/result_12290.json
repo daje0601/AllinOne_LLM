@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 WHERE 절에서 비교하는 문자열이 다릅니다. 하나는 'year-end championships'이고 다른 하나는 'year-end championship'입니다. 이로 인해 SQL 쿼리의 결과가 달라질 수 있으며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

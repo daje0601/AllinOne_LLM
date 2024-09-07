@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query retrieves posts based on their creation date, post type, and specific tags in the body, while the second query retrieves revision history for posts with specific post history types and an empty text. They operate on different conditions and focus on different data, making them semantically different.\"\n}"

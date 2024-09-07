@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 비교하는 romaji_title의 값이 다릅니다. 첫 번째 쿼리는 'Magikado No Kanjou'를 사용하고, 두 번째 쿼리는 'Magarikado no Kanojo'를 사용하고 있습니다. 이는 서로 다른 제목이므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

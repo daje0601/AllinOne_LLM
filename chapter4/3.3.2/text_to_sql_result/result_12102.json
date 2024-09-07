@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 토너먼트와 팀의 이름이 동일하지만, 'Team'의 값이 서로 다릅니다. 첫 번째 쿼리는 'platense municipal sacatepéquez'를 대상으로 하고, 두 번째 쿼리는 'platense municipal zacatecoluca'를 대상으로 하므로 결과가 서로 다릅니다.\"\n}"

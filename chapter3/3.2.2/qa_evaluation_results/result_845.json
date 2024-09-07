@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBQYvCihQB7SL0FiwqQZQz8ZTza",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 오리가 물에 뜨는 이유를 설명하며 관련된 기름에 대해서도 언급하고 있다. 그러나 물갈퀴운동과 표면장력에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 '몸 안에 기름이 많기 때문'이라고 언급하고 있으나, 기름의 역할과 구체적인 작용 방식에 대한 설명이 부정확하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 전반적으로 간단하게 요약되어 있으며, 질문에 대한 포괄적인 설명이 부족하다. 물갈퀴운동, 표면장력, 기름의 기능 등에 관한 설명이 거의 없다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 직관적으로 이해할 수 있는 면이 있지만, 기술적인 용어와 복잡한 설명으로 인해 다소 혼선을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 비교하여 매우 다르며, 기본적인 요소(물갈퀴운동, 표면장력)의 언급이 없으므로 유사성이 낮다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 오리가 물에 뜨는 이유를 설명하며 관련된 기름에 대해서도 언급하고 있다. 그러나 물갈퀴운동과 표면장력에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 '몸 안에 기름이 많기 때문'이라고 언급하고 있으나, 기름의 역할과 구체적인 작용 방식에 대한 설명이 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 전반적으로 간단하게 요약되어 있으며, 질문에 대한 포괄적인 설명이 부족하다. 물갈퀴운동, 표면장력, 기름의 기능 등에 관한 설명이 거의 없다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 직관적으로 이해할 수 있는 면이 있지만, 기술적인 용어와 복잡한 설명으로 인해 다소 혼선을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 비교하여 매우 다르며, 기본적인 요소(물갈퀴운동, 표면장력)의 언급이 없으므로 유사성이 낮다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222512,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 289,
+        "prompt_tokens": 582,
+        "total_tokens": 871
+    }
+}

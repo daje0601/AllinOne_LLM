@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'tournament' 조건의 문자열이 다릅니다. 첫 번째 쿼리는 'u.s. f5, brownsville'으로 정의되어 있고, 두 번째 쿼리는 'usa f5, brownsville'으로 정의되어 있습니다. 이러한 차이로 인해 두 쿼리는 서로 다른 결과를 반환합니다.\"\n}"

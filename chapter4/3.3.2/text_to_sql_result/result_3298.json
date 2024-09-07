@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 동일한 조건을 갖고 결과를 반환합니다. 두 쿼리 모두 'Number_Deaths'가 1명 이상인 폭풍에 대한 'Dates_active'와 'Number_Deaths'를 선택하고, 'Dates_active'를 기준으로 내림차순으로 정렬합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

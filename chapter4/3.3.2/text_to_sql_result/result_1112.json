@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Home' 팀의 이름이 다르다. 첫 번째 쿼리는 'montreal connies'를 사용하고, 두 번째 쿼리는 'montreal canadiens'를 사용하여 이로 인해 같은 결과를 반환하지 않는다.\"\n}"

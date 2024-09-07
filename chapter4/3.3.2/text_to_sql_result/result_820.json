@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Posts' 테이블에서 PostTypeId가 1이고 CommunityOwnedDate와 ClosedDate가 NULL인 게시물 수를 세고, Score의 총합, 평균, 최소 및 최대를 계산합니다. 반면, 두 번째 쿼리는 'Posts' 테이블에서 PostTypeId가 1인 게시물을 연도와 월별로 그룹화하여 게시물의 ID 수를 계산합니다. 두 쿼리는 서로 다른 조건 및 집계 방식을 사용하므로 의미적으로 동일하지 않습니다.\"\n}"

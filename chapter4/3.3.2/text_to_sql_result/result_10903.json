@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical, as they have the same structure, use the same functions, and target the same filtering conditions. They will return the same count of high rebounds for the team 'Minnesota'.\"\n}"

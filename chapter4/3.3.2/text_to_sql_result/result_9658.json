@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'same month' 조건을 확인하는 방법에서 차이가 있습니다. 정답 쿼리는 'DATETIME(t2.charttime, 'start of month') = DATETIME(admissions.admittime, 'start of month')' 조건을 사용하여 환자가 같은 달에 다시 병원에 오지 않았는지를 확인하고 있습니다. 반면, 생성된 쿼리는 이 같은 달 검증을 수행하지 않고 있습니다. 따라서 이들은 동일한 결과를 산출하지 않습니다.\"\n}"

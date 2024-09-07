@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조적으로 동일하며, 모두 Assessment_Notes 테이블에서 날짜(date_of_notes)별로 메모의 개수를 세고 있습니다. 두 쿼리는 같은 SELECT 문을 사용하여 동일한 결과를 반환하므로 의미적으로 동일합니다.\"\n}"

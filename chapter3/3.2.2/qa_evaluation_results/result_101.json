@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPp6s3SbqUw1Ntr4feairhGWJd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 엑셀에 대한 내용이 아니라 음악 관련 정보에 대해 설명하고 있어 질문과 전혀 관련이 없다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 엑셀에 대한 잘못된 정의와 사용 예시를 제시하고 있어 정확하지 않다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 엑셀의 정의, 용도, 필요성에 대해 전혀 다루지 않아서 완전하지 않다.\"},\"clarity\":{\"score\":3,\"explanation\":\"모델의 답변은 음악 개념을 설명하려고 하지만, 엑셀과의 연관성이 전혀 없어 정리된 개념이 없다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 큰 차이가 있고, 두 내용 간의 유사성이 없다.\"},\"average_score\":1.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 엑셀에 대한 내용이 아니라 음악 관련 정보에 대해 설명하고 있어 질문과 전혀 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 엑셀에 대한 잘못된 정의와 사용 예시를 제시하고 있어 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 엑셀의 정의, 용도, 필요성에 대해 전혀 다루지 않아서 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 음악 개념을 설명하려고 하지만, 엑셀과의 연관성이 전혀 없어 정리된 개념이 없다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 큰 차이가 있고, 두 내용 간의 유사성이 없다."
+                    },
+                    "average_score": 1.2
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 213,
+        "prompt_tokens": 605,
+        "total_tokens": 818
+    }
+}

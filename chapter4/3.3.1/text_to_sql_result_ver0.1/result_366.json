@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리에서 사용된 'robert sproule-cran'과 두 번째 쿼리에서 사용된 'robert sproul-cran'는 철자에서 차이가 있습니다. 'sproule'과 'sproul'은 다른 이름으로 해석될 수 있으므로, 두 쿼리는 서로 다르게 작용할 것이고, 따라서 같은 결과를 반환하지 않으며 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Governorate'가 'Warsaw'인 경우를 찾고, 두 번째 쿼리는 'Name in Polish'가 'Gubernia warszawska'인 경우에 해당하는 결과를 찾습니다. 이 둘은 서로 다른 필드에서 다른 값을 기준으로 검색하므로, 서로 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAa6nuiZmPPCLar8J3f0Gse3Vd4",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문과 관련 있긴 하지만, 용어 사용이 부정확하여 일부 관련성이 낮음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 제시한 '테트라포드'라는 용어는 피자 상자의 플라스틱 부분을 설명하는 데 있어 잘못된 정보.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델은 피자 삼발이에 대한 설명과 피자 테트라포드에 대한 설명을 시도했으나, 두 가지 용어의 명확한 정의를 제공하지 못했음.\"},\"clarity\":{\"score\":5,\"explanation\":\"답변은 이해 가능하지만 기술적으로 혼동을 줄 수 있는 용어를 사용하여 다소 불명확함.\"},\"similarity\":{\"score\":2,\"explanation\":\"참조 답변과는 상당히 다른 용어와 설명을 사용하고 있어 유사성이 적음.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문과 관련 있긴 하지만, 용어 사용이 부정확하여 일부 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 제시한 '테트라포드'라는 용어는 피자 상자의 플라스틱 부분을 설명하는 데 있어 잘못된 정보."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델은 피자 삼발이에 대한 설명과 피자 테트라포드에 대한 설명을 시도했으나, 두 가지 용어의 명확한 정의를 제공하지 못했음."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "답변은 이해 가능하지만 기술적으로 혼동을 줄 수 있는 용어를 사용하여 다소 불명확함."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "참조 답변과는 상당히 다른 용어와 설명을 사용하고 있어 유사성이 적음."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222460,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 606,
+        "total_tokens": 825
+    }
+}

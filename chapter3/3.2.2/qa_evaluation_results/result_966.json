@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBbX3bcENOhLPcOa7fosHro4A4S",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 잠수함과 잠수정의 구분에 대한 정보를 제공하지만, 질문에 명시된 '우리나라의 경우'에 대한 구체적인 기준을 충분히 다루지 못했다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델은 국제법과 군사의 정의를 언급하였으나, 구체적인 배수량 기준 (200톤 미만/이상)을 언급하지 않아 참조 답변에서 제공되는 정확한 정보를 놓쳤다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 기본적인 정의는 포함했으나, 한국 해군에서 실제로 사용되고 있는 배수량 기준과 예시 (장보고급, 돌핀급 등)를 포함하지 않아 완전하지 않다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 쉽게 이해할 수 있으나, 몇몇 전문 용어가 사용되어 독자에 따라 다소 어려울 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 내용적으로 다소 차이가 있어 참조 답변과의 유사성이 낮다. 모델은 국제법에 중점을 두고 설명한 반면, 참조 답변은 배수량 기준과 실제 예시에 초점을 맞췄다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 잠수함과 잠수정의 구분에 대한 정보를 제공하지만, 질문에 명시된 '우리나라의 경우'에 대한 구체적인 기준을 충분히 다루지 못했다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델은 국제법과 군사의 정의를 언급하였으나, 구체적인 배수량 기준 (200톤 미만/이상)을 언급하지 않아 참조 답변에서 제공되는 정확한 정보를 놓쳤다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 기본적인 정의는 포함했으나, 한국 해군에서 실제로 사용되고 있는 배수량 기준과 예시 (장보고급, 돌핀급 등)를 포함하지 않아 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 쉽게 이해할 수 있으나, 몇몇 전문 용어가 사용되어 독자에 따라 다소 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 내용적으로 다소 차이가 있어 참조 답변과의 유사성이 낮다. 모델은 국제법에 중점을 두고 설명한 반면, 참조 답변은 배수량 기준과 실제 예시에 초점을 맞췄다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222523,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 310,
+        "prompt_tokens": 641,
+        "total_tokens": 951
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'admission_type'과 'short_title'을 사용하고 있습니다. 첫 번째 쿼리는 'urgently'를, 두 번째 쿼리는 'emergency'를 사용하고 있으며, 이는 서로 다른 응급 입원 유형을 의미합니다. 또한, 첫 번째 쿼리의 'short_title'은 '복합 신장 이식'의 잘못된 번역인 'Combined renal transp'를 사용하고 있는 반면, 두 번째 쿼리는 정확한 번역인 'Compl kidney transplant'를 사용하고 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

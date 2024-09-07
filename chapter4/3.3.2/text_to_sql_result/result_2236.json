@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조가 동일하며, 동일한 조건을 사용하여 '환자 002-17348가 PT 검사를 받았는지' 여부를 판단합니다. WHERE 절에서 lab.labname이 'pt'인 경우와 환자의 patientunitstayid를 찾아 COUNT(*)로 그 결과를 체크하므로, 의미적으로 동일한 결과를 반환합니다.\"\n}"

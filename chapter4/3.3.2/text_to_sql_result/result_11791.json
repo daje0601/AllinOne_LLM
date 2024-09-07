@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 사용된 municipalities_served 값이 유사해 보이지만, 둘 사이에 구분자(쉼표) 사용의 차이가 있습니다. 첫 번째 쿼리에서는 쉼표와 스페이스 없이 'Beacon Falls, Naugatuck, Middlebury, Prospect'라는 문자를 사용하고, 두 번째 쿼리에서는 쉼표 뒤에 스페이스를 넣어 'Beacon Falls , Naugatuck , Middlebury , Prospect'로 작성되었습니다. SQL 쿼리에서 공백이 중요한 경우가 많기 때문에, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

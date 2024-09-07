@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조와 내용이 동일하므로 의미적으로 동일한 결과를 반환합니다. 두 쿼리 모두 'census_2006_population' 값이 249425인 'administrative_capital'을 선택하고 있으며, 따라서 결과가 같을 것입니다.\"\n}"

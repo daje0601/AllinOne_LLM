@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 테이블과 조건을 사용하여 직업이 없었던 직원들의 JOB_ID에 따른 평균 MANAGER_ID를 계산하고 결과를 GROUP BY와 ORDER BY를 통해 정렬하고 있습니다.\"\n}"

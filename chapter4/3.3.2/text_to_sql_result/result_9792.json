@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 구조와 조건을 가지고 있습니다. 'aircraft' 테이블에서 'name'과 'distance'를 선택하고, 'name' 순서로 정렬하는 쿼리입니다.\"\n}"

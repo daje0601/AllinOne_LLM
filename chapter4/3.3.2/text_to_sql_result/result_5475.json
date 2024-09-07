@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 단순히 district 테이블에서 본사가 있는 도시의 수를 세고 있으며, 이를 GROUP BY Headquartered_City로 집계하지만, 매장과의 관련성을 고려하지 않습니다. 반면 두 번째 쿼리는 store, store_district, district 테이블을 JOIN하여 매장과 관련된 본사가 있는 도시의 수를 정확히 세고 있습니다. 첫 번째 쿼리는 매장과 본사 도시 간의 관계를 고려하지 않기 때문에 결과가 다릅니다.\"\n}"

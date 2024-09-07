@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 특정 고객(customerid = 3)의 청구서(invoice)에서 파생된 트랙의 평균 단가(unitprice)를 계산하는 반면, 두 번째 쿼리는 모든 트랙의 평균 단가(unitprice)를 계산합니다. 따라서 두 쿼리가 반환하는 결과는 서로 다릅니다.\"\n}"

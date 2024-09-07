@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAqEE1Gmhg90BQGFKxrK5rOaKdX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 부동산 시세 조사에 대한 방법을 제시하지만, 건물 관리나 환경 확인 등 세부적인 정보에 치우쳐 있어 질문의 핵심인 '부동산 시세 조사 방법'과의 관련성이 낮음.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 정확한 정보들이 포함되어 있는 반면, '부동산 시세'와 관련된 직접적인 조사 방법에 대한 명확한 언급이 부족하며, 참조 답변과는 일부 내용이 다름.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 몇 가지 방법을 제시하지만, 참조 답변처럼 다양한 신뢰할 수 있는 출처나 시세 분석의 요소를 종합적으로 포함하지 못하고 있어 완전성이 부족함.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 어떤 행동을 취할지에 대한 명확한 단계들이 언급되지만, 내용이 약간 난잡해 보일 수 있음.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 방법론적으로 많이 다르며 부동산 시세 조사 방법에 대한 직접적인 접근법이 아닌, 건물 및 환경 체크에 중점을 둠.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 부동산 시세 조사에 대한 방법을 제시하지만, 건물 관리나 환경 확인 등 세부적인 정보에 치우쳐 있어 질문의 핵심인 '부동산 시세 조사 방법'과의 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 정확한 정보들이 포함되어 있는 반면, '부동산 시세'와 관련된 직접적인 조사 방법에 대한 명확한 언급이 부족하며, 참조 답변과는 일부 내용이 다름."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 몇 가지 방법을 제시하지만, 참조 답변처럼 다양한 신뢰할 수 있는 출처나 시세 분석의 요소를 종합적으로 포함하지 못하고 있어 완전성이 부족함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 어떤 행동을 취할지에 대한 명확한 단계들이 언급되지만, 내용이 약간 난잡해 보일 수 있음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 방법론적으로 많이 다르며 부동산 시세 조사 방법에 대한 직접적인 접근법이 아닌, 건물 및 환경 체크에 중점을 둠."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222476,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 309,
+        "prompt_tokens": 708,
+        "total_tokens": 1017
+    }
+}

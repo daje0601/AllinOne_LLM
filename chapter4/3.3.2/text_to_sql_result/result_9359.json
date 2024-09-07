@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'overall'이 6인 경우의 'offensive' 값을 선택하는 반면, 두 번째 쿼리는 'overall'이 'Colin Doyle'인 경우의 'offensive' 수를 세고 있습니다. 두 쿼리는 서로 다른 조건을 사용하고 있어 의미적으로 동일하지 않습니다.\"\n}"

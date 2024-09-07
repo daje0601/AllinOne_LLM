@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일한 SQL 쿼리입니다. 동일한 조건인 'Game'이 14보다 크고 'Team'이 'denver'인 경우의 'High rebounds'를 선택하고 있으므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

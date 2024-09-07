@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 SELECT 문을 사용하고 있으며, WHERE 절에서도 동일한 조건을 사용하고 있어서 Skibbereen 조합과 Knockmore 마을의 면적을 정확하게 조회하고 있습니다.\"\n}"

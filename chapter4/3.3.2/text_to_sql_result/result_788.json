@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'date' 값을 사용하고 있습니다. 첫 번째 쿼리는 'new zealand'를 기준으로 필터링하지만, 두 번째 쿼리는 'new zealand scores in bold'를 기준으로 필터링하므로 결과가 서로 다릅니다.\"\n}"

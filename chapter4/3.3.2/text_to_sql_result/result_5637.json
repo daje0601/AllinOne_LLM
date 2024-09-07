@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'property' 값을 기준으로 id를 추출하고 있습니다. 첫 번째 쿼리는 'ultimate tensile strength'를 사용하고 있고, 두 번째 쿼리는 'tensile elongation'을 사용하고 있습니다. 따라서 두 쿼리가 반환하는 결과는 서로 다를 것입니다.\"\n}"

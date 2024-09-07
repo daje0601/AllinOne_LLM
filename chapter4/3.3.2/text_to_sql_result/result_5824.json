@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 제목을 필터링하고 있습니다. 첫 번째 쿼리는 'Esophageal varices'라는 짧은 제목에 의존하고 있으며, 두 번째 쿼리는 'Esophageal varices in diseases classified elsewhere, with bleeding'이라는 긴 제목을 사용합니다. 따라서 두 쿼리는 서로 다른 환자 수를 계산할 수 있으며, 문제에서 요구하는 '기타 질병으로 분류된 식도 정맥류 진단을 받은 환자'를 정확히 반영하지 않습니다.\"\n}"

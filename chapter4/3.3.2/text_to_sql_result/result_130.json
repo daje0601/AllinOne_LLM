@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 Townland와 Civil parish 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Killworths Big' Townland와 'Monasterevan' Civil parish를 기준으로 면적을 검색하고, 두 번째 쿼리는 'Kilworth' Civil parish와 'Monadrishane' Townland를 기준으로 검색합니다. 쿼리에서 비교하는 지역이 다른 관계로 동일한 결과를 반환하지 않습니다.\"\n}"

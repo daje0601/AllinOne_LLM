@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 title_and_source의 문자열이 서로 다릅니다. 첫 번째 쿼리는 'Bokumō Sekaiō Sukiyaitai: Battle Tournament'를 사용하고, 두 번째 쿼리는 'Bokumo Sekai wo Sukuitai: Battle Tournament'를 사용하고 있습니다. 이로 인해 두 쿼리가 반환하는 결과가 같지 않을 것입니다.\"\n}"

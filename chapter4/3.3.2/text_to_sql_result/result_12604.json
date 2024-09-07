@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and they retrieve the count of distinct patients (subject_id) where the diagnosis includes 'BRAIN MASS;INTRACRANIAL HEMORRHAGE' and the lab result flag is 'abnormal'. Since they are exactly the same SQL statements, they will yield the same results.\"\n}"

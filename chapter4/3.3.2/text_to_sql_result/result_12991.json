@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. 둘 다 'october 21' 주에 경기한 결승 진출자(Finalist)를 동일한 테이블에서 조회하며, WHERE 조건도 일치합니다.\"\n}"

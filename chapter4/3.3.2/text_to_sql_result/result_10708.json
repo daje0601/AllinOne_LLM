@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'prior_background' 조건에서 다릅니다. 첫 번째 쿼리는 'Legislative aide'를 조건으로 하고 있는 반면, 두 번째 쿼리는 'Congressional aide'를 조건으로 하고 있습니다. 이는 서로 다른 직위를 나타내며, 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

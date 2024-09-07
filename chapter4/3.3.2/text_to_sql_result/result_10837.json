@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both the generated query and the answer query are identical and will return the same result. They both correctly select the minimum attendance from the table specifically for matches against Chelsea, fulfilling the requirements of the problem description.\"\n}"

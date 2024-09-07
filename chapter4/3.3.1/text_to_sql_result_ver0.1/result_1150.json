@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기관을 조회하고 있습니다. 첫 번째 쿼리는 'university of indiana'를 기준으로, 두 번째 쿼리는 'indiana university of pennsylvania'를 기준으로 하고 있습니다. 따라서 같은 팀 웹사이트를 찾지 않으며 의미적으로 동일하지 않습니다.\"\n}"

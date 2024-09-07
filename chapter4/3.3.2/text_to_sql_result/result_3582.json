@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 procedures 테이블의 'long_title'과 'short_title' 필드를 각각 다르게 참조하고 있습니다. 첫 번째 쿼리는 'Insertion of CV catheter with guide'라는 긴 제목을 사용하고, 두 번째 쿼리는 'CV cath plcmt w guidance'라는 짧은 제목을 사용하였습니다. 이렇게 서로 다른 제목을 사용함에 따라, 쿼리가 반환하는 결과에 차이가 생길 수 있으며, 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

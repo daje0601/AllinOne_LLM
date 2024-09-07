@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAL60tIrcyRA8tTvjwP1HbepM3r",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델은 '야자열매'라고 답변했으나, 이는 패션 프루트와 다르며 질문에 잘 맞지 않습니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 정보는 잘못된 부분이 많고, 특히 씨에 대한 안전성에 대한 설명이 참조 답변과 정반대입니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델은 씨를 완전히 제거하라고 권장하고 있으며, 적절한 섭취량에 대한 언급도 부족합니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 어느 정도 명확하지만, 잘못된 정보로 인해 혼란을 줄 수 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 큰 차이가 있어 유사성이 낮습니다.\"},\"average_score\":4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델은 '야자열매'라고 답변했으나, 이는 패션 프루트와 다르며 질문에 잘 맞지 않습니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 정보는 잘못된 부분이 많고, 특히 씨에 대한 안전성에 대한 설명이 참조 답변과 정반대입니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델은 씨를 완전히 제거하라고 권장하고 있으며, 적절한 섭취량에 대한 언급도 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 어느 정도 명확하지만, 잘못된 정보로 인해 혼란을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 큰 차이가 있어 유사성이 낮습니다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222445,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 205,
+        "prompt_tokens": 504,
+        "total_tokens": 709
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'wells'라는 opposing_teams 값을 기준으로 venue를 선택하고, 두 번째 쿼리는 'wales'라는 opposing_teams 값을 기준으로 venue를 선택합니다. 따라서 두 쿼리는 서로 다른 팀을 기준으로 하여 결과가 다르게 나올 수 있습니다.\"\n}"

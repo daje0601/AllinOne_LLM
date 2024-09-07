@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 갖고 있으며, 'Cleveland Browns'와 'at Cleveland Browns'는 서로 다른 상대를 나타냅니다. 따라서 두 쿼리가 반환하는 결과는 다를 수 있습니다.\"\n}"

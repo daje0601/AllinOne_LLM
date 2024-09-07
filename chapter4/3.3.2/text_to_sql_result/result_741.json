@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 동일한 기준인 히스패닉/라틴계 푸에르토리코 출신 환자를 기반으로 하고 있지만, 진단명에서 차이가 있습니다. 생성된 쿼리는 'Acute comb syst/dia NOS'를 사용하고, 정답 쿼리는 'Acute on chronic combined systolic and diastolic heart failure'를 사용합니다. 이로 인해 두 쿼리는 실제로 다른 진단명을 기준으로 환자 수를 카운트하고 있으며, 결과적으로 의미적으로 동일하지 않습니다.\"\n}"

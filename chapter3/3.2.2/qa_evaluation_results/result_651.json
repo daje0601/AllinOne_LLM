@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBAKP1GZA0Mty9KTLWF8s8Ortaw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 '언니'라는 단어의 사용에 대한 설명을 포함하고 있으나, 질문의 핵심인 '왜 언니만 졸업장을 타는지'를 충분히 다루지 않았다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 설명은 언니의 의미에 대한 기본적인 내용을 담고 있지만, 역사적 배경이나 졸업장에 대한 언급이 불명확하여 정확성에서 부족하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 '언니'의 의미에 대한 일부 정보만 제공하며, 졸업장의 맥락에 대한 설명이 부족하여 완전성이 떨어진다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉬우나, 약간의 혼란을 초래할 수 있는 표현이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 유사성이 낮고, 맥락이나 주제 접근 방식이 다르다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 '언니'라는 단어의 사용에 대한 설명을 포함하고 있으나, 질문의 핵심인 '왜 언니만 졸업장을 타는지'를 충분히 다루지 않았다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 설명은 언니의 의미에 대한 기본적인 내용을 담고 있지만, 역사적 배경이나 졸업장에 대한 언급이 불명확하여 정확성에서 부족하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 '언니'의 의미에 대한 일부 정보만 제공하며, 졸업장의 맥락에 대한 설명이 부족하여 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉬우나, 약간의 혼란을 초래할 수 있는 표현이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 유사성이 낮고, 맥락이나 주제 접근 방식이 다르다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222496,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 257,
+        "prompt_tokens": 636,
+        "total_tokens": 893
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 JOIN되는 테이블의 순서와 GROUP BY 기준이 다릅니다. 생성된 쿼리는 Services 테이블을 주 테이블로 떠받치고 그에 맞춰 Ref_Service_Types와 JOIN한 후, Service_Type_Code를 기준으로 그룹화하였으나, 정답 쿼리는 Ref_Service_Types 테이블을 주 테이블로 사용하고 Services 테이블과 JOIN한 후, T2.Service_Type_Code를 기준으로 그룹화했습니다. 결과적으로 GROUP BY가 서로 다른 컬럼에 적용되며, 두 쿼리가 반환하는 결과가 동일하지 않을 수 있습니다.\"\n}"

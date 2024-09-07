@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Club' 필드에서 검색하는 값이 서로 다릅니다. 첫 번째 쿼리는 'bvsc v zilabda'를, 두 번째 쿼리는 'bvsc vízilabda'를 사용하고 있으며, 이 두 값은 다르므로 결과도 다를 것입니다.\"\n}"

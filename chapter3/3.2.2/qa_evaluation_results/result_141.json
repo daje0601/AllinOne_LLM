@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAQHDSUGm1hQyQspK67FyQ9UfpR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 고무신의 역사와 생산 시기에 대한 정보를 포함하고 있어 질문에 잘 관련되어 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 제공한 정보 중 일부는 틀리며, 예를 들어 흰 고무신이 일본에서 수입되었다고 한 부분은 정확하지 않다. 또한, 최초의 고무신 제작 시점이 정확하지 않다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 고무신의 생산 및 역사에 대해 언급하였지만, 참조 답변에 비해 설명이 덜 구체적이다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우며, 잘 구성된 문장으로 서술되어 있어 명확하다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변과 참조 답변은 일부 유사한 내용이 있지만, 상세한 정보와 특정 내용에서 다르므로 유사성이 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 고무신의 역사와 생산 시기에 대한 정보를 포함하고 있어 질문에 잘 관련되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 제공한 정보 중 일부는 틀리며, 예를 들어 흰 고무신이 일본에서 수입되었다고 한 부분은 정확하지 않다. 또한, 최초의 고무신 제작 시점이 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 고무신의 생산 및 역사에 대해 언급하였지만, 참조 답변에 비해 설명이 덜 구체적이다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우며, 잘 구성된 문장으로 서술되어 있어 명확하다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변과 참조 답변은 일부 유사한 내용이 있지만, 상세한 정보와 특정 내용에서 다르므로 유사성이 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222450,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 517,
+        "total_tokens": 762
+    }
+}

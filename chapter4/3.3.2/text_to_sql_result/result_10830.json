@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 서로 다릅니다. 첫 번째 쿼리는 opponent가 'new jersey devils'일 때 점수의 합계를 구하고, 두 번째 쿼리는 opponent가 '@ new jersey devils'일 때 점수의 합계를 구합니다. '@ new jersey devils'는 존재하지 않는 팀 이름으로, 결과적으로 반환되는 결과가 다를 수 있습니다.\"\n}"

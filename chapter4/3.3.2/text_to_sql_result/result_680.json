@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 admission_location 조건과 procedures.short_title 조건을 사용하고 있습니다. 첫 번째 쿼리는 'CLINIC REFERRAL/PREMATURE'와 'Radiat ther remas tum'를, 두 번째 쿼리는 'PHYS REFERRAL/NORMAL DELI'와 'Radiotherapeut proc NEC'를 기준으로 COUNT를 계산하므로, 서로 다른 대상 환자를 조회하고 있으므로 의미적으로 동일하지 않습니다.\"\n}"

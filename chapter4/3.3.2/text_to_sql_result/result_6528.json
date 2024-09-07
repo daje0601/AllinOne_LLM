@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조적으로 동일하며, 같은 조건(WHERE 절)을 사용하여 'Away team score'가 '6.13 (49)'인 경우의 'Home team score'를 조회합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

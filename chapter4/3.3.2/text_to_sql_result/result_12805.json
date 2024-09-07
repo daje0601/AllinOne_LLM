@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조상 정확히 일치하며, 동일한 조건(first_played = 2011 AND points_for = 36)을 사용하여 'played'의 수를 세기 때문에 동일한 의미적 결과를 반환합니다.\"\n}"

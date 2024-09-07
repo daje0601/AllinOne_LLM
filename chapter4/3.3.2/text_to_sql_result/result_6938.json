@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 GROUP BY 절 없이 SUM(Capacity)를 사용하고 있기 때문에, Openning_year 별로 그룹화된 합계를 계산하지 않습니다. 이 쿼리는 오류를 발생시키기 때문에 올바른 결과를 반환하지 않습니다. 반면에 두 번째 쿼리는 GROUP BY Openning_year를 포함하고 있어 각 개봉 연도별로 수용 Capacity의 총합을 올바르게 계산합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 참조하는 'entrant' 값이 서로 다릅니다. 첫 번째 쿼리는 'danka arthus yamaha'를 검색하고, 두 번째 쿼리는 'danka arrows yamaha'를 검색합니다. 이로 인해 반환되는 'chassis'의 결과가 다를 것입니다.\"\n}"

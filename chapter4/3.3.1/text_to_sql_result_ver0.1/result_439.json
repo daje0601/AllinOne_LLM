@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조적으로 동일하며, 사망 상태(expire_flag = '0')와 진단 제목(short_title = 'BPH w/o urinary obs/LUTS')을 기준으로 하여 환자를 카운트하는 방식이 동일합니다. 따라서 두 쿼리는 뜻하는 바가 같으며 동일한 결과를 반환합니다.\"\n}"

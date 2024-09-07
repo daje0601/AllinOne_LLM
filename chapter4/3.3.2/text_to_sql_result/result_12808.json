@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query is searching for trainers associated with the winner 'mackay', while the second query is looking for trainers associated with the winner 'mckaymackenna'. Since 'mackay' and 'mckaymackenna' are different values, the queries will return different results, meaning they are not semantically equivalent.\"\n}"

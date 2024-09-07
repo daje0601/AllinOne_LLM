@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'all_documents' 테이블에서 서로 다른 문서 유형 코드의 수를 계산합니다. 두 번째 쿼리는 'ref_document_types' 테이블의 모든 행 수를 계산합니다. 이 두 쿼리는 각기 다른 데이터 소스를 사용하고 있으며, 'all_documents' 테이블의 문서 유형 코드가 'ref_document_types' 테이블의 문서 유형과 반드시 일치하지 않기 때문에 의미적으로 동일하지 않습니다.\"\n}"

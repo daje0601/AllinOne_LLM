@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The two queries differ in the character used for the hyphen in the result condition. The first query uses a standard hyphen ('-'), while the second uses an en dash ('–'). As a result, they will not return the same results because '8-0' is not equal to '8–0' in SQL.\"\n}"

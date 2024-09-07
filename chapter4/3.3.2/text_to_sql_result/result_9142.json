@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'RAM'과 'Display Size' 값이 다르게 정의되어 있습니다. 첫 번째 쿼리는 '28KB'와 '128x64 pixels, 21x8 character display'를 사용하고, 두 번째 쿼리는 '28 KB of RAM'과 '128×64 pixels 21×8 characters'를 사용합니다. 공백, 약어 및 기호의 차이로 인해 이 두 조건이 서로 다르게 평가되므로 결과가 동일하지 않습니다.\"\n}"

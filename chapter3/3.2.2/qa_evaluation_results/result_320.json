@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAhH75zdN9tv0OWS9IDzNkhpMFP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 골프 부킹의 분 단위 시간에 관한 질문과 관련이 적고, 주제 전환이 되어 있다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 세부 사항은 부킹과 관련된 질문에 대한 참조 답변과 전혀 일치하지 않는다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델은 시간 배정 기준에 대한 정보를 제공하지 않으며, 질문의 핵심 내용이 누락되었다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 어느 정도 이해할 수 있지만, 관련성이 낮아 문제의 흐름을 이해하기 어렵다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제가 완전히 다르고, 다른 방향으로 내용을 전개한다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 골프 부킹의 분 단위 시간에 관한 질문과 관련이 적고, 주제 전환이 되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 세부 사항은 부킹과 관련된 질문에 대한 참조 답변과 전혀 일치하지 않는다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델은 시간 배정 기준에 대한 정보를 제공하지 않으며, 질문의 핵심 내용이 누락되었다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 어느 정도 이해할 수 있지만, 관련성이 낮아 문제의 흐름을 이해하기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 완전히 다르고, 다른 방향으로 내용을 전개한다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222467,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 589,
+        "total_tokens": 790
+    }
+}

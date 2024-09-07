@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 같은 테이블에서 제품 카테고리 코드별로 평균 가격을 계산하고 있습니다. 두 쿼리 모두 AVG(product_price)와 product_category_code를 선택하고 있으며, GROUP BY 절을 통해 product_category_code별로 집계합니다. 다만, 생성된 쿼리에서는 AVG(product_price) 먼저 나오고 후에 product_category_code가 나오므로 열의 순서가 다를 뿐 결과는 동일합니다.\"\n}"

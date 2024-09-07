@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'trofeo_fast_team'의 값이 서로 다릅니다. 첫 번째 쿼리는 'mafiabrico'를 사용하고, 두 번째 쿼리는 'mapei-bricobi'를 사용합니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환하게 되므로 의미적으로 동일하지 않습니다.\"\n}"

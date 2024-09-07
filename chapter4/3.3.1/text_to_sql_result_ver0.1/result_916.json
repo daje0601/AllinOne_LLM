@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 같은 결과를 반환합니다. 'Fin. Pos', 'Car No.', 'Team', 'Laps', 'Grid', 'Laps Led', 'Points' 등 다른 필드는 쿼리 조건에 영향을 주지 않으며, 오직 'Time/Retired' 필드의 값이 같으므로 의미적으로 동일합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAv0PEwg7QnUz8Oawu2RCVoy11g",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 구토 반응의 여러 원인에 대해 설명하고 있어 관련성이 높지만, 주된 원인인 이산화탄소 기체에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 원인을 제시하지만, 일부 과학적 근거가 약하거나 부정확하게 제시된 것들이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 여러 요소를 다루긴 했으나, 참조 답변에서 중심 주제인 이산화탄소 기체와의 관계를 명확히 하지 않아 열린 질문에 대한 완전한 답변이라 보기 힘들다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉽게 표현되었고, 각 원인을 분리하여 설명하고 있어 명확하다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 다른 원인들을 강조하지만, 참조 답변의 이산화탄소 중심의 설명과는 다소 다르므로 유사성이 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 구토 반응의 여러 원인에 대해 설명하고 있어 관련성이 높지만, 주된 원인인 이산화탄소 기체에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 원인을 제시하지만, 일부 과학적 근거가 약하거나 부정확하게 제시된 것들이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 여러 요소를 다루긴 했으나, 참조 답변에서 중심 주제인 이산화탄소 기체와의 관계를 명확히 하지 않아 열린 질문에 대한 완전한 답변이라 보기 힘들다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉽게 표현되었고, 각 원인을 분리하여 설명하고 있어 명확하다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 다른 원인들을 강조하지만, 참조 답변의 이산화탄소 중심의 설명과는 다소 다르므로 유사성이 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222481,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 259,
+        "prompt_tokens": 796,
+        "total_tokens": 1055
+    }
+}

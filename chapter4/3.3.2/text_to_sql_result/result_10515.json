@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 'Cynthia McKinney'라는 현직의 투표 결과인 'Elected' 년도를 선택하고 있으며, WHERE 절의 조건도 동일합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

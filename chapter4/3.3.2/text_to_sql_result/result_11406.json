@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 species의 표현 방식이 다르지만, 모두 '하이델베르크인(Homo heidelbergensis)'을 참조합니다. 'homo heidelbergensis'와 'h.heidelbergensis'는 같은 종을 나타내므로, 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

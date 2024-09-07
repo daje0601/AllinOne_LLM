@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 launch_site 값을 사용하고 있습니다. 첫 번째 쿼리는 'van den bergh'를, 두 번째 쿼리는 'vandenberg'를 참조합니다. 따라서 결과가 동일하지 않으며, 의미적으로 같다라고 판단할 수 없습니다.\"\n}"

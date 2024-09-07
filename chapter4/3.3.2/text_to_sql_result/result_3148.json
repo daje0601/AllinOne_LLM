@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'diagnoses.short_title'와 'diagnoses.long_title'의 값을 비교하고 있습니다. 첫 번째 쿼리는 'Ulcer of heel & midfoot'라는 단축 제목에 대해 조건을 설정하는 반면, 두 번째 쿼리는 'Ulcer of heel and midfoot'라는 긴 제목에서 조건을 설정하고 있습니다. 제목의 차이로 인해 두 쿼리가 반환하는 결과는 서로 다를 수 있습니다.\"\n}"

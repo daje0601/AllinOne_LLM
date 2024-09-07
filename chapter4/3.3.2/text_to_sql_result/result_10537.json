@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Category' 컬럼에서 'prix uip venezia'를 찾고, 두 번째 쿼리는 'Nominating Festival' 컬럼에서 같은 값을 찾습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

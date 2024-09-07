@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAH4ZQEaaOmB5qJvI6OVCESZYXU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 우주 여행 시 상처나 흉터의 문제를 다루고 있어 질문과 관련성이 높다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 기압 문제를 언급하지만, 상처나 흉터와의 직접적인 연관성은 참조 답변과 약간 다르다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 기압 문제에 대한 설명을 포함하였지만, 상처나 흉터가 우주 여행에 미치는 영향을 보다 구체적으로 다루지 않았다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하게 표현되었으나, 전문 용어 사용이 이해를 어렵게 할 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"둘 다 상처가 우주 여행에 미치는 영향을 다루고 있으나 설명의 초점과 세부사항은 다르기 때문에 유사성이 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 우주 여행 시 상처나 흉터의 문제를 다루고 있어 질문과 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기압 문제를 언급하지만, 상처나 흉터와의 직접적인 연관성은 참조 답변과 약간 다르다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 기압 문제에 대한 설명을 포함하였지만, 상처나 흉터가 우주 여행에 미치는 영향을 보다 구체적으로 다루지 않았다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하게 표현되었으나, 전문 용어 사용이 이해를 어렵게 할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "둘 다 상처가 우주 여행에 미치는 영향을 다루고 있으나 설명의 초점과 세부사항은 다르기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222441,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 467,
+        "total_tokens": 704
+    }
+}

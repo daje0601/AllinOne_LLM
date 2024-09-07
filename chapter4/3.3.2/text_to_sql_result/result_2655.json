@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Location_Code'로만 그룹화하고, 각 위치 코드에 대해 'Date_in_Locaton_To'의 수를 세기 때문에 같은 'Location_Code'에 속하는 여러 'Date_in_Locaton_To' 값이 있을 경우 이들을 합쳐서 하나의 결과로 반환합니다. 반면 두 번째 쿼리는 'Location_Code'와 'Date_in_Locaton_To' 모두로 그룹화하여 각 날짜에 대해 개별적으로 카운트를 수행하므로 각각 다른 결과를 생성할 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

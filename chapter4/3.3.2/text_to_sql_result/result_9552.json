@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 WHERE 절에서 사용된 조건이 다릅니다. 생성된 쿼리에서는 'area.area LIKE '%web technologies%''를 사용하고 있으며, 정답 쿼리에서는 'area.area LIKE '%web technology%''를 사용하고 있습니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 수 있습니다. 특히, 'web technologies'와 'web technology'는 의미적으로 다를 수 있기 때문에, 쿼리의 결과에 차이를 초래할 수 있습니다.\"\n}"

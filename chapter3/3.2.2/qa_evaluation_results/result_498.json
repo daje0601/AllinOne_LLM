@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAw3r85D9UgL0rp1oEVidr29SJ8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 별의 구성과 빛나는 이유에 대한 질문에 잘 대답하고 있어 관련성이 높음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대부분 정확하지만, 일부 세부 사항(예: 핵융합 과정에서의 다양한 원소 생성)에 대한 언급이 부족함.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 핵융합 과정을 설명했지만, 별의 생애 전반에 걸친 원소 생성에 대한 정보가 부족해 완전성이 떨어짐.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 구조가 명확하고 이해하기 쉬움.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있지만, 설명의 깊이와 세부사항에서 차이가 있음.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 별의 구성과 빛나는 이유에 대한 질문에 잘 대답하고 있어 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대부분 정확하지만, 일부 세부 사항(예: 핵융합 과정에서의 다양한 원소 생성)에 대한 언급이 부족함."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 핵융합 과정을 설명했지만, 별의 생애 전반에 걸친 원소 생성에 대한 정보가 부족해 완전성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 구조가 명확하고 이해하기 쉬움."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있지만, 설명의 깊이와 세부사항에서 차이가 있음."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222482,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 564,
+        "total_tokens": 773
+    }
+}

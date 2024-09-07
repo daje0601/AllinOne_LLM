@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAP0XudvGoM2ZXxCt8OCP3jpclP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 무알콜 맥주에 대한 질문에 잘 관련되어 있으며, 알콜 함유 여부와 취할 가능성에 대해 언급했다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변 중 무알콜 맥주가 알콜이 전혀 없다는 점은 잘못되었으며, 알콜 함량에 대한 설명이 부정확했다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 무알콜 맥주의 종류를 구체적으로 설명하지 않아 다소 정보가 부족했지만 일부 내용이 포함되어 있었다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉬웠으나, 알콜 content에 대한 부분이 혼란을 줄 수 있었다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 큰 차이가 있으며, 다른 설명 방식을 사용하고 있어 유사성이 낮았다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 무알콜 맥주에 대한 질문에 잘 관련되어 있으며, 알콜 함유 여부와 취할 가능성에 대해 언급했다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변 중 무알콜 맥주가 알콜이 전혀 없다는 점은 잘못되었으며, 알콜 함량에 대한 설명이 부정확했다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 무알콜 맥주의 종류를 구체적으로 설명하지 않아 다소 정보가 부족했지만 일부 내용이 포함되어 있었다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉬웠으나, 알콜 content에 대한 부분이 혼란을 줄 수 있었다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 큰 차이가 있으며, 다른 설명 방식을 사용하고 있어 유사성이 낮았다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 649,
+        "total_tokens": 884
+    }
+}

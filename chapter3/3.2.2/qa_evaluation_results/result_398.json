@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAoBXOB3CCbvqLfI4G48XJTPJ7G",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 관련이 있지만, 대나무 빨대가 콜라가 넘치는 주된 원인에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 언급된 내용 중 일부는 정확하지 않다. 대나무 빨대의 흡수력이 높다는 주장은 잘못된 정보다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변이 여러 요소를 나열하지만, 콜라가 넘치는 주된 원인에 대한 명확한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"전반적으로 이해하기 쉬운 문장이지만, 다소 산만하게 느껴질 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과는 다소 다른 방향으로 전개되며, 실질적인 유사점이 부족하다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 관련이 있지만, 대나무 빨대가 콜라가 넘치는 주된 원인에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 언급된 내용 중 일부는 정확하지 않다. 대나무 빨대의 흡수력이 높다는 주장은 잘못된 정보다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 여러 요소를 나열하지만, 콜라가 넘치는 주된 원인에 대한 명확한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "전반적으로 이해하기 쉬운 문장이지만, 다소 산만하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과는 다소 다른 방향으로 전개되며, 실질적인 유사점이 부족하다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 674,
+        "total_tokens": 897
+    }
+}

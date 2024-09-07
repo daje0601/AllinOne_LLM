@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB0eZsO9snv6SNvMI3edbm1NWhP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 설탕이 우리 몸에 해로운 이유에 대한 여러 가지 측면을 다루며, 질문과 관련성이 있으나 구조가 다소 혼란스러움.\"},\"accuracy\":{\"score\":6,\"explanation\":\"일부 정보는 참조 답변에 비해 과장되거나 잘못된 부분이 있으며, 설탕의 해로운 성분과 관련된 과학적 근거가 부족하다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델 답변은 설탕의 해로운 측면을 여러 가지로 나열하여 포괄적인 내용을 담고 있으나, 특정 내용이 과장되어 있다고 볼 수 있음.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 길고 복잡하여 이해하기 어려운 부분이 있으며, 여러 개념이 나열되어 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 세부적인 내용과 설명의 방식이 크게 다름.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 설탕이 우리 몸에 해로운 이유에 대한 여러 가지 측면을 다루며, 질문과 관련성이 있으나 구조가 다소 혼란스러움."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "일부 정보는 참조 답변에 비해 과장되거나 잘못된 부분이 있으며, 설탕의 해로운 성분과 관련된 과학적 근거가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델 답변은 설탕의 해로운 측면을 여러 가지로 나열하여 포괄적인 내용을 담고 있으나, 특정 내용이 과장되어 있다고 볼 수 있음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 길고 복잡하여 이해하기 어려운 부분이 있으며, 여러 개념이 나열되어 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 세부적인 내용과 설명의 방식이 크게 다름."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222486,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 847,
+        "total_tokens": 1100
+    }
+}

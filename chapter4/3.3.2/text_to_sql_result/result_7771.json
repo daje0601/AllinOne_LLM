@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 수행하는 JOIN과 SELECT하는(column) 위치에서 약간의 차이가 있지만, 반환되는 값은 동일합니다. 두 쿼리 모두 'member_attendance' 테이블과 'member', 'performance' 테이블을 JOIN하여 멤버의 이름과 공연의 장소를 가져오고 있으며, ORDER BY 절에서는 'Name' 컬럼을 기준으로 정렬하고 있습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 제공합니다.\"\n}"

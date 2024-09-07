@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 diagnoses 테이블의 short_title 조건이 다릅니다. 첫 번째 쿼리는 'Meningitis, acute'를 조회하는 반면, 두 번째 쿼리는 'Peritonitis (acute) gen'을 조회합니다. 이로 인해 각 쿼리가 계산하는 환자 수는 서로 다를 것입니다.\"\n}"

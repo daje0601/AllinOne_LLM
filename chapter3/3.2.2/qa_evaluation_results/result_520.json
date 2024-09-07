@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAz5NZDKxrBl3tLDLjRDC0Ik6OV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 대해 주제별로 나누어 대답하였으나, 이동 경로에 대한 설명이 부족하고 '서로 반대의 이동'에 대한 명확한 설명이 없다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델은 두 제비갈매기의 생물학적 차이를 잘못 설명하고 있으며, '곰과 호랑이를 피한다'는 잘못된 정보가 포함되어 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 생김새와 이동의 이유에 대해 일부 정보를 제공했지만, 모든 질문에 대해 포괄적으로 설명하지 못했다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 문장구조가 다소 혼란스러웠고, 일부 정보가 모호하게 전달되었다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 크게 다르며, 생김새와 생태적 맥락에서 많은 틀린 정보가 포함되어 있다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 대해 주제별로 나누어 대답하였으나, 이동 경로에 대한 설명이 부족하고 '서로 반대의 이동'에 대한 명확한 설명이 없다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델은 두 제비갈매기의 생물학적 차이를 잘못 설명하고 있으며, '곰과 호랑이를 피한다'는 잘못된 정보가 포함되어 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 생김새와 이동의 이유에 대해 일부 정보를 제공했지만, 모든 질문에 대해 포괄적으로 설명하지 못했다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 문장구조가 다소 혼란스러웠고, 일부 정보가 모호하게 전달되었다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다르며, 생김새와 생태적 맥락에서 많은 틀린 정보가 포함되어 있다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222485,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 723,
+        "total_tokens": 974
+    }
+}

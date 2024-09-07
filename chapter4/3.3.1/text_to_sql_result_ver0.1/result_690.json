@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 대장 게실염에 대한 진단명을 다르게 지정하고 있습니다. 첫 번째 쿼리는 'Diverticulosis of colon w hem'을 사용하고, 두 번째 쿼리는 'Diverticulosis of colon with hemorrhage'를 사용합니다. 이 두 진단명은 서로 다른 ICD-9 코드나 해석이 될 수 있으며, 따라서 동일한 결과를 반환하지 않습니다.\"\n}"

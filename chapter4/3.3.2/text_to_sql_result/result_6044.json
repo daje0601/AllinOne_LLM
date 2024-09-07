@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'diagnoses' 테이블에서 찾는 'short_title' 값이 서로 다릅니다. 첫 번째 쿼리는 'Abnormal reaction-cath'를 찾고, 두 번째 쿼리는 'Abn react-cardiac cath'를 찾습니다. 따라서 이 두 쿼리는 서로 의미적으로 동일하지 않습니다.\"\n}"

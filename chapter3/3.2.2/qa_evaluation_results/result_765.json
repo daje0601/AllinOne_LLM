@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBK9bQ993njZBvx3Tvv7pvNvMu4",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 지역 채널번호에 대한 설명이 있지만, 질문에서 구체적으로 요구하는 다른 이유에 대한 설명은 부족함.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변 중 일부 정보가 정확하지 않거나 혼동을 줄 수 있어, 참조 답변과 비교하여 정보의 정확성이 떨어짐.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 종합편성, 중앙지상파, 서울지상파 등의 구별을 설명하지만, 질문의 핵심인 채널번호 변경 이유에 대한 설명이 부족하여 완전성이 떨어짐.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 이해할 수 있는 형식으로 작성되었지만, 여러 방송국의 예시가 섞여 있어 다소 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 구조와 내용과 상당히 다르고, 채널번호의 지역적 차이에 대한 근본적 이유를 설명하지 않고 있어 유사성이 낮음.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 지역 채널번호에 대한 설명이 있지만, 질문에서 구체적으로 요구하는 다른 이유에 대한 설명은 부족함."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변 중 일부 정보가 정확하지 않거나 혼동을 줄 수 있어, 참조 답변과 비교하여 정보의 정확성이 떨어짐."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 종합편성, 중앙지상파, 서울지상파 등의 구별을 설명하지만, 질문의 핵심인 채널번호 변경 이유에 대한 설명이 부족하여 완전성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 이해할 수 있는 형식으로 작성되었지만, 여러 방송국의 예시가 섞여 있어 다소 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 구조와 내용과 상당히 다르고, 채널번호의 지역적 차이에 대한 근본적 이유를 설명하지 않고 있어 유사성이 낮음."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222506,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 257,
+        "prompt_tokens": 626,
+        "total_tokens": 883
+    }
+}

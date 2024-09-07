@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'introduced'와 'retired'를 subtract하는 방식이 반대입니다. 생성된 쿼리는 'introduced - retired'를 계산하여 개가 판매된 기간을 잘못 나타내고 있으며, 정답 쿼리는 'retired - introduced'를 계산하여 은퇴하기 전 판매된 기간을 올바르게 표현합니다. 따라서 결과가 의미적으로 동일하지 않습니다.\"\n}"

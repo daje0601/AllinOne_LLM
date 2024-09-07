@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'decision' 컬럼의 값이 다릅니다. 첫 번째 쿼리는 'decision'이 'philadelphia'인 경우를 선택하고, 두 번째 쿼리는 'decision'이 'parent'인 경우를 선택합니다. 따라서, 같은 조건에서 점수를 얻기 위한 조건이 다르므로 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

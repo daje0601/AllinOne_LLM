@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'playoffs' 조건 부분에서 'league champion'과 'league champs'라는 서로 다른 문자열을 사용하고 있습니다. 이로 인해 쿼리가 검색하는 데이터가 달라질 수 있으며, 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

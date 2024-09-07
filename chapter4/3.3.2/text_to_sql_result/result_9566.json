@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 둘 다 position이 'head coach'인 사람의 이름을 반환하는 동일한 SQL 쿼리입니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 조건을 가진 WHERE 절을 포함하고 있습니다. 첫 번째 쿼리는 'espn international'이라는 이름을 가진 레코드를 찾으려 하고, 두 번째 쿼리는 'espn international sports'라는 이름을 가진 레코드를 찾습니다. 이는 서로 다른 방송 유형을 가져올 가능성이 있으므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

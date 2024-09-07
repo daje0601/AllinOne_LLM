@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. SELECT 쿼리에서 가져오는 컬럼, WHERE 절의 조건, ORDER BY 및 LIMIT 절 모두 동일하여 두 쿼리는 동일한 결과를 반환합니다.\"\n}"

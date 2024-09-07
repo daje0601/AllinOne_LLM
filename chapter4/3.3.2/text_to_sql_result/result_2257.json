@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 demographic 테이블에서 Jerry Deberry의 진단을 직접 선택하지만, 두 번째 쿼리는 demographic과 diagnoses 테이블을 조인하여 diagnoses 테이블에서 진단의 긴 제목(long_title)을 가져옵니다. 따라서 첫 번째 쿼리는 demographic 테이블의 진단(diagnosis)을 반환하고, 두 번째 쿼리는 diagnoses 테이블의 진단(long_title)을 반환하므로 결과가 다릅니다.\"\n}"

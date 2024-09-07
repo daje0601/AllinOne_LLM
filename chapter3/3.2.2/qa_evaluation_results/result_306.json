@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAf9PCkvYctSrQewX7de1Mh3Lut",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 관련된 내용을 포함하고 있으며, 쿵후와 우슈의 차이를 설명하고 있지만, 다소 비약적인 부분이 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 쿵후와 우슈의 특징을 설명하는 데 있어 몇 가지 부정확한 점이 있으며, 참조 답변보다 부족한 정보가 있다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 주제를 어느 정도 포괄하지만, 쿵후와 우슈 각각의 특성과 가르치는 방식을 충분히 다루지 않는다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 편이나, 몇몇 문장이 중복되거나 혼란스러울 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변의 몇 가지 요소를 간단히 포함하고 있으나, 전반적으로 차이가 크게 느껴진다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 관련된 내용을 포함하고 있으며, 쿵후와 우슈의 차이를 설명하고 있지만, 다소 비약적인 부분이 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 쿵후와 우슈의 특징을 설명하는 데 있어 몇 가지 부정확한 점이 있으며, 참조 답변보다 부족한 정보가 있다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 주제를 어느 정도 포괄하지만, 쿵후와 우슈 각각의 특성과 가르치는 방식을 충분히 다루지 않는다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 편이나, 몇몇 문장이 중복되거나 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변의 몇 가지 요소를 간단히 포함하고 있으나, 전반적으로 차이가 크게 느껴진다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222465,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 246,
+        "prompt_tokens": 871,
+        "total_tokens": 1117
+    }
+}

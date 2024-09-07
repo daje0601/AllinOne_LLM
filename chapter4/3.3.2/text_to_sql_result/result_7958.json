@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 상의 카테고리와 결과를 반환합니다. 첫 번째 쿼리는 'tony award'의 'best featured actor in a musical' 카테고리에서 'evita'의 연도를 찾고, 두 번째 쿼리는 'outstanding featured actor in a musical' 카테고리에서 'evita'의 개수를 카운트합니다. 즉, 상의 종류와 카테고리가 다르므로 결과가 동일하지 않습니다.\"\n}"

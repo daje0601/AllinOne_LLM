@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB8Q5rvFQRS5rYDtxNyZXWVneHa",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델 생성 답변은 생명보험 가입 여부에 따른 보험금 지급 기준에 대해 잘 설명하고 있어 질문과 매우 관련이 높음.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델 답변은 대체로 정확하지만, '사망 후 30일 이내'라는 부분은 보험 청구의 일반 조건으로 명확하지 않아 약간의 부정확성이 존재.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델 답변은 기본적인 조건을 설명하였으나, 생명보험의 실효성, 과실 여부 및 역선택 관련 정보가 부족하여 다소 불완전함.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 잘 구조화되어 있으며, 정보가 이해하기 쉽게 제시되었으나 일부 문장은 다소 복잡하게 느껴질 수 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델 답변은 주제와 일부 내용에서 유사성을 보이나, 참조 답변에 비해 구체적인 요소가 부족하여 유사성이 낮음.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델 생성 답변은 생명보험 가입 여부에 따른 보험금 지급 기준에 대해 잘 설명하고 있어 질문과 매우 관련이 높음."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델 답변은 대체로 정확하지만, '사망 후 30일 이내'라는 부분은 보험 청구의 일반 조건으로 명확하지 않아 약간의 부정확성이 존재."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델 답변은 기본적인 조건을 설명하였으나, 생명보험의 실효성, 과실 여부 및 역선택 관련 정보가 부족하여 다소 불완전함."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 잘 구조화되어 있으며, 정보가 이해하기 쉽게 제시되었으나 일부 문장은 다소 복잡하게 느껴질 수 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델 답변은 주제와 일부 내용에서 유사성을 보이나, 참조 답변에 비해 구체적인 요소가 부족하여 유사성이 낮음."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 254,
+        "prompt_tokens": 606,
+        "total_tokens": 860
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Official Name'에 대한 조건이 서로 다르다. 첫 번째 쿼리는 'saint-basil'을 찾고, 두 번째 쿼리는 'saint-basile'을 찾는다. 이들 두 값은 서로 다른 문자열이므로, 쿼리가 반환하는 결과가 다를 수 있다.\"\n}"

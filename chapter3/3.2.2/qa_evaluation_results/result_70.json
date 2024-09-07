@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAIjF1uZh1HhZnPf6Bgkbx4fRfd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문의 주제인 공장 굴뚝의 색깔에 대한 이유와 관련성이 낮고, 비상 대비 차단 테스트와 화재 예방과 같은 내용이 주제에서 벗어남.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 굴뚝 색상과 관련된 정확한 정보가 아니며, 참조 답변에서 언급된 색상이 시각적 안전 장치로서의 역할을 다루지 않음.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 굴뚝의 색상에 대한 완전한 설명을 제공하지 않고, 단편적인 정보만을 제공.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 상대적으로 명확하나, 내용이 비논리적인 선택으로 인해 이해하기가 쉽지 않음.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제와 내용 모두에서 매우 유사하지 않음.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문의 주제인 공장 굴뚝의 색깔에 대한 이유와 관련성이 낮고, 비상 대비 차단 테스트와 화재 예방과 같은 내용이 주제에서 벗어남."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 굴뚝 색상과 관련된 정확한 정보가 아니며, 참조 답변에서 언급된 색상이 시각적 안전 장치로서의 역할을 다루지 않음."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 굴뚝의 색상에 대한 완전한 설명을 제공하지 않고, 단편적인 정보만을 제공."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 상대적으로 명확하나, 내용이 비논리적인 선택으로 인해 이해하기가 쉽지 않음."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제와 내용 모두에서 매우 유사하지 않음."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 703,
+        "total_tokens": 952
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 judges 필드에서 비교하는 문자열이 서로 다릅니다. 첫 번째 쿼리는 'Pete Goffe-Wood, Andrew Atkinson, Ben Mascolo'를 사용하고, 두 번째 쿼리는 'Pete Goffe-Wood Andrew Atkinson Benny Masekwameng'을 사용하며, 구두점 및 이름의 철자 차이로 인해 결과가 달라질 것입니다.\"\n}"

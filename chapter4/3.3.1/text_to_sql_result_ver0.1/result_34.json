@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 CRS_DESCRIPTION을 기준으로 강사(EMP_FNAME)와 그룹화하여 수를 세고 있으며, 마지막에 CRS_DESCRIPTION으로 오름차순 정렬하고 있습니다. 두 쿼리 모두 COUNT(CRS_DESCRIPTION)의 결과는 동일하며, COUNT 함수가 GROUP BY와 함께 사용될 때는 결과에 영향을 주지 않기 때문입니다.\"\n}"

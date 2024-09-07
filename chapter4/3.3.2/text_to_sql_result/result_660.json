@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일한 쿼리입니다. 둘 다 'Incumbent'가 'Carl W. Rich'인 행의 'Candidates' 값을 선택하고 있으며, 따라서 동일한 결과를 반환합니다.\"\n}"

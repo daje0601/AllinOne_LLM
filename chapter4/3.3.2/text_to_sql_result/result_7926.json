@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 competition 테이블에서 국가별로 대회 수를 계산하고 있으며, COUNT(*)와 COUNT(Country)는 동일한 결과를 반환합니다. COUNT(*)는 행의 총 수를 세고, COUNT(Country)는 NULL값이 아닌 Country의 수를 세기 때문에 Country가 NULL이 아닐 경우 두 결과는 동일합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

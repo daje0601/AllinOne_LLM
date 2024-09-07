@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 구조와 내용을 가지고 있습니다. 둘 모두 Main_Industry별로 Market_Value를 합산하고, 결과를 Main_Industry 기준으로 내림차순으로 정렬합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

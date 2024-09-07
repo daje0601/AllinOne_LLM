@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Status'가 'rural area'인 행들의 'Population' 값을 모두 합산(SUM)하여 농촌 지역의 전체 인구 수를 계산하는 반면, 두 번째 쿼리는 'Status'가 'rural community'인 행의 'Population' 값을 단순히 선택(SELECT)하는 쿼리입니다. 즉, 두 쿼리는 조건이 서로 다르고, 데이터 집합을 다르게 처리하기 때문에 의미적으로 동일하지 않습니다.\"\n}"

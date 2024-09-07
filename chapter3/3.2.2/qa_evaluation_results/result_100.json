@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAMKhhQPusQrWbcAwGL6xvKjj6b",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문자의 궁금증에 잘 대응하고 있으며, 새마을호와 애완동물 관련 규정에 대한 적절한 정보를 제공합니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 정 accurate하나, 승차정원 초과 시 애완동물의 안전 문제에 대한 언급이 다소 모호합니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 애완견을 태우는 것에 대한 법적 요건과 안전 문제에 대한 언급을 했으나, 예방접종이나 케이지 사용에 대한 언급이 없습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하나, 문장이 다소 길고 복잡해 일부 읽는 사람들이 이해하기 어려울 수 있습니다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변의 주요 내용을 상당 부분 포함하였으나, 세부 사항이나 형식 면에서는 차이가 존재합니다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문자의 궁금증에 잘 대응하고 있으며, 새마을호와 애완동물 관련 규정에 대한 적절한 정보를 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 정 accurate하나, 승차정원 초과 시 애완동물의 안전 문제에 대한 언급이 다소 모호합니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 애완견을 태우는 것에 대한 법적 요건과 안전 문제에 대한 언급을 했으나, 예방접종이나 케이지 사용에 대한 언급이 없습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하나, 문장이 다소 길고 복잡해 일부 읽는 사람들이 이해하기 어려울 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변의 주요 내용을 상당 부분 포함하였으나, 세부 사항이나 형식 면에서는 차이가 존재합니다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222446,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 601,
+        "total_tokens": 852
+    }
+}

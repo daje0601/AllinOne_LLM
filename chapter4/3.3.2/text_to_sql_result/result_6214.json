@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'detention' 테이블의 모든 열을 선택하고, 두 번째 쿼리는 'detention' 테이블의 'detention_summary' 열만 선택합니다. 따라서 두 쿼리는 반환하는 데이터의 범위에서 차이가 있으며, 의미적으로 동일하지 않습니다.\"\n}"

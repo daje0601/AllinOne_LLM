@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Kelly Miller'의 'Steals' 값을 그대로 반환하는 반면, 두 번째 쿼리는 'Kelly Miller'의 'Steals' 값 중에서 최소값을 반환합니다. 만약 'Kelly Miller'가 여러 개의 기록을 가지고 있다면, 두 쿼리는 서로 다른 결과를 반환하게 됩니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBK2h3pqWtJD39ldw5RCyuOdV37",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 핸들을 돌릴 때 앞바퀴가 비스듬히 꺾이는 이유를 다소 다루고 있지만, 질문의 핵심인 물리적 메커니즘의 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 언급한 여러 요소들이 실제 차량의 조향 시스템과는 관련이 있지만, 유사한 프로세스에 대한 세부사항과 기술적 용어가 잘못 사용되었다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 핸들을 돌릴 때 발생하는 메커니즘에 대한 일부 정보를 제공하지만, 참조 답변처럼 구체적인 수치나 조정 각도에 대한 설명이 отсутств해 포괄적이지 않다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 논리적으로 연결되어 있으나, 다소 복잡하게 표현되어 있어 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 체계적으로 다르며, 조정 기구와 힘 전파의 개념을 다루고 있어 유사성이 낮다.\"},\"average_score\":5.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 핸들을 돌릴 때 앞바퀴가 비스듬히 꺾이는 이유를 다소 다루고 있지만, 질문의 핵심인 물리적 메커니즘의 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 언급한 여러 요소들이 실제 차량의 조향 시스템과는 관련이 있지만, 유사한 프로세스에 대한 세부사항과 기술적 용어가 잘못 사용되었다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 핸들을 돌릴 때 발생하는 메커니즘에 대한 일부 정보를 제공하지만, 참조 답변처럼 구체적인 수치나 조정 각도에 대한 설명이 отсутств해 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 논리적으로 연결되어 있으나, 다소 복잡하게 표현되어 있어 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 체계적으로 다르며, 조정 기구와 힘 전파의 개념을 다루고 있어 유사성이 낮다."
+                    },
+                    "average_score": 5.6
+                }
+            }
+        }
+    ],
+    "created": 1723222506,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 287,
+        "prompt_tokens": 879,
+        "total_tokens": 1166
+    }
+}

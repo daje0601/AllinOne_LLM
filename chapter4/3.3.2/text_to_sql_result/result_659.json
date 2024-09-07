@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 같은 테이블에서 'acute respiratory failure'와 관련된 진단 비용을 조회하지만, 진단 이름에서 차이가 있습니다. 첫 번째 쿼리는 'due to obstructive pulmonary disease'를 찾고, 두 번째 쿼리는 'due to obstructive lung disease'를 찾습니다. 이 두 표현이 같은 의미인지에 대한 비교를 해봐야 하며, 생물학적 또는 의학적 맥락에서 '폐질환'이라는 표현이 다소 다르게 해석될 수 있습니다. 따라서, 두 쿼리는 의미적으로 동일한 결과를 반환하지 않을 수 있습니다.\"\n}"

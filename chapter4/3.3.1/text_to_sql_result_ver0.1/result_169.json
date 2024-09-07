@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 모두 BOSTON에서 SAN FRANCISCO로 가는 가장 이른 비행편을 찾으려 하지만, 두 번째 쿼리에서 FLIGHTalias1.to_airport 조건이 잘못된 코드로 인해 SAN FRANCISCO 공항 코드가 잘못 참조되고 있습니다. 이로 인해 첫 번째 쿼리와 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 거의 동일한 구조를 가지지만, intakeoutput.celllabel에서 비교하는 값이 다릅니다. 첫 번째 쿼리는 'output (ml)-chest tube #2 right'로, 두 번째 쿼리는 'output (ml)-chest tube #2 mediastinal lower;anterior'로 되어 있습니다. 따라서 두 쿼리는 서로 다른 chest tube의 출력을 계산하므로 의미적으로 동일하지 않습니다.\"\n}"

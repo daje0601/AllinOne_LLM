@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'procedures' 테이블에서 서로 다른 'long_title'과 'short_title' 값을 사용하고 있습니다. 첫 번째 쿼리는 'Electrical countershock'를 필터링하는 반면, 두 번째 쿼리는 'Heart countershock NEC'를 필터링합니다. 이로 인해 각각 선택되는 환자의 수가 다를 수 있기 때문에 이 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

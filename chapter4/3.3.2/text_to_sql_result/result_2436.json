@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 비슷한 조건을 가지고 있습니다. 두 쿼리 모두 'Monthly Cost for Paid Account'가 'unknown'이고 's Registered user'가 '2340'인 경우의 'Userpics Free' 값을 검색합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

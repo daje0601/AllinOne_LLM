@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 리그(대회)와 팀 이름을 사용하고 있습니다. 생성된 쿼리는 '1st Republic of Serbia football championship'를 기준으로 하며, 홈팀을 'U-14 Republic of Serbia'로 설정하고 있습니다. 반면에, 정답 쿼리는 '1st Republic of Srpska Football Day'를 기준으로 하며, 홈팀을 'U 14 Republic of Srpska'로 설정하고 있습니다. 대회 이름과 홈팀 이름 모두 다르기 때문에 두 쿼리는 동일한 결과를 반환하지 않습니다.\"\n}"

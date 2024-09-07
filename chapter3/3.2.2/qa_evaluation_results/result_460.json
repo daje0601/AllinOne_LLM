@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAtt5SFIuPUgBQYFsqEXY0z3F8l",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 고구마 껍질을 먹는 것과 관련된 질문에 대해 잘 설명하고 있으며, 껍질을 먹는 이유에 대해서도 언급하고 있어 질문과 관련성이 높습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델은 고구마 껍질이 소화에 좋다는 점을 언급하였으나, 방귀가 나오지 않는 이유에 대한 설명은 다소 부정확하여 정확도가 높지 않습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 고구마 껍질에 대해 다루었지만, 방귀가 나오지 않는 이유에 대한 설명이 제대로 제공되지 않아 약간의 정보 부족이 있습니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 몇몇 문장이 다소 복잡하고 불분명하여 독자의 이해를 방해할 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변에서 제공하는 정보와 일부 유사점을 가지고 있지만, 방귀와 관련된 설명에서 다소 다르며 전반적으로 구조가 상이합니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 고구마 껍질을 먹는 것과 관련된 질문에 대해 잘 설명하고 있으며, 껍질을 먹는 이유에 대해서도 언급하고 있어 질문과 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델은 고구마 껍질이 소화에 좋다는 점을 언급하였으나, 방귀가 나오지 않는 이유에 대한 설명은 다소 부정확하여 정확도가 높지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 고구마 껍질에 대해 다루었지만, 방귀가 나오지 않는 이유에 대한 설명이 제대로 제공되지 않아 약간의 정보 부족이 있습니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 몇몇 문장이 다소 복잡하고 불분명하여 독자의 이해를 방해할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변에서 제공하는 정보와 일부 유사점을 가지고 있지만, 방귀와 관련된 설명에서 다소 다르며 전반적으로 구조가 상이합니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222479,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 284,
+        "prompt_tokens": 714,
+        "total_tokens": 998
+    }
+}

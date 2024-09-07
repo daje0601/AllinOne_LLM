@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 race_name 조건에서 다릅니다. 첫 번째 쿼리는 'omloop van vlaanderen'를 찾고, 두 번째 쿼리는 'omloop van de vlaamse scheldeboorden'를 찾습니다. 이로 인해 두 쿼리가 반환하는 결과는 서로 다릅니다.\"\n}"

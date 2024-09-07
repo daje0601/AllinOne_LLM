@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 반환하는 컬럼이 다릅니다. 생성된 쿼리는 'College/junior/club team'을 반환하는 반면, 정답 쿼리는 'NHL team'을 반환합니다. 문제에서 요구하는 것은 'NHL team' 정보이므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

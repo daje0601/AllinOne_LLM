@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 결과적으로 동일한 데이터를 반환합니다. 첫 번째 쿼리는 'T1.budget_type_code'를 선택하는 반면, 두 번째 쿼리는 'T2.budget_type_code'를 선택합니다. 하지만 두 테이블은 'T1.budget_type_code = T2.budget_type_code' 조건으로 조인되므로 두 열은 항상 동일한 값을 가지게 됩니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAkr8LXorj6fH55d4G58UsaxySE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 홈그로운 선수의 유리함에 대해 언급하였으나, 주로 홈팀 선수의 일반적 성적에 대한 내용으로 질문의 구체적인 의도와는 다소 떨여져 있다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 홈팀 선수의 유리함에 대해 설명하고 있지만, 홈그로운 선수에 대한 정의나 관련 규정에 대한 내용이 부족하며, 정확한 정보가 아니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 홈그로운 선수의 유리함에 대해 충분한 정보를 제공하지 않으며, 축구 클럽의 규정이나 육성의 중요성에 대한 내용이 결여되어 있다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해하기 쉽게 쓰였지만, 질문의 핵심 주제와는 어긋나기 때문에 혼란을 야기할 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 홈그로운 선수의 유리함이라는 주제를 전혀 같지 않게 다루고 있으며, 참조 답변과 관련성이 매우 낮다.\"},\"average_score\":3.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 홈그로운 선수의 유리함에 대해 언급하였으나, 주로 홈팀 선수의 일반적 성적에 대한 내용으로 질문의 구체적인 의도와는 다소 떨여져 있다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 홈팀 선수의 유리함에 대해 설명하고 있지만, 홈그로운 선수에 대한 정의나 관련 규정에 대한 내용이 부족하며, 정확한 정보가 아니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 홈그로운 선수의 유리함에 대해 충분한 정보를 제공하지 않으며, 축구 클럽의 규정이나 육성의 중요성에 대한 내용이 결여되어 있다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해하기 쉽게 쓰였지만, 질문의 핵심 주제와는 어긋나기 때문에 혼란을 야기할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 홈그로운 선수의 유리함이라는 주제를 전혀 같지 않게 다루고 있으며, 참조 답변과 관련성이 매우 낮다."
+                    },
+                    "average_score": 3.4
+                }
+            }
+        }
+    ],
+    "created": 1723222470,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 281,
+        "prompt_tokens": 651,
+        "total_tokens": 932
+    }
+}

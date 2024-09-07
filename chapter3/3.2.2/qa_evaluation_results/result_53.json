@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAJNWFK9IKlu1DPClz3vDZZpR4b",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변이 대문자 방송에 대한 정보를 제공하지만 질문에서 요청한 '협정'에 대한 상세한 내용이 부족함.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에 포함된 정보는 사실과 다르며, 1984년 협정 체결과 관련된 사실이 부정확함.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변이 방송의 역사적 배경을 다루고 있지만 주요점인 남북 방송 중지 합의와 관련된 세부 사항이 누락됨.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 잘 구성되어 있으며, 읽기 쉬운 구조를 가지고 있음.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용이 크게 다르며 서로 다른 정보들을 포함하고 있음.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 대문자 방송에 대한 정보를 제공하지만 질문에서 요청한 '협정'에 대한 상세한 내용이 부족함."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에 포함된 정보는 사실과 다르며, 1984년 협정 체결과 관련된 사실이 부정확함."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 방송의 역사적 배경을 다루고 있지만 주요점인 남북 방송 중지 합의와 관련된 세부 사항이 누락됨."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 잘 구성되어 있으며, 읽기 쉬운 구조를 가지고 있음."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 크게 다르며 서로 다른 정보들을 포함하고 있음."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222443,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 560,
+        "total_tokens": 775
+    }
+}

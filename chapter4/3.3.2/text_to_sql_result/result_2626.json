@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 high_points 열에서 비교하는 문자열이 서로 다릅니다. 첫 번째 쿼리는 'Michael Beasley, Martell Webster (16)'이고, 두 번째 쿼리는 'Michael Beasley , Martell Webster (16)'입니다. 콤마와 공백의 위치가 다르기 때문에 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

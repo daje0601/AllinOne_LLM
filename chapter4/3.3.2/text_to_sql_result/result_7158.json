@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 WHERE 절의 조건이 서로 다릅니다. 첫 번째 쿼리는 'víyasmo / beyasmo / besmo'를 사용하는 반면, 정답 쿼리는 'bijasmo / bejasmo / besmo'를 사용하고 있습니다. 따라서 쿼리가 반환하는 결과는 다르게 됩니다.\"\n}"

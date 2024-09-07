@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"쿼리의 instructor.name 조건이 다릅니다. 첫 번째 쿼리는 'Katherine Crawley'를 검색하는 반면, 두 번째 쿼리는 'Catherine Krull'을 검색합니다. 이로 인해 반환되는 과목 리스트가 다를 수 있습니다.\"\n}"

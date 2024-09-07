@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBMfpuCcYceJrKKSxRhs8PzrSHn",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 코골이 예방 및 해결 방법에 대한 내용을 포함하고 있어 질문과 관련이 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 정확하지만, 코골이와 관련된 다양한 의학적 요인이나 치료법에 대한 구체적인 언급이 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 몇 가지 예방 및 해결책을 제시하지만, 참조 답변에서 언급된 다양한 방법들이 누락되어 있어 전체적으로 포괄적이지 못하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 명확하게 씌어져 있으며, 각 방법이 잘 구분되어 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있지만, 특정 세부 정보나 치료법에서 다소 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 코골이 예방 및 해결 방법에 대한 내용을 포함하고 있어 질문과 관련이 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 정확하지만, 코골이와 관련된 다양한 의학적 요인이나 치료법에 대한 구체적인 언급이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 몇 가지 예방 및 해결책을 제시하지만, 참조 답변에서 언급된 다양한 방법들이 누락되어 있어 전체적으로 포괄적이지 못하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 명확하게 씌어져 있으며, 각 방법이 잘 구분되어 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있지만, 특정 세부 정보나 치료법에서 다소 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222508,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 230,
+        "prompt_tokens": 573,
+        "total_tokens": 803
+    }
+}

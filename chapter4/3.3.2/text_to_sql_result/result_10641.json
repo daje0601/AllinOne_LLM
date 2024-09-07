@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 결과를 반환합니다. 동일한 테이블에서 'district'가 'Kentucky 3'인 행의 'first_elected' 값을 선택하고 있으므로 결과는 같습니다.\"\n}"

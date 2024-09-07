@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Points' 열에서 Paul Jones의 총 점수를 반환하는 반면, 두 번째 쿼리는 'Extra points' 열을 COUNT하여 Paul Jones가 얻은 추가 점수의 수를 반환합니다. 이 두 쿼리는 서로 다른 정보를 제공하므로 의미적으로 동일하지 않습니다.\"\n}"

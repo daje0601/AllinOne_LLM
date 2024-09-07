@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and select the same columns (meter_400 and ID) from the swimmer table. Therefore, they return the same results and are semantically the same.\"\n}"

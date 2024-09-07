@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB3Wwb72EtWAFlF3ONMV9aIPLmw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 가격 차이에 대한 몇 가지 요인을 제시하지만, 원유 정제 과정과 불순물 정도에 대한 설명이 부족하여 질문에 대한 직접적인 관련성이 낮음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 일부 사실은 포함하고 있지만, 불순물 포함 정도 및 가격 차이를 설명하는 핵심 사항에 대한 정확한 정보가 결여되어 있음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 요인을 언급하지만, 실제 가격 차이에 가장 중요한 영향을 미치는 원유 정제 과정과 불순물에 대한 부분을 충분히 다루지 않음.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 주제를 다루고 있으나, 비유나 설명이 복잡하게 배열되어 있어 일부 구문이 이해하기 어렵고 일관성이 떨어짐.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변의 핵심 요소인 원유 정제 과정 및 불순물의 영향을 반영하지 않아 유사성이 낮음.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 가격 차이에 대한 몇 가지 요인을 제시하지만, 원유 정제 과정과 불순물 정도에 대한 설명이 부족하여 질문에 대한 직접적인 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 일부 사실은 포함하고 있지만, 불순물 포함 정도 및 가격 차이를 설명하는 핵심 사항에 대한 정확한 정보가 결여되어 있음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 요인을 언급하지만, 실제 가격 차이에 가장 중요한 영향을 미치는 원유 정제 과정과 불순물에 대한 부분을 충분히 다루지 않음."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 주제를 다루고 있으나, 비유나 설명이 복잡하게 배열되어 있어 일부 구문이 이해하기 어렵고 일관성이 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변의 핵심 요소인 원유 정제 과정 및 불순물의 영향을 반영하지 않아 유사성이 낮음."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222489,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 264,
+        "prompt_tokens": 657,
+        "total_tokens": 921
+    }
+}

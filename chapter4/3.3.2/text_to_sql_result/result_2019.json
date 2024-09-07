@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 사용된 ICD 코드가 다릅니다. 첫 번째 쿼리는 'other skin & subq debrid'를 검사하는 반면, 두 번째 쿼리는 'other skin & subq i & d'를 검사하고 있습니다. 따라서 두 쿼리는 문제에 대한 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 조건이 다릅니다. 첫 번째 쿼리는 'Year'가 1949년 이상이고 'Title'이 'you were never lovelier'인 영화를 찾고 있으며, 두 번째 쿼리는 'Year'가 1949년 이상이고 'Role'이 'eula goodnight'인 영화를 찾고 있습니다. 따라서 결과가 서로 다를 수 있습니다.\"\n}"

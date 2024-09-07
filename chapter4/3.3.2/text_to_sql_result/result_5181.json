@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 인서트와 같은 목적으로 사용되고 있지만, 각각 다른 'celllabel'을 사용하고 있습니다. 첫 번째 쿼리는 'output amount (ml)-left ureteral catheter'를 필터링하고, 두 번째 쿼리는 'output (ml)-nephrostomy left'를 필터링합니다. 이로 인해 두 쿼리는 서로 다른 데이터를 검색하게 되며, 의미적으로 동일하지 않습니다.\"\n}"

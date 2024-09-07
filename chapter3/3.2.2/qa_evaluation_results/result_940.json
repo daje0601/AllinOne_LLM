@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBZRCisArprIJ7zHFB8UVJWeSoe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 답변을 제공하며, 특히 기온 변화에 대한 사람의 체온 반응을 설명하고 있어 관련성이 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 정확하지만, 체온 조절 시스템의 작용 방식에 대한 설명이 다소 일반적이며 상세하지 않아 정확성이 약간 떨어진다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 체온 조절과 환경 적응에 대한 여러 요소를 언급하지만, 참조 답변 만큼 포괄적이지 않다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉬운 언어로 작성되어 있으며 구조적으로도 잘 정리되어 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사한 점이 있지만, 내용에 있어 차이가 많고 접근 방식이 다르다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 답변을 제공하며, 특히 기온 변화에 대한 사람의 체온 반응을 설명하고 있어 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 정확하지만, 체온 조절 시스템의 작용 방식에 대한 설명이 다소 일반적이며 상세하지 않아 정확성이 약간 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 체온 조절과 환경 적응에 대한 여러 요소를 언급하지만, 참조 답변 만큼 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉬운 언어로 작성되어 있으며 구조적으로도 잘 정리되어 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사한 점이 있지만, 내용에 있어 차이가 많고 접근 방식이 다르다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222521,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 787,
+        "total_tokens": 1021
+    }
+}

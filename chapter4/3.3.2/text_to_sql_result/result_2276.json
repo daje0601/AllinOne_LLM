@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"생성된 쿼리는 'total_region' 값을 반환하는 반면, 정답 쿼리는 'total_region'의 개수를 세는 COUNT 함수를 사용합니다. 따라서 두 쿼리는 반환하는 결과의 종류가 다릅니다.\"\n}"

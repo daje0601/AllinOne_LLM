@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 procedures.long_title의 값이 다릅니다. 첫 번째 쿼리는 'Radical unilateral neck dissection'을 사용하고, 두 번째 쿼리는 'Radical neck dissection, unilateral'을 사용합니다. 이들은 약간의 표현 차이가 있지만 서로 다른 결과를 초래할 수 있으며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

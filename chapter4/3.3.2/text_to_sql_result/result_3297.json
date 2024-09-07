@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 SQL 쿼리를 반환합니다. 두 쿼리 모두 'women's half middleweight' 이벤트에 해당하는 경기의 이름('Games')을 선택하는 동일한 조건을 가지고 있습니다.\"\n}"

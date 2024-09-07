@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 같은 데이터베이스 테이블을 쿼리하고 'Total ITV viewers (millions)'가 '8.53'인 에피소드의 'Official ITV rating (millions)'을 반환합니다. 따라서 의미적으로 동일합니다.\"\n}"

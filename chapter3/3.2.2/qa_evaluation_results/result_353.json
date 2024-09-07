@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAknGwf2opmFndeByImhXeiIcAN",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 반쪽짜리 답변으로, 질문의 두 가지 부분 중 하나인 '불이 나는 이유'에 대한 완전한 설명이 부족하다. 대신 굴뚝이 막혔을 때 가스 배관 손상의 가능성에만 초점을 맞추었다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 19세기 이후의 규정과 안전 문제에 대한 정보를 제공하지만 이는 질문의 핵심 주제인 화재의 원인과 굴뚝 청소의 필요성과는 관련이 적다. 참조 답변의 내용이 더 정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 굴뚝이 막히는 것과 그로 인한 위험에 대해서는 언급하지만, 굴뚝 청소의 목적이나 화재의 직접적인 원인에 대한 세부 사항은 누락되었다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 전문 용어를 포함하고 있으나 전반적으로 이해하기 쉬운 언어로 작성되었다. 다만, 설명이 모호한 부분도 존재한다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용과 구조가 많이 다르며, 화재의 원인과 굴뚝 청소의 중요성의 연결성이 약하다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 반쪽짜리 답변으로, 질문의 두 가지 부분 중 하나인 '불이 나는 이유'에 대한 완전한 설명이 부족하다. 대신 굴뚝이 막혔을 때 가스 배관 손상의 가능성에만 초점을 맞추었다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 19세기 이후의 규정과 안전 문제에 대한 정보를 제공하지만 이는 질문의 핵심 주제인 화재의 원인과 굴뚝 청소의 필요성과는 관련이 적다. 참조 답변의 내용이 더 정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 굴뚝이 막히는 것과 그로 인한 위험에 대해서는 언급하지만, 굴뚝 청소의 목적이나 화재의 직접적인 원인에 대한 세부 사항은 누락되었다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 전문 용어를 포함하고 있으나 전반적으로 이해하기 쉬운 언어로 작성되었다. 다만, 설명이 모호한 부분도 존재한다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용과 구조가 많이 다르며, 화재의 원인과 굴뚝 청소의 중요성의 연결성이 약하다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222470,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 328,
+        "prompt_tokens": 666,
+        "total_tokens": 994
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPOldBGMhn76gw7XWT6MdxokdC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대해 적절한 내용을 포함하고 있으며, 오케스트라와 심포니의 차이를 설명하고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 부정확한 정보(예: 심포니의 악장 수)에 포함되어 있으며, '악기로 구성된다'는 표현이 적절하지 않다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 오케스트라와 심포니의 일반적인 정의를 제공하지만, 두 개념의 차이에 대한 심층적인 분석이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델은 비교적 명확하게 설명하고 있으나, 일부 표현은 약간 모호하게 느껴질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 내용과 구조에서 상당한 차이가 있으며, 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대해 적절한 내용을 포함하고 있으며, 오케스트라와 심포니의 차이를 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 부정확한 정보(예: 심포니의 악장 수)에 포함되어 있으며, '악기로 구성된다'는 표현이 적절하지 않다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 오케스트라와 심포니의 일반적인 정의를 제공하지만, 두 개념의 차이에 대한 심층적인 분석이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델은 비교적 명확하게 설명하고 있으나, 일부 표현은 약간 모호하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 구조에서 상당한 차이가 있으며, 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 595,
+        "total_tokens": 823
+    }
+}

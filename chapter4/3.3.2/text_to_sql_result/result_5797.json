@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리에서는 SELECT Id, TagName, Count FROM Tags를 사용하여 세 개의 열(Id, TagName, Count)만을 선택하고 있습니다. 반면, 두 번째 정답 쿼리는 SELECT * FROM Tags를 통해 테이블 Tags의 모든 열을 선택합니다. 따라서 두 쿼리는 반환되는 열의 수와 내용이 다르므로 의미적으로 동일하지 않습니다.\"\n}"

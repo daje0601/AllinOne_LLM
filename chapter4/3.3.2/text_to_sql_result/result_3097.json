@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 완전히 다른 조건을 기준으로 데이터를 선택하고 있습니다. 첫 번째 쿼리는 'United FC'가 'Dadar XI ‘B’'인 경우의 'PIFA Colaba FC u-17' 값을 반환하고, 두 번째 쿼리는 'PIFA Colaba FC u-17'가 'Sporting Options'인 경우의 'United FC' 값을 반환합니다. 따라서 두 쿼리는 같은 질문에 대한 답을 제공하지 않습니다.\"\n}"

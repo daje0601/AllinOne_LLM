@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조와 내용이 완전히 동일합니다. 둘 다 'Area' 열에서 'oxfordshire' 값을 가진 행의 'Ensemble name'을 선택합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

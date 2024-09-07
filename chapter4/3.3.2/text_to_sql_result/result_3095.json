@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Opponent' 필드의 값 비교에 있어 차이가 있습니다. 첫 번째 쿼리는 상대팀을 'chicago cardinals'로 지정하고 있지만, 두 번째 쿼리는 'at chicago cardinals'로 지정하고 있습니다. 이는 두 팀을 정확하게 가리키지 않으므로 쿼리의 결과가 다를 수 있습니다.\"\n}"

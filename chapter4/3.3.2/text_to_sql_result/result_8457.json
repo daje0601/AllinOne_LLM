@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 질병 코드(diagnosis ICD 코드)를 참조하고 있습니다. 첫 번째 쿼리는 'granulocyte disorders'를 기준으로 하며, 두 번째 쿼리는 'sickle cell disease nos'를 기준으로 하고 있습니다. 따라서 두 쿼리는 서로 다른 조건을 기반으로 환자를 세기 때문에 결과가 의미적으로 동일하지 않습니다.\"\n}"

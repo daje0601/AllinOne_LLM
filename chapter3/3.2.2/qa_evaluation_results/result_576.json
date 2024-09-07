@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB3d9V3xIzTwhQ7biFWllE19fVt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 노약자석에 대한 정보는 포함하고 있으나, 지하철에서 노약자석이 처음 생긴 시기에 대한 직접적인 언급이 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 제공한 발생 시점(1994년)은 참조 답변(1979년)과 크게 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 그 자체로는 어느 정도 상세하지만, 질문에서 요구하는 노약자석의 기원에 대한 정보는 충분히 제공하지 않는다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해할 수 있지만, 관련 정보가 미흡해 정확한 이해를 방해한다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 내용적으로 다르기 때문에 참조 답변과의 유사성이 낮다. 설명의 포맷은 비슷하지만 정보가 다름.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 노약자석에 대한 정보는 포함하고 있으나, 지하철에서 노약자석이 처음 생긴 시기에 대한 직접적인 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 제공한 발생 시점(1994년)은 참조 답변(1979년)과 크게 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 그 자체로는 어느 정도 상세하지만, 질문에서 요구하는 노약자석의 기원에 대한 정보는 충분히 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해할 수 있지만, 관련 정보가 미흡해 정확한 이해를 방해한다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 내용적으로 다르기 때문에 참조 답변과의 유사성이 낮다. 설명의 포맷은 비슷하지만 정보가 다름."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222489,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 444,
+        "total_tokens": 677
+    }
+}

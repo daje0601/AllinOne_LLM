@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 WHERE 절에서 비교하는 'Drivers' 값이 다릅니다. 첫 번째 쿼리는 'glenn seton greg hansford'를, 두 번째 쿼리는 'glenn seton gregg hansford'를 사용하고 있습니다. 이로 인해 결과가 달라질 수 있습니다, 특히 이름의 철자가 다르기 때문에 동일한 드라이버를 가리키지 않을 수 있습니다.\"\n}"

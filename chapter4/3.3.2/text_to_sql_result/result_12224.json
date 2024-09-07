@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 main_winner가 'Brauchart'이고 country가 'France, Portugal'인 데이터를 검색합니다. 하지만 올바른 쿼리는 main_winner가 'France'이고 country가 'Portugal'인 데이터를 검색해야 합니다. 여기서 'France, Portugal'은 두 개의 국가를 나열한 것이지만 쿼리는 이를 하나의 값으로 간주하여 검색하게 됩니다. 두 쿼리는 검색 조건이 다르므로 의미적으로 동일하지 않습니다.\"\n}"

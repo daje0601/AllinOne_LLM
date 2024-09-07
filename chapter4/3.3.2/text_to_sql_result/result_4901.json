@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 SQL 쿼리문을 사용하고 있습니다. 즉, 동일한 테이블에서 'total_kurdistan_list' 값이 10인 경우의 'kurdistan_democratic_party' 최소값을 선택하고 있습니다.\"\n}"

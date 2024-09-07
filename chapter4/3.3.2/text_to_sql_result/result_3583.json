@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Highest position'의 최대값을 반환하는 반면, 두 번째 쿼리는 특정 아티스트인 'Frankie Avalon'의 모든 'Highest position' 값을 반환합니다. 따라서 두 쿼리는 동일한 의미를 가지지 않으며, 첫 번째 쿼리는 최대값을 찾는 데 초점을 맞추고 있습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBLsNxJHjq26h3BlEXFr6yfq6Un",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대해 심박수를 측정하는 다양한 방법에 대해 다루고 있어 관련성이 높다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"일부 기술(예: 전자기 유도 현상) 사용은 다소 부정확하며, 전류를 통해 반사성을 측정하는 방법은 잘못된 설명이다. 적외선 측정법의 설명도 불완전하다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 여러 측정 방법을 제시했으나, 각 방법의 적합성이나 사용의 일반성을 설명하지 않아 완전성이 떨어진다.\"},\"clarity\":{\"score\":5,\"explanation\":\"일부 기술에 대한 설명이 복잡하고 명확하지 않아 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 유사한 항목을 많이 포함하고 있지만, 참조 답변의 내용과 방법의 난이도에서 차이가 있다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대해 심박수를 측정하는 다양한 방법에 대해 다루고 있어 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "일부 기술(예: 전자기 유도 현상) 사용은 다소 부정확하며, 전류를 통해 반사성을 측정하는 방법은 잘못된 설명이다. 적외선 측정법의 설명도 불완전하다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 여러 측정 방법을 제시했으나, 각 방법의 적합성이나 사용의 일반성을 설명하지 않아 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "일부 기술에 대한 설명이 복잡하고 명확하지 않아 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 유사한 항목을 많이 포함하고 있지만, 참조 답변의 내용과 방법의 난이도에서 차이가 있다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222507,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 873,
+        "total_tokens": 1110
+    }
+}

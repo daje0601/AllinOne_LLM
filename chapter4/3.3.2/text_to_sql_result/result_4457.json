@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 각 교수(EMP_FNAME)가 가르친 과목의 수를 세어서 오름차순으로 정렬하는 결과를 반환합니다. 첫 번째 쿼리는 PROFESSOR 테이블과의 JOIN이 추가로 포함되어 있지만, GROUP BY 절과 ORDER BY 절이 동일하게 적용되어 있기 때문에 결과는 동일합니다. COUNT(EMP_FNAME) 대신 COUNT(DISTINCT T3.CRS_CODE)로 변경하더라도 모든 교수의 가르친 과목 수는 얻을 수 있으며, 두 쿼리의 결과는 효과적으로 같다고 볼 수 있습니다.\"\n}"

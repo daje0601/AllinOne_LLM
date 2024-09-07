@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAhaIwasWj7emLS57VkJPqo4O3V",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에 포함된 '낭랑 18세'와 관련이 없고, 다른 주제를 다루고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 '낭랑'이라는 단어의 의미와 관련된 정확한 정보를 제공하지 않는다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에 대한 충분한 정보를 제공하지 않으며, 질문에 대한 답변이 아니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문법적으로 나쁘지 않지만, 주제가 잘못되어 있어 질문자가 이해하기 어려운 상황이다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 내용이 전혀 달라, 유사성이 전혀 없다.\"},\"average_score\":1.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에 포함된 '낭랑 18세'와 관련이 없고, 다른 주제를 다루고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '낭랑'이라는 단어의 의미와 관련된 정확한 정보를 제공하지 않는다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에 대한 충분한 정보를 제공하지 않으며, 질문에 대한 답변이 아니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문법적으로 나쁘지 않지만, 주제가 잘못되어 있어 질문자가 이해하기 어려운 상황이다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 전혀 달라, 유사성이 전혀 없다."
+                    },
+                    "average_score": 1.6
+                }
+            }
+        }
+    ],
+    "created": 1723222467,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 438,
+        "total_tokens": 639
+    }
+}

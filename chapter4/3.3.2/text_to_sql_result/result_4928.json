@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 Athlete의 이름이 서로 다릅니다. 첫 번째 쿼리는 'manfred kokott'을 조회하고, 두 번째 쿼리는 'manfred kokot'을 조회합니다. 이로 인해 결과가 다를 수 있습니다.\"\n}"

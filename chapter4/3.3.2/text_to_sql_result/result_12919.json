@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 이름을 사용하고 있습니다. 첫 번째 쿼리는 'intraperitoneal injury - small intestine'을 기준으로 하고, 두 번째 쿼리는 'mesenteric trauma'를 기준으로 하고 있어 각각 다른 진단에 대한 상위 5가지를 찾고 있습니다. 따라서 둘은 동일한 의미를 가지지 않으며, 결과도 다를 것입니다.\"\n}"

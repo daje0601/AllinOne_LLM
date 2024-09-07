@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다르게 정의된 진단(diagnosis)을 사용합니다. 첫 번째 쿼리는 'SINGLE CHAMBER CARDIOMYOPATH;THORACOSCOPIC MAZE PROCEDURE/BILATERAL/SDA'를 진단으로 사용하고, 두 번째 쿼리는 'ATRIAL FIBRILLATION\\throscopic MAZE PROCEDURE BILATERAL/SDA'를 사용합니다. 이 두 진단은 서로 다른 의학적 상태를 나타내므로, 두 쿼리는 서로 의미적으로 동일하지 않습니다.\"\n}"

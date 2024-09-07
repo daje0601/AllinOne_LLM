@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조와 내용이 완전히 동일합니다. '2014 fifa world cup qualification'이라는 Competition 값에 대한 Date를 조회하는 방식에서 차이가 없으므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

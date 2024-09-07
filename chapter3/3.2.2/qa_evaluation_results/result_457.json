@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAtrNEF0xsxm4IDZG1IRNKAWK2z",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 '홍탁삼합'에 대한 설명이 아니라 전혀 다른 식물을 나열하고 있어 질문과 거의 관련이 없다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실과 전혀 다른 정보를 제공하며, 홍탁삼합의 정의와 성분에 대한 잘못된 정보를 담고 있다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문의 핵심 정보(홍탁삼합의 성분과 특징 등)를 모두 누락하고 있다.\"},\"clarity\":{\"score\":3,\"explanation\":\"모델의 답변이 여러 식물의 정보를 나열하여 구성은 분명하지만, 주제가 엉뚱하여 전반적으로 혼란스러움을 유발한다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 제시한 내용이 참조 답변과 전혀 다르기 때문에 유사성이 거의 없다.\"},\"average_score\":1.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '홍탁삼합'에 대한 설명이 아니라 전혀 다른 식물을 나열하고 있어 질문과 거의 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실과 전혀 다른 정보를 제공하며, 홍탁삼합의 정의와 성분에 대한 잘못된 정보를 담고 있다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문의 핵심 정보(홍탁삼합의 성분과 특징 등)를 모두 누락하고 있다."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 여러 식물의 정보를 나열하여 구성은 분명하지만, 주제가 엉뚱하여 전반적으로 혼란스러움을 유발한다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 제시한 내용이 참조 답변과 전혀 다르기 때문에 유사성이 거의 없다."
+                    },
+                    "average_score": 1.2
+                }
+            }
+        }
+    ],
+    "created": 1723222479,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 506,
+        "total_tokens": 732
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 조건을 사용하여 'Outcome'이 'runner-up'이고 'Opponents in final'이 'gigi fernández natalia zvereva'인 챔피언십을 검색하고 있으며, 동일한 방식으로 결과를 반환하므로 의미적으로 동일하다.\"\n}"

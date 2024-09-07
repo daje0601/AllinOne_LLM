@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 선택하는 컬럼이 다릅니다. 생성된 쿼리는 'Local Position'을 선택하고, 정답 쿼리는 'Local Location'을 선택합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

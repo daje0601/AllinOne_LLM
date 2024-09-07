@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'incumbent' 조건에서 서로 다른 이름을 사용합니다. 첫 번째 쿼리는 'Samuel Leake'를, 두 번째 쿼리는 'Samuel Riker'를 기준으로 하고 있으므로, 동일한 결과를 반환하지 않습니다.\"\n}"

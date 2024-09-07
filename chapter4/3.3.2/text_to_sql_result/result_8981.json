@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'procedures.long_title'의 조건이 다릅니다. 첫 번째 쿼리는 'Local excision of lesion or tissue of bone, scapula, clavicle, and ribs'를 기준으로 하며, 두 번째 쿼리는 'Local excision of lesion or tissue of bone, scapula, clavicle, and thorax [ribs and sternum]'을 기준으로 하여 서로 다른 긴 제목을 사용하고 있습니다. 이로 인해 결과가 다를 수 있습니다.\"\n}"

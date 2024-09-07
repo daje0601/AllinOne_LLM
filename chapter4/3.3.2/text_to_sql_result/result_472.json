@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 Faculty 테이블에서 Rank별로 교직원 수를 계산하고 결과를 그룹화하여 반환합니다. COUNT(*)와 COUNT(Rank)는 동일한 결과를 생성합니다. COUNT(*)는 해당 그룹의 모든 행을 계산하고, COUNT(Rank)는 Rank가 NULL이 아닌 행의 수를 계산합니다. 이 경우 Rank는 NULL이 아닌 값들로 가정되어 있으므로 결과는 동일합니다.\"\n}"

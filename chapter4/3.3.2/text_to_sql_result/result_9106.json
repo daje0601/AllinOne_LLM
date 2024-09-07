@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'long_title' 값을 기준으로 필터링하고 있습니다. 첫 번째 쿼리는 'Heat, other specified places'라는 진단명을 사용하고, 두 번째 쿼리는 'Fever presenting with conditions classified elsewhere'라는 진단명을 사용합니다. 이 두 진단명은 의미적으로 다르며, 따라서 두 쿼리는 문제에서 요구하는 환자 수를 세는 결과가 달라질 것입니다.\"\n}"

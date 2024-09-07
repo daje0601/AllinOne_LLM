@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 'hampden park, glasgow'라는 조건을 가진 Venue에 대해 Competition을 선택하는 동일한 SQL 쿼리입니다. 구조가 같고, 사용된 조건도 동일하여 의미적으로 동일한 결과를 반환합니다.\"\n}"

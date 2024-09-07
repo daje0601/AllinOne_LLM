@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAFN1oab87OfMsKVFxbbpExYWdx",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 두 가지 이유와 해결 방법을 제시하였으나, '뇌 소양증'이라는 특정 개념을 언급하지 않아 약간의 관련성이 떨어진다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"제시된 정보는 일부 정확하지만, 뇌가 멜로디를 재생한다는 언급이 정확하지 않으며, '뇌 소양증'이라는 핵심 요소가 누락되어 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 원인과 해결 방법을 포함하고 있으나, 해결 방법에 대한 포괄적이고 구체적인 제안을 제공하지 않는다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 명확하게 의사 전달이 되며 이해하기 쉽다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 주제를 다루고 있지만, 참조 답변에서 강조된 핵심 개념인 '뇌 소양증'에 대한 언급이 없고, 내용 전개 방식에도 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 두 가지 이유와 해결 방법을 제시하였으나, '뇌 소양증'이라는 특정 개념을 언급하지 않아 약간의 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "제시된 정보는 일부 정확하지만, 뇌가 멜로디를 재생한다는 언급이 정확하지 않으며, '뇌 소양증'이라는 핵심 요소가 누락되어 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 원인과 해결 방법을 포함하고 있으나, 해결 방법에 대한 포괄적이고 구체적인 제안을 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 명확하게 의사 전달이 되며 이해하기 쉽다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 주제를 다루고 있지만, 참조 답변에서 강조된 핵심 개념인 '뇌 소양증'에 대한 언급이 없고, 내용 전개 방식에도 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 261,
+        "prompt_tokens": 803,
+        "total_tokens": 1064
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 동일한 SQL문장이므로 결과도 의미적으로 동일합니다. 두 쿼리 모두 SCHOOL_CODE를 기준으로 DEPARTMENT 테이블에서 DISTINCT DEPT_ADDRESS의 수를 세고, SCHOOL_CODE를 오름차순으로 정렬하는 동일한 작업을 수행합니다.\"\n}"

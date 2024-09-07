@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBc1ujkwosa0KZzRrMWATmNvhJY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 전반적인 개념을 잘 다루지만, '파란불'이라는 용어 사용에 대한 명확한 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델은 신호등의 색상에 대한 설명이 다소 부정확하며, 녹색불과 파란불을 혼동하는 부분이 있어 정확하지 않다.\"},\"completeness\":{\"score\":6,\"explanation\":\"답변은 신호등의 색상 의미를 다소 다루지만, 녹색과 파란색의 상징적 차이에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 일부 문장이 혼란스러워 이해하기 어려울 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변이 참조 답변과의 유사성이 낮고, 주관적인 해석이 많이 포함되어 있어 직접적인 유사성은 적다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 전반적인 개념을 잘 다루지만, '파란불'이라는 용어 사용에 대한 명확한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델은 신호등의 색상에 대한 설명이 다소 부정확하며, 녹색불과 파란불을 혼동하는 부분이 있어 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "답변은 신호등의 색상 의미를 다소 다루지만, 녹색과 파란색의 상징적 차이에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 일부 문장이 혼란스러워 이해하기 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변이 참조 답변과의 유사성이 낮고, 주관적인 해석이 많이 포함되어 있어 직접적인 유사성은 적다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 798,
+        "total_tokens": 1040
+    }
+}

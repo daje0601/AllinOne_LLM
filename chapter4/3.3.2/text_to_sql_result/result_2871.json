@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 내용상 동일하며, 같은 SELECT 문과 ORDER BY 절을 사용하고 있습니다. 모두 'Course_Authors_and_Tutors' 테이블에서 'author_tutor_ATB'와 'gender_mf' 컬럼을 선택하고 'personal_name' 기준으로 정렬합니다. 결과가 전혀 다를 것이 없으므로 의미적으로 동일합니다.\"\n}"

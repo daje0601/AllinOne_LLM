@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBdQqj9eMU1vY4D4xN9qPotOKA8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문과 거의 관련이 없으며, 마스카라 역사와 가나오나족에 대한 정보로 주제를 벗어났다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 정보는 사실관계와 관련이 적고 문화적 배경이 다르기 때문에 정확하지 않다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 적절한 답변을 제공하지 않으며, 입을 벌리는 이유에 대해 다루지 않는다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문장이 복잡하고 주제가 혼란스러워 이해하기 어렵다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 거의 유사하지 않으며, 접근하는 방식과 내용이 많이 다르다.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문과 거의 관련이 없으며, 마스카라 역사와 가나오나족에 대한 정보로 주제를 벗어났다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 정보는 사실관계와 관련이 적고 문화적 배경이 다르기 때문에 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 적절한 답변을 제공하지 않으며, 입을 벌리는 이유에 대해 다루지 않는다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문장이 복잡하고 주제가 혼란스러워 이해하기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 거의 유사하지 않으며, 접근하는 방식과 내용이 많이 다르다."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 475,
+        "total_tokens": 684
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Place'가 'down the middle of the fairway'인 레코드를 찾고 해당 레코드의 'Country'를 반환합니다. 반면, 두 번째 쿼리는 'Player'가 'dow finsterwald'인 레코드를 찾고 해당 레코드의 'Country'를 반환합니다. 문제에서는 '다운 핀스터월드'라는 플레이어의 국가를 묻고 있으므로, 두 쿼리는 서로 다른 조건을 사용하므로 의미적으로 동일하지 않습니다.\"\n}"

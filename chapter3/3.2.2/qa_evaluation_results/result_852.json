@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBRNNniRr4ixns6mfKObPHJ0xvl",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 직접적인 연결고리를 유지하고 있으며, 앞자리 투수가 잘하는 이유를 다각도로 설명하고 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 언급한 '시선 분산', '투구 세미큐브' 등의 요소는 과학적 사실로 뒷받침되지 않고 일반적인 응답으로서의 신뢰성이 낮다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 이유를 제시하지만, 참조 답변에서 논의한 '불펜 관리' 등의 요소는 언급되지 않아 다소 완전성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 용어가 명확하지 않거나 과도하게 기술적이어서 일반 독자에게 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 구조와 논리를 많이 벗어나 있으며, 참조 답변의 주된 내용인 '팀 전략'과 '불펜 관리'는 포함되어 있지 않다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 직접적인 연결고리를 유지하고 있으며, 앞자리 투수가 잘하는 이유를 다각도로 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 언급한 '시선 분산', '투구 세미큐브' 등의 요소는 과학적 사실로 뒷받침되지 않고 일반적인 응답으로서의 신뢰성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 이유를 제시하지만, 참조 답변에서 논의한 '불펜 관리' 등의 요소는 언급되지 않아 다소 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 용어가 명확하지 않거나 과도하게 기술적이어서 일반 독자에게 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 구조와 논리를 많이 벗어나 있으며, 참조 답변의 주된 내용인 '팀 전략'과 '불펜 관리'는 포함되어 있지 않다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222513,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 273,
+        "prompt_tokens": 786,
+        "total_tokens": 1059
+    }
+}

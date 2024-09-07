@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 조건을 사용하여 'ulster unionist' 당과 'fermanagh and south tyrone' 선거구에 해당하는 'Days' 값을 조회하고 있습니다. 조건의 순서가 다르지만 이는 SQL에서 의미적 결과에 영향을 미치지 않으므로 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

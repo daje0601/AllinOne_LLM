@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단명에 대한 필터 조건이 다릅니다. 첫 번째 쿼리는 'Pneumococcal pneumonia'라는 짧은 제목을 사용하고, 두 번째 쿼리는 'Pneumococcal pneumonia [Streptococcus pneumoniae pneumonia]'라는 긴 제목을 사용하고 있습니다. 이 두 제목이 동일한 병을 지칭하는지에 대한 정보가 명시되어 있지 않으므로, 의미적으로 동일한 결과를 반환할지 확실하지 않습니다. 따라서 두 쿼리는 의미적으로 다릅니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 참조하고 있는 약물의 이름이 다릅니다. 첫 번째 쿼리는 'insulin glargine 100 unit/ml sc solr 10 ml vial'을 사용하고, 두 번째 쿼리는 '10 ml vial : insulin glargine 100 unit/ml sc soln'을 사용합니다. 이로 인해 두 쿼리가 반환하는 결과물이 근본적으로 다를 수 있습니다.\"\n}"

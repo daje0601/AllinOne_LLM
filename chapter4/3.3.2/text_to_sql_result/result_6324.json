@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Townland'의 다른 값을 기준으로 MIN('Area( acres )')를 계산하므로 의미적으로 동일하지 않다. 첫 번째 쿼리는 'Derinaun'을, 두 번째 쿼리는 'Derrynanool'을 조건으로 사용하고 있다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리에서 팀 이름이 다릅니다. 첫 번째 쿼리는 'evanville bluecats'를 조회하고, 두 번째 쿼리는 'evansville bluecats'를 조회합니다. 이로 인해 반환되는 결과가 서로 다를 수 있습니다.\"\n}"

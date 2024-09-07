@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 위치 조건에서 서로 다른 문자열을 사용하고 있습니다. 첫 번째 쿼리는 'hawaii, honolulu'를 사용하고, 두 번째 쿼리는 'honolulu, hawaii'를 사용하여 'location' 필드의 값을 비교하므로, 서로 다른 결과를 반환할 가능성이 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 상대를 기준으로 카운트를 수행하고 있습니다. 첫 번째 쿼리는 'North Carolina'를, 두 번째 쿼리는 'North Carolina State'를 상대Opponent로 필터링 하므로, 서로 다른 결과를 반환합니다.\"\n}"

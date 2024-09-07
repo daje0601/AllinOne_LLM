@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAL4QufTvCdY2tIXb35QBl7Em19",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델 답변은 3류 회사의 월급과 소비에 대한 언급은 있으나, 평생 벌 수 있는 금액을 명확히 제시하지 않아 질문과의 관련성이 낮다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델 답변은 3류 회사의 보통 월급에 대해 언급하나, 세부적인 수치나 근로 기간을 고려하지 않아 정확성이 낮다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델 답변은 필요한 주요 정보 (총 수입, 근무 기간 등)를 포함하지 않으며, 관련된 세부사항이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 간결하지만, 중복되는 개념과 정보의 부족으로 인해 명확성이 떨어진다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델 답변은 참조 답변에 비해 상세한 경과 계산이 없고, 다른 주제를 중심으로 이야기하여 유사성이 낮다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델 답변은 3류 회사의 월급과 소비에 대한 언급은 있으나, 평생 벌 수 있는 금액을 명확히 제시하지 않아 질문과의 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델 답변은 3류 회사의 보통 월급에 대해 언급하나, 세부적인 수치나 근로 기간을 고려하지 않아 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델 답변은 필요한 주요 정보 (총 수입, 근무 기간 등)를 포함하지 않으며, 관련된 세부사항이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 간결하지만, 중복되는 개념과 정보의 부족으로 인해 명확성이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델 답변은 참조 답변에 비해 상세한 경과 계산이 없고, 다른 주제를 중심으로 이야기하여 유사성이 낮다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222445,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 845,
+        "total_tokens": 1088
+    }
+}

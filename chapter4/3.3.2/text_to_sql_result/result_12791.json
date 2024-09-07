@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Crew Chief'의 이름이 다릅니다. 첫 번째 쿼리는 'nick carson'을, 두 번째 쿼리는 'nick carlson'을 기준으로 하고 있습니다. 따라서, 두 쿼리는 서로 다른 결과를 반환할 가능성이 높습니다.\"\n}"

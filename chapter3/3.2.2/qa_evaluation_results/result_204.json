@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAWQyBf1LC5ifaZ08dJkD1ur3zT",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 전자파를 줄이는 여러 방법을 제시하고 있어 질문과 매우 관련성이 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변에 포함된 정보는 전반적으로 타당하나, 차단 필터 등 일부 방법의 설명이 다소 명확하지 않다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델답변은 여러 가지 방법을 제시하지만, 종합적으로 전자파를 차단하는 방법에 대한 세부적인 설명은 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장 구조가 복잡해 다소 이해하기 어려울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 낮으며, 참조답변의 방지 방법과는 다른 접근 방식을 제시한다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전자파를 줄이는 여러 방법을 제시하고 있어 질문과 매우 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변에 포함된 정보는 전반적으로 타당하나, 차단 필터 등 일부 방법의 설명이 다소 명확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델답변은 여러 가지 방법을 제시하지만, 종합적으로 전자파를 차단하는 방법에 대한 세부적인 설명은 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장 구조가 복잡해 다소 이해하기 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 낮으며, 참조답변의 방지 방법과는 다른 접근 방식을 제시한다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222456,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 227,
+        "prompt_tokens": 745,
+        "total_tokens": 972
+    }
+}

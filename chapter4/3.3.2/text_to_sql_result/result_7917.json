@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 반환하는 결과의 컬럼이 다릅니다. 첫 번째 쿼리는 'procedures.icd9_code' 를 선택하고, 두 번째 쿼리는 'procedures.long_title' 을 선택합니다. 이는 각각 ICD-9 코드와 관련된 정보가 다르므로, 쿼리의 의미가 다릅니다.\"\n}"

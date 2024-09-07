@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문을 사용하고 있으며, 동일한 조건(title = 'vigilance')을 적용하여 'Vigilance'의 개발자를 반환합니다. 따라서 둘의 의미는 완전히 동일합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 문자열을 사용하고 있기 때문에 의미적으로 동일하지 않습니다. 첫 번째 쿼리는 'prater stadium, vienna'를 사용하고 두 번째 쿼리는 'praterstadion, vienna'를 사용하고 있습니다. 또한, 첫 번째 쿼리의 competition은 'euro 1980 qualifying'인 반면 두 번째 쿼리는 'euro 1980 qualifier'입니다. 이 두 요소 모두 차이를 보이므로 결과가 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Team'의 값이 서로 다릅니다. 첫 번째 쿼리는 'armenia bielefeld'를 사용하고, 두 번째 쿼리는 'arminia bielefeld'를 사용합니다. 이 두 이름은 서로 다른 팀을 나타내므로, 결과적으로 서로 다른 수석 코치를 반환할 수 있습니다.\"\n}"

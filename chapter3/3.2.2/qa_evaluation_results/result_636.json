@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB9JqMKge8YNehU5pdNij3p19e8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 소름이 돋는 이유와 몸의 변화에 대한 질문에 잘 응답하고 있으며, 관련 정보들을 포함하고 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델이 제시한 정보는 참조 답변과 대체로 일치하지만, 소름의 메커니즘에 대한 설명에 일부 차이가 있어 정확성이 약간 떨어진다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 소름이 돋는 감정적 및 생리적 변화에 대한 원인을 설명하고 있으나, 참조 답변에 비해 다소 간단하여 정보가 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉬우나 다소 전문 용어 사용이 있어 일부 독자에게는 어려울 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변의 내용과 유사한 점이 있지만, 접근하는 방식이 다르고 일부 설명 구조에서 차이를 보인다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 소름이 돋는 이유와 몸의 변화에 대한 질문에 잘 응답하고 있으며, 관련 정보들을 포함하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델이 제시한 정보는 참조 답변과 대체로 일치하지만, 소름의 메커니즘에 대한 설명에 일부 차이가 있어 정확성이 약간 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 소름이 돋는 감정적 및 생리적 변화에 대한 원인을 설명하고 있으나, 참조 답변에 비해 다소 간단하여 정보가 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉬우나 다소 전문 용어 사용이 있어 일부 독자에게는 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 유사한 점이 있지만, 접근하는 방식이 다르고 일부 설명 구조에서 차이를 보인다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222495,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 777,
+        "total_tokens": 1032
+    }
+}

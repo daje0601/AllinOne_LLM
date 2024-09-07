@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리(SELECT COUNT('year') FROM table_204_620)는 'year' 컬럼의 총 개수를 반환합니다. 두 번째 쿼리(SELECT COUNT(DISTINCT 'year') FROM table_204_620)는 'year' 컬럼에서 중복을 제거한 고유한 값의 개수를 반환합니다. 문제의 요구사항인 '차트에 표시된 전체 연수'는 고유한 연수의 개수를 의미할 가능성이 높으므로, 두 쿼리는 서로 다른 결과를 반환합니다.\"\n}"

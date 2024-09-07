@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNASmWj4MJeudgkXKXlu6W2YLklQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 내용이 주제와 크게 관련이 없고, 질문의 핵심인 '함흥차사'의 의미와 이성계, 이방원 관계를 잘 다루지 못하고 있습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 이방원이 이성계의 후손이라고 잘못 언급하였고, 역사적 사실에 대해 크게 오류가 있습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에서 요구하는 이방원과 이성계의 관계 및 '함흥차사'의 의미를 충분히 설명하지 않습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문장은 비교적 이해하기 쉬우나, 주제가 분명하지 않아 혼란을 초래합니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용이 거의 다르고, 형성된 관계의 설명이 제대로 전달되지 않아 유사성이 낮습니다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 내용이 주제와 크게 관련이 없고, 질문의 핵심인 '함흥차사'의 의미와 이성계, 이방원 관계를 잘 다루지 못하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 이방원이 이성계의 후손이라고 잘못 언급하였고, 역사적 사실에 대해 크게 오류가 있습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에서 요구하는 이방원과 이성계의 관계 및 '함흥차사'의 의미를 충분히 설명하지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문장은 비교적 이해하기 쉬우나, 주제가 분명하지 않아 혼란을 초래합니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 거의 다르고, 형성된 관계의 설명이 제대로 전달되지 않아 유사성이 낮습니다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222452,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 605,
+        "total_tokens": 845
+    }
+}

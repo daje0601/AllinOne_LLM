@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 결과를 생성합니다. 두 쿼리 모두 'demographic' 테이블에서 'SINGLE' 상태인 미혼 환자 중 'AMERICAN INDIAN/ALASKA NATIVE' 인종 배경을 가진 환자의 수를 세고 있으며, SQL 구문에 차이가 없습니다.\"\n}"

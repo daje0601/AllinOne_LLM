@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 완전히 동일하며, 동일한 조건을 사용하여 결과를 필터링합니다. 둘 다 'Crowd'가 11,131 이상이고 'Home team'이 'essendon'인 경우의 'Venue'를 선택합니다.\"\n}"

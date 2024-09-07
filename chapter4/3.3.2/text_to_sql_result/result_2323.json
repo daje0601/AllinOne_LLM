@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Voivodeship Separate city'가 'Wilno city'인 차량 번호판을 선택하고, 두 번째 쿼리는 'Capital'이 'Wilno'인 차량 번호판을 선택합니다. 두 열의 값이 서로 다를 수 있으며, 문제는 정확히 'Wilno city'와 'Wilno'의 일치를 요구하지 않기 때문에 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

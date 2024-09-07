@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Competition' 필드의 값이 서로 다릅니다. 첫 번째 쿼리는 'europe/africa zone i, round robin'을 사용하고, 두 번째 쿼리는 'europe/africa zone, group i, round robin'을 사용합니다. 이 두 문자열은 다르므로 쿼리의 조건이 다르게 적용되고, 따라서 결과도 다를 수 있습니다.\"\n}"

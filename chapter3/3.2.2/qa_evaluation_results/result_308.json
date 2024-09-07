@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAfOdwRofFwkPepV8IlVcOWXwg8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 톱밥 꽃게와 일반 꽃게의 생물학적 차이에 초점을 맞추고 있으며, 참조 답변에서 강조한 톱밥을 사용하는 이유와 상품성 관련 내용과는 관련성이 낮음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 제시한 정보(표면 질감, 서식지 등)가 많은 부분에서 정확하지 않으며, 톱밥 꽃게와 일반 꽃게는 같은 종류의 꽃게라는 기본 정보가 누락됨.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 측면에서 차이를 나열했지만, 참조 답변에서 제공한 중요한 정보를 포함하지 않아 완전성이 떨어짐.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 구조적으로 잘 나누어져 있으나, 지나치게 많은 구체적인 정보를 포함하여 오히려 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 톱밥 꽃게와 일반 꽃게의 차이를 설명하지만, 참조 답변의 내용과 주요 주제가 전혀 다르기 때문에 유사성이 낮음.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 톱밥 꽃게와 일반 꽃게의 생물학적 차이에 초점을 맞추고 있으며, 참조 답변에서 강조한 톱밥을 사용하는 이유와 상품성 관련 내용과는 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 제시한 정보(표면 질감, 서식지 등)가 많은 부분에서 정확하지 않으며, 톱밥 꽃게와 일반 꽃게는 같은 종류의 꽃게라는 기본 정보가 누락됨."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 측면에서 차이를 나열했지만, 참조 답변에서 제공한 중요한 정보를 포함하지 않아 완전성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 구조적으로 잘 나누어져 있으나, 지나치게 많은 구체적인 정보를 포함하여 오히려 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 톱밥 꽃게와 일반 꽃게의 차이를 설명하지만, 참조 답변의 내용과 주요 주제가 전혀 다르기 때문에 유사성이 낮음."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222465,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 284,
+        "prompt_tokens": 607,
+        "total_tokens": 891
+    }
+}

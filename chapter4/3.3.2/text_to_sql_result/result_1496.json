@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 환자의 입원 시간이 최근 2년 이내인 경우를 찾습니다(DATETIME(patient.hospitaladmittime) >= DATETIME(CURRENT_TIME(), '-2 year')). 반면 두 번째 쿼리는 환자의 입원 시간이 2년 전보다 이전인 경우를 찾습니다(DATETIME(patient.hospitaladmittime) <= DATETIME(CURRENT_TIME(), '-2 year')). 따라서 두 쿼리는 정확히 반대의 조건을 가지고 있어 서로 의미적으로 동일하지 않습니다.\"\n}"

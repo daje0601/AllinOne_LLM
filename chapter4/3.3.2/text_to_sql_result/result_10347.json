@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기준을 사용하여 결과를 집계하고 있습니다. 첫 번째 쿼리는 'Oxacillin, Calcium'이라는 특정 약물을 처방받은 환자의 수를 셉니다. 반면에 두 번째 쿼리는 'Injection or infusion of oxazolidinone class of antibiotics'라는 특정 시술을 받은 환자의 수를 셉니다. 또한, 퇴원 장소도 첫 번째 쿼리에서는 'REHAB/DISTINCT PART HOSP'로, 두 번째 쿼리에서는 'SNF'로 다릅니다. 이로 인해 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

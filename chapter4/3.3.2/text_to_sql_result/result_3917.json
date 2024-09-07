@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 쿼리이므로 의미적으로 동일한 결과를 반환합니다. 둘 모두 'F' 성별을 가진 환자 중 'DISCH-TRAN TO PSYCH HOSP'로 퇴원한 환자의 수를 세고 있습니다.\"\n}"

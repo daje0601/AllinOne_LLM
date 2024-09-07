@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBNFWmovMzVRN63uMnaq92w2NwD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 직접적인 관련이 부족하며, 상위 5위 여성 부자에 관한 정보를 제공하지 않습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 언급한 인물들은 여성 부자 상위 5위에 해당하지 않으며, 신뢰할 수 없는 정보입니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 상위 5위에 대한 정보를 누락하고 있으며, 관련이 없고 불필요한 정보를 포함하고 있습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"답변은 구조적으로 읽기 쉬우나, 주제가 불일치하여 혼란스러울 수 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변과 참조 답변 사이에는 유사성이 거의 없습니다. 두 답변은 전혀 다른 인물들을 다루고 있습니다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 직접적인 관련이 부족하며, 상위 5위 여성 부자에 관한 정보를 제공하지 않습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 언급한 인물들은 여성 부자 상위 5위에 해당하지 않으며, 신뢰할 수 없는 정보입니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 상위 5위에 대한 정보를 누락하고 있으며, 관련이 없고 불필요한 정보를 포함하고 있습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "답변은 구조적으로 읽기 쉬우나, 주제가 불일치하여 혼란스러울 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변과 참조 답변 사이에는 유사성이 거의 없습니다. 두 답변은 전혀 다른 인물들을 다루고 있습니다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222509,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 693,
+        "total_tokens": 908
+    }
+}

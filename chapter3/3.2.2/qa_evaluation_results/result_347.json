@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAja8JmtsQOPb43s4vyVyHBJLni",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 유럽을 '구라파'라고 부르는 이유에 대한 질문과 관련이 없으며, 커피와 유럽의 문화에 대한 설명을 담고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에 대한 정확한 내용을 포함하고 있지 않으며, 유럽과 커피 문화를 연결짓는 정보가 부정확하다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문의 주제에 대한 정보를 제공하지 않아 완전하지 않다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문장이 길고 복잡하여 이해하는 데 어려움이 있다. 하지만 문법적으로 틀리지는 않다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제나 내용적으로 유사성이 전혀 없고, 질문에서 요구하는 정보와 관련이 없다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 유럽을 '구라파'라고 부르는 이유에 대한 질문과 관련이 없으며, 커피와 유럽의 문화에 대한 설명을 담고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에 대한 정확한 내용을 포함하고 있지 않으며, 유럽과 커피 문화를 연결짓는 정보가 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문의 주제에 대한 정보를 제공하지 않아 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문장이 길고 복잡하여 이해하는 데 어려움이 있다. 하지만 문법적으로 틀리지는 않다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제나 내용적으로 유사성이 전혀 없고, 질문에서 요구하는 정보와 관련이 없다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222469,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 229,
+        "prompt_tokens": 558,
+        "total_tokens": 787
+    }
+}

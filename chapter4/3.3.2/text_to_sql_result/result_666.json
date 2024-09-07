@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'duncan'이라는 팀의 'High rebounds' 값을 검색하는 반면, 두 번째 쿼리는 'tim duncan (14)'라는 특정 'High rebounds' 값을 가진 레코드의 'Score'를 검색합니다. 두 쿼리는 서로 다른 기준을 사용하고 서로 다른 열을 반환하므로 의미적으로 동일하지 않습니다.\"\n}"

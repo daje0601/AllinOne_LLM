@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Player' 필드에서 서로 다른 이름을 사용하고 있습니다. 첫 번째 쿼리는 'jason romanone'을 사용하고, 두 번째 쿼리는 'jason romano'을 사용하고 있어, 결과가 다를 수 있습니다.\"\n}"

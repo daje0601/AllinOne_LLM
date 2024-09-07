@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 gold가 4개이고 total이 22인 행들의 silver 값의 합계를 계산하는 반면, 두 번째 쿼리는 gold가 4개이고 total이 22인 행들 중 silver 값의 최소값을 구합니다. 두 쿼리는 서로 다른 집계 함수(SUM vs MIN)를 사용하므로, 의미적으로 동일하지 않습니다.\"\n}"

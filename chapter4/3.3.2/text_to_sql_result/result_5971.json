@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문을 사용하고 있으며, 동일한 필터 조건을 가지고 있어 의미적으로 identical하다. EEG가 주문된 횟수를 계산하기 위해 'eeg'라는 treatmentname을 가진 treatment의 수를 세고 1년 전 이후의 시간 범위에 걸쳐 필터링하는 로직도 같다.\"\n}"

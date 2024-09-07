@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"생성된 쿼리는 Users 테이블에서 상위 100명의 사용자를 Reputation의 내림차순으로 정렬하여 조회합니다. 반면에, 정답 쿼리는 Posts 테이블에서 OwnerUserId별로 그룹화하여 사용자의 ID, 최댓값의 OwnerDisplayName, 최댓값의 Score, 특정 조건(Answered가 아니고 ViewCount가 10보다 큰 경우)의 카운트를 합산하는 결과를 반환합니다. 두 쿼리는 서로 다른 테이블에서 정보의 집계 및 조회 방식을 사용하고 있으며, 반환하는 데이터의 의미도 다릅니다.\"\n}"

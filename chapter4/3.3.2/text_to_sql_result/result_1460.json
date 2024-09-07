@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The two queries use different strings for the 'Course' condition. The first query looks for records where the 'Course' is 'settesetr levante - liomazzore', whereas the second query looks for 'sestri levante to riomaggiore'. These are different strings, and thus, the results of the two queries will not be the same.\"\n}"

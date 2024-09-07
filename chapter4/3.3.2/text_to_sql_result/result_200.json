@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 지역('Khabarovsk Krai'와 'Kabardino-Balkaria')을 기준으로 가장 작은 금액을 찾고 있습니다. 따라서, 반환되는 결과가 다를 수 있으며 의미적으로 동일하지 않습니다.\"\n}"

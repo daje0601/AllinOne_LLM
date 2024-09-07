@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAWQMCDBOK2nqlPJHyfQ0EUhRwG",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 마그마의 온도가 다른 이유에 대해 직접적으로 언급하고 있어 질문과 매우 관련이 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 정확하지만, 압력이 온도에 미치는 영향을 설명할 때 추가적인 세부사항이 부족하다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 여러 가지 요소를 고려하였으나, 마그마의 화학적 조성이나 지질적 요인 등 추가적인 요인을 더 포함할 수 있었을 것이다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 잘 구성되어 있으며, 이해하기 쉬운 언어로 설명되어 있다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변과 주제적으로 유사하지만, 깊이와 표현 방식이 다르다.\"},\"average_score\":8.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 마그마의 온도가 다른 이유에 대해 직접적으로 언급하고 있어 질문과 매우 관련이 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 정확하지만, 압력이 온도에 미치는 영향을 설명할 때 추가적인 세부사항이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 여러 가지 요소를 고려하였으나, 마그마의 화학적 조성이나 지질적 요인 등 추가적인 요인을 더 포함할 수 있었을 것이다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 잘 구성되어 있으며, 이해하기 쉬운 언어로 설명되어 있다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변과 주제적으로 유사하지만, 깊이와 표현 방식이 다르다."
+                    },
+                    "average_score": 8.2
+                }
+            }
+        }
+    ],
+    "created": 1723222456,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 690,
+        "total_tokens": 905
+    }
+}

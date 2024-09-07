@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 opponent 필드의 값과 save 필드의 값에서 차이가 있습니다. 첫 번째 쿼리는 opponent 값이 '@expos'인 반면, 두 번째 쿼리는 '@ expos'로 공백이 포함되어 있습니다. 또한, save 값이 'parett (2)'와 'parrett (2)'로 다릅니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

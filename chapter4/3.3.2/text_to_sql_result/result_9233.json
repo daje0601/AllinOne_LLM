@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 쿼리로, 결과적으로 'All_Games'와 'All_Games_Percent'를 선택하고, 'All_Games'를 기준으로 내림차순 정렬합니다. 구조나 사용된 함수에 차이가 없기 때문에 의미적으로 동일한 결과를 반환합니다.\"\n}"

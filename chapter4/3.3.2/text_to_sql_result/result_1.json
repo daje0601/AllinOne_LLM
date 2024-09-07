@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'points' 열에 대한 조건이 다릅니다. 첫 번째 쿼리는 'points'가 'test driver points'인 경우를 조회하고, 두 번째 쿼리는 'points'가 'test driver'인 경우를 조회합니다. 이 두 조건은 서로 다른 값을 비교하므로, 결과는 다를 수 있습니다.\"\n}"

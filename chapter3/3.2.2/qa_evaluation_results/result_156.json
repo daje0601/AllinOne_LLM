@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNARY5UARWGpKcjkuD95QprbYIv2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문에 직접적으로 관련이 있으며, TV와 리모컨의 관계에 대해 다루고 있습니다.\"},\"accuracy\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 정확하지만, '모든 TV가 켜질 수 있다'는 진술에서 일부의 상황을 더 명확히 다루는 게 필요합니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 기본적인 원리를 설명했으나, 전원 버튼을 누를 때 발생할 수 있는 다양한 상황이나 예외에 대해 더 자세히 설명할 수 있었습니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 비교적 명확하며 이해하기 쉬운 언어를 사용하지만, 긴 문장으로 인해 약간의 혼란이 있을 수 있습니다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 주제는 유사하나, 구체적인 내용과 구조에서 일부 차이가 있어 유사성이 낮습니다.\"},\"average_score\":8.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문에 직접적으로 관련이 있으며, TV와 리모컨의 관계에 대해 다루고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 정확하지만, '모든 TV가 켜질 수 있다'는 진술에서 일부의 상황을 더 명확히 다루는 게 필요합니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 기본적인 원리를 설명했으나, 전원 버튼을 누를 때 발생할 수 있는 다양한 상황이나 예외에 대해 더 자세히 설명할 수 있었습니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 비교적 명확하며 이해하기 쉬운 언어를 사용하지만, 긴 문장으로 인해 약간의 혼란이 있을 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 주제는 유사하나, 구체적인 내용과 구조에서 일부 차이가 있어 유사성이 낮습니다."
+                    },
+                    "average_score": 8.6
+                }
+            }
+        }
+    ],
+    "created": 1723222451,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 658,
+        "total_tokens": 897
+    }
+}

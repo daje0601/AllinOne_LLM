@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 결과를 반환합니다. 두 쿼리 모두 'billy miller category:articles with hcards'라는 이름을 가진 행에서 'Weight' 컬럼의 값을 선택합니다. 쿼리의 문법이나 구조는 같으므로 의미적으로 동일한 결과를 내는 것으로 판단됩니다.\"\n}"

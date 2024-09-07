@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAFM4balG9R4EGv2KU9nfbDiDhC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 한국의 무덤 제조 시기와 민간인의 무덤 제작 보편화 시기에 대해 언급하고 있어 질문과 높은 관련성을 보임.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 바른 시기를 제시하고 있으나, 전체적인 역사적 맥락에 대한 설명이 부족하여 정확성이 떨어짐.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 무덤의 제작 시기에 대해 언급하고 있으나, 민간인들의 제작 문화나 사회적 이유에 대한 설명이 부족하여 포괄성이 떨어짐.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 명확하게 시기와 과정을 설명하였으나, 일부 문장이 복잡해 이해에 다소 거리감을 느낄 수 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 유사한 점이 있지만, 정보의 해석과 결론에서 차이가 나므로 참조 답변과의 유사성이 낮음.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 한국의 무덤 제조 시기와 민간인의 무덤 제작 보편화 시기에 대해 언급하고 있어 질문과 높은 관련성을 보임."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 바른 시기를 제시하고 있으나, 전체적인 역사적 맥락에 대한 설명이 부족하여 정확성이 떨어짐."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 무덤의 제작 시기에 대해 언급하고 있으나, 민간인들의 제작 문화나 사회적 이유에 대한 설명이 부족하여 포괄성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 명확하게 시기와 과정을 설명하였으나, 일부 문장이 복잡해 이해에 다소 거리감을 느낄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 유사한 점이 있지만, 정보의 해석과 결론에서 차이가 나므로 참조 답변과의 유사성이 낮음."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 683,
+        "total_tokens": 936
+    }
+}

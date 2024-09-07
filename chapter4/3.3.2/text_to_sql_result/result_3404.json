@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 PostTypeId가 1인 게시물 중에서 AcceptedAnswerId가 NULL이 아니고 AntwortCount가 NULL이 아니며 AnswerCount가 1보다 큰 조건을 모두 만족하는 게시물만 카운트합니다. 반면 두 번째 쿼리는 AnswerCount가 1보다 큰 모든 게시물을 카운트합니다. 이로 인해 첫 번째 쿼리는 특정 PostTypeId의 게시물만 세기 때문에 두 쿼리가 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

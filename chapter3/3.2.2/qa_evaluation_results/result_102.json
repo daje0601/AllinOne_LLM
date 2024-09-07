@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAMwr3GEEGJiKWGlnBrii5WiO5I",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 '노가 난다'의 의미를 제공하지만, 질문의 주요 초점인 '노'의 어원에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 제시한 '노'의 의미(노견)는 참조 답변의 설명과 전혀 일치하지 않으며, 사실과 다른 정보를 제공하고 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 의미를 설명했지만, 표현의 어원과 전반적인 맥락을 포괄적으로 다루지 못했다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 구성과 단어 선택이 비교적 명확하지만, 일부 문장은 다소 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용상 유사성이 거의 없으며, 각기 다른 정보를 제공하고 있다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 '노가 난다'의 의미를 제공하지만, 질문의 주요 초점인 '노'의 어원에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 제시한 '노'의 의미(노견)는 참조 답변의 설명과 전혀 일치하지 않으며, 사실과 다른 정보를 제공하고 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 의미를 설명했지만, 표현의 어원과 전반적인 맥락을 포괄적으로 다루지 못했다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 구성과 단어 선택이 비교적 명확하지만, 일부 문장은 다소 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용상 유사성이 거의 없으며, 각기 다른 정보를 제공하고 있다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222446,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 563,
+        "total_tokens": 794
+    }
+}

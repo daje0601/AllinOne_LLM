@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 `long_title`과 `short_title` 열을 기준으로 필터링하고 있습니다. 첫 번째 쿼리는 'Endoscopic insertion of stent into bile duct'라는 긴 제목을 사용하고, 두 번째 쿼리는 'Endosc inser stent bile'이라는 짧은 제목을 사용합니다. 일반적으로 같은 시술을 지칭하지만, 제목이 정확히 일치하지 않으므로 동일한 결과를 보장할 수 없습니다.\"\n}"

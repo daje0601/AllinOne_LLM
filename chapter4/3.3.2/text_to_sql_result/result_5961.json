@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 Location 필드의 조건과 Reputation 필드의 조건에서 차이가 있습니다. 첫 번째 쿼리는 Location이 'tunisia' 또는 'TUNISIA' 문자열을 포함하고, Reputation이 100 이상인 사용자를 찾습니다. 반면, 두 번째 쿼리는 Location이 'tunisia' 또는 'tunisie' 문자열을 포함하는 사용자를 찾고, Reputation 조건이 없습니다. 이러한 차이로 인해 반환되는 결과 세트가 다를 수 있습니다.\"\n}"

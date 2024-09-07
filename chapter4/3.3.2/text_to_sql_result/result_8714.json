@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 'estimated_glomerular_filtration_rate_egfr' 값이 60보다 큰 행을 선택하는 동일한 조건을 사용하고 있습니다. 쿼리의 구조나 작성 방법이 동일하여 의미적으로 같은 결과를 반환합니다.\"\n}"

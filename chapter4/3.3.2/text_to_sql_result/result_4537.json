@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'finalist' 필드에서 찾고 있는 이름의 철자가 서로 다릅니다. 첫 번째 쿼리는 'magnús gustafsson'을 사용하고, 두 번째 쿼리는 'magnus gustafsson'을 사용합니다. 그러므로, 두 쿼리가 반환하는 결과는 의미적으로 동일하지 않습니다.\"\n}"

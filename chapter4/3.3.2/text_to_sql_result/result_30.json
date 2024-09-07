@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 drug 필드에서 사용하는 약물 이름이 다릅니다. 첫 번째 쿼리는 'aminoacaproic acid'를 사용하고, 두 번째 쿼리는 'aminocaproic acid'를 사용합니다. 이로 인해 두 쿼리는 다른 약물 처방을 검색하므로, 결과가 의미적으로 동일하지 않습니다.\"\n}"

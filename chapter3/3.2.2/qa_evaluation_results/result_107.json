@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAN18NNix9nObpRtxpUlA2POw7I",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 질문에 어느 정도 관련이 있으나, 모기가 특정한 유형의 사람들을 좋아하는 이유에 대한 구체적 정보가 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변 내용 중 사실과 일치하지 않는 부분이 있으며, 참고 답변에서 언급된 내용과도 차이가 있다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 질문의 전반적인 요점을 포괄하지 못하고, 특히 모기가 특정 사람을 선호하는 이유를 충분히 다루지 않았다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 문장이 복잡하고 이해하기 어려운 부분이 있으며, 주요 아이디어가 잘 전달되지 않는다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참고 답변과 개념적으로 다르고, 두 답변 간의 유사성이 낮다.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문에 어느 정도 관련이 있으나, 모기가 특정한 유형의 사람들을 좋아하는 이유에 대한 구체적 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변 내용 중 사실과 일치하지 않는 부분이 있으며, 참고 답변에서 언급된 내용과도 차이가 있다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문의 전반적인 요점을 포괄하지 못하고, 특히 모기가 특정 사람을 선호하는 이유를 충분히 다루지 않았다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 문장이 복잡하고 이해하기 어려운 부분이 있으며, 주요 아이디어가 잘 전달되지 않는다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참고 답변과 개념적으로 다르고, 두 답변 간의 유사성이 낮다."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222447,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 819,
+        "total_tokens": 1043
+    }
+}

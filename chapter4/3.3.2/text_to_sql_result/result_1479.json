@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 약물 이름에 차이가 있습니다. 첫 번째 쿼리는 'Pneumococcal Polyvalent Vaccine'을 검색하는 반면, 두 번째 쿼리는 'PNEUMOcoccal Vac Polyvalent'을 검색하고 있습니다. 약물 이름이 다르기 때문에, 이 두 쿼리는 의미적으로 동일하지 않고, 결과로 반환되는 환자 수가 다를 수 있습니다.\"\n}"

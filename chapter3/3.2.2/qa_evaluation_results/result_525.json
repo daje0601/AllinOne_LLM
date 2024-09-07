@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAz5TYUA6FkuYv86S8RsY5PsIhO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 부케의 의미와 결혼의 관계에 대한 내용을 제공하지만, 질문에 대한 유래와 진실 여부에 대한 직접적인 언급이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에는 역사적 사실에 대한 잘못된 해석이 포함되어 있으며, '부케를 받으면 시집가야 된다'는 사실이라는 주장 또한 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 부케의 의미와 관련된 맥락에 대해 진술하고 있지만, 유래와 진실 여부에 대한 충분한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 글로서 이해하기 쉬우나, 몇 가지 모호한 표현이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변에 비해 느낌은 비슷하나, 결론과 사실 관계에 있어 크게 다르다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 부케의 의미와 결혼의 관계에 대한 내용을 제공하지만, 질문에 대한 유래와 진실 여부에 대한 직접적인 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에는 역사적 사실에 대한 잘못된 해석이 포함되어 있으며, '부케를 받으면 시집가야 된다'는 사실이라는 주장 또한 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 부케의 의미와 관련된 맥락에 대해 진술하고 있지만, 유래와 진실 여부에 대한 충분한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 글로서 이해하기 쉬우나, 몇 가지 모호한 표현이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변에 비해 느낌은 비슷하나, 결론과 사실 관계에 있어 크게 다르다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222485,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 567,
+        "total_tokens": 807
+    }
+}

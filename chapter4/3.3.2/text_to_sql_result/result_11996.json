@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SELECT 문을 사용하고 있으며, 같은 GROUP BY 및 ORDER BY 조건을 적용하고 있습니다. 결과적으로 두 쿼리는 모두 DEPT_CODE를 기준으로 학생 수를 집계하고, DEPT_CODE에 따라 내림차순으로 정렬하여 동일한 결과를 반환합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBVaNC7s2hM0356AjqcWPJMERjm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 전기와 자동차가 없는 마을에 대한 질문에 대한 답변으로 완전히 관련이 없다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 바레인을 설명하면서 전기와 자동차가 없는 마을에 대한 질문에 대한 잘못된 정보를 제공했다. 바레인은 전기, 자동차, 의료 시설 등이 존재하는 나라다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 관련된 내용이 부족하고, 질문의 특정 요구에 대한 정보를 제공하지 않았다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변이 전반적으로 이해하기는 쉽지만, 내용을 혼동하게 만드는 잘못된 정보가 포함되어 있다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 관련이 없으며 주제와 맥락이 크게 다르다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 전기와 자동차가 없는 마을에 대한 질문에 대한 답변으로 완전히 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 바레인을 설명하면서 전기와 자동차가 없는 마을에 대한 질문에 대한 잘못된 정보를 제공했다. 바레인은 전기, 자동차, 의료 시설 등이 존재하는 나라다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 관련된 내용이 부족하고, 질문의 특정 요구에 대한 정보를 제공하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 전반적으로 이해하기는 쉽지만, 내용을 혼동하게 만드는 잘못된 정보가 포함되어 있다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 관련이 없으며 주제와 맥락이 크게 다르다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222517,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 589,
+        "total_tokens": 804
+    }
+}

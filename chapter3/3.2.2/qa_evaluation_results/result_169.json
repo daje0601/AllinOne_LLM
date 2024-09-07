@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNATfF8DIxlhth4c6NGfj0BLwbCN",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 제비집에 곰팡이가 슬지 않는 이유에 대한 질문과는 크게 관련이 없으며, 다른 원인을 제시하고 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 설명한 정보(진드기, 알루미늄 창살, 항생물질 등)는 사실이 아니거나 다른 생물학적 원칙과 맞지 않는다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 곰팡이의 생존 조건을 설명하지 않으며, 제비집의 성분이나 제작 과정 등 기본적인 정보도 제공하지 않는다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 읽히기는 하나, 정보의 정확성이나 관련성 때문에 전체적인 맥락이 불분명해질 위험이 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변의 내용과 거의 비슷하지 않고, 전혀 다른 논리를 제시하고 있어서 유사성이 매우 낮다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 제비집에 곰팡이가 슬지 않는 이유에 대한 질문과는 크게 관련이 없으며, 다른 원인을 제시하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 설명한 정보(진드기, 알루미늄 창살, 항생물질 등)는 사실이 아니거나 다른 생물학적 원칙과 맞지 않는다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 곰팡이의 생존 조건을 설명하지 않으며, 제비집의 성분이나 제작 과정 등 기본적인 정보도 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 읽히기는 하나, 정보의 정확성이나 관련성 때문에 전체적인 맥락이 불분명해질 위험이 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 거의 비슷하지 않고, 전혀 다른 논리를 제시하고 있어서 유사성이 매우 낮다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222453,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 250,
+        "prompt_tokens": 853,
+        "total_tokens": 1103
+    }
+}

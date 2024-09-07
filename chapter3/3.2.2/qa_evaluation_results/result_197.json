@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAVGMabqJRK6UfmDLRd2yXekAs7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 코끼리 대변으로 종이를 만드는 것에 대한 문의에 대해 완전히 관련이 있지만, 특정 지역(인도)에서만 가능하다고 주장하여 내용이 모호해짐.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 사실 관계가 오류가 있으며, 태국에서 사용되던 정보와 혼합되어 정확하지 않음.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 코끼리 대변으로 종이가 만들어지는 방법이나 전반적인 과정을 충분히 설명하지 않음.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 특정 표현이 다소 혼란스러워 완전한 명확성을 지니지 않음.\"},\"similarity\":{\"score\":3,\"explanation\":\"참조 답변과 큰 차이를 보이며, 정반대의 주장을 하고 있어 유사성이 낮음.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 코끼리 대변으로 종이를 만드는 것에 대한 문의에 대해 완전히 관련이 있지만, 특정 지역(인도)에서만 가능하다고 주장하여 내용이 모호해짐."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 사실 관계가 오류가 있으며, 태국에서 사용되던 정보와 혼합되어 정확하지 않음."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 코끼리 대변으로 종이가 만들어지는 방법이나 전반적인 과정을 충분히 설명하지 않음."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 특정 표현이 다소 혼란스러워 완전한 명확성을 지니지 않음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "참조 답변과 큰 차이를 보이며, 정반대의 주장을 하고 있어 유사성이 낮음."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222455,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 477,
+        "total_tokens": 708
+    }
+}

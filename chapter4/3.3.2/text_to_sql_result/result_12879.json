@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 SELECT 문과 GROUP BY 절을 사용하여 CRS_CODE별로 행 수를 세는 작업을 수행합니다.\"\n}"

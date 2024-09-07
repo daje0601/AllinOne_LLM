@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있으며, 각각 'Woodworking Drill'과 'Wood Boring Augers'에 대해 필터링합니다. 따라서 반환되는 결과는 서로 다를 수 있습니다. 즉, 'Woodworking Drill'와 'Wood Boring Augers'가 동일한 것을 의미하지 않으므로 쿼리들이 의미적으로 동일하지 않습니다.\"\n}"

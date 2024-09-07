@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 오직 커뮤니티 위키 게시물(PostTypeId = 1)을 대상으로 하며 CommunityOwnedDate가 NULL인 게시물만 조회합니다. 그러나 두 번째 쿼리는 PostTypeId가 1 또는 2인 게시물을 포함하며, 제출된 조건에 따라 부모 게시물과 함께 추가 필터링을 수행합니다. 또한 두 쿼리는 CommunityOwnedDate의 처리 방식에서 차이가 있어, 결과적으로 반환되는 데이터 집합이 다릅니다.\"\n}"

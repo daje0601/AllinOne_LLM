@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uMUNWZxWuLTZrthDeAIrhJGDRMv2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 경제적 이익에 초점을 맞추고 있지만, 질문은 꽃게를 톱밥에 담는 실제 이유에 대한 것이므로 관련성이 낮다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 정확하지 않으며, 참조 답변에서 설명된 동면 상태 및 톱밥의 특성과 관련된 정보가 없다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 limited한 정보만을 제공하고, 질문의 핵심 이유인 동면과 톱밥의 역할에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로 명확하지만, 내용이 불명확하여 질문에 대한 이해를 돕기 어렵다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변의 내용과 거의 유사하지 않으며, 기본적인 아이디어조차 다르다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 경제적 이익에 초점을 맞추고 있지만, 질문은 꽃게를 톱밥에 담는 실제 이유에 대한 것이므로 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 정확하지 않으며, 참조 답변에서 설명된 동면 상태 및 톱밥의 특성과 관련된 정보가 없다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 limited한 정보만을 제공하고, 질문의 핵심 이유인 동면과 톱밥의 역할에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로 명확하지만, 내용이 불명확하여 질문에 대한 이해를 돕기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 거의 유사하지 않으며, 기본적인 아이디어조차 다르다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723219843,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 602,
+        "total_tokens": 837
+    }
+}

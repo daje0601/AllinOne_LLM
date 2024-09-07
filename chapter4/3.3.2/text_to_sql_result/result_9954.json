@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 질병 진단 이름을 사용하고 있습니다. 첫 번째 쿼리는 'subarachnoid hemorrhage - due to trauma'라는 진단을 조회하고, 두 번째 쿼리는 'cerebral subdural hematoma - secondary to trauma'라는 진단을 조회합니다. 따라서, 동일한 조건에 따른 환자 ID를 반환하지 않으므로 의미적으로 동일하지 않습니다.\"\n}"

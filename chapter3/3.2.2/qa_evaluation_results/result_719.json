@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBFR8IHysWnA8Ig99oxo634rC8i",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 에보라시 공산당 성당이라는 잘못된 정보를 제공하고 있어 질문인 '포르투갈 에보라시에 있는 유골의 성당'과의 관련성이 낮음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"참조 답변과 비교했을 때, 모델의 답변은 사실관계가 잘못되어 있어 유골 성당의 역사와 목적에 대한 정확성이 매우 낮음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 성당의 목적에 대해서만 설명하고, 그 역사적 배경 등 완전한 정보를 제공하지 않음.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 쉽게 이해할 수 있지만, 잘못된 정보로 인해 혼동을 줄 수 있음.\"},\"similarity\":{\"score\":2,\"explanation\":\"참조 답변과 유사성이 거의 없으며, 전혀 다른 내용을 담고 있음.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 에보라시 공산당 성당이라는 잘못된 정보를 제공하고 있어 질문인 '포르투갈 에보라시에 있는 유골의 성당'과의 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "참조 답변과 비교했을 때, 모델의 답변은 사실관계가 잘못되어 있어 유골 성당의 역사와 목적에 대한 정확성이 매우 낮음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 성당의 목적에 대해서만 설명하고, 그 역사적 배경 등 완전한 정보를 제공하지 않음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 쉽게 이해할 수 있지만, 잘못된 정보로 인해 혼동을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "참조 답변과 유사성이 거의 없으며, 전혀 다른 내용을 담고 있음."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222501,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 635,
+        "total_tokens": 863
+    }
+}

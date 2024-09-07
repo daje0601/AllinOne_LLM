@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 Location 필드가 'bangladesh' 또는 'BD'를 포함하는 사용자들을 찾는 반면, 두 번째 쿼리는 Location이 정확히 'Bangladesh'인 사용자들만을 찾습니다. 따라서 첫 번째 쿼리는 더 많은 사용자를 포함할 수 있어 결과가 다를 수 있습니다.\"\n}"

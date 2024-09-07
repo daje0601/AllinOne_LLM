@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and will produce the same output. They select the county name and count the occurrences of that county from the election table, grouping by county name and ordering the results in descending order based on the count. Therefore, they semantically yield the same results.\"\n}"

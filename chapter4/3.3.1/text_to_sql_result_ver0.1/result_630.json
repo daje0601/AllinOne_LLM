@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조적으로 약간의 차이가 있지만, 결과적으로 동일한 정보를 가져오는 쿼리입니다. 두 쿼리 모두 'SALT LAKE CITY'에서 출발하여 'ST. PETERSBURG'로 가는 항공편의 flight_id를 검색합니다. 'flight.from_airport'와 'flight.to_airport'에 대한 조건이 동일하게 유지되고 있으므로 같은 결과를 도출합니다.\"\n}"

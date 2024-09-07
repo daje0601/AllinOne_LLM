@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"생성된 쿼리는 'allative' 타입과 'atomic' 밸런시 변화를 가진 항목의 'Meaning'을 선택하지만, 정답 쿼리는 'associative' 타입의 'Valency change'를 선택합니다. 이 둘은 조건이 다른 필터를 사용하고 있으며, 반환되는 컬럼도 다릅니다. 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

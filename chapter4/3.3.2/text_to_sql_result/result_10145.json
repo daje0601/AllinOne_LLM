@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 Location 조건에 대한 값이 서로 다릅니다. 생성된 쿼리는 'winchester, england'를 조건으로 하고, 정답 쿼리는 'winsford england'를 조건으로 하므로, 같은 결과를 반환하지 않습니다.\"\n}"

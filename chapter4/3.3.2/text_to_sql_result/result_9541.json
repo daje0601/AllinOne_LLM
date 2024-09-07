@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리의 차이점은 WHERE 절의 조건에서 intakeoutput.celllabel이 다릅니다. 생성된 쿼리는 intakeoutput.celllabel에 대한 조건이 없으나, 정답 쿼리는 intakeoutput.celllabel이 'output amt-blake drain'으로 제한되어 있습니다. 이로 인해 정답 쿼리는 특정 값만을 반환할 수 있으며, 생성된 쿼리는 해당 label에 관계없이 더 많은 결과를 포함할 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

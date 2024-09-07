@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 둘 다 Customers_Cards 테이블에서 card_id와 card_number 열을 선택하고 있어 문제에서 요구하는 카드 ID와 카드 번호에 대한 정보를 정확히 반환합니다.\"\n}"

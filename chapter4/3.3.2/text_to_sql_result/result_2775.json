@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 '허브' 카테고리의 설명을 ref_product_categories 테이블에서 가져오기 위해 JOIN을 사용하고 있으며, WHERE 절에서는 product_category_description = 'Herbs'로 지정합니다. 반면, 두 번째 쿼리는 product_category_code = 'Herbs'로 직접 필터링합니다. 즉, 첫 번째 쿼리는 카테고리 설명을 확인하지만, 두 번째 쿼리는 코드로 바로 제품을 필터링하므로 결과에 차이가 있을 수 있습니다.\"\n}"

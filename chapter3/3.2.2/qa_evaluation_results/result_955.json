@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBaO4RJljZlflzcSEn2xb1gmrgH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 전쟁 영화에서의 무기 사용과 실제 사용된 무기들에 대한 질문에 잘 대응하고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 정보는 일부 정확하지만, 특정 무기에 대한 정확한 언급이 없는 경우와 불분명한 부분이 있다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 무기를 나열하였으나, 영화 제작 관점이나 공포탄 사용에 대한 설명이 부족하여 완전하지 않다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉬운 표현을 사용하고 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 부분도 있으나, 특정 세부사항이나 설명이 부족하여 유사성은 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전쟁 영화에서의 무기 사용과 실제 사용된 무기들에 대한 질문에 잘 대응하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 정보는 일부 정확하지만, 특정 무기에 대한 정확한 언급이 없는 경우와 불분명한 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 무기를 나열하였으나, 영화 제작 관점이나 공포탄 사용에 대한 설명이 부족하여 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉬운 표현을 사용하고 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 부분도 있으나, 특정 세부사항이나 설명이 부족하여 유사성은 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222522,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 647,
+        "total_tokens": 863
+    }
+}

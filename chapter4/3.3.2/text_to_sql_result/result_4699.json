@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical, as they have the same structure and logic. They both filter the results from 'table_name_3' to find the minimum value of 'yards' where 'long' is 34 and 'avg' is less than 12.6. Therefore, they will return the same result based on the given problem description.\"\n}"

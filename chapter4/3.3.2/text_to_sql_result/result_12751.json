@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 필드(uniquepid에 대한 참조)가 사용되고 있습니다. 첫 번째 쿼리는 patient.age를 사용하여 병원 방문 기록을 가져오고, 두 번째 쿼리는 patient.patienthealthsystemstayid를 사용하는 등 각 쿼리에서 요구하는 속성이나 조건이 다릅니다. 따라서 두 쿼리는 세미적 의미에서 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 필드 이름과 조건이 정확히 일치합니다. 같은 형태로 'BB - Blind Bear'를 선택하고 'BA - Running Bear'가 'MF - Mountain Falcon'일 때를 조건으로 설정하고 있습니다. 따라서 두 쿼리는 의미적으로 완전히 동일한 결과를 반환합니다.\"\n}"

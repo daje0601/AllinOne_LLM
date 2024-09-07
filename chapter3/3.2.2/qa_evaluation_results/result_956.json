@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBawKqOEWl5JVhVcYLq8r9nbJ57",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 직접적인 연관성이 부족하고, 밤섬의 이름 유래에 대한 정보가 아니라 역사적 발전에 대한 정보를 다루고 있습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변에서 언급된 내용은 역사적 사실과 맞지 않으며, King's Island와 관련된 정보는 사실이 아닙니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문의 핵심인 이름의 유래에 대한 충분한 정보를 제공하지 않으며 역사의 일부분만을 다루고 있습니다.\"},\"clarity\":{\"score\":3,\"explanation\":\"모델의 답변은 논리적으로 구성되어 있으나 관련성이 없는 정보가 포함되어 있어 이해하기 어렵습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 거리가 멀며, 밤섬의 이름 유래와는 관련이 떨어진 내용입니다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 직접적인 연관성이 부족하고, 밤섬의 이름 유래에 대한 정보가 아니라 역사적 발전에 대한 정보를 다루고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변에서 언급된 내용은 역사적 사실과 맞지 않으며, King's Island와 관련된 정보는 사실이 아닙니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문의 핵심인 이름의 유래에 대한 충분한 정보를 제공하지 않으며 역사의 일부분만을 다루고 있습니다."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 논리적으로 구성되어 있으나 관련성이 없는 정보가 포함되어 있어 이해하기 어렵습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 거리가 멀며, 밤섬의 이름 유래와는 관련이 떨어진 내용입니다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222522,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 230,
+        "prompt_tokens": 567,
+        "total_tokens": 797
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB4K7utMBT6jEYLHWnyrIDa6mWJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 조상들이 음식을 저장할 때 숯의 사용 이유에 대한 내용을 다루고 있어 주제에 잘 맞습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 숯의 성질로 인한 부패 방지와 발효 반응에 대해 언급했지만, 방독, 방재, 소독 등 다른 중요한 기능들은 생략하여 정확성에 일부 제한이 있습니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 숯 사용의 몇 가지 이유를 언급했지만, 다양한 용도나 문화적 맥락에 대한 설명이 부족하여 완전성이 떨어집니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 각 문장이 명확하고 이해하기 쉽습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 유사한 부분이 있지만, 참조 답변에서 언급된 다양한 활용과 문화적 의미를 포함하지 않기 때문에 유사성이 낮습니다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 조상들이 음식을 저장할 때 숯의 사용 이유에 대한 내용을 다루고 있어 주제에 잘 맞습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 숯의 성질로 인한 부패 방지와 발효 반응에 대해 언급했지만, 방독, 방재, 소독 등 다른 중요한 기능들은 생략하여 정확성에 일부 제한이 있습니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 숯 사용의 몇 가지 이유를 언급했지만, 다양한 용도나 문화적 맥락에 대한 설명이 부족하여 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 각 문장이 명확하고 이해하기 쉽습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 유사한 부분이 있지만, 참조 답변에서 언급된 다양한 활용과 문화적 의미를 포함하지 않기 때문에 유사성이 낮습니다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222490,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 540,
+        "total_tokens": 785
+    }
+}

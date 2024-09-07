@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical in structure and logic, retrieving the same data from the same table based on the specified conditions (Object type as 'globular cluster' and NGC number as '5986'). Therefore, they will return the same results.\"\n}"

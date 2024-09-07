@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 의미적으로 동일하지 않습니다. 첫 번째 쿼리는 'FIRST' 클래스의 예약을 위한 fare_basis.booking_class 조건을 사용하고, 두 번째 쿼리는 fare_basis.class_type을 사용해 'FIRST' 클래스를 선택합니다. 또한, 두 번째 쿼리는 flight.airline_code = 'AA'로 미국 항공사인 AA가 제공하는 비행기를 명시적으로 필터링하고 있지만, 첫 번째 쿼리에서는 정확한 항공사 코드를 명시하지 않고 있습니다. 따라서 특정 항공사에 대한 조회 여부에서 차이가 있습니다.\"\n}"

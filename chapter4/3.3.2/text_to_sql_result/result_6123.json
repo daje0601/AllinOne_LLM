@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 tournament 조건에 사용된 문자열이 다릅니다. 첫 번째 쿼리는 'Volvo Masters Andalucía'로 'ñ'가 포함되어 있으며, 두 번째 쿼리는 'Volvo Masters Andalucia'로 'ñ'가 빠져 있습니다. 이로 인해 같은 결과를 반환하지 않습니다.\"\n}"

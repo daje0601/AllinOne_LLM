@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAsQbSx4lVePTnl4mfk8tNBA7pk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문의 핵심인 그리스와 포르투갈이 IMF 대신 유럽 연합 국가들에게 도움을 요청한 이유에 대한 적절한 설명을 제공합니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 정확하지만 일부 정보는 다소 모호하거나 잘못된 부분이 있습니다. 예를 들어, 독일이 지원을 받지 않고 있다는 부분은 충분히 명확하지 않습니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 관련 정보를 제공하지만, 보다 구체적인 설명과 근거가 부족하여 질문에 대한 포괄성이 떨어집니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 명확하게 작성되었지만, 몇 부분에서 복잡하게 느껴질 수 있는 요소가 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변의 주요 점들을 담고 있지만, 참조 답변의 구조와 흐름을 완전히 따르지 않아서 일부 차이가 있습니다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문의 핵심인 그리스와 포르투갈이 IMF 대신 유럽 연합 국가들에게 도움을 요청한 이유에 대한 적절한 설명을 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 정확하지만 일부 정보는 다소 모호하거나 잘못된 부분이 있습니다. 예를 들어, 독일이 지원을 받지 않고 있다는 부분은 충분히 명확하지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 관련 정보를 제공하지만, 보다 구체적인 설명과 근거가 부족하여 질문에 대한 포괄성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 명확하게 작성되었지만, 몇 부분에서 복잡하게 느껴질 수 있는 요소가 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변의 주요 점들을 담고 있지만, 참조 답변의 구조와 흐름을 완전히 따르지 않아서 일부 차이가 있습니다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222478,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 261,
+        "prompt_tokens": 652,
+        "total_tokens": 913
+    }
+}

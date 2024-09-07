@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Copa Libertadores 1997' 칼럼의 값이 'Racing'인 팀을 찾고 있으며, 두 번째 쿼리는 'Team' 칼럼의 값이 'Racing Club'인 팀의 'Copa Libertadores 1997' 값을 찾고 있습니다. 이 두 쿼리는 서로 다른 조건을 사용하므로, 서로 다른 결과를 반환할 수 있습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBSWkFMmmhgAsIJ4LK8K0qV0n5A",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 쌍무지개의 색깔에 대해 설명하는 대신 별빛에 대해 이야기하며 질문과의 관련성이 낮습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 쌍무지개에 대한 물리적 현상에 대한 정확한 설명이 부족하고 잘못된 정보를 포함하고 있습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 쌍무지개의 색깔이 대칭인 이유에 대한 정보 부족으로 불완전합니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 비교적 이해할 수 있으나, 대답의 초점이 잘못 설정되어 혼란스러운 부분이 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 거의 관련이 없으며, 이론적인 근거가 부족하여 유사성이 낮습니다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 쌍무지개의 색깔에 대해 설명하는 대신 별빛에 대해 이야기하며 질문과의 관련성이 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 쌍무지개에 대한 물리적 현상에 대한 정확한 설명이 부족하고 잘못된 정보를 포함하고 있습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 쌍무지개의 색깔이 대칭인 이유에 대한 정보 부족으로 불완전합니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 비교적 이해할 수 있으나, 대답의 초점이 잘못 설정되어 혼란스러운 부분이 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 거의 관련이 없으며, 이론적인 근거가 부족하여 유사성이 낮습니다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222514,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 724,
+        "total_tokens": 947
+    }
+}

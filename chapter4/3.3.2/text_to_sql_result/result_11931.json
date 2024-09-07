@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 카테고리 값을 사용하고 있습니다. 첫 번째 쿼리는 'best city/alternative performance'를, 두 번째 쿼리는 'best urban/alternative performance'를 사용하고 있습니다. 'city'와 'urban'은 밀접한 의미를 가지지만, 정확히 같지 않으며, 두 쿼리에서 반환되는 결과는 다를 수 있습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAmMG4eofzk716GaqXTrnXgsSR2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 하이바라는 단어의 출처와 사용에 대한 정확한 설명을 제공하지 않아 질문과 관련성이 낮음.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 역사적 사실에 대한 많은 오류를 포함하고 있으며, 하이바의 유래에 대한 정확한 정보를 제공하지 않음.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변이 하이바의 유래와 일본어에서의 사용에 대한 내용을 포함하고 있으나, 정보가 부정확하여 포괄성은 낮음.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 구성상 명확하지 않으며, 여러 잘못된 정보를 제공하고 있어 전반적으로 이해하기 어려움.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변과 참조 답변 사이에는 내용이 크게 다르며, 하이바의 정의 및 유래에 대한 서로 다른 주장을 하고 있음.\"},\"average_score\":2.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 하이바라는 단어의 출처와 사용에 대한 정확한 설명을 제공하지 않아 질문과 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 역사적 사실에 대한 많은 오류를 포함하고 있으며, 하이바의 유래에 대한 정확한 정보를 제공하지 않음."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 하이바의 유래와 일본어에서의 사용에 대한 내용을 포함하고 있으나, 정보가 부정확하여 포괄성은 낮음."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 구성상 명확하지 않으며, 여러 잘못된 정보를 제공하고 있어 전반적으로 이해하기 어려움."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변과 참조 답변 사이에는 내용이 크게 다르며, 하이바의 정의 및 유래에 대한 서로 다른 주장을 하고 있음."
+                    },
+                    "average_score": 2.2
+                }
+            }
+        }
+    ],
+    "created": 1723222472,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 642,
+        "total_tokens": 878
+    }
+}

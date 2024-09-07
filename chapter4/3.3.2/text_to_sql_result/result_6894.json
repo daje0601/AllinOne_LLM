@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Attendance'의 수를 COUNT하여 관중 수를 반환하고, 조건으로 'Opponent'가 'phillies'이면서 'Loss'가 'noon'인 경우를 찾고 있습니다. 반면, 두 번째 쿼리는 'Opponent'가 'phillies 1:15 pm'이고 'Date'가 'april 9'인 경우에 해당하는 'Attendance'를 직접 선택합니다. 조건과 선택한 컬럼이 다르므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

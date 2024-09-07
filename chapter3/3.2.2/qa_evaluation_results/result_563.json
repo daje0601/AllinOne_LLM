@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB3uFyUPiPo2mTla2APvdNlBegC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변이 청어의 방귀 앞으로 직접적인 대화 내용에 대한 설명이 부족하여 질문과 조금 동떨어져 있다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델 답변의 정보는 연구 결과에 기반한 사실과 차이가 있으며, 청어가 방귀로 대화하지 않는다고 하는 본질적인 부분이 왜곡되었다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변이 청어의 방귀에 대한 여러 요소를 언급하지만, 대화의 실질적인 의미를 명확히 설명하지 않아서 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변이 전문 용어를 사용하여 다소 복잡하게 들리지만 전반적인 구조는 이해할 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변이 참조 답변과 관련된 연구와 결과를 전혀 반영하지 않아서 유사성이 매우 낮다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변이 청어의 방귀 앞으로 직접적인 대화 내용에 대한 설명이 부족하여 질문과 조금 동떨어져 있다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델 답변의 정보는 연구 결과에 기반한 사실과 차이가 있으며, 청어가 방귀로 대화하지 않는다고 하는 본질적인 부분이 왜곡되었다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변이 청어의 방귀에 대한 여러 요소를 언급하지만, 대화의 실질적인 의미를 명확히 설명하지 않아서 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 전문 용어를 사용하여 다소 복잡하게 들리지만 전반적인 구조는 이해할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변이 참조 답변과 관련된 연구와 결과를 전혀 반영하지 않아서 유사성이 매우 낮다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222489,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 603,
+        "total_tokens": 839
+    }
+}

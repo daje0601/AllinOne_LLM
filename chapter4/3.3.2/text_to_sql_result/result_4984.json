@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 가지고 있습니다. 첫 번째 쿼리는 'course.department'가 'other'를 포함하고, 'program_course.category'가 'Other'인 모든 수업을 선택합니다. 반면 두 번째 쿼리는 'program.name'이 'CS-LSA'를 포함하는 프로그램에 해당하는 수업만 선택합니다. 따라서 조건이 다르기 때문에 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 테이블에서 데이터를 조회하고 있으며, 서로 다른 조건을 사용하고 있습니다. 생성된 쿼리는 'Parking Fines'라는 source_system_code를 가진 고객의 master_customer_id만을 반환하는 반면, 정답 쿼리는 parking_fines 테이블과 cmi_cross_references 테이블을 조인하여 세금 출처 코드와 고객 ID를 반환하는 데 그치지 않고 council_tax_id도 반환합니다. 또한, 각각의 쿼리는 연관된 서로 다른 변수들에 초점을 맞추고 있으며, 의도한 질문에 대해 결과 형식이 다릅니다.\"\n}"

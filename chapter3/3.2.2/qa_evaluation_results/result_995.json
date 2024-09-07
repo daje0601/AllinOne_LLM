@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBdMGrXmf1mNxzoJk2szhsCdyiY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 여러 측면을 다루고 있으나, 참가재의 사진 제공 관련 요청에 대한 직접적인 답변이 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 참가재와 그 서식 환경에 대해 어느 정도 정확하다. 하지만 붉은가재와 참가재의 차이점에 대한 설명이 명확하지 않으므로 정확성에서 다소 떨어진다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 질문의 여러 부분에 대해 언급하긴 했으나, 참가재와 붉은가재의 구체적인 차이점이나 참가재의 종류에 대한 정보는 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 잘 구성되어 있으나, 일부 문장은 명확성을 위해 더 간결하게 정리될 필요가 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있지만, 전체적으로 다른 표현 방식과 일부 정보에서도 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 여러 측면을 다루고 있으나, 참가재의 사진 제공 관련 요청에 대한 직접적인 답변이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 참가재와 그 서식 환경에 대해 어느 정도 정확하다. 하지만 붉은가재와 참가재의 차이점에 대한 설명이 명확하지 않으므로 정확성에서 다소 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 질문의 여러 부분에 대해 언급하긴 했으나, 참가재와 붉은가재의 구체적인 차이점이나 참가재의 종류에 대한 정보는 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 잘 구성되어 있으나, 일부 문장은 명확성을 위해 더 간결하게 정리될 필요가 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있지만, 전체적으로 다른 표현 방식과 일부 정보에서도 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 850,
+        "total_tokens": 1105
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The generated query retrieves the dates of matches against Plymouth Argyle and Reading, while the answer query gets the opponent with the best result (WIN, LOSS, or DRAW) between Plymouth Argyle and Reading. Thus, they focus on different aspects (dates versus outcomes) and do not return semantically equivalent results.\"\n}"

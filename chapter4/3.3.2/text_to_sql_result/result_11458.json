@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 결과를 반환합니다. 'All_Neutral'과 'Team_ID'를 basketball_match 테이블에서 선택하는 부분이 동일합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAvJ9wuo8xjXJb4NjC9fOmudxEJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 행운목의 꽃에 대한 질문에 적절하게 연관되지 않고, 일반적인 꽃꽂이에 대한 설명으로 주제가 벗어났다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에서 제공된 정보는 실질적이지 않으며, 행운목 꽃에 대한 올바른 관리 방법이 아니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 문제에 대한 포괄적인 해결책을 제시하지 않으며, 중요한 관리 방법이 누락되었다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 명확하게 작성되었으나, 내용이 주제와 약간 벗어나 있어 흐름이 이상하다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용을 비교했을 때 큰 차이가 있으며, 유사성이 낮다.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 행운목의 꽃에 대한 질문에 적절하게 연관되지 않고, 일반적인 꽃꽂이에 대한 설명으로 주제가 벗어났다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에서 제공된 정보는 실질적이지 않으며, 행운목 꽃에 대한 올바른 관리 방법이 아니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 문제에 대한 포괄적인 해결책을 제시하지 않으며, 중요한 관리 방법이 누락되었다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 명확하게 작성되었으나, 내용이 주제와 약간 벗어나 있어 흐름이 이상하다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용을 비교했을 때 큰 차이가 있으며, 유사성이 낮다."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222481,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 910,
+        "total_tokens": 1134
+    }
+}

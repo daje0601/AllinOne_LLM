@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'PreMajor' 카테고리를 기준으로 수업을 조회하는 것은 같지만, 첫 번째 쿼리는 'course.department'가 '%PreMajor%'인 수업을 조회하며, 두 번째 쿼리는 'program.name'이 '%CS-LSA%'인 전공에 속하는 수업만을 조회합니다. 따라서 두 쿼리는 반환하는 결과가 서로 다르며 의미적으로 동일하지 않습니다.\"\n}"

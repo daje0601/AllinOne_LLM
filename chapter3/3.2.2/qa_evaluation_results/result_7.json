@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAEXkpy5viWWkMOpdqiu9qgxQnx",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 질문에 관련된 몇 가지 요소를 다루고 있으나, 코가 크게 나오는 현상의 원인에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 최신 기술에 대한 주장을 하고 있지만, 핵심 내용에 대해 정확한 설명이 부족하면서도 잘못된 정보를 포함하고 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 단순히 기술 발달을 언급했지만, 셀카 찍을 때의 거리나 왜곡 효과에 대한 구체적인 설명이 부족하여 포괄적이지 않다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 몇몇 문장이 다소 모호하게 표현되어 있어 명확성이 떨어진다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 비슷한 요소들이 있지만, 전반적으로 다른 방향으로 설명하거나 치우쳐져 있어 유사성이 낮다.\"},\"average_score\":5.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문에 관련된 몇 가지 요소를 다루고 있으나, 코가 크게 나오는 현상의 원인에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 최신 기술에 대한 주장을 하고 있지만, 핵심 내용에 대해 정확한 설명이 부족하면서도 잘못된 정보를 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 단순히 기술 발달을 언급했지만, 셀카 찍을 때의 거리나 왜곡 효과에 대한 구체적인 설명이 부족하여 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 몇몇 문장이 다소 모호하게 표현되어 있어 명확성이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 비슷한 요소들이 있지만, 전반적으로 다른 방향으로 설명하거나 치우쳐져 있어 유사성이 낮다."
+                    },
+                    "average_score": 5.4
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 517,
+        "total_tokens": 769
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완벽하게 동일하며, 같은 테이블 'basketball_match'에서 'Team_Name'과 'ACC_Percent'를 선택하고 있습니다. 따라서 두 쿼리는 문제에 대해 의미적으로 동일한 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 admityear가 '2014'보다 작은 환자를 찾고, 진단명은 'Complete incontinence'로 설정되어 있습니다. 반면, 두 번째 쿼리는 admityear가 '2154'보다 작은 환자를 찾고, 진단명은 'Full incontinence-feces'로 다릅니다. 두 쿼리의 연도 범위와 진단명이 서로 다르므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

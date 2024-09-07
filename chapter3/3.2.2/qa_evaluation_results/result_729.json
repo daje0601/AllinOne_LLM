@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBGBjZRp0pFsq6c60npLgbsqa6s",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 '귀신고래'라는 이름의 유래를 영화에 관련된 정보로 설명하고 있어 질문의 본질에 맞지 않음.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변이 영화와 관련된 유래로 설명하고 있으나, 이는 사실과 다르며 정확한 정보가 아님.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델 답변은 귀신고래의 유래에 대한 설명을 단편적으로 제공하고 있어, 전반적인 맥락이 부족함.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 이해하기 쉽지만, 그 내용에는 잘못된 정보가 포함되어 있어서 신뢰성이 떨어짐.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변에서 제공된 정보와 전혀 다르며, 관련된 점이 거의 없음.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '귀신고래'라는 이름의 유래를 영화에 관련된 정보로 설명하고 있어 질문의 본질에 맞지 않음."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변이 영화와 관련된 유래로 설명하고 있으나, 이는 사실과 다르며 정확한 정보가 아님."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델 답변은 귀신고래의 유래에 대한 설명을 단편적으로 제공하고 있어, 전반적인 맥락이 부족함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 이해하기 쉽지만, 그 내용에는 잘못된 정보가 포함되어 있어서 신뢰성이 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변에서 제공된 정보와 전혀 다르며, 관련된 점이 거의 없음."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222502,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 220,
+        "prompt_tokens": 619,
+        "total_tokens": 839
+    }
+}

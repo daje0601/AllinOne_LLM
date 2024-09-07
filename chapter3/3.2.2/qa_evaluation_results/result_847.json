@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBQtMsbS0kUWLW1w6qf74pUjxGB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 눈을 밟을 때 소리가 나는 원인에 대한 질문에 대해 전혀 관련이 없는 설명을 하고 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 눈 크기와 눈물샘에 대한 잘못된 설명을 포함하고 있어 정확성이 낮다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 질문의 주제인 '눈을 밟았을 때 소리가 나는 이유'에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변 구성은 다소 복잡하고 오해를 불러일으킬 수 있으나, 문장이 비교적 이해하기 쉬운 편이다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과는 전혀 다른 내용을 다룬다.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 눈을 밟을 때 소리가 나는 원인에 대한 질문에 대해 전혀 관련이 없는 설명을 하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 눈 크기와 눈물샘에 대한 잘못된 설명을 포함하고 있어 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문의 주제인 '눈을 밟았을 때 소리가 나는 이유'에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변 구성은 다소 복잡하고 오해를 불러일으킬 수 있으나, 문장이 비교적 이해하기 쉬운 편이다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과는 전혀 다른 내용을 다룬다."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222512,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 211,
+        "prompt_tokens": 655,
+        "total_tokens": 866
+    }
+}

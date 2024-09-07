@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'diagnosis.diagnosisname'의 값이 서로 다릅니다. 첫 번째 쿼리는 'end stage renal disease - eod'를 사용하고, 두 번째 쿼리는 'esrd (end stage renal disease)'를 사용합니다. 이는 동일한 질병을 나타낼 수 있지만, 정확한 문자열 일치를 요구하는 경우 두 쿼리는 의미적으로 다를 수 있습니다. 또한, 진단 이름에 따라 결과 집합의 차이가 발생할 수 있습니다.\"\n}"

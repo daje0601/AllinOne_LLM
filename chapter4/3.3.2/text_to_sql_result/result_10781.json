@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 정확히 동일하며, 모두 allergy_type 테이블에서 allergytype 별로 그룹핑하여 각 allergytype의 수를 계산하는 기능을 수행합니다. 즉, 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

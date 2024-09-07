@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 episode__number가 11보다 작고 share가 '4'인 조건을 만족하는 viewers__millions_의 평균을 계산합니다. share의 값은 INTEGER이 아닌 VARCHAR이므로, '4'와 \\\"4\\\" 모두 동일한 값을 비교하는 것이며, 따라서 결과는 동일합니다.\"\n}"

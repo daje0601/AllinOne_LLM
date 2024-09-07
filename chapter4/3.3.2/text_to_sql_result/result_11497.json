@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 goals_against가 정확히 29일 경우와 goal_difference가 26보다 작은 경우를 만족하는 클럽만 선택합니다. 반면, 두 번째 쿼리는 goals_against가 29보다 작은 경우와 goal_difference가 26보다 작은 경우를 만족하는 모든 클럽을 선택합니다. 따라서 두 쿼리는 다른 조건을 사용하여 클럽을 필터링하므로 결과가 다릅니다.\"\n}"

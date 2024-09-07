@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Points' 열에서 최소 값을 반환하지만, 두 번째 쿼리는 'Extra points' 열에서 최소 값을 반환합니다. 'Points'는 여러 점수(Touchdowns, Extra points, Field goals)를 포함하는 총 점수일 수 있으므로 두 쿼리의 결과는 서로 다릅니다.\"\n}"

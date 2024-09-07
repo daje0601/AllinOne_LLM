@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 'diagnosis' 필드에서 사용하는 진단명이 다릅니다. 첫 번째 쿼리는 'AORTIC VALVE INSUFFIENCY\\\\RE-DO STERNOTOMY; AORTIC VALVE REPLACEMENT /SDA'를 사용하고, 두 번째 쿼리는 'AORTIC INSUFFICIENCY\\\\RE-DO STERNOTOMY; AORTIC VALVE REPLACEMENT'를 사용하고 있습니다. 이 두 진단명의 미세한 차이가 두 쿼리의 결과에 영향을 미칠 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

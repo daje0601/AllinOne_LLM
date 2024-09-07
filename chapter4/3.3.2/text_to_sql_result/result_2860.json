@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 반환하는 컬럼이 서로 다릅니다. 첫 번째 쿼리는 'microbiologyevents.org_name'을 반환하지만, 두 번째 쿼리는 'microbiologyevents.spec_type_desc'를 반환합니다. 또한, 첫 번째 쿼리는 'charttime'이 '2101-05'와 정확히 일치해야 하는 반면, 두 번째 쿼리는 'charttime'이 '2101-05' 이상의 값을 반환하는 조건입니다. 이로 인해 두 쿼리의 결과는 다를 수 있습니다.\"\n}"

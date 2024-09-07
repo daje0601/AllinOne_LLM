@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'SELECT classroom, grade FROM list'로, classroom과 grade의 모든 조합을 반환합니다. 동일한 classroom과 grade 조합이 여러 번 존재할 경우 중복이 포함될 수 있습니다. 반면, 두 번째 쿼리는 'SELECT DISTINCT classroom, grade FROM list'로, 각 조합의 중복을 제거하여 고유한 값만 반환합니다. 따라서 두 쿼리가 반환하는 결과는 다를 수 있으며 의미적으로 동일하지 않습니다.\"\n}"

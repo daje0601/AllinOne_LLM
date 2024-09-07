@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAEq3Nchmh0btnaXOSzYG3xMcui",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델 답변의 일부는 매담대와 관련된 설명이 포함되어 있으나, B2B 전자결제 시스템으로 매담대를 정의하는 것은 부정확합니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 제공한 정보는 매담대의 정의에 대해 사실이 아니며, 매담대가 매출담보대출의 줄임말이라는 설명도 잘못되었습니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 정보를 포함하지만, 매담대의 기능과 메커니즘에 대한 구체적인 설명이 부족합니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 문장 구조가 비교적 명확하나, 정의 자체가 잘못되어 내용에 대한 혼란을 초래합니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델 답변은 참조 답변과 내용이 다르며, 표현 방식 또한 서로 상이합니다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델 답변의 일부는 매담대와 관련된 설명이 포함되어 있으나, B2B 전자결제 시스템으로 매담대를 정의하는 것은 부정확합니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 제공한 정보는 매담대의 정의에 대해 사실이 아니며, 매담대가 매출담보대출의 줄임말이라는 설명도 잘못되었습니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 정보를 포함하지만, 매담대의 기능과 메커니즘에 대한 구체적인 설명이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 문장 구조가 비교적 명확하나, 정의 자체가 잘못되어 내용에 대한 혼란을 초래합니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델 답변은 참조 답변과 내용이 다르며, 표현 방식 또한 서로 상이합니다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 728,
+        "total_tokens": 959
+    }
+}

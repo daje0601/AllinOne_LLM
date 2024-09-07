@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 Location_Code에 따라 Date_in_Locaton_To의 개수를 세고, 이 정보를 기반으로 내림차순으로 정렬합니다. 그러나 두 번째 쿼리는 Location_Code와 Date_in_Locaton_To 모두를 기준으로 그룹화하므로, 같은 Location_Code에 대해 여러 다른 Date_in_Locaton_To 값이 있을 경우 각각의 Date_in_Locaton_To에 대한 카운트를 별도로 반환합니다. 따라서 두 쿼리의 결과는 데이터 및 그룹화 기준에 따라 다를 수 있습니다.\"\n}"

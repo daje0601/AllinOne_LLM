@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 차이점은 'rick miears'와 'rick mears'라는 winning_driver 값의 차이에 있습니다. 이 두 값은 다른 문자열이므로, 쿼리의 결과는 달라질 것입니다. 즉, 한 쿼리는 'rick miears'에 해당하는 결과를 반환하고, 다른 쿼리는 'rick mears'에 해당하는 결과를 반환합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

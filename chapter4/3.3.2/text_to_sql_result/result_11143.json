@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'co_singer'와 'film' 값을 사용하고 있습니다. 첫 번째 쿼리는 'hemachandran'과 'kalicharan'을, 두 번째 쿼리는 'hemachandra'와 'khaleja'를 사용하여 서로 다른 데이터에 접근하고 있습니다. 따라서 두 쿼리는 같은 결과를 반환하지 않습니다.\"\n}"

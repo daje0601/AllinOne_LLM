@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBAo45jkdsjr0Q5Rylgwo6sHxIn",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변이 질문의 일부에 관련이 있지만, 자동차 매연 발생 원인에 대한 설명이 부족하여 질문에 대한 직접적인 관련성이 낮음.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 설명 중 일부는 정확하나, 매연 발생의 주된 이유나 기초적인 원리에 대한 명확한 이해가 부족하여 참조 답변과 비교했을 때 부정확한 부분이 있음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 매연이 많이 발생하는 이유에 대해 간단한 정보만 제시하고 있어, 참조 답변에 비해 포괄성이 낮음.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 문장은 이해할 수 있으나, 문맥 및 용어 사용이 명확하지 않아 혼동을 줄 수 있음.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 내용은 참조 응답과 다르게 여러 중요한 점을 놓치고 있어 유사성이 낮음.\"},\"average_score\":4.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 질문의 일부에 관련이 있지만, 자동차 매연 발생 원인에 대한 설명이 부족하여 질문에 대한 직접적인 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 설명 중 일부는 정확하나, 매연 발생의 주된 이유나 기초적인 원리에 대한 명확한 이해가 부족하여 참조 답변과 비교했을 때 부정확한 부분이 있음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 매연이 많이 발생하는 이유에 대해 간단한 정보만 제시하고 있어, 참조 답변에 비해 포괄성이 낮음."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 문장은 이해할 수 있으나, 문맥 및 용어 사용이 명확하지 않아 혼동을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 내용은 참조 응답과 다르게 여러 중요한 점을 놓치고 있어 유사성이 낮음."
+                    },
+                    "average_score": 4.6
+                }
+            }
+        }
+    ],
+    "created": 1723222496,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 627,
+        "total_tokens": 869
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Doing (actions)' 열에서 'intimate'라는 상호작용 설정을 가진 행동을 선택하고, 두 번째 쿼리는 'Having (things)' 열에서 'privacy, intimate spaces of togetherness'라는 상호작용 설정과 일치하는 것들을 선택합니다. 이 두 쿼리는 선택하는 필드가 다르며, 'intimate'와 'privacy, intimate spaces of togetherness'의 의미도 다르기 때문에 서로 다른 결과를 반환합니다.\"\n}"

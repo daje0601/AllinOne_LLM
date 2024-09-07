@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB0Y4gNaWYsBrX6ta4fG7ciLW2t",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 극장에서 행동 에티켓에 대한 정보를 잘 담고 있지만, 발레와 무용의 구체적인 차이에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 내용 중 일부 사항은 부정확하거나 불완전한데, 예를 들어 공연 중 박수를 치는 시점에 대한 규칙이 구체적으로 다뤄지지 않았다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 많은 에티켓을 포함하고 있으나, 참조 답변에서 언급된 특정 사항이 누락되어 있다.\"},\"clarity\":{\"score\":8,\"explanation\":\"전반적으로 모델의 답변은 잘 구조화되어 있으며 이해하기 쉽다. 하지만 일부 문장이 다소 복잡하게 느껴질 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"제공된 모델의 답변과 참조 답변은 주제가 같지만, 내용의 형식과 일부 세부사항에서 차이점이 크다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 극장에서 행동 에티켓에 대한 정보를 잘 담고 있지만, 발레와 무용의 구체적인 차이에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 내용 중 일부 사항은 부정확하거나 불완전한데, 예를 들어 공연 중 박수를 치는 시점에 대한 규칙이 구체적으로 다뤄지지 않았다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 많은 에티켓을 포함하고 있으나, 참조 답변에서 언급된 특정 사항이 누락되어 있다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "전반적으로 모델의 답변은 잘 구조화되어 있으며 이해하기 쉽다. 하지만 일부 문장이 다소 복잡하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "제공된 모델의 답변과 참조 답변은 주제가 같지만, 내용의 형식과 일부 세부사항에서 차이점이 크다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222486,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 721,
+        "total_tokens": 966
+    }
+}

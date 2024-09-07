@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 기준으로 데이터를 선택하고 있습니다. 첫 번째 쿼리는 'School/Country'가 'great britain'인 경우의 'From' 값들의 합계를 계산하고, 두 번째 쿼리는 'Nationality'가 'england'인 경우의 'From' 값들을 단순히 선택합니다. 이로 인해 반환되는 결과가 의미적으로 다릅니다.\"\n}"

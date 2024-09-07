@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB87OFNOsReQodf8YWQJWTfvIFl",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 대한 주제를 정확히 다루고 있으며, 픽토그램과 심볼의 개념을 잘 설명하고 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 정보는 대체로 정확하나, 참조 답변에 비해 픽토그램과 심볼의 차이를 완벽히 반영하지 않고 있으며 약간의 오류가 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 기본 개념은 설명하지만, 픽토그램의 사용 용도나 특정 예시가 부족한 점에서 완전성은 다소 떨어집니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 일반적으로 이해하기 쉬우나, 일부 문장이 반복되는 경향이 있어 조금 혼동을 줄 수 있습니다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 많지만, 구성이 약간 다르고 정보의 깊이가 부족합니다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 대한 주제를 정확히 다루고 있으며, 픽토그램과 심볼의 개념을 잘 설명하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 정보는 대체로 정확하나, 참조 답변에 비해 픽토그램과 심볼의 차이를 완벽히 반영하지 않고 있으며 약간의 오류가 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 기본 개념은 설명하지만, 픽토그램의 사용 용도나 특정 예시가 부족한 점에서 완전성은 다소 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 일반적으로 이해하기 쉬우나, 일부 문장이 반복되는 경향이 있어 조금 혼동을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 많지만, 구성이 약간 다르고 정보의 깊이가 부족합니다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 735,
+        "total_tokens": 979
+    }
+}

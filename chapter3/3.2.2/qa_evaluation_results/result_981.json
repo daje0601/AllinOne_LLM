@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBcSpdhuoxJhor1kybPqV1cgzXo",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 특급과 일반 기차의 차이점을 언급하고 있지만, 질문에 대한 전반적인 맥락과 정확한 구분을 명확히 제공하지 않음.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에는 일부 잘못된 정보가 포함되었으며, 특히 '특급은 일반 기차의 목적지에 일자로 가는 기차'라는 설명은 부정확함.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 특급과 일반 기차의 차이를 설명하고 있지만, 보다 상세한 정보가 부족하여 완전하지 않음.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해하기 쉬운 문장으로 구성되어 있으나, 일부 표현이 다소 애매하여 완전한 명확성이 결여됨.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변과 참조 답변 간의 유사성은 낮으며, 참조 답변에서 다루어진 내용의 충분한 반영이 이루어지지 않음.\"},\"average_score\":4.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 특급과 일반 기차의 차이점을 언급하고 있지만, 질문에 대한 전반적인 맥락과 정확한 구분을 명확히 제공하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에는 일부 잘못된 정보가 포함되었으며, 특히 '특급은 일반 기차의 목적지에 일자로 가는 기차'라는 설명은 부정확함."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 특급과 일반 기차의 차이를 설명하고 있지만, 보다 상세한 정보가 부족하여 완전하지 않음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해하기 쉬운 문장으로 구성되어 있으나, 일부 표현이 다소 애매하여 완전한 명확성이 결여됨."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변과 참조 답변 간의 유사성은 낮으며, 참조 답변에서 다루어진 내용의 충분한 반영이 이루어지지 않음."
+                    },
+                    "average_score": 4.6
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 257,
+        "prompt_tokens": 498,
+        "total_tokens": 755
+    }
+}

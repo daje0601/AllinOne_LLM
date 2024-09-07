@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 Trina Gulliver의 'High Checkout' 점수 중 가장 높은 값을 반환하는 반면, 두 번째 쿼리는 해당 플레이어의 'High Checkout' 점수를 그대로 반환합니다. 따라서 각 쿼리가 반환하는 결과가 다릅니다.\"\n}"

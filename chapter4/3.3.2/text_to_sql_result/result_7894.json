@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 주어진 문제의 핵심 요소인 'coronary arteriography' 시술에 대한 진단을 추출하는 데 상당한 차이가 있습니다. 첫 번째 쿼리는 'coronar arteriogr-3 cath'라는 제목을 사용하고, 두 번째 쿼리는 'coronar arteriogr-2 cath'라는 다른 제목을 사용합니다. 이로 인해 두 쿼리가 다르게 작동하여 서로 다른 진단 결과를 반환할 수 있으므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

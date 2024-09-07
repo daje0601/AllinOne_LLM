@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 동일한 테이블인 bookings에서 planned_delivery_date와 actual_delivery_date 열을 선택하여 반환합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

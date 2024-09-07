@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'incumbent' 필드에서 다른 이름을 검색하고 있습니다. 첫 번째 쿼리는 'Joseph Le Compte'를 찾고, 두 번째 쿼리는 'Joseph Lecompte'를 찾습니다. 이 두 이름은 서로 다르기 때문에 결과도 다를 수 있습니다.\"\n}"

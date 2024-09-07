@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Total Attendance'가 71,080인 행에서 'Capacity Percentage'를 반환하고, 두 번째 쿼리는 'Average Attendance'가 71,080인 행에서 'Capacity Percentage'를 반환합니다. 따라서 두 쿼리는 같은 값을 기준으로 조건을 검증하고 있지 않으므로 의미적으로 동일하지 않습니다.\"\n}"

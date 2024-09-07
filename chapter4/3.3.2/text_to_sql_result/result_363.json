@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 Transactions 테이블에서 금액이 3000보다 작은 거래의 날짜를 직접 조회하는 반면, 두 번째 쿼리는 Sales 테이블과 Transactions 테이블을 JOIN하여 Sales 테이블의 판매 거래 ID와 Transactions 테이블의 거래 ID를 연결합니다. 이로 인해 두 번째 쿼리는 Sales 테이블에 존재하는 거래에 대한 추가 조건을 포함하며, Sales 테이블의 판매 거래와 관련되지 않은 거래는 고려되지 않으므로 두 쿼리는 서로 다른 결과를 도출할 수 있습니다.\"\n}"

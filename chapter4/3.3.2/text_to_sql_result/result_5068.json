@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Population (2007)'이 2572보다 큰 경우를 선택하고, 'Geographic character'가 'coastal'인 조건을 추가합니다. 반면, 두 번째 쿼리는 'Population (2007)'이 정확히 2572인 지역을 선택하고, 'Geographic character'에 대한 조건이 없습니다. 따라서 두 쿼리는 서로 다른 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 location 값을 사용하는데, 첫 번째 쿼리는 'washington road wash50'를 찾고, 두 번째 쿼리는 'wash50 on washington rd'를 찾습니다. 이 두 표현은 위치에 대해 서로 다른 의미를 가지고 있으며, 따라서 동일한 결과를 반환하지 않습니다.\"\n}"

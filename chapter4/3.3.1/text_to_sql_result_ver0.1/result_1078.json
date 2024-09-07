@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'short_title'과 'long_title'이라는 서로 다른 필드에서 서로 다른 값을 사용하고 있어, 같은 환자 수를 카운트하지 않을 수 있습니다. 'short_title'이 'Int insert dual-cham dev'인 것과 'long_title'이 'Initial insertion of single-chamber device, rate responsive'인 것은 서로 다른 기준을 제시하고 있습니다. 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

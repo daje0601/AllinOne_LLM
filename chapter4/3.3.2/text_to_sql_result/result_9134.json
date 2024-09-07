@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'forongaia school'의 'Years'를 가져오는 반면, 두 번째 쿼리는 'porangahau' 지역의 'porangahau school'의 'Years'를 가져옵니다. 두 쿼리가 참조하는 학교 이름과 지역이 다르기 때문에 결과가 동일하지 않습니다.\"\n}"

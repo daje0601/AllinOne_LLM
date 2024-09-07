@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 '프로그램' 테이블에서 'Space-Time Symmetries and their Representation, Including Graphic Narrative'라는 이름을 가진 프로그램을 찾는 것이고, 두 번째 쿼리는 'course' 테이블과 'area' 테이블을 조인하여 특정 내용을 포함하는 과목의 이름과 부서를 찾는 것입니다. 즉, 첫 번째 쿼리는 프로그램 명에 대한 조회이고, 두 번째 쿼리는 과목에 대한 조회로, 검색하는 대상과 조건이 다릅니다.\"\n}"

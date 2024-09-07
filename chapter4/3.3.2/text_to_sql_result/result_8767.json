@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 수술 코드(이전 쿼리는 'excise thyroid gland', 현재 쿼리는 'lingual thyroid excision')를 참조하고 있습니다. 이는 약물 처방의 대상을 다르게 하여 결과가 상이할 수 있게 만듭니다. 그러므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 요청된 약물의 이름이 다릅니다. 첫 번째 쿼리는 '4 ml syringe : levolor base 5 mg/ml ij soln'을 조회하고, 두 번째 쿼리는 '4 ml syringe : labetalol hcl 5 mg/ml iv soln'을 조회합니다. 따라서 이 두 쿼리는 의도한 약물의 이름이 달라 의미적으로 동일하지 않습니다.\"\n}"

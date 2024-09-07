@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 venue 값을 사용하고 있습니다. 첫 번째 쿼리는 'jan breidelstadion, bruksella, belgium'을 조회하는 반면, 두 번째 쿼리는 'jan breydel, bruges, belgium'을 조회합니다. 이 두 venue는 서로 다른 장소를 지칭하므로, 쿼리 결과도 다를 것입니다.\"\n}"

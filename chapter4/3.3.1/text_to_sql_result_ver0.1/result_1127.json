@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'demographic' 테이블만 사용하여 성별이 남성이고 진단이 'UNSPECIFIED ERYTHEMA'인 환자를 계산합니다. 반면 두 번째 쿼리는 'demographic' 테이블과 'diagnoses' 테이블을 조인하여 남성 환자 중에서 진단명이 'Unspecified erythematous condition'인 경우를 찾습니다. 두 번째 쿼리는 더 구체적인 진단 조건을 사용하고, 이를 통해 두 쿼리의 반환 결과가 다를 수 있습니다.\"\n}"

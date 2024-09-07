@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'systolic_blood_pressure_sbp' (수축기 혈압)가 90 mmHg 미만인 조건을 검사하는 반면, 두 번째 쿼리는 'diastolic_blood_pressure_dbp' (이완기 혈압)가 90 mmHg 미만인 조건을 검사합니다. 문제에서 요구하는 것은 이완기 혈압 < 90 mmHg이므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 내용상 동일하며, 동일한 SQL 문장으로 전공 입학 유형(admission_type)을 조회하고 있습니다. 결과적으로 'Stephanie Suchan'이라는 이름을 가진 인물의 입학 유형을 동일하게 반환합니다.\"\n}"

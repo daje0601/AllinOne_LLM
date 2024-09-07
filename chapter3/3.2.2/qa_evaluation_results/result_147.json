@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAQoOUNCOJG7KRJWKkYFPKA0zjv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문의 핵심에 대한 명확한 답변을 제공하지 못하고 있어 관련성이 낮다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 돌리는 부분의 기능에 대한 잘못된 정보를 제공하고 있어 정확하지 않다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 가지 설명을 시도했지만, 핵심 기능에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"답변이 복잡하게 작성되어 몇몇 부분에서는 이해하기 어렵지만, 전반적으로 체계적인 형식을 갖추고 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 아주 다르며, 주요 기능에 대한 언급이 없기 때문에 유사성이 낮다.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문의 핵심에 대한 명확한 답변을 제공하지 못하고 있어 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 돌리는 부분의 기능에 대한 잘못된 정보를 제공하고 있어 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 가지 설명을 시도했지만, 핵심 기능에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "답변이 복잡하게 작성되어 몇몇 부분에서는 이해하기 어렵지만, 전반적으로 체계적인 형식을 갖추고 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 아주 다르며, 주요 기능에 대한 언급이 없기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222450,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 202,
+        "prompt_tokens": 535,
+        "total_tokens": 737
+    }
+}

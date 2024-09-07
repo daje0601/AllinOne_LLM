@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 같은 결과를 반환합니다. 모두 demographic 테이블에서 admission_location이 'TRANSFER FROM HOSP/EXTRAM'인 환자 수를 세고 있습니다.\"\n}"

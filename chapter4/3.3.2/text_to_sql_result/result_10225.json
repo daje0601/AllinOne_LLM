@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 'final_points'가 2인 경우의 'televote_points'를 추출하고 있으며, 숫자 2와 문자열 '2' 모두 같은 값을 의미하기 때문에 결과는 동일합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPYuk3JidMj2MoQygI5Sh0loLZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 붉은 장미가 사랑을 나타낸다는 점에 대해서는 언급하였으나, 다양한 색상의 장미와 그 의미에 대한 정보는 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델이 제공한 전반적인 정보는 색상에 따른 장미 꽃말의 세부 사항들이 생략되어 있을 뿐 아니라, 연두색 장미에 대한 언급은 사실과 일치하지 않는다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 사랑의 고백에 적합한 장미 색상에 대한 포괄적인 설명이 부족하고, 다양한 색상의 장미의 의미를 다루지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 이해하기 쉬운 문장 구조로 되어 있지만, 장미의 의미에 대한 정보가 부족하여 다소 제한적이다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 내용과 큰 차이가 있으며, 장미 꽃말에 대한 정보도 상당히 제한적이다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 붉은 장미가 사랑을 나타낸다는 점에 대해서는 언급하였으나, 다양한 색상의 장미와 그 의미에 대한 정보는 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델이 제공한 전반적인 정보는 색상에 따른 장미 꽃말의 세부 사항들이 생략되어 있을 뿐 아니라, 연두색 장미에 대한 언급은 사실과 일치하지 않는다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 사랑의 고백에 적합한 장미 색상에 대한 포괄적인 설명이 부족하고, 다양한 색상의 장미의 의미를 다루지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 이해하기 쉬운 문장 구조로 되어 있지만, 장미의 의미에 대한 정보가 부족하여 다소 제한적이다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 큰 차이가 있으며, 장미 꽃말에 대한 정보도 상당히 제한적이다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 260,
+        "prompt_tokens": 869,
+        "total_tokens": 1129
+    }
+}

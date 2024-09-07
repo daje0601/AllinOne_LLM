@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAcp9vUz7TbWHNnvUaHqftiY2pV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 질문과 관련이 있으나, 버스 번호의 부여 기준보다 노선 개편에 대한 정보가 더 많은 비중을 차지하고 있어 관련성이 떨어진다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 제공한 정보는 부분적으로 정확하나, 실제 버스 번호 체계 및 세대 구분에 대한 설명이 불명확하고 혼동을 초래할 수 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 다양한 세대의 버스와 번호 색상에 대한 정보를 포함하지만, 기본적인 번호 체계를 설명하는데 필요한 정보가 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 편으로, 구조적으로 잘 정리되어 있으나 일부 내용에서 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 주제는 비슷하지만, 참조 답변이 제공한 구체적인 기준과 내용을 따르지 않아 유사성이 낮다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문과 관련이 있으나, 버스 번호의 부여 기준보다 노선 개편에 대한 정보가 더 많은 비중을 차지하고 있어 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 제공한 정보는 부분적으로 정확하나, 실제 버스 번호 체계 및 세대 구분에 대한 설명이 불명확하고 혼동을 초래할 수 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 다양한 세대의 버스와 번호 색상에 대한 정보를 포함하지만, 기본적인 번호 체계를 설명하는데 필요한 정보가 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 편으로, 구조적으로 잘 정리되어 있으나 일부 내용에서 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 주제는 비슷하지만, 참조 답변이 제공한 구체적인 기준과 내용을 따르지 않아 유사성이 낮다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222462,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 257,
+        "prompt_tokens": 789,
+        "total_tokens": 1046
+    }
+}

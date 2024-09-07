@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. 두 쿼리 모두 'STUDENT' 테이블에서 각 학과(DEPT_CODE)별로 최대 GPA(MAX(STU_GPA))와 평균 GPA(AVG(STU_GPA))를 계산하는 방식이므로, 의미적으로 동일한 결과를 반환합니다.\"\n}"

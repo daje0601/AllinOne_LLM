@@ -1,0 +1,9 @@
+transformers 
+datasets 
+evaluate 
+trl 
+huggingface_hub 
+accelerate 
+flash-attn 
+wandb 
+scikit-learn

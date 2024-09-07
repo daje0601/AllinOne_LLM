@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical and will produce the same result. They select the product type code and count the occurrences of each product type code, grouping by the product type code and ordering the result by the count in ascending order. Therefore, they are semantically equivalent.\"\n}"

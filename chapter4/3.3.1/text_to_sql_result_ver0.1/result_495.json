@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 구성되어 있으며, WHERE 절에서 'nepalese' 컬럼의 값이 '37.1%'인 경우에 대한 'working_force_of_hk' 값을 검색합니다. 두 쿼리는 의미적으로 완전히 동일합니다.\"\n}"

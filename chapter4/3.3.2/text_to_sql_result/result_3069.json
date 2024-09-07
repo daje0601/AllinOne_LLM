@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'cambridge united'와 상대하는 경기의 평균 관중 수(AVG Attendance)를 반환하며, 두 번째 쿼리는 'cambridge united'와 상대하는 모든 경기의 관중 수(Attendance)를 개별적으로 반환합니다. 따라서 두 쿼리는 서로 다른 결과를 생성합니다.\"\n}"

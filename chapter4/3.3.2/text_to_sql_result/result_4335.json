@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일하며, 모두 주질환이 '흉골 상처 감염'이고 출생 연도가 2085년보다 적은 환자의 수를 계산합니다. SELECT COUNT(DISTINCT demographic.subject_id) 절을 사용하여 중복을 제거한 후 환자의 수를 세는 방식이 동일합니다.\"\n}"

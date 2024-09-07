@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Points difference'가 '–26'인 조건을 조회하지만, 두 번째 쿼리는 'Points difference'가 'points difference'인 조건을 조회합니다. 두 쿼리는 비교하는 값이 서로 다르기 때문에 결과가 다를 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

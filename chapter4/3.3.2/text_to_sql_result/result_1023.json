@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 본질적으로 동일합니다. 동일한 조건('Airport'가 'barcelona airport'이고 'Aircraft movements'가 290,004미만인 경우)으로 'Cargo traffic'의 최대값을 선택하는 쿼리입니다. 두 쿼리 모두 같은 구문과 조건을 사용하고 있으며, 결과도 같으므로 의미적으로 동일합니다.\"\n}"

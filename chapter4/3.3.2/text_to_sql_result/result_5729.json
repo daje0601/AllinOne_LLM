@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 고객의 주소에 'WY'가 포함되어 있고 신용카드를 결제 수단으로 사용하지 않는 고객을 선택하는데 사용됩니다. 두 쿼리 모두 동일한 조건을 표현하고 있으며, NOT payment_method_code = 'Credit Card'와 payment_method_code <> 'Credit Card'는 의미적으로 동일합니다. 따라서 두 쿼리는 결과가 같습니다.\"\n}"

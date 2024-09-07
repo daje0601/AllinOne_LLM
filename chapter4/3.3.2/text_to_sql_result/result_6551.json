@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 서로 다른 이벤트(name)인 'king of the cage 6: conquest'와 'rumble of the kings 6'를 참조하고 있으므로, 반환하는 결과가 다릅니다. 첫 번째 쿼리는 'king of the cage 6: conquest' 이벤트에서의 상대를 찾고, 두 번째 쿼리는 'rumble of the kings 6' 이벤트에서의 상대를 찾기 때문입니다.\"\n}"

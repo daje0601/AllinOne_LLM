@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAd1fPJ0X4m7Tb9yBzKoeT13Ad3",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 태양계에서 중력이 약한 천체를 언급했으나 일부 예시는 틀리거나 오류가 많아 관련성이 낮음.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델이 언급한 세레스는 맞지만, 토성의 위성 이오와 목성의 위성 에로스에 대한 설명은 잘못되었음. 명왕성의 위성 타나고는 실제로 존재하지 않음.\"},\"completeness\":{\"score\":4,\"explanation\":\"구체적인 천체를 몇 가지 언급했으나, 정확성이 떨어지고 일부 잘못된 정보를 포함하여 완전성이 낮음.\"},\"clarity\":{\"score\":5,\"explanation\":\"답변의 문장은 전반적으로 이해하기 쉽지만, 부정확한 정보가 포함되어 있어 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":3,\"explanation\":\"참조 답변의 구조와 내용과는 상당히 다른 방향으로 나아갔으며, 직접적인 비교가 어려움.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 태양계에서 중력이 약한 천체를 언급했으나 일부 예시는 틀리거나 오류가 많아 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델이 언급한 세레스는 맞지만, 토성의 위성 이오와 목성의 위성 에로스에 대한 설명은 잘못되었음. 명왕성의 위성 타나고는 실제로 존재하지 않음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "구체적인 천체를 몇 가지 언급했으나, 정확성이 떨어지고 일부 잘못된 정보를 포함하여 완전성이 낮음."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "답변의 문장은 전반적으로 이해하기 쉽지만, 부정확한 정보가 포함되어 있어 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "참조 답변의 구조와 내용과는 상당히 다른 방향으로 나아갔으며, 직접적인 비교가 어려움."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222463,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 545,
+        "total_tokens": 789
+    }
+}

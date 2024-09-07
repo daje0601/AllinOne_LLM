@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBJ5HoqXsCHPNFNBuFpnb4lmWwJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 질문의 주요 내용인 오늘의커피와 아메리카노의 차이를 다루고 있으나, 일부 사항이 혼란스러움.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델이 제공한 정보는 몇 가지 오류가 있으며, 아메리카노에 사용하는 콩 종류에 대한 설명이 부정확함.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 질문에 대한 일부 측면을 다루었으나, 모든 관련 정보를 충분히 설명하지 못함.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전체적으로 이해하기 쉽지만, 일부 문장이 불분명하고 혼동을 줄 수 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 내용을 포함하고 있으나, 세부사항에서 차이가 큼.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문의 주요 내용인 오늘의커피와 아메리카노의 차이를 다루고 있으나, 일부 사항이 혼란스러움."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델이 제공한 정보는 몇 가지 오류가 있으며, 아메리카노에 사용하는 콩 종류에 대한 설명이 부정확함."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 질문에 대한 일부 측면을 다루었으나, 모든 관련 정보를 충분히 설명하지 못함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전체적으로 이해하기 쉽지만, 일부 문장이 불분명하고 혼동을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 내용을 포함하고 있으나, 세부사항에서 차이가 큼."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222505,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 685,
+        "total_tokens": 901
+    }
+}

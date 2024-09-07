@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 CreationDate가 '2015-01-01' 이후인 사용자만 선택하고, 선택된 열이 Id, DisplayName, Reputation, LastAccessDate, CreationDate, AboutMe, Views로 제한됩니다. 반면 두 번째 쿼리는 모든 사용자에 대해 모든 열을 선택합니다. 따라서 결과가 서로 다릅니다.\"\n}"

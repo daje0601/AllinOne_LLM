@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAXJc2cQSaqKas5UmwSz36o3DNp",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대해 잘못된 정보를 제공하였고, 충숙왕과 충혜왕의 공동 통치가 이루어졌다고 기술하였으나 이는 사실이 아니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 역사적 사실과 맞지 않으며, 충숙왕과 충혜왕이 공동 통치한 적이 없음을 잘못 기술하고 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변이 공동으로 왕이 되었다는 잘못된 정보 외에도 각 왕의 역할을 설명하였다. 하지만 주제와 관련된 정확한 정보 제공이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 명료하게 서술되었으나, 잘못된 정보로 인해 의미가 왜곡되었다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 상당히 다른 주장을 하고 있으며, 역사적 사실에 어긋나기 때문에 유사성이 낮다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대해 잘못된 정보를 제공하였고, 충숙왕과 충혜왕의 공동 통치가 이루어졌다고 기술하였으나 이는 사실이 아니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 역사적 사실과 맞지 않으며, 충숙왕과 충혜왕이 공동 통치한 적이 없음을 잘못 기술하고 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변이 공동으로 왕이 되었다는 잘못된 정보 외에도 각 왕의 역할을 설명하였다. 하지만 주제와 관련된 정확한 정보 제공이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 명료하게 서술되었으나, 잘못된 정보로 인해 의미가 왜곡되었다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 상당히 다른 주장을 하고 있으며, 역사적 사실에 어긋나기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222457,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 468,
+        "total_tokens": 719
+    }
+}

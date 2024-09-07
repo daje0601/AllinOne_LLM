@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'High points'의 값이 다릅니다. 첫 번째 쿼리는 'alonzo morning (24)'로 표기되었고, 두 번째 쿼리는 'alonzo mourning (24)'로 표기되었습니다. 이 두 문자열은 서로 다르기 때문에, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

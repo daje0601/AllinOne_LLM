@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 두 쿼리 모두 'San Jose State' 대학교에서 뛰어난 선수들의 포지션을 선택하기 위해 동일한 조건 ('College' = 'San Jose State')을 사용하여 'Position' 컬럼의 값을 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 학교 이름을 사용하고 있습니다. 첫 번째 쿼리는 'chevuthy primary school'을, 두 번째 쿼리는 'chowbent primary school'을 조회하고 있으므로, 종속된 결과는 서로 다릅니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAT0j9be7SUHG4cOb44RYqYmjhj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 화장실 조명 아래에서 얼굴이 더 이쁘게 보이는 이유와 연결되지만, 질문에 대한 명확한 설명이 다소 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델이 제공한 정보 중 일부는 부정확하거나 불완전하다. 예를 들어, 얼굴의 각진 부분 강조는 노란색 불빛과 관련이 있으나 과학적 근거가 부족하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 화장실 조명 아래의 효과에 대한 일부 이유를 언급하지만, 참조 답변처럼 여러 요소를 포괄적으로 설명하지 않는다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 일부 표현은 복잡하게 느껴질 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제는 같으나, 설명 방식과 제시하는 정보가 크게 다르다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 화장실 조명 아래에서 얼굴이 더 이쁘게 보이는 이유와 연결되지만, 질문에 대한 명확한 설명이 다소 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델이 제공한 정보 중 일부는 부정확하거나 불완전하다. 예를 들어, 얼굴의 각진 부분 강조는 노란색 불빛과 관련이 있으나 과학적 근거가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 화장실 조명 아래의 효과에 대한 일부 이유를 언급하지만, 참조 답변처럼 여러 요소를 포괄적으로 설명하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 일부 표현은 복잡하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 같으나, 설명 방식과 제시하는 정보가 크게 다르다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222453,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 813,
+        "total_tokens": 1058
+    }
+}

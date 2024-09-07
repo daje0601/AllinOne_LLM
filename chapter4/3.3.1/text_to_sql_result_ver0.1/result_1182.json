@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'admission_type'이 'ELECTIVE'인 환자만을 세는 조건이 추가되어 있습니다. 반면 두 번째 쿼리는 'admission_type'에 대한 조건이 없으므로 모든 환자를 포함합니다. 따라서 결과가 다를 수 있습니다.\"\n}"

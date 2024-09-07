@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 조건으로 사용된 episode_title의 값이 서로 다르며, 이는 서로 다른 제목을 참조하고 있습니다. 첫 번째 쿼리는 'life sucks'를, 두 번째 쿼리는 'life's no fun anymore'를 찾고 있어서 의미적으로 일치하지 않습니다.\"\n}"

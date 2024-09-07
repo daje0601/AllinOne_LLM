@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Away team'의 값이 다릅니다. 첫 번째 쿼리는 'barnsley'를 사용하고, 두 번째 쿼리는 'banbury united'를 사용합니다. 문제에서 요구하는 팀은 'Banbury United'이므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

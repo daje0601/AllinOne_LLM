@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAROnSi9JdL9MK9RP90z7yyjXPO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 돈까스를 두 번 튀기지 않는 이유에 대해 설명하고 있지만, 보다 구체적인 내용이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정확하지만, 주된 이유인 고기를 얇게 펴서 만드는 것에 대한 설명이 부족하고, 잘못된 부분도 존재한다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 여러 이유를 제시했지만, 돈까스를 두 번 튀기지 않는 주된 이유에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 다소 혼란스러운 부분이 있어 이해하기 어려운 요소가 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있으나, 핵심 내용이 달라 직접적인 비교가 어렵다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 돈까스를 두 번 튀기지 않는 이유에 대해 설명하고 있지만, 보다 구체적인 내용이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정확하지만, 주된 이유인 고기를 얇게 펴서 만드는 것에 대한 설명이 부족하고, 잘못된 부분도 존재한다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 여러 이유를 제시했지만, 돈까스를 두 번 튀기지 않는 주된 이유에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 다소 혼란스러운 부분이 있어 이해하기 어려운 요소가 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있으나, 핵심 내용이 달라 직접적인 비교가 어렵다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222451,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 622,
+        "total_tokens": 848
+    }
+}

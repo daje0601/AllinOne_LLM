@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'treatmentname' 조건이 서로 다릅니다. 첫 번째 쿼리는 'consultation with gastrointestinal physician'을 사용하고, 두 번째 쿼리는 'gastroenterology consultation'을 사용합니다. 이 두 이름은 의미가 유사할 수는 있으나, 데이터베이스에서는 서로 다른 문자열로 처리되어Semantically different in SQL context, leading to potentially different results.\"\n}"

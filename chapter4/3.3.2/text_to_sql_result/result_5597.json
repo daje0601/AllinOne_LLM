@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기준을 사용하여 데이터를 집계하고 있습니다. 첫 번째 쿼리는 특정 연도의 미해결 질문들 중에서 주별로 질문의 수를 세고 있으며, CreationDate와 AnswerCount, ClosedDate, CommunityOwnedDate, AcceptedAnswerId 등 여러 필드를 필터링 조건으로 사용합니다. 반면 두 번째 쿼리는 모든 Posts에서 PostTypeId가 1인 질문들에 대해 CreationDate의 연도, 월, 일을 기준으로 전체 개수를 세고 있습니다. 즉, 두 쿼리는 설정한 조건과 범위가 다르기 때문에 동일한 결과를 반환하지 않습니다.\"\n}"

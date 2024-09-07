@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 필드인 'No. in series'와 'No. in total'을 기준으로 데이터를 필터링하고 있습니다. 첫 번째 쿼리는 '30화'를 'No. in series'에서 찾고, 두 번째 쿼리는 'No. in total'에서 찾기 때문에 결과가 의미적으로 동일하지 않습니다.\"\n}"

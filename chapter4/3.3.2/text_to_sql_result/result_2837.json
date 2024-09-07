@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Ballynoe'와 'Killasseragh'라는 두 Townland의 Barony를 찾으려 하지만 조건이 'AND'로 연결되어 있어 둘 다 동일한 Townland로 검색하려는 잘못된 구성입니다. 반면 두 번째 쿼리는 'Ballynoe'라는 Civil parish에서 'Killasseragh'라는 Townland의 면적을 찾고 있어 서로 다른 기준으로 데이터를 검색합니다. 따라서 두 쿼리는 의미적으로 같은 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBQi9m8kWTuMAAAVaDXzU3nypdM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 의료보험 및 부양자의 결혼 상황에 대한 정보를 제공하지만, 질문의 주된 내용인 자격 상실 후 의료비 정산에 대한 직접적인 정보가 부족함.\"},\"accuracy\":{\"score\":4,\"explanation\":\"의료비 환불과 관련된 정보가 일부 부정확하고, 부양자와 결혼 후 환불 요청 가능성에 대한 내용을 정확히 설명하지 않음.\"},\"completeness\":{\"score\":6,\"explanation\":\"회사의 정책이나 절차에 대한 중요한 세부 사항이 부족하여 완전성이 떨어짐. 특히 정산 방법에 대한 설명이 혼란스러움.\"},\"clarity\":{\"score\":7,\"explanation\":\"전반적인 구조가 명확하지만, 일부 내용에서 전문 용어 사용이나 복잡한 문장이 있어서 이해가 다소 어려울 수 있음.\"},\"similarity\":{\"score\":3,\"explanation\":\"참조 답변과의 내용 차이가 많으며, 주제에 대한 접근 방식이 다름.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 의료보험 및 부양자의 결혼 상황에 대한 정보를 제공하지만, 질문의 주된 내용인 자격 상실 후 의료비 정산에 대한 직접적인 정보가 부족함."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "의료비 환불과 관련된 정보가 일부 부정확하고, 부양자와 결혼 후 환불 요청 가능성에 대한 내용을 정확히 설명하지 않음."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "회사의 정책이나 절차에 대한 중요한 세부 사항이 부족하여 완전성이 떨어짐. 특히 정산 방법에 대한 설명이 혼란스러움."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "전반적인 구조가 명확하지만, 일부 내용에서 전문 용어 사용이나 복잡한 문장이 있어서 이해가 다소 어려울 수 있음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "참조 답변과의 내용 차이가 많으며, 주제에 대한 접근 방식이 다름."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222512,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 690,
+        "total_tokens": 925
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 film_market_estimation 테이블에서 직접적으로 Type의 개수를 세고 있습니다. 반면, 두 번째 쿼리는 film 테이블과 film_market_estimation 테이블을 조인한 후에 Type의 개수를 세고 있습니다. 두 쿼리 모두 Type의 개수를 세지만, 첫 번째 쿼리는 film 테이블과의 관계를 고려하지 않으므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

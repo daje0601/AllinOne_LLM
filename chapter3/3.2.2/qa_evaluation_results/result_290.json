@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAe2imDv6Iy8zPVk3egW10axBLf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 인스턴트 음식의 건강에 대한 여러 문제점을 다루고 있어서 질문과 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변에서 언급된 내용은 전반적으로 정확하지만, 몇 가지 세부 사항(예: 화학물질의 영향 등)이 참조 답변보다 부족하게 설명되었습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 문제점을 나열하고 있지만, 참조 답변보다 덜 포괄적이며 일부 중요한 요소를 놓친 느낌이 있습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 명확하게 서술되고 이해하기 쉬운 구조로 되어 있습니다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변과 참조 답변은 유사한 주제를 말하고 있지만, 표현 방식과 세부사항에서 차이가 있습니다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 인스턴트 음식의 건강에 대한 여러 문제점을 다루고 있어서 질문과 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변에서 언급된 내용은 전반적으로 정확하지만, 몇 가지 세부 사항(예: 화학물질의 영향 등)이 참조 답변보다 부족하게 설명되었습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 문제점을 나열하고 있지만, 참조 답변보다 덜 포괄적이며 일부 중요한 요소를 놓친 느낌이 있습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 명확하게 서술되고 이해하기 쉬운 구조로 되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변과 참조 답변은 유사한 주제를 말하고 있지만, 표현 방식과 세부사항에서 차이가 있습니다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222464,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 897,
+        "total_tokens": 1121
+    }
+}

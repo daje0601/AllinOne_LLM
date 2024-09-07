@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Official Name'에서 비교하는 값이 다릅니다. 생성된 쿼리는 'valmoural'을 사용하고, 정답 쿼리는 'balmoral'을 사용합니다. 이로 인해 결과가 다르게 될 것입니다.\"\n}"

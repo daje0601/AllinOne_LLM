@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있으며, 반환하는 결과도 다릅니다. 첫 번째 쿼리는 'Driving wheels'가 '12' x 17''', 'Notes'가 'Industrial'이며, 'Builder'가 'Maning Wardle'인 이륜 기관차의 'Wheel arrangement'를 검색합니다. 반면에 두 번째 쿼리는 'Notes'가 'Ex-industrial'이고, 'Builder'가 'Manning Wardle'인 기관차의 'Name'을 검색합니다. 이로 인해 두 쿼리는 서로 다른 기준으로 필터링하고 각기 다른 열을 선택하므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB9qhr6sXnCU4BL8hun2jL1qHFM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문의 핵심인 ‘다리를 드는 반응’의 원인에 대해 잘 설명하고 있으며 관련성이 높다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 대체로 정확하지만, 반사작용에 대한 구체적인 설명이 부족하고 '반사궁'과 '반사중추'에 대한 언급이 없음.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 반사신경 시스템에 대한 설명은 충분하나, 더욱 깊이 있는 설명이나 예시가 포함되면 좋았을 것 같다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 기술적인 용어도 포함되어 있지만 전반적으로 명확하고 이해하기 쉽게 서술되어 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 전반적인 내용을 공유하고 있지만, 참조 답변의 많은 요소들을 놓치고 있어 유사성이 낮다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문의 핵심인 ‘다리를 드는 반응’의 원인에 대해 잘 설명하고 있으며 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대체로 정확하지만, 반사작용에 대한 구체적인 설명이 부족하고 '반사궁'과 '반사중추'에 대한 언급이 없음."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 반사신경 시스템에 대한 설명은 충분하나, 더욱 깊이 있는 설명이나 예시가 포함되면 좋았을 것 같다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 기술적인 용어도 포함되어 있지만 전반적으로 명확하고 이해하기 쉽게 서술되어 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 전반적인 내용을 공유하고 있지만, 참조 답변의 많은 요소들을 놓치고 있어 유사성이 낮다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222495,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 573,
+        "total_tokens": 810
+    }
+}

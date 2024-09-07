@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'cellpath'와 'celllabel'의 조건이 서로 다릅니다. 첫 번째 쿼리는 'cellpath'가 '%output%'이고 'celllabel'이 'iv flush: antecubital 20 gauge'인 반면, 두 번째 쿼리는 'cellpath'가 '%intake%'이고 'celllabel'이 'per iv flush: antecubital l 20 gauge'입니다. 이로 인해 두 쿼리는 서로 다른 데이터를 조회하므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Semifinalists' 열에서 'greg rusedski, pete sampras'를 검색하여 준결승 진출자를 찾고, 두 번째 쿼리는 'Finalist' 열에서 'greg rusedski'를 검색하여 결승 진출자를 찾습니다. 이 둘은 서로 다른 대회의 참가자를 기준으로 하므로, 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

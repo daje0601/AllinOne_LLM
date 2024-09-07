@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 'Supporting' 필드가 'USAC National Midget Series'인 경우에 대해 폴 포지션을 반환합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

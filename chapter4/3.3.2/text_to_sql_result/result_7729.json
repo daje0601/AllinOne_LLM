@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'top_team_in_regular_season__points_' 필드의 비교 값이 다릅니다. 첫 번째 쿼리는 'Kansas City Spurs - 110'를 사용하고, 두 번째 쿼리는 'Kansas City Spurs (110 points)'를 사용합니다. 이 두 문자열은 서로 다르기 때문에, 쿼리의 결과도 다르게 나타날 것입니다.\"\n}"

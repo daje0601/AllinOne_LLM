@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBSqEDZV9luIo0CApwZH3IfhPz4",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 인삼의 종류와 효능에 대한 질문에 답하고 있지만, 모든 종류에 대한 정보를 충분히 제공하지 않았다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 설명 중 일부는 부정확하다. 예를 들어, 수삼의 정의와 효과에 대한 설명이 정확하지 않다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 수삼, 백삼, 홍삼에 대한 일부 정보를 제공하였으나, 복용법에 대한 구체적인 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 나름대로 구조가 있었지만, 일부 문장이 모호하고 명확하지 않은 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 다르고, 개별 효과에 대한 설명이 지나치게 단순화되었다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 인삼의 종류와 효능에 대한 질문에 답하고 있지만, 모든 종류에 대한 정보를 충분히 제공하지 않았다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 설명 중 일부는 부정확하다. 예를 들어, 수삼의 정의와 효과에 대한 설명이 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 수삼, 백삼, 홍삼에 대한 일부 정보를 제공하였으나, 복용법에 대한 구체적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 나름대로 구조가 있었지만, 일부 문장이 모호하고 명확하지 않은 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 다르고, 개별 효과에 대한 설명이 지나치게 단순화되었다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222514,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 220,
+        "prompt_tokens": 962,
+        "total_tokens": 1182
+    }
+}

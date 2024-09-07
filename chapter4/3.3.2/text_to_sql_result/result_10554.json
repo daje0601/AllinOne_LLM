@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query uses MAX(rank) to find the highest rank for 'Day & Age' in 2008, while the second query uses SUM(rank), which adds up all ranks. These two operations yield different results: MAX gives the best rank, while SUM provides the total of all ranks. Therefore, the queries are not semantically equivalent.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 동일하게 Paul Edwards의 나이와 생년월일을 선택하고 같은 데이터 소스인 demographic 테이블에서 정보를 추출하고 있으므로 의미적으로 동일합니다.\"\n}"

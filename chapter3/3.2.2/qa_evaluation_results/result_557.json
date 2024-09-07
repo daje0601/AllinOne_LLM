@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB27QLJI2P3OVE39R8UgigSvkuE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 측백수림에 대한 설명을 포함하고 있으나, 질문에 있는 천연기념물로서의 지정 이유와의 관련성은 약하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 정확하지 않으며, 천연기념물로 지정된 이유에 대한 잘못된 정보가 포함되어 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 이유를 나열하고 있으나, 식물 분포학적 가치와 측백수림의 유일성을 언급하지 않는 등 다소 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 구성은 적절하나, 특정 용어 사용이 복잡하여 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 전반적으로 매우 다르며, 주어진 질문에 대해 논리적 연결이 부족하다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 측백수림에 대한 설명을 포함하고 있으나, 질문에 있는 천연기념물로서의 지정 이유와의 관련성은 약하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 정확하지 않으며, 천연기념물로 지정된 이유에 대한 잘못된 정보가 포함되어 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 이유를 나열하고 있으나, 식물 분포학적 가치와 측백수림의 유일성을 언급하지 않는 등 다소 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 구성은 적절하나, 특정 용어 사용이 복잡하여 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 전반적으로 매우 다르며, 주어진 질문에 대해 논리적 연결이 부족하다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222488,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 597,
+        "total_tokens": 833
+    }
+}

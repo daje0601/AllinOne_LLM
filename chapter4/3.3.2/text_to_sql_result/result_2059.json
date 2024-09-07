@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 목적이 다릅니다. 첫 번째 쿼리는 'Secondary Class Champion'이 'marcello puglisi (formula master italia)'인 시즌을 단순히 반환합니다. 반면, 두 번째 쿼리는 해당 시즌들의 합계를 계산하려고 하며, 이는 의미적으로 다른 결과를 생성합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

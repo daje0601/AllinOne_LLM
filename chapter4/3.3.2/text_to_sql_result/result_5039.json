@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 결과를 반환합니다. 둘 다 'winners_from_previous_round'가 '16'인 경우의 'new_entries_this_round' 값을 가져옵니다.\"\n}"

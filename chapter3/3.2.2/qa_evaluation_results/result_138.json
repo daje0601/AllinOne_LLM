@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPryM1PS8fAwXj3xXSxmqogQt3",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문의 주제와 관련이 없고, 특정 장소의 고드름에 대한 정보가 아닌 북한의 동상에 대한 정보이다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 언급한 정보는 사실일 수 있지만, 질문과 관련된 주제와는 무관하며, 고드름에 대한 구체적인 문의에 맞지 않는다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 정보를 제공하지 않으며, 고드름에 관한 나열이 아닌 동상에 대한 설명만 포함하고 있어 포괄적이지 않다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 내용은 비교적 명확하지만 질문의 맥락과 관련성을 가지지 않아 여전히 의문을 남긴다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제와 맥락이 완전히 다르다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문의 주제와 관련이 없고, 특정 장소의 고드름에 대한 정보가 아닌 북한의 동상에 대한 정보이다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 언급한 정보는 사실일 수 있지만, 질문과 관련된 주제와는 무관하며, 고드름에 대한 구체적인 문의에 맞지 않는다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 정보를 제공하지 않으며, 고드름에 관한 나열이 아닌 동상에 대한 설명만 포함하고 있어 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 내용은 비교적 명확하지만 질문의 맥락과 관련성을 가지지 않아 여전히 의문을 남긴다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제와 맥락이 완전히 다르다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 445,
+        "total_tokens": 689
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Bryan Moore'가 감독하고 'Chris Peterson'이 작성한 경우를 찾고 있으며, 두 번째 쿼리는 'Bryan Moore & Chris Peterson'이라는 조건을 사용하여 단일 문자열로 두 사람이 동시에 작가인 경우를 찾고 있습니다. 따라서 결과가 서로 다를 수 있습니다.\"\n}"

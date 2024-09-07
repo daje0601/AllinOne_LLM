@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'qualifying_start_date' 값을 특정 문자열 'Qualifying Start Date'와 비교하지만, 두 번째 쿼리는 'qualifying_start_date'와 같은 열의 값을 자신과 비교하고 있습니다. 따라서 두 쿼리가 의미적으로 동일하지 않습니다.\"\n}"

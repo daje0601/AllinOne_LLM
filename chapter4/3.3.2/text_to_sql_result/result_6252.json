@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'tournament'의 값이 다릅니다. 첫 번째 쿼리는 'first division onduras'를 기준으로 검색하고, 두 번째 쿼리는 '1st division honduras'를 기준으로 검색합니다. 따라서, 두 쿼리는 각각 다른 조건을 가지고 있어 의미적으로 동일하지 않습니다.\"\n}"

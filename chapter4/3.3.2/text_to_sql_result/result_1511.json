@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리('SELECT cname FROM college ORDER BY enr LIMIT 1')는 'college' 테이블에서 전체 학교 중 학생 수(enr)가 가장 적은 하나의 학교만을 선택합니다. 반면, 두 번째 쿼리('SELECT cname, state, MIN(enr) FROM college GROUP BY state')는 각 주(state)별로 학생 수(enr)가 가장 적은 학교를 반환합니다. 따라서 두 쿼리는 결과적으로 의미적으로 동일하지 않으며, 첫 번째 쿼리는 전체 학교에서 하나만 선택하고, 두 번째 쿼리는 주별로 각각 선택합니다.\"\n}"

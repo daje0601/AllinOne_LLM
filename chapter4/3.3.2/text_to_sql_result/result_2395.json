@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 'Qualifying start date'의 개수를 세어 CONCACAF 연맹과 관련된 데이터만 필터링하여 반환합니다.\"\n}"

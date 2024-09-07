@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 'Athlete' 필드의 값이 서로 다릅니다. 첫 번째 쿼리는 'alline francis'를 선택하고, 두 번째 쿼리는 'alleyne francique'를 선택합니다. 이 두 이름은 서로 다른 선수이며, 따라서 결과가 의미적으로 동일하지 않습니다.\"\n}"

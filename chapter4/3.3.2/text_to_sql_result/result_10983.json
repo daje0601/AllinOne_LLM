@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단(long_title)에서 환자를 세고 있습니다. 생성된 쿼리는 'Delirium, unspecified'를 기준으로 하고 있지만, 정답 쿼리는 'Delirium due to conditions classified elsewhere'를 기준으로 하고 있어 서로 다른 결과를 반환합니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

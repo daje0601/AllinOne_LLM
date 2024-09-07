@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 이름을 기준으로 arch_type을 조회하고 있습니다. 첫 번째 쿼리는 'montantés bridge (pont-ford-de-pierre)'를, 두 번째 쿼리는 'pont de montanges (pont-des-pierres)'를 사용하고 있습니다. 이 두 이름은 서로 다른 다리로 보이며, 따라서 반환되는 arch_type도 다를 가능성이 높습니다.\"\n}"

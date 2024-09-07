@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBd904JYBADIlqAHrcgP7pM4Uuf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 모기 물린 부위를 빨리 낫게 하는 다양한 방법을 제시하여 질문에 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제시한 방법 중 일부는 정확하지만, 특히 알코올이나 커피의 사용법은 보편적으로 알려진 효과와는 차이가 있어 정확성이 다소 떨어집니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델의 답변은 여러 방법을 포함하고 있으나, 참조 답변에서 언급된 비누 세척 및 충분한 수분 섭취와 같은 예방 조치에 대한 내용이 부족하여 완전성에 있어 조금 아쉽습니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 각 방법을 명확하게 설명하고 있어 쉽게 이해할 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사한 점이 있으나 방법의 구체성과 일부 내용이 다르기 때문에 유사성이 낮습니다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 모기 물린 부위를 빨리 낫게 하는 다양한 방법을 제시하여 질문에 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제시한 방법 중 일부는 정확하지만, 특히 알코올이나 커피의 사용법은 보편적으로 알려진 효과와는 차이가 있어 정확성이 다소 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 여러 방법을 포함하고 있으나, 참조 답변에서 언급된 비누 세척 및 충분한 수분 섭취와 같은 예방 조치에 대한 내용이 부족하여 완전성에 있어 조금 아쉽습니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 각 방법을 명확하게 설명하고 있어 쉽게 이해할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사한 점이 있으나 방법의 구체성과 일부 내용이 다르기 때문에 유사성이 낮습니다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 918,
+        "total_tokens": 1169
+    }
+}

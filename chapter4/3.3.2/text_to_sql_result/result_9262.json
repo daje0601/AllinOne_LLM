@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 'uci europe tour'라는 조건으로 table_204_4에서 레코드 수를 동일하게 계산하고 있습니다.\"\n}"

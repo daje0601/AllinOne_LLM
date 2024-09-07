@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 조인하는 테이블의 순서만 다를 뿐, 모두 'Bookings' 테이블에서 'Status_Code'가 'stop'인 데이터를 필터링한 후, 'Drama_Workshop_Groups'와 조인을 통해 'Store_Name'을 세고 있습니다. 그룹화와 정렬 또한 동일하게 적용되고 있어 최종 결과는 동일합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 진단명을 기준으로 하고 있습니다. 첫 번째 쿼리는 'Pseudoaneurysm of artery'를 검색하는 반면, 두 번째 쿼리는 'Fever presenting with conditions classified elsewhere'를 검색합니다. 따라서, 사보험을 가진 환자의 수를 세는 작업에서 두 쿼리가 의미적으로 동일하지 않습니다.\"\n}"

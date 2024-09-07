@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 결과적으로 같은 데이터를 반환합니다. 각각의 쿼리가 수행하는 작업은 'basketball_match' 테이블에서 'All_Games'와 'ACC_Percent'를 선택하고, 'ACC_Percent'를 기준으로 내림차순으로 정렬하는 것입니다. 따라서 두 쿼리는 의미적으로 동일합니다.\"\n}"

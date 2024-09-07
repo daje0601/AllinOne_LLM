@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 'cellulitis - abdominal/pelvic'와 'cellulitis - abdomen/pelvis'라는 단어의 용어 차이가 있을 뿐, 나머지 구조와 로직은 동일하다. 두 쿼리 모두 2015년 이후 같은 달에 복부/골반 세포염 진단을 받은 환자에 대한 세 가지 가장 흔한 진단을 계산하는 데 사용되며, COUNT와 DENSE_RANK를 사용하여 결과를 도출한다. 이러한 차이는 진단 이름의 표현 방식일 뿐, 쿼리의 목적과 결과는 동일하다.\"\n}"

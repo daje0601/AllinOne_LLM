@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAq4JvYf8II7PTExIxVJ5x3A3Nu",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문에 대해 세계 최초의 컴퓨터와 현재의 컴퓨터 간의 차이를 잘 설명하고 있어 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델은 ENIAC(에니악)을 최초의 컴퓨터로 언급했으나, 파스칼의 계산기나 튜링머신 등 초창기 컴퓨터에 대한 언급이 부족하였습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 최초의 컴퓨터에 대한 정보를 제공하였지만, 현재의 컴퓨터와의 차이에 대한 설명이 다소 부족하여 완전성이 떨어집니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 문장이 명확하고 이해하기 쉬웠습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사하지만, 다루고 있는 내용과 관점이 다소 차이가 있어 유사성이 낮습니다.\"},\"average_score\":8.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문에 대해 세계 최초의 컴퓨터와 현재의 컴퓨터 간의 차이를 잘 설명하고 있어 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델은 ENIAC(에니악)을 최초의 컴퓨터로 언급했으나, 파스칼의 계산기나 튜링머신 등 초창기 컴퓨터에 대한 언급이 부족하였습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 최초의 컴퓨터에 대한 정보를 제공하였지만, 현재의 컴퓨터와의 차이에 대한 설명이 다소 부족하여 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 문장이 명확하고 이해하기 쉬웠습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사하지만, 다루고 있는 내용과 관점이 다소 차이가 있어 유사성이 낮습니다."
+                    },
+                    "average_score": 8.0
+                }
+            }
+        }
+    ],
+    "created": 1723222476,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 623,
+        "total_tokens": 858
+    }
+}

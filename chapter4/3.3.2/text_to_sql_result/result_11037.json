@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 쿼리이며, 같은 테이블인 Document_Locations에서 Date_in_Location_From을 기준으로 문서 수를 세고, 그 결과를 COUNT(Date_in_Location_From)의 오름차순으로 정렬합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

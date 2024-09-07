@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일합니다. 둘 다 'points'가 8보다 크고 'player'가 'danny mcguire'이며 'goals'가 0보다 큰 조건을 만족하는 'squad_no'의 합계를 계산합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

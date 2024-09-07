@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 검사할 진단 단축명이 서로 다릅니다. 첫 번째 쿼리는 'Hydroureteronephros NOS'를, 두 번째 쿼리는 'Normal pressure hydroceph'를 요청하고 있습니다. 이로 인해 두 쿼리가 반환하는 결과는 달라질 것입니다.\"\n}"

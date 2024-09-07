@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하여 사용자 정보를 필터링합니다. 첫 번째 쿼리는 Location이 'Coimbatore'와 유사하지만, Reputation이 1000 이상인 사용자만 선택하는 반면, 두 번째 쿼리는 Location이 'Coimbatore' 또는 'Karur'인 모든 사용자들을 포함합니다. 따라서, 두 쿼리는 서로 다른 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'celllabel'이 'continuous infusate'이고 'cellpath'가 '%output%'인 경우를 검색하고 있으며, 두 번째 쿼리는 'celllabel'이 'continuous infusion meds'이고 'cellpath'가 '%intake%'인 경우를 검색하고 있습니다. 따라서 조건이 다르게 설정되어 있기 때문에 의미적으로 동일하지 않습니다.\"\n}"

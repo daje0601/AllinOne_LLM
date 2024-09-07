@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Block' 필드에서 검색하는 문자열이 서로 다릅니다. 첫 번째 쿼리는 'i/ii hybrid'를 검색하고, 두 번째 쿼리는 'block i/ii hybrid'를 검색합니다. 이로 인해 반환되는 결과가 다를 수 있으며, 'block i/ii hybrid'는 'i/ii hybrid'와 의미가 다르기 때문에 두 쿼리는 의미적으로 동일한 결과를 제공하지 않습니다.\"\n}"

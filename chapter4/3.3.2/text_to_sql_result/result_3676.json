@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. 두 쿼리 모두 home_team이 'Carlton'인 경우의 away_team을 score로 선택하므로 문제에서 요구하는 결과를 같은 방식으로 반환합니다.\"\n}"

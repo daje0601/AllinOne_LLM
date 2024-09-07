@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단코드의 short_title 부분이 다릅니다. 첫 번째 쿼리는 'staph pneumonia in hos'를 사용하고, 두 번째 쿼리는 'staph pneumonia nec'를 사용하고 있습니다. 이는 서로 다른 진단을 나타내므로 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 모두 Team_Name과 ACC_Percent를 선택하고 Team_Name으로 오름차순 정렬을 수행합니다.\"\n}"

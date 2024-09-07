@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBXd9nU46xOQYM69SuOdpJVudIS",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 자원민족주의와 자원의 무기화에 대한 설명을 포함하고 있으며, 질문과 관련된 정보를 제공하고 있지만 참조 답변에 비해 구체성이 떨어진다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 일부 설명이 다소 모호하거나 불분명하게 표현되어 있어 정확성에서 참조 답변보다 낮은 평가를 받는다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 두 개념에 대한 설명은 있지만, 해당 개념 사이의 관계 및 발전 경과에 대한 설명이 부족하여 포괄성이 떨어진다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽지만, 일부 문장 구조가 복잡하여 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 개념적으로 다소 차별화되며, 두 개념의 관계에 대한 설명이 부족하여 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 자원민족주의와 자원의 무기화에 대한 설명을 포함하고 있으며, 질문과 관련된 정보를 제공하고 있지만 참조 답변에 비해 구체성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 일부 설명이 다소 모호하거나 불분명하게 표현되어 있어 정확성에서 참조 답변보다 낮은 평가를 받는다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 두 개념에 대한 설명은 있지만, 해당 개념 사이의 관계 및 발전 경과에 대한 설명이 부족하여 포괄성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽지만, 일부 문장 구조가 복잡하여 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 개념적으로 다소 차별화되며, 두 개념의 관계에 대한 설명이 부족하여 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222519,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 797,
+        "total_tokens": 1049
+    }
+}

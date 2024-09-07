@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Private/ Disciples of Christ' 소속의 등록 인원 수를 COUNT 함수를 사용하여 세는 반면, 두 번째 쿼리는 해당 소속의 'enrollment' 값을 반환합니다. 따라서 두 쿼리는 반환하는 결과가 다르며, 의미적으로 동일하지 않습니다.\"\n}"

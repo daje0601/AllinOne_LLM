@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAfXnztk1VaEtLsJ0b7B6OJEd9L",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 부사에 관한 내용으로, 질문에서 묻고 있는 네이버 일어 사전의 ◇와 ◆의 의미와 전혀 관련이 없다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 부사와 조사의 개념에 대해 설명하고 있으나, 이는 질문에 대한 정확한 정보를 제공하지 못하고 오히려 잘못된 내용을 포함하고 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문의 주제와 관련이 없고, 네이버 일어 사전에서의 표시 의미에 대한 설명이 전혀 포함되어 있지 않기 때문에 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문장이 구조적으로 구성되어 있지만, 설명하는 내용이 부적절하여 독자가 혼란을 느낄 수 있다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 전혀 유사성이 없으며, 질문의 내용과 다르다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 부사에 관한 내용으로, 질문에서 묻고 있는 네이버 일어 사전의 ◇와 ◆의 의미와 전혀 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 부사와 조사의 개념에 대해 설명하고 있으나, 이는 질문에 대한 정확한 정보를 제공하지 못하고 오히려 잘못된 내용을 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문의 주제와 관련이 없고, 네이버 일어 사전에서의 표시 의미에 대한 설명이 전혀 포함되어 있지 않기 때문에 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문장이 구조적으로 구성되어 있지만, 설명하는 내용이 부적절하여 독자가 혼란을 느낄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 전혀 유사성이 없으며, 질문의 내용과 다르다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222465,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 754,
+        "total_tokens": 997
+    }
+}

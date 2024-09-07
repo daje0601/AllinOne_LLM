@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 short_title 값을 사용하고 있습니다. 첫 번째 쿼리는 'Int insert lead atri-vent'를 사용하고, 두 번째 쿼리는 'Intraop cardiac pacemak'를 사용하고 있습니다. 문제에서 요구하는 '인트라옵 심장 박동기'와 일치하지 않으며, 각각의 short_title이 다른 이유로 인해 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

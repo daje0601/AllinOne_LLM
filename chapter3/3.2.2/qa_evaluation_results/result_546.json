@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB19AqB1QwHiu3ztcknX4h72oAi",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문의 두 부분(이해 가능성과 발음 차이)을 다루지만, 관련성이 낮은 정보도 포함되어 있어 질문에 대한 집중도가 떨어진다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 사실이 정확하지만, 뉴질랜드에서 영어를 배우는 것이 미국이나 다른 나라 사람들과의 대화에 어려움을 초래한다는 주장은 과장되어 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 질문의 두 가지 주요 측면을 다루기는 했지만, 영국식과 뉴질랜드식 발음의 차이에 대한 설명이 불충분하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 일부 문장에서 표현이 애매하게 느껴질 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 구조적 및 내용적으로 큰 차이가 있으며, 전반적인 방향도 다르다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문의 두 부분(이해 가능성과 발음 차이)을 다루지만, 관련성이 낮은 정보도 포함되어 있어 질문에 대한 집중도가 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 사실이 정확하지만, 뉴질랜드에서 영어를 배우는 것이 미국이나 다른 나라 사람들과의 대화에 어려움을 초래한다는 주장은 과장되어 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 질문의 두 가지 주요 측면을 다루기는 했지만, 영국식과 뉴질랜드식 발음의 차이에 대한 설명이 불충분하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 일부 문장에서 표현이 애매하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 구조적 및 내용적으로 큰 차이가 있으며, 전반적인 방향도 다르다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222487,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 811,
+        "total_tokens": 1056
+    }
+}

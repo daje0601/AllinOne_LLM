@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 완전히 동일하며, 동일한 결과를 반환합니다. 'SELECT Headquarters, COUNT(*) FROM company GROUP BY Headquarters ORDER BY COUNT(*) DESC'라는 구문이 사용되었고, 이는 모든 본사의 목록과 각 본사에 속한 회사 수를 나열하고, 그 결과를 총 회사 수에 대해 내림차순으로 정렬하는 요구사항을 정확히 충족합니다.\"\n}"

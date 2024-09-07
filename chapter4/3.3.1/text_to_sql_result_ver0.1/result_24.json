@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"주어진 두 SQL 쿼리는 완전히 같으며, 같은 테이블인 basketball_match에서 All_Road와 School_ID를 선택하고, All_Road를 기준으로 내림차순으로 정렬하고 있습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

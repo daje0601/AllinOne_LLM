@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 major_depression, schizophrenia, alcohol_abuse, substance_dependence 중 하나라도 TRUE인 경우를 반환합니다. 그러나 두 번째 쿼리는 major_depression이 TRUE이거나 major_mental_illness가 TRUE인 경우도 포함하므로 결과에 차이가 있을 수 있습니다. major_mental_illness가 TRUE인 경우가 첫 번째 쿼리에는 포함되지 않기 때문에 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

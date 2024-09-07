@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 'Surface'가 'carpet'이고 'Tournament'가 'milan, italy'인 경우에 대한 'Opponents in the final'을 선택합니다. 두 쿼리에서 'Tournament'의 문자열이 정확히 일치하므로 의미적으로 동일한 결과를 반환합니다. 공백의 위치는 쿼리의 결과에 영향을 미치지 않습니다.\"\n}"

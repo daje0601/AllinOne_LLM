@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건으로 결과를 집계합니다. 첫 번째 쿼리는 'Verb meaning'이 'to be given'일 때 'Part 4'의 개수를 세고, 두 번째 쿼리는 'Part 4'가 'gegeven'일 때 'Verb meaning'의 개수를 셉니다. 따라서, 두 쿼리는 서로 다른 값을 기준으로 카운트를 하므로 의미적으로 동일하지 않습니다.\"\n}"

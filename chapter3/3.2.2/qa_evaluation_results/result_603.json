@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB6lLs13ThH1vNk0PrxWdmNx4OF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 일본 만두의 기원과 역사에 대해 언급하고 있으며, 관련된 정보들을 포함하고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 정보 중 일부는 정확하지 않으며, 특히 만두의 기원에 대한 설명이 부족하다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 기본적인 역사적 발전을 설명하지만, 일본 만두의 내용과 기원에 대한 자세한 정보를 제공하지 않는다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하게 작성되었으며, 이해하기 쉬운 구조를 가지고 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 내용이 상이하며, 기본 전개는 있지만 일본 만두의 기원에 대한 근본적인 사항을 설명하지 않는다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 일본 만두의 기원과 역사에 대해 언급하고 있으며, 관련된 정보들을 포함하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 정보 중 일부는 정확하지 않으며, 특히 만두의 기원에 대한 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 기본적인 역사적 발전을 설명하지만, 일본 만두의 내용과 기원에 대한 자세한 정보를 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하게 작성되었으며, 이해하기 쉬운 구조를 가지고 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 상이하며, 기본 전개는 있지만 일본 만두의 기원에 대한 근본적인 사항을 설명하지 않는다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222492,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 213,
+        "prompt_tokens": 645,
+        "total_tokens": 858
+    }
+}

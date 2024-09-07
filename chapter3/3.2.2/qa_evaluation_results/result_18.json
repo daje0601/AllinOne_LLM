@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAEghgW6vr8P415ZKO4PbRba0df",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 자이언트 지네에 대한 질문과 관련이 없으며, 야구 장비에 대한 내용을 담고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델이 제공한 정보는 사실이 아니며, 자이언트 지네의 정의와는 완전히 다른 내용을 담고 있다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 자이언트 지네에 대한 정보가 전혀 없고, 답변의 주제가 잘못되었다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 명확하게 서술되었지만, 주제가 잘못되어 있어 내용을 이해하기 어렵게 만든다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제가 상이하여 유사성이 전혀 없다.\"},\"average_score\":1.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 자이언트 지네에 대한 질문과 관련이 없으며, 야구 장비에 대한 내용을 담고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델이 제공한 정보는 사실이 아니며, 자이언트 지네의 정의와는 완전히 다른 내용을 담고 있다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 자이언트 지네에 대한 정보가 전혀 없고, 답변의 주제가 잘못되었다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 명확하게 서술되었지만, 주제가 잘못되어 있어 내용을 이해하기 어렵게 만든다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 상이하여 유사성이 전혀 없다."
+                    },
+                    "average_score": 1.0
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 208,
+        "prompt_tokens": 545,
+        "total_tokens": 753
+    }
+}

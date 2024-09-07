@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 runner_up의 값이 서로 다릅니다. 하나는 'teikyō'이고 다른 하나는 'teikyo'입니다. 이 차이로 인해 두 쿼리는 각각 다른 runner_up를 찾고 있으므로, 반환되는 winner의 결과도 다를 가능성이 있습니다.\"\n}"

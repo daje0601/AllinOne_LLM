@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAKH4QAv3FcsPckdW8FeiJycz3J",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 5개월 아기와 딸기에 대한 질문과 관련성이 있지만, '돌'을 잘못 해석하여 오히려 잘못된 정보를 제공하고 있습니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델은 아기를 위한 적절한 음식에 대한 잘못된 정보를 제공하고 있으며, 특히 '돌'을 먹인다는 표현이 부적절합니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델이 딸기 섭취의 장점과 주의사항에 대해 언급했으나, 알레르기 및 부작용에 대한 정보가 부족합니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 특정 부분에서 약간 혼란스러우나, 기본적인 문장은 이해 가능하였습니다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 여러 면에서 상반되며, 일관성이 없습니다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 5개월 아기와 딸기에 대한 질문과 관련성이 있지만, '돌'을 잘못 해석하여 오히려 잘못된 정보를 제공하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델은 아기를 위한 적절한 음식에 대한 잘못된 정보를 제공하고 있으며, 특히 '돌'을 먹인다는 표현이 부적절합니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델이 딸기 섭취의 장점과 주의사항에 대해 언급했으나, 알레르기 및 부작용에 대한 정보가 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 특정 부분에서 약간 혼란스러우나, 기본적인 문장은 이해 가능하였습니다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 여러 면에서 상반되며, 일관성이 없습니다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222444,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 230,
+        "prompt_tokens": 586,
+        "total_tokens": 816
+    }
+}

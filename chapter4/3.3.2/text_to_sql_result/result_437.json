@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 ACC_Road와 School_ID를 선택하고, School_ID를 기준으로 내림차순 정렬합니다. 반면, 두 번째 쿼리는 ACC_Road와 School_ID을 선택하면서 All_Home와 ACC_Road를 기준으로 그룹화한 후, School_ID를 기준으로 내림차순 정렬합니다. 두 쿼리는 ACC_Road의 값에 대해 그룹화를 하는지 여부가 다르기 때문에 결과가 다를 수 있습니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

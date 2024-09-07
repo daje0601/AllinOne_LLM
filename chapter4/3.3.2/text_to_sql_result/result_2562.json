@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리 모두 'broadcast date'에서 1995년과 5월을 동시에 만족해야 한다고 잘못 구성되어 있습니다. SQL에서는 AND 조건이 사용되었으므로, 'broadcast date'가 두 값을 동시에 가질 수 없습니다. 올바른 조건문은 'broadcast date'를 'YYYY-MM' 형식으로 검사해야 합니다. 따라서 두 쿼리가 동일한 결과를 반환하지 않습니다.\"\n}"

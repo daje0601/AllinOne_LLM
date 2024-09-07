@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB8ZTGNi1Cem9Zle34dHHeh4xas",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 카이저소제의 정의와 역사적 맥락을 설명하지만, 질문에서 요구하는 영화 '유주얼 서스펙트'와의 관련성을 전혀 다루지 않는다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 카이저소제에 대한 정보가 사실과 다르며, 실제로는 영화와 관련된 용어이다. 로마 제국의 제도와 관련된 설명은 잘못된 정보다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 카이저소제에 대한 설명은 제공하였으나, 질문에서 요구하는 범인의 특성이나 영화와의 관계에 대한 설명이 전혀 포함되어 있지 않아 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문맥이 복잡하긴 하지만, 주요 내용은 간결하게 전달되고 있어 이해하는 데 큰 어려움은 없다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사하지 않으며, 카이저소제를 다른 의미로 해석하고 있어 내용이 완전히 다르다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 카이저소제의 정의와 역사적 맥락을 설명하지만, 질문에서 요구하는 영화 '유주얼 서스펙트'와의 관련성을 전혀 다루지 않는다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 카이저소제에 대한 정보가 사실과 다르며, 실제로는 영화와 관련된 용어이다. 로마 제국의 제도와 관련된 설명은 잘못된 정보다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 카이저소제에 대한 설명은 제공하였으나, 질문에서 요구하는 범인의 특성이나 영화와의 관계에 대한 설명이 전혀 포함되어 있지 않아 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문맥이 복잡하긴 하지만, 주요 내용은 간결하게 전달되고 있어 이해하는 데 큰 어려움은 없다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사하지 않으며, 카이저소제를 다른 의미로 해석하고 있어 내용이 완전히 다르다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 284,
+        "prompt_tokens": 598,
+        "total_tokens": 882
+    }
+}

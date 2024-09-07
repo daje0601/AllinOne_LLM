@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'electricity and magnetism'이라는 특정 영역(area)과 8학점(workload)을 기준으로 필터링하며, course와 area, program_course 테이블 간의 조인을 수행합니다. 반면, 두 번째 쿼리는 과목의 설명(description) 또는 이름(name)에 'Electricity and Magnetism'이 포함되어 있는지를 확인하고, 단순히 8학점을 조건으로 사용합니다. 요약하면, 첫 번째 쿼리는 특정 과목의 영역을 찾고, 두 번째 쿼리는 과목의 이름 또는 설명을 찾는 방식이므로 의미적으로 동일하지 않다.\"\n}"

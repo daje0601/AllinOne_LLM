@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Pick'이 6보다 크거나 같은 선수를 선택하는 반면, 두 번째 쿼리는 'Pick'이 6보다 작은 선수를 선택합니다. 또한, 'New WNBA Team'의 이름이 'minnesota links'로 오타가 있어 'minnesota lynx'와 다릅니다. 두 쿼리는 서로 다른 조건을 가지고 있어 의미적으로 동일하지 않습니다.\"\n}"

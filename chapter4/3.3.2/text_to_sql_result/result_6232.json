@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 상대팀 명칭이 'saskatchewan roughriders'인 경우를 검색하지만, 두 번째 쿼리는 'at saskatchewan roughriders'인 경우를 검색합니다. 두 쿼리는 상대팀 명칭이 서로 다르므로 의미적으로 동일하지 않습니다.\"\n}"

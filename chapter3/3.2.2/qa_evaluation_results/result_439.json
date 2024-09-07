@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAr1spr9jJddMSYbBjo1SE0y3Ye",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 기차표 발매 방법에 대한 질문과 관련이 있으나, 세부적인 사항이 다소 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 사실이 틀렸거나 혼동을 줄 수 있으며, 기차표 발매 방식에 대한 이해가 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기차표 발매 방법에 대한 정보 중 중요한 부분을 누락하고 있으며, 구체적인 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 이해하기 쉬우나, 일부 내용이 애매할 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 차이가 많으며, 정보의 연속성이 떨어진다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 기차표 발매 방법에 대한 질문과 관련이 있으나, 세부적인 사항이 다소 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 사실이 틀렸거나 혼동을 줄 수 있으며, 기차표 발매 방식에 대한 이해가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기차표 발매 방법에 대한 정보 중 중요한 부분을 누락하고 있으며, 구체적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉬우나, 일부 내용이 애매할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 차이가 많으며, 정보의 연속성이 떨어진다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222477,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 207,
+        "prompt_tokens": 653,
+        "total_tokens": 860
+    }
+}

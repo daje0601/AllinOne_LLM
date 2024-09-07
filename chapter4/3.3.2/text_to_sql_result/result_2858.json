@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, HIRE_DATE가 '2002-06-21' 이전의 직원들에 대해 같은 방식으로 DEPARTMENT_ID의 합계를 구하고 이를 내림차순으로 정렬합니다. 두 쿼리의 SELECT, WHERE, ORDER BY 절 모두 동일하므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

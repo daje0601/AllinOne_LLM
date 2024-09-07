@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 환자에게 처방된 약물 이름이 다릅니다. 첫 번째 쿼리는 'diltiazem cream base'를, 두 번째 쿼리는 'diltiazem extended-release'를 검색하고 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않으며, 각 쿼리가 선택하는 데이터의 범위가 다릅니다.\"\n}"

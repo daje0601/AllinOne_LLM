@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리에서 'Event'는 'strikeforce: heavyweight grand prix semi-finals'로 정확하게 일치해야 하며, 'Date'는 'september 10, 2011'로 정확한 날짜를 요구합니다. 반면, 두 번째 쿼리는 'Event'가 'strikeforce: heavyweight grand prix semifinals'로 약간 다르며, 'Date'는 'september 10'로 연도를 제외하고 있습니다. 이로 인해 두 쿼리가 서로 다른 데이터를 검색하게 되며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

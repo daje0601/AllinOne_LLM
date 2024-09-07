@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 선택하는 'procedures.short_title' 값이 다릅니다. 생성된 쿼리는 'Other renal endoscopy'를 기준으로 하고, 정답 쿼리는 'Cystoscopy NEC'를 기준으로 하므로, 두 쿼리는 서로 다른 절차를 카운트하고 있습니다. 따라서 결과가 의미적으로 동일하지 않습니다.\"\n}"

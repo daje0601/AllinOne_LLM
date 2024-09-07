@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBMbaCoXsmLRwTJh0O1LKFNWLHI",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문의 각 부분에 잘 대응하고 있으며, 두유와 우유에 대한 명확한 구분을 제시하고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 두유와 우유의 성분과 유래에 대해 일부 부정확한 정보를 제공하고 있다. 예를 들어, 두유는 주로 발효 과정이 필요 없는 제품이다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 질문의 세 가지 부분에 대해 모두 다루었으며, 두유와 우유의 영양 성분에 대한 비교도 제공하지만 다소 구체성이 떨어진다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 대체로 이해하기 쉬운 내용을 담고 있지만, 일부 부분은 다소 복잡한 설명이 필요하다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 정보가 부분적으로 유사하지만, 두유의 정의 및 영양 성분에 대한 설명이 다소 틀려서 유사성이 낮아진다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문의 각 부분에 잘 대응하고 있으며, 두유와 우유에 대한 명확한 구분을 제시하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 두유와 우유의 성분과 유래에 대해 일부 부정확한 정보를 제공하고 있다. 예를 들어, 두유는 주로 발효 과정이 필요 없는 제품이다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 질문의 세 가지 부분에 대해 모두 다루었으며, 두유와 우유의 영양 성분에 대한 비교도 제공하지만 다소 구체성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대체로 이해하기 쉬운 내용을 담고 있지만, 일부 부분은 다소 복잡한 설명이 필요하다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 정보가 부분적으로 유사하지만, 두유의 정의 및 영양 성분에 대한 설명이 다소 틀려서 유사성이 낮아진다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222508,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 259,
+        "prompt_tokens": 881,
+        "total_tokens": 1140
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있으며, COUNT하는 대상도 다릅니다. 첫 번째 쿼리는 'Pinyin'이 'Yinchuan'인 경우의 'Simplified' 수를 세고, 두 번째 쿼리는 'Simplified'가 '河西区'인 경우의 'Pinyin' 수를 셉니다. 따라서 반환되는 결과가 의미적으로 동일하지 않습니다.\"\n}"

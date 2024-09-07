@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNARrUAnFY6flzj48pNT3uqy9BMk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 가상 메모리 부족 현상과 관련된 몇 가지 방법을 제시하고 있으나, 원인이나 주요 해결책을 충분히 다루지 않음.\"},\"accuracy\":{\"score\":6,\"explanation\":\"일부 내용은 정확하지만, 정보의 일부가 참조 답변과 일치하지 않으며, 몇 가지 방법이 덜 구체적임.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 다양한 방법을 제시하나, 참조 답변보다 포괄적이지 않으며, 몇 가지 주요 해결책이 누락됨.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉬운 표현과 단어를 사용하고 있으나, 다소 단편적인 감이 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 내용을 다루고 있으나 세부 사항이나 설명 방식에서 차이가 있음.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 가상 메모리 부족 현상과 관련된 몇 가지 방법을 제시하고 있으나, 원인이나 주요 해결책을 충분히 다루지 않음."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "일부 내용은 정확하지만, 정보의 일부가 참조 답변과 일치하지 않으며, 몇 가지 방법이 덜 구체적임."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 다양한 방법을 제시하나, 참조 답변보다 포괄적이지 않으며, 몇 가지 주요 해결책이 누락됨."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉬운 표현과 단어를 사용하고 있으나, 다소 단편적인 감이 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 내용을 다루고 있으나 세부 사항이나 설명 방식에서 차이가 있음."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222451,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 819,
+        "total_tokens": 1054
+    }
+}

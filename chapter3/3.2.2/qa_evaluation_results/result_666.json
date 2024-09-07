@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBB4j3btW00bZX2wNtuuwgD9HH7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 하이라이스에 대한 질문과 관련이 있지만, 주제의 흐름이 다르며 주제를 벗어난 정보가 포함되어 있습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 '하이라이스'의 의미에 대한 잘못된 정보를 제공합니다. '하이'의 유래 비하에 대한 설명이 잘못되었습니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 사건을 설명하고 있지만, 하이라이스의 정의나 배경 정보를 제대로 담고 있지 않습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 다소 혼란스러워서 이해하기 어렵습니다. 특히 '높은 벼슬'과 같은 표현이 문맥과 단어의 의미를 오해하게 합니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델 답변은 참조 답변과 거의 유사하지 않으며, 내용적으로 크게 벗어난 주장을 담고 있습니다.\"},\"average_score\":2.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 하이라이스에 대한 질문과 관련이 있지만, 주제의 흐름이 다르며 주제를 벗어난 정보가 포함되어 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '하이라이스'의 의미에 대한 잘못된 정보를 제공합니다. '하이'의 유래 비하에 대한 설명이 잘못되었습니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 사건을 설명하고 있지만, 하이라이스의 정의나 배경 정보를 제대로 담고 있지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 다소 혼란스러워서 이해하기 어렵습니다. 특히 '높은 벼슬'과 같은 표현이 문맥과 단어의 의미를 오해하게 합니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델 답변은 참조 답변과 거의 유사하지 않으며, 내용적으로 크게 벗어난 주장을 담고 있습니다."
+                    },
+                    "average_score": 2.2
+                }
+            }
+        }
+    ],
+    "created": 1723222497,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 551,
+        "total_tokens": 790
+    }
+}

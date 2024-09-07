@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 'short_title' 값을 사용하고 있습니다. 첫 번째 쿼리는 'oth glomerular nos w hpt'를 기준으로 결과를 반환하는 반면, 두 번째 쿼리는 'nephritis nos in oth dis'를 기준으로 결과를 반환합니다. 따라서 두 쿼리가 반환하는 결과는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAe08LtNGVwkftGQLtSaBrD1ALw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 '뒷고기'의 정의를 대부분 잘못 이해하고 있으며, 울산과의 관련성이 부족하다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 설명은 사실과 다르며, 간이 포함된 부위와 관련하여 혼동이 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델 답변은 뒷고기와 우의 관련 부위에 대한 정보가 부족하고, 울산의 뒷고기 문화에 대한 설명이 없다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 어느 정도 명확하지만, 잘못된 정보로 인해 전반적인 이해가 어려울 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 낮고, 주제에 대한 접근 방식이 매우 다르다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 '뒷고기'의 정의를 대부분 잘못 이해하고 있으며, 울산과의 관련성이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 설명은 사실과 다르며, 간이 포함된 부위와 관련하여 혼동이 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델 답변은 뒷고기와 우의 관련 부위에 대한 정보가 부족하고, 울산의 뒷고기 문화에 대한 설명이 없다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 어느 정도 명확하지만, 잘못된 정보로 인해 전반적인 이해가 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 낮고, 주제에 대한 접근 방식이 매우 다르다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222464,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 649,
+        "total_tokens": 864
+    }
+}

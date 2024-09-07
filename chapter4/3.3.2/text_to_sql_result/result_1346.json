@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조적으로 완전히 동일하며, 모두 출판되지 않은 책의 제목을 반환합니다. Subquery를 사용하여 publication 테이블에서 book_id를 가져오고, main query에서 이 book_id를 제외한 book 테이블의 title을 선택하는 방식으로 동일한 로직을 수행합니다.\"\n}"

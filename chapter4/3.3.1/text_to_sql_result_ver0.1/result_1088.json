@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 2011년에 출판된 논문의 journalid를 반환합니다. 첫 번째 쿼리는 year가 2011인 모든 논문에서 journalid를 선택한 후 중복을 제거하여 고유한 journalid를 가져오고, 두 번째 쿼리는 year가 2011인 논문들을 journalid로 그룹화하여 고유한 journalid를 생성합니다. 이 두 방식은 결과적으로 동일한 결과를 반환하므로 의미적으로 동일합니다.\"\n}"

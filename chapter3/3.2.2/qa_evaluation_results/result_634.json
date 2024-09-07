@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB964FrX35cVGQE2xaRZDgqU5m8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 집 구입 전 확인해야 할 사항과 서류를 잘 다루고 있어 질문과 관련성이 높다. 그러나 모델의 답변에는 조금 더 세부적인 내용이나 특정 서류의 중요성이 강조되지 않았다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변이 다루는 내용은 일반적으로 정확하지만, 일부 서류와 확인해야 할 사항의 정확성에서 약간의 차이가 있을 수 있다. 예를 들어, 모델이 제안한 서류 중 일부는 필수 서류 리스트에 포함되지 않기도 한다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 많은 사항을 다루고 있지만, 참조 답변에 비해 다소 부족하다. 예를 들어, 등기부나 계약서 관련 사항이 명확히 언급되지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 명확하게 전달되지만, 일부 항목이 너무 기술적이어서 일반 사람에게는 이해하기 어려울 수 있다. 더 간결한 설명이 필요하다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변이 참조 답변과 유사한 점도 있지만, 접근 방식과 다루는 세부 사항에서 상당한 차이가 있다. 모델의 답변이 보다 세부적인 내용이 부족하다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 집 구입 전 확인해야 할 사항과 서류를 잘 다루고 있어 질문과 관련성이 높다. 그러나 모델의 답변에는 조금 더 세부적인 내용이나 특정 서류의 중요성이 강조되지 않았다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 다루는 내용은 일반적으로 정확하지만, 일부 서류와 확인해야 할 사항의 정확성에서 약간의 차이가 있을 수 있다. 예를 들어, 모델이 제안한 서류 중 일부는 필수 서류 리스트에 포함되지 않기도 한다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 많은 사항을 다루고 있지만, 참조 답변에 비해 다소 부족하다. 예를 들어, 등기부나 계약서 관련 사항이 명확히 언급되지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 명확하게 전달되지만, 일부 항목이 너무 기술적이어서 일반 사람에게는 이해하기 어려울 수 있다. 더 간결한 설명이 필요하다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 참조 답변과 유사한 점도 있지만, 접근 방식과 다루는 세부 사항에서 상당한 차이가 있다. 모델의 답변이 보다 세부적인 내용이 부족하다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222495,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 319,
+        "prompt_tokens": 984,
+        "total_tokens": 1303
+    }
+}

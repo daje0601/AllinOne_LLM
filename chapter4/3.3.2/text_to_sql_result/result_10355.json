@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 모든 직원의 이름을 Circulation_History 테이블에서 등장하지 않은 직원의 이름으로 정리하는 반면, 두 번째 쿼리는 Employees 테이블과 Circulation_History 테이블을 JOIN한 뒤 Employees의 employee_id로 필터링하고 있습니다. 그러나 두 번째 쿼리는 employee_id를 사용하는데 이는 제공된 문제 설명과 테이블 정의에 포함되어 있지 않은 정보입니다. 따라서 첫 번째 쿼리와 결과가 일관되지 않을 수 있습니다.\"\n}"

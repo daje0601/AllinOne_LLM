@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'thessaloniki'라는 장소에서의 모든 점수를 선택하지만, 두 번째 쿼리는 'thessaloniki (without participation)'이라는 특정한 조건을 가진 장소에서의 점수만 선택합니다. 따라서 두 쿼리는 서로 다른 조건으로 필터링되므로, 의미적으로 동일하지 않습니다.\"\n}"

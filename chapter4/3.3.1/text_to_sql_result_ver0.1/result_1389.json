@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"쿼리의 coach 필드에 대한 값이 다릅니다. 첫 번째 쿼리에서는 'Rebekah Starling'을 사용하고, 두 번째 쿼리에서는 'Rebecca Star'를 사용하고 있습니다. 이름의 차이로 인해 두 쿼리가 같은 결과를 반환하지 않습니다.\"\n}"

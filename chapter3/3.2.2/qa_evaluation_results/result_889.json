@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBUBmAl3qR48b4dtrPaB8LlL3sz",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 나로호의 발사 과정을 설명하고 있어 질문과 관련이 있지만 일부 세부사항이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 설명은 전반적으로 사실이지만, 특정 절차와 타임라인이 잘못 기술되어 있어 정확성이 떨어진다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 나로호 발사 과정의 핵심적인 점들을 언급하고 있으나, 세부 사항 및 중요 단계를 충분히 설명하지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 기본적으로 이해하기 쉬우나, 일부 문장이 명확하지 않아 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델은 다소 외형적 발사 과정만 설명하고 있어 참조 답변과 구조 및 내용면에서 많은 차이가 있다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 나로호의 발사 과정을 설명하고 있어 질문과 관련이 있지만 일부 세부사항이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 설명은 전반적으로 사실이지만, 특정 절차와 타임라인이 잘못 기술되어 있어 정확성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 나로호 발사 과정의 핵심적인 점들을 언급하고 있으나, 세부 사항 및 중요 단계를 충분히 설명하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 기본적으로 이해하기 쉬우나, 일부 문장이 명확하지 않아 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델은 다소 외형적 발사 과정만 설명하고 있어 참조 답변과 구조 및 내용면에서 많은 차이가 있다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222516,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 919,
+        "total_tokens": 1138
+    }
+}

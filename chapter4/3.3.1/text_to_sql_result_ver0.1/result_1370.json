@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 조건으로 작동하여 같은 결과를 반환합니다. `software` 컬럼의 값이 'bind'이고, `ipv6_address` 컬럼의 값이 '2001:503:c27::2:30'인 행의 `location__numbersites__global_local_` 값을 선택합니다.\"\n}"

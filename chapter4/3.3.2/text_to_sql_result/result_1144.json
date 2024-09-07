@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 WHERE 조건에서 사용하는 문자열이 다릅니다. 첫 번째 쿼리는 'tatsuhito takai'를 사용하고, 두 번째 쿼리는 'tatsuhito takaiwa'를 사용합니다. 이 때문에 두 쿼리는 서로 다른 결과를 반환하므로 의미적으로 동일하지 않습니다.\"\n}"

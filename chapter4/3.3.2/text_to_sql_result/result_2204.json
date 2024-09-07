@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 비슷한 구조를 가지지만, 정답 쿼리에서는 추가적인 조건(예: FLIGHTalias1.from_airport와 FLIGHTalias1.to_airport에 대한 airport_service의 airport_code 조건)이 포함되어 있습니다. 이로 인해 정답 쿼리는 특정 항공편의 출발공항과 도착공항을 명시적으로 필터링하는 반면, 생성된 쿼리는 이러한 필터링이 없습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

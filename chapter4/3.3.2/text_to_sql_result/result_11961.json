@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조적으로 완전히 동일하며, 모두 'patrick racing'의 'Chassis'와 'Start' 값이 6보다 큰 레코드를 조회하는 동일한 조건을 가지고 있습니다.\"\n}"

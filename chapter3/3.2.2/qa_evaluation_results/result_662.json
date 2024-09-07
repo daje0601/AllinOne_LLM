@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBBb95biSuhHb0bj5hQQZ6aBIQf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 스키점프에 대한 내용으로 질문이 스키와 관련된 내용을 요구했으나, 스키점프와 관련된 답변이 되어 있어 직접적으로 관련성이 낮다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 일부는 정확하지만, 전반적으로 스키점프에 관한 내용으로 질문의 맥락과 맞지 않는 평가가 포함되어 정확성이 낮다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 질문의 목적과는 다르게 스키점프에 대한 정보로 편협하고, 표지판이나 교통표지판을 설치하는 이유에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 명확하지만, 스키점프와 관련된 설명이 질문과 관련이 없으므로 전달하고자 하는 메시지가 혼란스럽다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용상 큰 차이가 있으며, 스키와 스키점프 간의 개념을 혼동하여 유사성이 낮다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 스키점프에 대한 내용으로 질문이 스키와 관련된 내용을 요구했으나, 스키점프와 관련된 답변이 되어 있어 직접적으로 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부는 정확하지만, 전반적으로 스키점프에 관한 내용으로 질문의 맥락과 맞지 않는 평가가 포함되어 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문의 목적과는 다르게 스키점프에 대한 정보로 편협하고, 표지판이나 교통표지판을 설치하는 이유에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 스키점프와 관련된 설명이 질문과 관련이 없으므로 전달하고자 하는 메시지가 혼란스럽다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용상 큰 차이가 있으며, 스키와 스키점프 간의 개념을 혼동하여 유사성이 낮다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222497,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 272,
+        "prompt_tokens": 579,
+        "total_tokens": 851
+    }
+}

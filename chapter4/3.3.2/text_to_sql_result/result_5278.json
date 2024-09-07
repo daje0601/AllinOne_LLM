@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'sarah mckinney (jr) ann laird (w)'와 'sarah macintyre (jr) anne laird (w)'는 이름이 다르며, 이는 서로 다른 레코드를 지칭할 수 있습니다. 이로 인해 반환되는 결과가 다를 수 있으므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

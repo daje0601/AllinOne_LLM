@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일합니다. 둘 다 'model_number'가 'c7-m 764'인 레코드에서 'clock_multiplier'를 선택하는 쿼리입니다. 쿼리의 내용과 구조가 동일하므로 의미적으로 같은 결과를 반환합니다.\"\n}"

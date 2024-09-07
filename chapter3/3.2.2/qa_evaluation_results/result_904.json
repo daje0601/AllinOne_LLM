@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBWbscC6sj3KXq9bcADTCPRoL56",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변이 질문에 대한 여러 이유를 제시하고 있으나, 참조 답변과 비교했을 때 일부 관련성이 떨어지는 이유가 포함되어 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 사실과 부합하지만 정확성이 떨어지는 부분이 있다. 예를 들어, 재활용 기술이나 크기 제한을 들며 종이컵의 주 목적을 벗어난 설명이 포함되었다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 가지 이유를 나열하였지만, 참조 답변처럼 모든 주요 이유를 포괄하지 않아 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉬우나, 일부 문장은 다소 복잡하게 느껴질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 몇몇 내용을 공유하지만, 전체적인 내용과 구조에서 큰 차이가 있어 유사성이 적다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변이 질문에 대한 여러 이유를 제시하고 있으나, 참조 답변과 비교했을 때 일부 관련성이 떨어지는 이유가 포함되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 사실과 부합하지만 정확성이 떨어지는 부분이 있다. 예를 들어, 재활용 기술이나 크기 제한을 들며 종이컵의 주 목적을 벗어난 설명이 포함되었다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 가지 이유를 나열하였지만, 참조 답변처럼 모든 주요 이유를 포괄하지 않아 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉬우나, 일부 문장은 다소 복잡하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 몇몇 내용을 공유하지만, 전체적인 내용과 구조에서 큰 차이가 있어 유사성이 적다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222518,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 246,
+        "prompt_tokens": 651,
+        "total_tokens": 897
+    }
+}

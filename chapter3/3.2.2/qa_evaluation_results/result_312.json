@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAg3dc7gVjYeIL0PyiwoTAZ3fkR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 북극성이 남극에서 볼 수 있는지에 대한 질문과 어느 정도 관련이 있으나, 잘못된 정보를 포함하고 있어 정확한 대답을 제시하지 못하고 있다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델은 북극성이 남극에서도 볼 수 있다고 주장하였으나, 이는 사실과 다르며 북극성은 남극에서는 관찰할 수 없다; 따라서 정확성이 낮다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 북극성에 대한 일부 정보를 제공하나, 주제와 관련하여 중요한 사실(남극에서 북극성을 볼 수 없다)을 놓치고 있다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 문장 구조가 복잡할 수 있지만, 기본적으로 의미를 전달하기에는 명확하다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변의 내용과 일부 관련이 있으나 구체적인 설명 및 결론 부분에서 큰 차이가 있어 유사성이 낮다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 북극성이 남극에서 볼 수 있는지에 대한 질문과 어느 정도 관련이 있으나, 잘못된 정보를 포함하고 있어 정확한 대답을 제시하지 못하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델은 북극성이 남극에서도 볼 수 있다고 주장하였으나, 이는 사실과 다르며 북극성은 남극에서는 관찰할 수 없다; 따라서 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 북극성에 대한 일부 정보를 제공하나, 주제와 관련하여 중요한 사실(남극에서 북극성을 볼 수 없다)을 놓치고 있다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 문장 구조가 복잡할 수 있지만, 기본적으로 의미를 전달하기에는 명확하다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 일부 관련이 있으나 구체적인 설명 및 결론 부분에서 큰 차이가 있어 유사성이 낮다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222466,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 496,
+        "total_tokens": 752
+    }
+}

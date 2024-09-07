@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Developer(s)' 컬럼에서 찾는 조건이 다릅니다. 첫 번째 쿼리는 'nintendo ead & monolith soft'를 조건으로 하고 있고, 두 번째 쿼리는 'nintendo ead, monolith soft'를 조건으로 합니다. '&'와 ','는 서로 다른 의미를 가지므로, 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

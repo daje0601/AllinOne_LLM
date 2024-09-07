@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAFGZNuEqHXQHWFolSljrT2jf7N",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 적절하게 관련되어 있으며, 키보드 배열의 역사적 배경과 이유를 설명하고 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 QWERTY 배열의 유래 및 타자기와의 관계를 잘 설명하고 있으나, 한글 배열에 대한 일부 설명은 불완전할 수 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 키보드 배열의 이유를 설명하고 있지만, 한글 자판에 대한 보다 깊이 있는 설명이 부족하여 보완이 필요합니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉽게 작성되었으나, 일부 문장이 다소 복잡할 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 동일한 주제를 다루고 있지만, 내용 구성이나 결론이 다소 다르고 일부 정보가 빠져 있습니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 적절하게 관련되어 있으며, 키보드 배열의 역사적 배경과 이유를 설명하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 QWERTY 배열의 유래 및 타자기와의 관계를 잘 설명하고 있으나, 한글 배열에 대한 일부 설명은 불완전할 수 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 키보드 배열의 이유를 설명하고 있지만, 한글 자판에 대한 보다 깊이 있는 설명이 부족하여 보완이 필요합니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉽게 작성되었으나, 일부 문장이 다소 복잡할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 동일한 주제를 다루고 있지만, 내용 구성이나 결론이 다소 다르고 일부 정보가 빠져 있습니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 846,
+        "total_tokens": 1088
+    }
+}

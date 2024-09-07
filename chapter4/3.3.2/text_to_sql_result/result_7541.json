@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'School'이 'cheadle school'인 데이터만 검색합니다. 반면, 두 번째 쿼리는 'Locality'가 'cheadle'인 데이터만 검색합니다. 'School'과 'Locality'는 다른 필드이므로 두 쿼리가 반환하는 결과는 다를 수 있습니다.\"\n}"

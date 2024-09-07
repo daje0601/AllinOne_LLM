@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 결과를 반환합니다. 두 쿼리는 'Tacrolimus'를 드럭 이름으로 사용하는 prescriptions 테이블에서 drug_type과 formulary_drug_cd를 선택하는 요청입니다.\"\n}"

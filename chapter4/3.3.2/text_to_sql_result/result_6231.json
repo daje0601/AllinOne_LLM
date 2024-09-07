@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 집계 함수를 사용하고 있습니다. 첫 번째 쿼리는 'Total'의 수를 세는 COUNT를 사용하고, 두 번째 쿼리는 'Total' 값의 최솟값을 찾기 위한 MIN을 사용합니다. 또한, 'Name'의 값도 다릅니다 ('micel inductedu' 대 'miguel induráin'). 이로 인해 두 쿼리가 문제의 요구사항에 대해 의미적으로 동일하지 않습니다.\"\n}"

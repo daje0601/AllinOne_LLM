@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 테이블에서 데이터를 조회하며, 조건 역시 다릅니다. 첫 번째 쿼리는 PostHistory 테이블에서 특정 PostHistoryTypeId와 UserId에 해당하는 레코드를 카운트합니다. 반면, 두 번째 쿼리는 Posts 테이블에서 작성자와 최종 편집자가 다른 조건을 가지고 있으며, LastActivityDate와 LastEditDate를 기준으로 6개월 전에 활동한 게시물을 카운트합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

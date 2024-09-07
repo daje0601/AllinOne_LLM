@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일하며, 'north melbourne'이 원정 팀으로 나오는 경기가 열린 장소(즉, Venue)를 반환합니다. 두 쿼리 모두 'Away team' 열에서 'north melbourne'을 필터링하여 Venue 정보를 선택하고 있으므로 의미적으로 동일합니다.\"\n}"

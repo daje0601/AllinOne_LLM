@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAulDgVmLAIDcNfXruPkMRqaSgx",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 '옥집'이라는 용어의 기원과 그 의미를 제공하고 있어 질문과 관련이 높다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 정보 중 일부는 부정확하다. '옥수집'이라는 유래 설명은 참조 답변의 내용을 반영하지 않는다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 바둑에서 옥집의 의미를 설명하고 있으나, 참조 답변이 제공한 여러 추가 정보(예: 헛집, 빈집, 가집 용어의 설명)는 포함되지 않았다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 논리적이고 이해하기 쉬운 구조로 작성되어 있어 명확하게 전달된다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사하지만, 내용의 기원 부분에서 큰 차이가 있어 유사성이 낮다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 '옥집'이라는 용어의 기원과 그 의미를 제공하고 있어 질문과 관련이 높다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 정보 중 일부는 부정확하다. '옥수집'이라는 유래 설명은 참조 답변의 내용을 반영하지 않는다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 바둑에서 옥집의 의미를 설명하고 있으나, 참조 답변이 제공한 여러 추가 정보(예: 헛집, 빈집, 가집 용어의 설명)는 포함되지 않았다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 논리적이고 이해하기 쉬운 구조로 작성되어 있어 명확하게 전달된다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사하지만, 내용의 기원 부분에서 큰 차이가 있어 유사성이 낮다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222480,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 578,
+        "total_tokens": 812
+    }
+}

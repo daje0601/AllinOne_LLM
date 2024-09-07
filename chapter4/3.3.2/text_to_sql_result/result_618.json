@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'current_champion_s_' 컬럼의 값으로 비교하는 문자열이 다릅니다. 첫 번째 쿼리는 'deon ambrose'을 사용하고, 두 번째 쿼리는 'dean ambrose'을 사용하고 있습니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환하게 됩니다.\"\n}"

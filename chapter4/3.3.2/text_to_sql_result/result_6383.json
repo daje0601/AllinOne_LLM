@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Film'이 'badmouthed'인 영화의 제작사만을 검색하지만, 두 번째 쿼리는 'Rank'가 'nominated'이면서 'Film'이 'badmouth'인 영화를 검색합니다. 'badmouthed'와 'badmouth'는 서로 다른 문자열이므로 두 쿼리는 다른 결과를 반환합니다. 또한, 두 번째 쿼리는 'Rank' 조건을 추가하고 있어 의미적으로도 차이가 있습니다.\"\n}"

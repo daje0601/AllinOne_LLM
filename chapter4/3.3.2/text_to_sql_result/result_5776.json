@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 치료 이름이 다릅니다. 첫 번째 쿼리는 'antidepressants - dosulepin'을 찾고, 두 번째 쿼리는 'antidepressant - doxepin'을 찾습니다. 이는 서로 다른 약물이며, 따라서 결과가 다르게 나타날 것입니다.\"\n}"

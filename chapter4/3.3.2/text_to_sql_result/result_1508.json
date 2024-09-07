@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 WHERE 절의 조건 순서만 다를 뿐, 조건의 의미는 동일합니다. 두 쿼리 모두 'Pole Position'이 'david coulthard'이고 'Winning Driver'가 'michael schumacher'인 레코드의 'Fastest Lap'을 조회하고 있습니다. SQL에서 WHERE 절의 조건 순서는 결과에 영향을 미치지 않기 때문에 두 쿼리는 의미적으로 동일합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기능을 수행합니다. 첫 번째 쿼리는 'alexander fisher-cannon'이라는 상대와의 모든 라운드를 합산(SUM)하는 반면, 두 번째 쿼리는 'aleksandr pitchkounov'이라는 상대와의 최소 라운드(MIN)를 찾습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

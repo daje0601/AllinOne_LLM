@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'celllabel'에 대한 값이 다릅니다. 생성된 쿼리에서는 'urinary catheter'를 사용하고, 정답 쿼리에서는 'urine catheter'를 사용합니다. 이로 인해 데이터 필터링이 달라져서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

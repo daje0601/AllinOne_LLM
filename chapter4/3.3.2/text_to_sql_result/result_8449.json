@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 둘 다 table_18522916_5 테이블에서 outgoing_manager가 'Daniel Uberti'인 행의 date_of_vacancy 값을 선택하므로, 의미적으로 동일한 결과를 반환합니다.\"\n}"

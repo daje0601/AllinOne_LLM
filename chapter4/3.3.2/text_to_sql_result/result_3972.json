@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'COPD w/o exacerbation' 진단을 기준으로 하고, 두 번째 쿼리는 'COPD EXACERBATION' 진단을 기준으로 하므로, 서로 다른 진단을 사용하고 있습니다. 따라서 두 쿼리는 다르며, 서로 다른 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'diagnoses' 테이블과 'demographic' 테이블을 JOIN하여 고혈당 진단이 있는 환자의 수를 세고 있으며, 진단 이름이 'Hyperglycemia NOS'인 경우에만 해당합니다. 반면, 두 번째 쿼리는 'demographic' 테이블에서 직접 'diagnosis' 필드가 'HYPERGLYCEMIA'인 경우만 체크합니다. 즉, 두 쿼리는 서로 다른 진단 이름을 사용하고 있으며, JOIN을 사용한 쿼리는 'diagnoses' 테이블과의 관계를 포함하고 있어서 의미적으로 동일하지 않습니다.\"\n}"

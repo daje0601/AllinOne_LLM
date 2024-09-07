@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 JOIN의 방향과 SELECT되는 컬럼이 다릅니다. 첫 번째 쿼리에서는 basketball_match 테이블에서 team_name과 acc_regular_season을 선택하고, 두 번째 쿼리에서는 university 테이블에서 team_name과 acc_regular_season을 선택하고 있습니다. 이로 인해 결과가 다를 수 있으며, 문제의 요구 사항에 맞는 팀의 이름과 ACC 정규 시즌 점수를 반환하지 않습니다.\"\n}"

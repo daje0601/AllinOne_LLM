@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 같은 내용을 반환합니다. 동일한 조건을 사용하여 나이가 86세 미만이고 ICD9 코드가 11284인 환자의 수를 세기 위해 demographic 테이블과 diagnoses 테이블을 INNER JOIN하고 있습니다.\"\n}"

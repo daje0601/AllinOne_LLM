@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAoy45hazkUl34TvEKqlpC8RzVW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문과 관련이 있지만 실제 이유에 대한 설명이 부족합니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 사실과 다르며, 씨가 없어지는 이유에 대한 설명이 불명확합니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 정보를 포함하고 있으나, 전체적인 맥락과 세부 사항이 결여되어 있습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 이해할 수 있는 형식이지만, 논리적 구조가 부족하여 이해를 방해합니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 크게 다르며, 같은 정보를 다루고 있지 않습니다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문과 관련이 있지만 실제 이유에 대한 설명이 부족합니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 사실과 다르며, 씨가 없어지는 이유에 대한 설명이 불명확합니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 정보를 포함하고 있으나, 전체적인 맥락과 세부 사항이 결여되어 있습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 이해할 수 있는 형식이지만, 논리적 구조가 부족하여 이해를 방해합니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다르며, 같은 정보를 다루고 있지 않습니다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 190,
+        "prompt_tokens": 535,
+        "total_tokens": 725
+    }
+}

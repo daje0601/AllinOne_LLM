@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZXQI1sveWBAO0zQlqyUnj33rR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 관련성이 낮고, 분재에 사용하는 나무의 종류에 대한 간략한 정보만 제공하고 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 나무의 실제 사용에 대한 정보와 함께 세부 사항이 잘못되어 있어 정확성이 떨어진다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델은 몇 가지 나무의 종류를 언급하지만, 참조 답변에 비해 종합적이지 않고 필수 정보를 포함하지 않는다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 대답은 상당히 이해하기 쉽지만, 응답의 많은 부분이 사실과 다르기 때문에 혼란을 초래할 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용이 상당히 다르며, 분재에 사용되는 나무에 대한 리스트가 부족하다.\"},\"average_score\":3.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 관련성이 낮고, 분재에 사용하는 나무의 종류에 대한 간략한 정보만 제공하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 나무의 실제 사용에 대한 정보와 함께 세부 사항이 잘못되어 있어 정확성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델은 몇 가지 나무의 종류를 언급하지만, 참조 답변에 비해 종합적이지 않고 필수 정보를 포함하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 대답은 상당히 이해하기 쉽지만, 응답의 많은 부분이 사실과 다르기 때문에 혼란을 초래할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 상당히 다르며, 분재에 사용되는 나무에 대한 리스트가 부족하다."
+                    },
+                    "average_score": 3.0
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 838,
+        "total_tokens": 1064
+    }
+}

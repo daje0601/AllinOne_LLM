@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBK0MUNJbneF2OOySIBQxAZYDmH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문의 두 가지 주요 측면을 모두 다루고 있어 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 정확하지만, 보관 기간에 대한 구체적인 내용에서 약간의 차이가 있습니다.\"},\"completeness\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 대한 자세한 정보와 다양한 요소를 포괄적으로 설명하고 있습니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 명확하고 이해하기 쉬우며, 독자가 쉽게 내용을 파악할 수 있습니다.\"},\"similarity\":{\"score\":8,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 많지만, 표현 방식에서 약간의 차이가 있습니다.\"},\"average_score\":9.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문의 두 가지 주요 측면을 모두 다루고 있어 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 정확하지만, 보관 기간에 대한 구체적인 내용에서 약간의 차이가 있습니다."
+                    },
+                    "completeness": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 대한 자세한 정보와 다양한 요소를 포괄적으로 설명하고 있습니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 명확하고 이해하기 쉬우며, 독자가 쉽게 내용을 파악할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 많지만, 표현 방식에서 약간의 차이가 있습니다."
+                    },
+                    "average_score": 9.0
+                }
+            }
+        }
+    ],
+    "created": 1723222506,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 195,
+        "prompt_tokens": 796,
+        "total_tokens": 991
+    }
+}

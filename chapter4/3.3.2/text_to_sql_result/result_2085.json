@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Game site' 값을 사용하고 있습니다. 첫 번째 쿼리는 'hodgson dome'을, 두 번째 쿼리는 'hoosier dome'을 조회하고 있으며, 이로 인해 반환되는 결과가 다를 수 있습니다.\"\n}"

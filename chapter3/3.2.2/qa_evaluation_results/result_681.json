@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBCQLmcoKMJPMOmI5E3d142cHaq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 콩글리쉬에 관련된 내용이 아닌, 영어 단어 목록과 스코틀랜드 관련 어휘를 포함하고 있어 질문의 주제와 크게 관련이 없다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 콩글리쉬의 개념을 잘못 이해하고 있으며, 콩글리쉬와 전혀 관련 없는 단어들을 나열하고 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대해 적절한 예시나 정보를 제공하지 않고, 관련된 내용을 소홀히 다루고 있다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 명확한 문장 구조로 되어 있으나, 내용 자체가 질문과 관련이 없어서 결국 이해하기 어렵다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루지 않으며, 제시된 단어들 또한 콩글리쉬와는 관련이 없다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 콩글리쉬에 관련된 내용이 아닌, 영어 단어 목록과 스코틀랜드 관련 어휘를 포함하고 있어 질문의 주제와 크게 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 콩글리쉬의 개념을 잘못 이해하고 있으며, 콩글리쉬와 전혀 관련 없는 단어들을 나열하고 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대해 적절한 예시나 정보를 제공하지 않고, 관련된 내용을 소홀히 다루고 있다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 명확한 문장 구조로 되어 있으나, 내용 자체가 질문과 관련이 없어서 결국 이해하기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루지 않으며, 제시된 단어들 또한 콩글리쉬와는 관련이 없다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222498,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 989,
+        "total_tokens": 1238
+    }
+}

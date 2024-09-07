@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'multivitamins-12'라는 약과 'multivitamin-12'라는 약을 조회하고 있습니다. 두 약의 이름은 다르기 때문에 두 쿼리는 서로 다른 결과를 반환합니다. 즉, 첫 번째 쿼리는 'multivitamins-12'의 가격을 조회하고, 두 번째 쿼리는 'multivitamin-12'의 가격을 조회합니다.\"\n}"

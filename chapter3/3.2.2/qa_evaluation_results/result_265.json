@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAbA4Xt3AggG6tczluC3s4sOVE7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 DTP와 개량 DTP에 대해 전혀 다른 주제를 다루고 있어 질문과 관련이 없다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 DTP와 개량 DTP에 대한 잘못된 정보를 제공하고 있으며, 전혀 다른 내용을 설명하고 있다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에 대한 내용이 없으며, 필요한 정보를 전혀 포함하고 있지 않다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 명확하게 정리되어 있으나, 잘못된 주제에 대한 설명이기 때문에 의미가 없다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 reference와 유사성이 전혀 없으며, DTP와 개량 DTP에 대한 내용이 전혀 다르다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 DTP와 개량 DTP에 대해 전혀 다른 주제를 다루고 있어 질문과 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 DTP와 개량 DTP에 대한 잘못된 정보를 제공하고 있으며, 전혀 다른 내용을 설명하고 있다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에 대한 내용이 없으며, 필요한 정보를 전혀 포함하고 있지 않다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 명확하게 정리되어 있으나, 잘못된 주제에 대한 설명이기 때문에 의미가 없다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 reference와 유사성이 전혀 없으며, DTP와 개량 DTP에 대한 내용이 전혀 다르다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222461,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 546,
+        "total_tokens": 758
+    }
+}

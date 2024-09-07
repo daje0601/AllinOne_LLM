@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAzrklXiSmfTCljvDjuQLo70rQU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 정확히 짜장면의 유래와 역사에 대한 내용을 포함하고 있어 관련성이 높음.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변에 일부 세부 정보에서 오류가 있으나 전체적으로 기본적인 사실은 맞음.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변이 역사적 맥락은 제공하지만, 참조 답변에 비해 더 적은 정보를 포함하고 있어 완전성이 다소 부족함.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하게 작성되었으나 일부 문장이 장황해 이해하기 어려운 부분도 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 원 문서와 동일한 주제를 다루고 있으나, 내용의 배열과 이야기 전개에서 상당한 차이를 보임.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 정확히 짜장면의 유래와 역사에 대한 내용을 포함하고 있어 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변에 일부 세부 정보에서 오류가 있으나 전체적으로 기본적인 사실은 맞음."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 역사적 맥락은 제공하지만, 참조 답변에 비해 더 적은 정보를 포함하고 있어 완전성이 다소 부족함."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하게 작성되었으나 일부 문장이 장황해 이해하기 어려운 부분도 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 원 문서와 동일한 주제를 다루고 있으나, 내용의 배열과 이야기 전개에서 상당한 차이를 보임."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222485,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 220,
+        "prompt_tokens": 1045,
+        "total_tokens": 1265
+    }
+}

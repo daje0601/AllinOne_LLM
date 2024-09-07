@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 구조와 조건을 가지며, 같은 결과를 반환합니다. 두 쿼리 모두 'dunlop world challenge' 대회에서의 결과를 조회하기 위해 동일한 조건 'Tournament' = 'dunlop world challenge'를 사용하고 있습니다.\"\n}"

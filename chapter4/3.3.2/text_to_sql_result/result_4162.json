@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 필드를 기준으로 검색을 수행하고 있습니다. 첫 번째 쿼리는 'Races'가 'test driver'인 경우의 'Poles'를 가져오고, 두 번째 쿼리는 'Poles'가 'test driver'인 경우의 'Races'를 가져옵니다. 문제에서는 'test driver'가 'Poles'에 해당하는 경주를 찾고자 하므로, 두 쿼리는 동일한 결과를 반환하지 않습니다.\"\n}"

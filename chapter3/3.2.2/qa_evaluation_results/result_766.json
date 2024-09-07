@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBKrxOS5ZmdZBwozafFRWHbqY0t",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 영창대군이 아니라 원종을 언급하고 있으며, 질문에 대한 직접적인 답변이 아닙니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변에 등장하는 인물 원종의 설명이 사실과 다르며, 실제 역사적 사실과 부합하지 않습니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 원종의 사망 원인에 대한 일부 정보를 제공하지만, 질문에서 요구하는 특정 인물의 사건에 대해 정확히 설명하고 있지 않습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 이해하기 쉬운 문장 구조를 가지고 있으나, 내용이 잘못되었기 때문에 의미가 떨어집니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 비교할 때 전혀 다른 인물을 소개하고 있어 유사성이 낮습니다.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 영창대군이 아니라 원종을 언급하고 있으며, 질문에 대한 직접적인 답변이 아닙니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변에 등장하는 인물 원종의 설명이 사실과 다르며, 실제 역사적 사실과 부합하지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 원종의 사망 원인에 대한 일부 정보를 제공하지만, 질문에서 요구하는 특정 인물의 사건에 대해 정확히 설명하고 있지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 이해하기 쉬운 문장 구조를 가지고 있으나, 내용이 잘못되었기 때문에 의미가 떨어집니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 비교할 때 전혀 다른 인물을 소개하고 있어 유사성이 낮습니다."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222506,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 225,
+        "prompt_tokens": 772,
+        "total_tokens": 997
+    }
+}

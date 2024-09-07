@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Integrated with University of Massachusetts Boston'과 'Merged into the University of Massachusetts Boston'이라는 두 다른 문자열을 필터링하고 있습니다. 이 두 문자열의 의미는 다르기 때문에 두 쿼리는 동일한 결과를 반환하지 않습니다. 'Integrated'는 통합을 의미하지만 서로 다른 결과를 가져올 수 있으며, 'Merged'는 합병을 의미하여 주체가 다를 수 있습니다. 따라서 두 쿼리는 의미적으로 다릅니다.\"\n}"

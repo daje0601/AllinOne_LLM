@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBSgGhvc69KUSxpTBli2gVd39FW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문과 매우 관련이 있으며, 마이크와 스피커의 상호작용에 관한 적절한 정보를 제공합니다.\"},\"accuracy\":{\"score\":9,\"explanation\":\"모델의 설명은 정확하며 하울링 현상을 잘 설명했습니다. 그러나 '피드백'이라는 용어에 대한 언급이 부족하여 점수를 약간 낮췄습니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 하울링의 원인과 방법을 다루었지만 추가적인 제어 방법이나 원리에 대해 더 많은 설명이 있었다면 더 좋았을 것입니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉽게 작성되었습니다. 각각의 원인에 대해 잘 설명했습니다.\"},\"similarity\":{\"score\":8,\"explanation\":\"모델의 답변은 참조 답변과 유사하지만 조금 더 간략하게 설명되었고 일부 용어 사용에서 차이가 있습니다.\"},\"average_score\":8.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문과 매우 관련이 있으며, 마이크와 스피커의 상호작용에 관한 적절한 정보를 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 9,
+                        "explanation": "모델의 설명은 정확하며 하울링 현상을 잘 설명했습니다. 그러나 '피드백'이라는 용어에 대한 언급이 부족하여 점수를 약간 낮췄습니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 하울링의 원인과 방법을 다루었지만 추가적인 제어 방법이나 원리에 대해 더 많은 설명이 있었다면 더 좋았을 것입니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉽게 작성되었습니다. 각각의 원인에 대해 잘 설명했습니다."
+                    },
+                    "similarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 참조 답변과 유사하지만 조금 더 간략하게 설명되었고 일부 용어 사용에서 차이가 있습니다."
+                    },
+                    "average_score": 8.8
+                }
+            }
+        }
+    ],
+    "created": 1723222514,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 631,
+        "total_tokens": 865
+    }
+}

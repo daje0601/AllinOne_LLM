@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"생성된 쿼리는 'Abu Dhabi'에 도착한 경우의 'Distance' 값을 가져오고, 정답 쿼리는 'Distance'가 'Abu Dhabi'인 행의 'Sanya'의 개수를 세고 있습니다. 두 쿼리는 서로 다른 조건을 사용하고 있으며, 만들어내는 결과도 다릅니다.\"\n}"

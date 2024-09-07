@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조적으로 동일합니다. 모두 'demographic' 테이블과 'procedures' 테이블을 INNER JOIN하여 'insurance'가 'Private'이고, 'icd9_code'가 '3726'인 환자의 수를 계산하고 있습니다. 따라서 결과는 의미적으로 동일합니다.\"\n}"

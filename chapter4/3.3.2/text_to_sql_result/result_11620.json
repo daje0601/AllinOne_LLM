@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Location' 필드의 값이 다릅니다. 첫 번째 쿼리는 'washington road wash50'을 검색하는 반면, 두 번째 쿼리는 'wash50 on washington rd'를 검색합니다. 따라서, 두 쿼리는 서로 다른 데이터를 조회하므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 전적으로 동일합니다. 두 쿼리 모두 같은 테이블에서 'luogang international airport'에 해당하는 공항의 'Province'를 선택하고 있습니다. 따라서, 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

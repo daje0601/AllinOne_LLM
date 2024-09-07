@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'ORDER BY' 절에서 서로 다른 컬럼을 사용하고 있습니다. 첫 번째 쿼리는 'patient.admissionheight'를 기준으로 정렬하고 있으며, 두 번째 쿼리는 'patient.unitadmittime'을 기준으로 정렬하고 있습니다. 이는 최종적으로 반환되는 결과에 영향을 미치므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 WHERE 조건을 사용하고 있습니다. 첫 번째 쿼리는 'needed in relation to friends, family, and nature'라는 값을 기준으로 하고 있는 반면, 두 번째 쿼리는 구체적으로 'friendships, family, relationships with nature'라는 값을 기준으로 하고 있습니다. 이러한 차이로 인해 두 쿼리가 반환하는 결과가 다를 수 있습니다.\"\n}"

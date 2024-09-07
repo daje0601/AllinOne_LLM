@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 조건과 구조를 가지고 있어, semantically 동일한 결과를 반환합니다. 'stations < 44'와 'rider_per_mile < 881' 조건을 적용하여 승객 수가 적은 노선의 수를 세기 때문에 결과는 동일합니다.\"\n}"

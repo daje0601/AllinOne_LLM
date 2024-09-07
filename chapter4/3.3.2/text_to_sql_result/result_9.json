@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'inject/infuse treatment'와 'inject/infuse nec'라는 두 가지 다른 진단 코드(short_title)가 사용되고 있습니다. 이는 상위 5개 진단을 찾는 기준이 서로 다르므로 동일한 결과를 반환하지 않습니다.\"\n}"

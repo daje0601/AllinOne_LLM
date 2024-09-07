@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 동일한 형태로 작성되었고, 결과도 동일하게 직원들의 이름(FIRST_NAME)과 부서 ID(DEPARTMENT_ID)를 반환하며, FIRST_NAME을 기준으로 오름차순으로 정렬하기 때문에 의미적으로 동일한 결과를 반환합니다.\"\n}"

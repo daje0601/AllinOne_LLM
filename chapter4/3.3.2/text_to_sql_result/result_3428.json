@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 마지막 행을 선택하는 정렬 기준이 다릅니다. 첫 번째 쿼리는 'ORDER BY transfers.intime LIMIT 1'으로 가장 처음의 'intime'을 기준으로 한 데이터를 선택하는 반면, 두 번째 쿼리는 'ORDER BY transfers.intime DESC LIMIT 1'로 가장 최근의 'intime'을 기준으로 데이터를 선택합니다. 이로 인해 두 쿼리가 반환하는 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAfXLR2cposmmDpXDULxBXO6bSS",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 나방이 불빛을 좋아하는 이유와 야행성의 의미를 명확히 언급하며 관련성이 높음.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 사실에 근거했으나 일부 세부 사항은 참조 답변과 다를 수 있음. 예를 들어, 에너지를 쉽게 얻는다는 설명은 다소 불명확.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 나방의 불빛 선호, 야행성 이유, 양의 주광성의 차이에 대한 내용을 포함하였으나 좀 더 구체적인 정보가 추가되면 좋았을 것.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 명확하지만, 일부 구문이 복잡하여 이해하는 데 약간의 어려움이 있을 수 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변의 기본 아이디어를 따르지만, 표현 방식과 중점이 약간 다름.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 나방이 불빛을 좋아하는 이유와 야행성의 의미를 명확히 언급하며 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 사실에 근거했으나 일부 세부 사항은 참조 답변과 다를 수 있음. 예를 들어, 에너지를 쉽게 얻는다는 설명은 다소 불명확."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 나방의 불빛 선호, 야행성 이유, 양의 주광성의 차이에 대한 내용을 포함하였으나 좀 더 구체적인 정보가 추가되면 좋았을 것."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 명확하지만, 일부 구문이 복잡하여 이해하는 데 약간의 어려움이 있을 수 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변의 기본 아이디어를 따르지만, 표현 방식과 중점이 약간 다름."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222465,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 978,
+        "total_tokens": 1230
+    }
+}

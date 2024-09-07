@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 대소문자 불변성을 고려하지 않는 SQL에서는 동일한 결과를 반환합니다. 'Red plastic box'와 'red plastic box'는 값의 대소문자 차이에 상관없이 동일한 결과로 처리됩니다.\"\n}"

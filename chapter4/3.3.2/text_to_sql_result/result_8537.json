@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Result'가 'won'인 경우의 'Competition'을 선택하고, 두 번째 쿼리는 'Competition'이 'friendly match'인 경우의 'Result'를 선택합니다. 즉, 첫 번째 쿼리는 어떤 팀이 승리했는지를 찾고, 두 번째 쿼리는 특정한 친선 경기의 결과를 찾고 있어서 서로 다른 의미를 가집니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'celllabel' 값을 사용하고 있으며, 첫 번째 쿼리는 'volume (ml) internal jugular vein cath 20 gauge iv flush'를, 두 번째 쿼리는 'per iv flush: antecubital l 20 gauge'를 참조합니다. 또한, 첫 번째 쿼리는 'cellpath' 조건이 '%output%'이고, 두 번째 쿼리는 '%input%'입니다. 이로 인해 두 쿼리는 서로 다른 환자 집합을 반환할 수 있어 의미적으로 동일하지 않습니다.\"\n}"

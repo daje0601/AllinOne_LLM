@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAiGSx8OVpIhbRxn7dUs2jnC9wB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 하이퍼증후군에 대한 정확한 정의를 제공하지 않으며, 관련성이 낮습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 전혀 사실과 맞지 않으며, 하이퍼증후군에 대한 정보를 심각하게 잘못 전달하고 있습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 주제를 전혀 다루지 않았고, 필요한 정보가 부족하여 불완전합니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 어느 정도 명확하지만, 정보가 틀려서 혼란을 초래할 수 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 거의 유사성이 없으며, 내용이 전혀 다릅니다.\"},\"average_score\":1.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 하이퍼증후군에 대한 정확한 정의를 제공하지 않으며, 관련성이 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 전혀 사실과 맞지 않으며, 하이퍼증후군에 대한 정보를 심각하게 잘못 전달하고 있습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 주제를 전혀 다루지 않았고, 필요한 정보가 부족하여 불완전합니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 어느 정도 명확하지만, 정보가 틀려서 혼란을 초래할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 거의 유사성이 없으며, 내용이 전혀 다릅니다."
+                    },
+                    "average_score": 1.0
+                }
+            }
+        }
+    ],
+    "created": 1723222468,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 203,
+        "prompt_tokens": 612,
+        "total_tokens": 815
+    }
+}

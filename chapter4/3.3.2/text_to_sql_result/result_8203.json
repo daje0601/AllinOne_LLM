@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Winner' 필드의 값이 다릅니다. 첫 번째 쿼리는 'mark cavenish'를 찾고 있고, 두 번째 쿼리는 'mark cavendish'를 찾고 있어 결과가 다릅니다.\"\n}"

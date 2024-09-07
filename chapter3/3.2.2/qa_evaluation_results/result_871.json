@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBT3uLluOW5Ry3pGkXBa2c0lYWg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 생일날 미역국을 먹는 이유에 대해 잘 설명하고 있으며, 질문의 핵심에 적합하다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 대체로 정확하지만 미역국 섭취의 역사적 배경에 대한 세부 사항이 부족하다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 미역국이 미치는 영양적 효과와 역사적 맥락을 다루고 있지만, 더 많은 배경 지식을 포함할 수 있었다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉽게 작성되었으나, 경우에 따라 약간의 혼란을 줄 수 있는 표현이 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 일부 내용이 겹치지만, 방식이나 표현이 많이 달라 기존 답변과의 유사성이 낮다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 생일날 미역국을 먹는 이유에 대해 잘 설명하고 있으며, 질문의 핵심에 적합하다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대체로 정확하지만 미역국 섭취의 역사적 배경에 대한 세부 사항이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 미역국이 미치는 영양적 효과와 역사적 맥락을 다루고 있지만, 더 많은 배경 지식을 포함할 수 있었다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉽게 작성되었으나, 경우에 따라 약간의 혼란을 줄 수 있는 표현이 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 일부 내용이 겹치지만, 방식이나 표현이 많이 달라 기존 답변과의 유사성이 낮다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222515,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 697,
+        "total_tokens": 936
+    }
+}

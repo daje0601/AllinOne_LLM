@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Name' 필드의 값이 서로 다릅니다. 첫 번째 쿼리는 'gayle frazier'를 찾고 있으며, 두 번째 쿼리는 'guy frazier'를 찾고 있습니다. 문제에서 요구하는 인물 이름은 'guy frazier'이므로 두 쿼리는 서로 다른 결과를 반환합니다.\"\n}"

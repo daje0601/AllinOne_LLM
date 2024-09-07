@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBYsbJQSwXJwxn6vkPdO3UOvJZQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 관련성이 있지만, 질문의 일부 세부 사항을 충분히 반영하지 못하고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 정확하나, 제지구의 자전에 대한 설명이 불충분하고, 일부 과학적 세부 사항이 잘못 표현되었다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 질문에 대해 충분한 세부 정보를 제공하지 않으며, 대기권과 로켓의 발사 방식에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 전체적으로 잘 구조화되어 있으며, 이해하기 쉽게 전달되고 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사하지만, 여러 중요한 포인트가 생략되어 있고 논지가 다소 부족하다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 관련성이 있지만, 질문의 일부 세부 사항을 충분히 반영하지 못하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 정확하나, 제지구의 자전에 대한 설명이 불충분하고, 일부 과학적 세부 사항이 잘못 표현되었다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문에 대해 충분한 세부 정보를 제공하지 않으며, 대기권과 로켓의 발사 방식에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전체적으로 잘 구조화되어 있으며, 이해하기 쉽게 전달되고 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사하지만, 여러 중요한 포인트가 생략되어 있고 논지가 다소 부족하다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222520,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 220,
+        "prompt_tokens": 918,
+        "total_tokens": 1138
+    }
+}

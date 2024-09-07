@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Away team' 조건이 서로 다릅니다. 첫 번째 쿼리는 'cru alexandra'를 찾고, 두 번째 쿼리는 'crewe alexandra'를 찾습니다. 이 두 팀 이름은 서로 다르기 때문에, 결과적으로 서로 다른 결과를 반환할 것입니다.\"\n}"

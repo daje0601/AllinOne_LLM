@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Title'의 값으로 검색하지만, 하나는 'I Wish I Were the Moon'을 사용하고 다른 하나는 'I Wish I Was the Moon'을 사용합니다. 이 두 문자열은 서로 다르므로, 두 쿼리가 같은 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Location' 값에서 대소문자가 다릅니다. 'San Jose del Monte'는 소문자 'del'을 사용하고, 'San Jose Del Monte'는 대문자 'Del'을 사용합니다. SQL 쿼리는 대소문자를 구분하지 않는 경우도 있으나, 일반적으로 문자열의 정확한 일치를 요구하기 때문에 이 둘은 의미적으로 동일하지 않습니다.\"\n}"

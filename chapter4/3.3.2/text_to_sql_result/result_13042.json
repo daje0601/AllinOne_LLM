@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Voice Actor (English 1997 / Saban)'가 'dave ward'인 캐릭터 이름을 반환하는 반면, 두 번째 쿼리는 같은 조건을 사용하여 'Voice Actor (English 1998 / Pioneer)'를 반환합니다. 즉, 두 쿼리는 반환하는 열이 다르므로 의미적으로 동일하지 않습니다.\"\n}"

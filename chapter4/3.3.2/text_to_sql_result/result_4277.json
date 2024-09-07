@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 필터 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Rebuilt'가 '1934'이고 'Name as rebuilt'가 '1934?'인 경우를 Counting하고 있으며, 두 번째 쿼리는 'Rebuilt'가 'Cannot handle non-empty timestamp argument! 1934'인 경우를 Counting합니다. 이로 인해 두 쿼리의 결과가 다를 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBOoincqnhrBfe76UEXAk0KmAvp",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 돼지고기를 생으로 먹었을 때의 위험을 여러 가지 측면에서 다루고 있어 관련성이 높다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델은 다양한 위험 요소를 나열했지만, 정확한 기생충 명칭(트리키넬라 스피랄리스)이나 구체적인 위험의 분류에서 일부 부정확성이 보인다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 위험을 나열하고 있지만, 일부 위험 요소의 중요성을 강조하지 않거나 생으로 돼지고를 먹는 것에 대한 위험을 명확하게 연결하지 않는다.\"},\"clarity\":{\"score\":6,\"explanation\":\"답변은 항목별로 나누어 나열되어 있지만, 일부 내용이 중복되거나 복잡하게 되어 있어 이해하는 데 어려움이 있을 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 내용을 현대적이고 다양한 시각으로 풀어쓰기는 했지만, 기생충의 정확한 명칭이나 구체적 증상들에 대한 참조가 부족하다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 돼지고기를 생으로 먹었을 때의 위험을 여러 가지 측면에서 다루고 있어 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델은 다양한 위험 요소를 나열했지만, 정확한 기생충 명칭(트리키넬라 스피랄리스)이나 구체적인 위험의 분류에서 일부 부정확성이 보인다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 위험을 나열하고 있지만, 일부 위험 요소의 중요성을 강조하지 않거나 생으로 돼지고를 먹는 것에 대한 위험을 명확하게 연결하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "답변은 항목별로 나누어 나열되어 있지만, 일부 내용이 중복되거나 복잡하게 되어 있어 이해하는 데 어려움이 있을 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 내용을 현대적이고 다양한 시각으로 풀어쓰기는 했지만, 기생충의 정확한 명칭이나 구체적 증상들에 대한 참조가 부족하다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222510,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 275,
+        "prompt_tokens": 727,
+        "total_tokens": 1002
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완벽하게 동일하며, 모두 D나 S 문자가 포함된 첫 이름을 가진 직원의 job_id별로 그룹화하여 department_id의 합계를 내림차순으로 반환합니다. 동일한 조건과 GROUP BY, ORDER BY 절이 사용되어 결과가 같은 것을 보장합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'donated_blood'가 1인 경우에만 조건을 검사하고 있습니다. 즉, 'donated_blood = 1'이 참일 경우에만 뒤에 오는 '(donated_plasma = 1 OR donated_blood = 1)' 조건이 적용되므로, 'donated_blood'가 1이 아닐 때는 'donated_plasma'만 검사하지 않습니다. 그러나 두 번째 쿼리는 'donated_blood'가 1이거나 'donated_plasma'가 1인 경우 모두 검사하여, 두 조건이 완전히 독립적입니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

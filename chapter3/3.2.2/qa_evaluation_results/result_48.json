@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAIFn2EvGSYTzmXIkxwClXboNFF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 12게이지탄과 관련하여 전혀 관련성이 없으며, 잘못된 개념에 대해 설명하고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 설명은 12게이지탄의 의미에 대해 완전히 잘못된 정보를 제공하고 있으며, 참조 답변과 비교하여 사실과 맞지 않는다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 매우 제한적이고 잘못된 개념을 설명하고 있어 질문에 대한 포괄적인 답변으로 평가할 수 없다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문법적으로 이해 가능하지만, 잘못된 정보로 인해 의도를 파악하기 어렵게 만든다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과의 유사성이 전혀 없으며, 주제마저 잘못 언급하고 있다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 12게이지탄과 관련하여 전혀 관련성이 없으며, 잘못된 개념에 대해 설명하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 설명은 12게이지탄의 의미에 대해 완전히 잘못된 정보를 제공하고 있으며, 참조 답변과 비교하여 사실과 맞지 않는다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 매우 제한적이고 잘못된 개념을 설명하고 있어 질문에 대한 포괄적인 답변으로 평가할 수 없다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문법적으로 이해 가능하지만, 잘못된 정보로 인해 의도를 파악하기 어렵게 만든다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과의 유사성이 전혀 없으며, 주제마저 잘못 언급하고 있다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 557,
+        "total_tokens": 783
+    }
+}

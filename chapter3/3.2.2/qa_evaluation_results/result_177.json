@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNATIJ72MuIz8IRCrF5D5MMCPvzB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 거미줄이 전기가 통하는지에 대한 맥락을 제공하지만, 구체적으로 접촉 시 위험성에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델은 거미줄이 전기가 통한다고 명시했으나, 이는 사실과 다르며 뒤에 있는 전기 제품과의 접촉에 대한 설명도 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델이 언급한 내용은 일부 관련 정보를 제공하지만, 거미줄의 저항 특성 및 화재 위험성을 충분히 설명하지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하게 작성되었으나, 부정확한 정보로 인해 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주 내용이 다르며, 진술 내용이 상당히 상충되는 부분이 많다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 거미줄이 전기가 통하는지에 대한 맥락을 제공하지만, 구체적으로 접촉 시 위험성에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델은 거미줄이 전기가 통한다고 명시했으나, 이는 사실과 다르며 뒤에 있는 전기 제품과의 접촉에 대한 설명도 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델이 언급한 내용은 일부 관련 정보를 제공하지만, 거미줄의 저항 특성 및 화재 위험성을 충분히 설명하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하게 작성되었으나, 부정확한 정보로 인해 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주 내용이 다르며, 진술 내용이 상당히 상충되는 부분이 많다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222453,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 588,
+        "total_tokens": 829
+    }
+}

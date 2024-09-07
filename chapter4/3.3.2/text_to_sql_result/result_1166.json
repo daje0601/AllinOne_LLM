@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 학교 이름에서 약간의 차이가 있습니다. 첫 번째 쿼리는 'Brisbane Girls Grammar School'로, 두 번째 쿼리는 'Brisbane Girls'' Grammar School'로, 두 번째 쿼리에서 아포스트로피가 추가되어 있습니다. SQL에서 아포스트로피는 문자열 안에서 따옴표를 포함할 때 사용되므로, 두 쿼리는 서로 다른 문자열을 기준으로 필터링하게 되어 서로 다른 결과를 반환합니다.\"\n}"

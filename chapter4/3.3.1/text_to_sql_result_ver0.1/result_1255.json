@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Name' 조건에서 다릅니다. 첫 번째 쿼리는 'discover clear leader'를 사용하지만, 두 번째 쿼리는 'discoverer clear leader'를 사용합니다. 이로 인해 반환되는 결과가 달라질 수 있습니다.\"\n}"

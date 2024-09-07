@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 basketball_match 테이블에서 모든 고유한 School_ID와 All_Games_Percent 값을 선택합니다. 반면에 두 번째 쿼리는 All_Games 컬럼을 기준으로 그룹화하여 집계 결과를 반환하는데, GROUP BY에서 All_Games 컬럼은 GROUP BY 절의 조건으로 사용되지만 SELECT 절에서 All_Games_Percent가 어떤 식으로 집계되는지 명시하지 않습니다. 즉, 두 쿼리는 결과 집합이 다를 수 있습니다, 특히 All_Games_Percent의 값이 All_Games에 따라 다르게 집계될 수 있기 때문입니다.\"  \n}"

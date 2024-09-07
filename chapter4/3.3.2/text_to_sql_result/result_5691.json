@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 opponent 조건이 다릅니다. 첫 번째 쿼리는 'seattle seahawks'를 상대하는 모든 주를 반환하는 반면, 두 번째 쿼리는 'at seattle seahawks'를 상대하는 경우만 선택합니다. 이로 인해 두 쿼리의 결과는 다를 수 있습니다.\"\n}"

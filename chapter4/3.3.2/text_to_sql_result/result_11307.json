@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 영화 제목을 기준으로 하고 있습니다. 첫 번째 쿼리는 'the hunchback of notre dame'를 조회하는 반면, 두 번째 쿼리는 'the horn blows at midnight'을 조회하고 있습니다. 따라서 결과가 동일하지 않으며, 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

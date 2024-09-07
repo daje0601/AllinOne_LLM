@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Round' 컬럼에서 'sf' 값을 사용하고, 두 번째 쿼리는 'semifinal' 값을 사용합니다. 'sf'는 'semifinal'의 약어일 수 있지만, SQL 쿼리에서 'sf'와 'semifinal'은 다른 문자열로 취급됩니다. 따라서 동일한 결과를 반환하지 않습니다.\"\n}"

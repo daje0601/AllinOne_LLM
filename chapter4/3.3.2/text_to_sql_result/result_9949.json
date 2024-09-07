@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 데니스 호리(Dennis Hori)의 자녀 수를 계산하기 위해 'Children Together'의 개수를 세지만, 두 번째 쿼리는 'Deceased Spouse'가 'Dennis Hawley'인 경우의 'Children Together' 값을 직접 선택합니다. 두 쿼리는 각각 다른 사람에 대한 정보를 참조하고 있으며, 반환되는 결과 또한 의미적으로 비슷하지 않습니다. 따라서 두 쿼리는 동일하지 않습니다.\"\n}"

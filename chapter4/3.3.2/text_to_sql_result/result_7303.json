@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리인 'SELECT COUNT(*) FROM department'는 department 테이블의 모든 행의 수를 반환합니다. 반면, 두 번째 쿼리인 'SELECT COUNT(DISTINCT dept_name) FROM department'는 중복되지 않은 부서 이름의 수를 반환합니다. 만약 동일한 dept_name이 여러 번 나타나는 경우, 첫 번째 쿼리는 중복된 부서를 모두 세지만 두 번째 쿼리는 중복을 제거하고 고유한 부서만 셉니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 각각 다른 ICD 코드(short_title)가 사용되므로 다른 환자를 대상으로 하고 있습니다. 첫 번째 쿼리는 'late eff coronary bypas'를 검사하는 반면, 두 번째 쿼리는 'status-post ptca'와 'late effect cv dis nos'를 검사하고 있습니다. 따라서 동일한 결과를 반환하지 않습니다.\"\n}"

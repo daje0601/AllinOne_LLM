@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 테이블에서 같은 조건을 사용하는 동일한 SELECT 문을 포함하고 있으며 결과적으로 Jerry Deberry의 생년월일(dob)과 언어(language)를 정확하게 검색합니다.\"\n}"

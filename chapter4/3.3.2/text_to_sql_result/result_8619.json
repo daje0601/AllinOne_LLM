@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있으며, 반환하는 결과도 다릅니다. 첫 번째 쿼리는 'Jockey'가 'Daniel Morton'인 경우의 'Barrier' 값을 반환하지만, 두 번째 쿼리는 'Trainer'가 'Daniel Morton'인 경우의 'Barrier' 값 중 최대값을 반환합니다. 따라서 이 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

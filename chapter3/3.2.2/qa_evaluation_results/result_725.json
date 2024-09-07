@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBGJYOS8grPB1qGG4fnDtGNS5M5",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 제비집 요리의 존재에 대한 질문에 적절한 정보를 제공하고 있어 관련성이 높습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 설명 중 일부는 정확하나, 제비집의 구성 성분이나 제조 과정에 대한 정보는 참조 답변과 완전히 일치하지 않으므로 일부 부정확성이 있습니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 제비집 요리가 존재한다고 언급하고 있으나, 다양한 제비집 종류나 건강 이점과 같은 추가 정보가 부족하여 완전성이 떨어집니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대부분 이해하기 쉬우나, 일부 문장이 다소 복잡하게 구성되어 명확성이 떨어질 수 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 전체적으로 주제를 공유하고 있으나, 세부적인 정보나 방식에서 차이가 있어 참조 답변과 유사성이 낮습니다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 제비집 요리의 존재에 대한 질문에 적절한 정보를 제공하고 있어 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 설명 중 일부는 정확하나, 제비집의 구성 성분이나 제조 과정에 대한 정보는 참조 답변과 완전히 일치하지 않으므로 일부 부정확성이 있습니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 제비집 요리가 존재한다고 언급하고 있으나, 다양한 제비집 종류나 건강 이점과 같은 추가 정보가 부족하여 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대부분 이해하기 쉬우나, 일부 문장이 다소 복잡하게 구성되어 명확성이 떨어질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 전체적으로 주제를 공유하고 있으나, 세부적인 정보나 방식에서 차이가 있어 참조 답변과 유사성이 낮습니다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222502,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 246,
+        "prompt_tokens": 767,
+        "total_tokens": 1013
+    }
+}

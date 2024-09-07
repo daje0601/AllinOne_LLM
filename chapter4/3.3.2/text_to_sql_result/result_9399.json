@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 생성된 쿼리는 'Median family income'이 '$51,914'인 경우의 'Per capita income'을 선택하는 반면, 정답 쿼리는 'Median household income'이 '$51,914'인 경우를 기준으로 'Per capita income'을 선택합니다. 따라서 두 쿼리가 반환할 수 있는 결과는 서로 다를 수 있습니다.\"\n}"

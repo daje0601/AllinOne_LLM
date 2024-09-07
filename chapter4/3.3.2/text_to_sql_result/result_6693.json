@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 에피소드를 조회하고 있습니다. 첫 번째 쿼리는 '12th Britains Got Talent'를, 두 번째 쿼리는 '12th Pride of Britain Awards'를 기반으로 하므로, 반환되는 결과는 서로 다를 것입니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리에서 검색하는 'Name' 값이 다릅니다. 첫 번째 쿼리는 'marie-dominique simone'을 찾고, 두 번째 쿼리는 'marie-dominique simonet'을 찾고 있습니다. 따라서 두 쿼리는 서로 다른 결과를 반환할 수 있습니다.\"\n}"

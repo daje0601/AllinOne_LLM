@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBXLdUTFSTMvNRLALYmm1IutHvI",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 부상자에게 물을 먹여선 안 되는 이유를 다루고 있으나, 응급상황에서의 일반적인 조언과는 다소 관련성이 떨어짐.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델은 부상자에게 물을 먹이면 치명적일 수 있는 상황을 일부 언급했으나, 정보의 정확도가 부족하고 사실 관계가 틀림.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 물을 먹이지 말아야 하는 이유를 언급했지만, 여러 상황을 포함시키지 못해 완전성이 부족함.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해할 수 있으나, 일부 문장이 명확하지 않고 논리적 흐름이 좋지 않음.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 주제는 비슷하지만, 예시와 논리가 참조 답변과 크게 다르며 유사성이 낮음.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 부상자에게 물을 먹여선 안 되는 이유를 다루고 있으나, 응급상황에서의 일반적인 조언과는 다소 관련성이 떨어짐."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델은 부상자에게 물을 먹이면 치명적일 수 있는 상황을 일부 언급했으나, 정보의 정확도가 부족하고 사실 관계가 틀림."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 물을 먹이지 말아야 하는 이유를 언급했지만, 여러 상황을 포함시키지 못해 완전성이 부족함."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해할 수 있으나, 일부 문장이 명확하지 않고 논리적 흐름이 좋지 않음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 주제는 비슷하지만, 예시와 논리가 참조 답변과 크게 다르며 유사성이 낮음."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222519,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 618,
+        "total_tokens": 862
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"주어진 두 SQL 쿼리는 구조적으로 동일하지만, 조건의 평가 방식 때문에 의미적으로 동일하지 않습니다. 'AND'와 'OR' 조건이 혼합되어 있어, 실제 쿼리의 조건이 'SALARY BETWEEN 8000 AND 12000 AND COMMISSION_PCT <> \""

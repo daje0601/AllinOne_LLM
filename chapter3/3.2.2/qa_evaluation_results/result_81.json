@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAKLbMauARowbxJ6oRcvGY0Xpwa",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 관련된 정보(교황선거 및 권위 상징)를 제공하지만, 신부들이 쓰는 모자 종류와 그 이유에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에서 언급된 '유카타'와 '카푸치노'는 잘못된 정보이며, 참조 답변에서 설명한 '주케토'와 '비레타'에 대한 정확한 설명이 없다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 포괄적인 정보를 제공하지 못하고, 신부들이 쓰는 모자의 종류나 그 이유에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 어느 정도 구조가 있지만, 잘못된 정보가 포함되어 있어 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 다르며, 주된 모자 종류에 대한 언급이 아예 없다.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 관련된 정보(교황선거 및 권위 상징)를 제공하지만, 신부들이 쓰는 모자 종류와 그 이유에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에서 언급된 '유카타'와 '카푸치노'는 잘못된 정보이며, 참조 답변에서 설명한 '주케토'와 '비레타'에 대한 정확한 설명이 없다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 포괄적인 정보를 제공하지 못하고, 신부들이 쓰는 모자의 종류나 그 이유에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 어느 정도 구조가 있지만, 잘못된 정보가 포함되어 있어 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 다르며, 주된 모자 종류에 대한 언급이 아예 없다."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222444,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 621,
+        "total_tokens": 876
+    }
+}

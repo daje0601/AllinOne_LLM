@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'lab.label' 조건에서 다릅니다. 첫 번째 쿼리는 'Urine Specific Gravity'라는 라벨을 요구하고, 두 번째 쿼리는 'Hyaline Casts'를 요구합니다. 이는 서로 다른 검사를 의미하므로 결과는 다르게 될 것입니다.\"\n}"

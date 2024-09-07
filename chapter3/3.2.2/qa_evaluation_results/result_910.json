@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBWEpdoWG8BDglOkMlOAX8qpQo7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 양자 컴퓨터와 일반 컴퓨터의 차이를 설명하고 있어 질문과 관련성이 높지만, 질문의 '속도' 측면에서의 비교가 조금 더 구체적일 필요가 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 양자 비트에 대한 설명과 일반 비트와의 차이를 언급했지만, '인간의 능력 수준'이라는 비교는 다소 애매하고 모호하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 양자 컴퓨터의 기본 원리에 대해 언급하였지만, 참조 답변에 비해 더 적은 세부 정보가 제공되었다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 쉽게 이해할 수 있지만, 일부 표현이 애매해 추가적인 설명이 필요했다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 내용을 다루고 있으나, 방법론적이고 내용적 연결이 떨어져 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 양자 컴퓨터와 일반 컴퓨터의 차이를 설명하고 있어 질문과 관련성이 높지만, 질문의 '속도' 측면에서의 비교가 조금 더 구체적일 필요가 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 양자 비트에 대한 설명과 일반 비트와의 차이를 언급했지만, '인간의 능력 수준'이라는 비교는 다소 애매하고 모호하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 양자 컴퓨터의 기본 원리에 대해 언급하였지만, 참조 답변에 비해 더 적은 세부 정보가 제공되었다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 쉽게 이해할 수 있지만, 일부 표현이 애매해 추가적인 설명이 필요했다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 내용을 다루고 있으나, 방법론적이고 내용적 연결이 떨어져 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222518,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 258,
+        "prompt_tokens": 773,
+        "total_tokens": 1031
+    }
+}

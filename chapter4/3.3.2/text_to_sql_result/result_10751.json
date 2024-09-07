@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'short_title'과 'long_title'을 사용하여 검사를 필터링하고 있으며, 이 두 필드의 값이 서로 다를 수 있습니다. 따라서, 한 쿼리는 'Fiber-optic bronchoscopy'라는 'short_title'을 가진 절차를 필터링하고, 다른 쿼리는 동일한 절차의 'long_title'을 기준으로 필터링합니다. 이로 인해 반환되는 환자 수가 서로 다를 수 있으며, 결과적으로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

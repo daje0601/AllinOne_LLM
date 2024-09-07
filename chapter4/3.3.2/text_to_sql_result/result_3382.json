@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Cinderella'가 'Nobuko Terashima'인 행과 동시에 'Nobuko Terashima'가 아닌 행을 조건으로 하고 있어, 논리적으로 불가능한 조건을 설정하고 있습니다. 이는 결과를 반환하지 않게 만드므로, 의미적으로 잘못된 쿼리입니다. 두 번째 쿼리는 'Cinderella'가 'Nobuko Terashima'인 행을 찾으며, 이는 문제의 의도에 맞는 올바른 쿼리입니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 쿼리의 조건에서 다릅니다. 첫 번째 쿼리는 'Manufacturer'가 'homologation'이고 'Rider'가 'juan olivé'인 반면, 두 번째 쿼리는 'Manufacturer'가 'honda'이고 'Rider'가 'joan olivé'입니다. 따라서, 두 쿼리는 서로 다른 조건을 사용하고 있어 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

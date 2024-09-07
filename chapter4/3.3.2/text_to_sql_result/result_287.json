@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 country_of_release의 값이 다릅니다. 첫 번째 쿼리는 'united states'를 사용하고, 두 번째 쿼리는 'usa'를 사용합니다. 이 둘은 다른 값으로 간주되므로, 같은 결과를 반환하지 않습니다.\"\n}"

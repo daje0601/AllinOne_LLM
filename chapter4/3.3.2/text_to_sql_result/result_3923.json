@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 코드(short_title)를 기반으로 하고 있습니다. 첫 번째 쿼리는 'gastrintestinal incontin'에 대한 세 가지 진단을 검색하는 반면, 두 번째 쿼리는 'gastrostomy status'에 대한 세 가지 진단을 검색하고 있습니다. 따라서 결과는 의미적으로 동일하지 않습니다.\"\n}"

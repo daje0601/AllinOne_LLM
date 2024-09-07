@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 팀 이름에 차이가 있습니다. 첫 번째 쿼리는 'chesterfield racing team'을 검색하고, 두 번째 쿼리는 'chesterfield racing'을 검색합니다. 이로 인해 반환되는 결과가 다를 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

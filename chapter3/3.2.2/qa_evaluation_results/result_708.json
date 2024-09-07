@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBEK2Gib7lPrHAhup1IRVEgUxKO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 특정 부위에서 오리털이 빠져나가는 부분을 언급하고 있지만, 질문의 핵심인 '오리털이 빠져나는 이유'에는 직접적으로 답하지 않음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 실제 원단의 다운프루프 기능이나 그 중요성을 언급하지 않아 정확성이 낮음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 오리털이 빠지는 부분을 설명하지만, 원인과 해결책에 대한 정보가 부족하여 완전성이 떨어짐.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 문장은 이해하기 어려운 부분이 있으며, 구조가 혼란스러워 명확성이 떨어짐.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변에서 중요한 내용을 차지하고 있는 다운프루프에 대해 언급하지 않아 유사성이 매우 낮음.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 특정 부위에서 오리털이 빠져나가는 부분을 언급하고 있지만, 질문의 핵심인 '오리털이 빠져나는 이유'에는 직접적으로 답하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 실제 원단의 다운프루프 기능이나 그 중요성을 언급하지 않아 정확성이 낮음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 오리털이 빠지는 부분을 설명하지만, 원인과 해결책에 대한 정보가 부족하여 완전성이 떨어짐."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 문장은 이해하기 어려운 부분이 있으며, 구조가 혼란스러워 명확성이 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변에서 중요한 내용을 차지하고 있는 다운프루프에 대해 언급하지 않아 유사성이 매우 낮음."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222500,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 768,
+        "total_tokens": 1001
+    }
+}

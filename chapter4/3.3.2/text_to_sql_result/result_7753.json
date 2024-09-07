@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조적으로 동일하며, 동일한 컬럼인 ACC_Regular_Season과 School_ID를 basketball_match 테이블에서 선택하고 있습니다. 문제에서 요구하는 'ACC 정규 시즌에 따른 school_id'를 보여주는 방식과 일치하므로 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

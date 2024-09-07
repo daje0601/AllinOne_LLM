@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAcDP2LiLIN93hm4eSbhPB05N7C",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 의녀의 품계에 대한 질문과 관련이 있지만, 일부 정보가 잘못되거나 부정확하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델답변에서는 의녀의 품계에 대해 잘못된 정보를 제공하고 있으며, 역사적 정황을 약간 왜곡하였다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 어느 정도 정보가 포함되어 있지만, 의녀의 품계와 신분에 대한 더 구체적인 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 잘 구성되어 있지만, 일부 문구가 다소 복잡해 이해하기 어렵게 만들 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 정보가 겹치지 않으며, 사실관계에서 상당한 차이가 있다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 의녀의 품계에 대한 질문과 관련이 있지만, 일부 정보가 잘못되거나 부정확하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델답변에서는 의녀의 품계에 대해 잘못된 정보를 제공하고 있으며, 역사적 정황을 약간 왜곡하였다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 어느 정도 정보가 포함되어 있지만, 의녀의 품계와 신분에 대한 더 구체적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 잘 구성되어 있지만, 일부 문구가 다소 복잡해 이해하기 어렵게 만들 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 정보가 겹치지 않으며, 사실관계에서 상당한 차이가 있다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222462,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 675,
+        "total_tokens": 894
+    }
+}

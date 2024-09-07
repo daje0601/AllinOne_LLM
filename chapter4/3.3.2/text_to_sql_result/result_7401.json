@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 테이블에서 'Blood in Stool' 증거를 찾고 있습니다. 첫 번째 쿼리는 'lab' 테이블에서 'label'이 'Blood in Stool'인 경우를 찾고, 두 번째 쿼리는 'diagnoses' 테이블에서 'long_title'이 'Blood in stool'인 경우를 찾습니다. 즉, 하나는 실험실 검사 결과를 기준으로 하고, 다른 하나는 진단 결과를 기준으로 하므로 결과가 서로 다를 수 있습니다.\"\n}"

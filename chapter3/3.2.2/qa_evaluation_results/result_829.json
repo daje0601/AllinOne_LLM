@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBPXNifIKHqKozwvm4WArqfxfQW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 개복수술에 대한 내용이지만, 질문의 초점인 최초의 개복수술에 대한 정보가 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변에서 제시한 정보는 사실관계가 잘못되었으며, 존 Peteron이라는 인물의 존재와 그의 실험에 대한 역사적 근거가 부족하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 개복수술의 한 사례를 언급하지만, 질문에서는 최초의 개복수술 전체에 대한 포괄적인 답변이 필요하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 문법적으로는 괜찮지만, 전문적인 용어가 많아 이해하기 어려울 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 전혀 다른 대상을 언급하고 있으며, 두 답변 간의 유사성이 매우 낮다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 개복수술에 대한 내용이지만, 질문의 초점인 최초의 개복수술에 대한 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변에서 제시한 정보는 사실관계가 잘못되었으며, 존 Peteron이라는 인물의 존재와 그의 실험에 대한 역사적 근거가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 개복수술의 한 사례를 언급하지만, 질문에서는 최초의 개복수술 전체에 대한 포괄적인 답변이 필요하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 문법적으로는 괜찮지만, 전문적인 용어가 많아 이해하기 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 다른 대상을 언급하고 있으며, 두 답변 간의 유사성이 매우 낮다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222511,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 457,
+        "total_tokens": 698
+    }
+}

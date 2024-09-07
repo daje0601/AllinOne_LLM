@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 PostTypeId가 1인 Posts 데이터를 가져오고, Tags 열에 'asp.net-core'가 포함된 경우를 필터링하여 결과를 반환합니다. 반면, 두 번째 쿼리는 PostTags 테이블과 Posts 테이블을 결합하여 PostTags.TagId가 117274인 경우를 가져옵니다. 두 쿼리는 서로 다른 조건을 사용하고 있으며, 태그를 특정하는 방식이 다르므로 의미적으로 동일하지 않습니다.\"\n}"

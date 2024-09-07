@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAF6l7aCqK8oJw6YDRzAJTnME4T",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 목소리 변화의 원인에 대한 여러 측면을 잘 설명하며, 질문에서 요구하는 내용과 관련이 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"참조 답변과 유사한 내용을 언급하였으나 일부 세부 사항에서 약간의 차이가 있습니다. 예를 들어, 기침이 성대와 연결된 가래에 미치는 영향에 대한 설명이 다소 모호합니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 다양한 원인을 설명하지만, 참조 답변이 제시한 성대의 부종 등 몇 가지 중요한 요소가 포함되지 않아 전체적으로 완전성이 떨어집니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉬운 문장으로 구성되어 있으며, 각 원인을 번호로 나열하여 명확하게 전달하고 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델은 참조 답변의 일부 내용을 따르지만, 목소리 변화의 원인에 대한 접근 방식과 설명이 다소 다릅니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 목소리 변화의 원인에 대한 여러 측면을 잘 설명하며, 질문에서 요구하는 내용과 관련이 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "참조 답변과 유사한 내용을 언급하였으나 일부 세부 사항에서 약간의 차이가 있습니다. 예를 들어, 기침이 성대와 연결된 가래에 미치는 영향에 대한 설명이 다소 모호합니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 다양한 원인을 설명하지만, 참조 답변이 제시한 성대의 부종 등 몇 가지 중요한 요소가 포함되지 않아 전체적으로 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉬운 문장으로 구성되어 있으며, 각 원인을 번호로 나열하여 명확하게 전달하고 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델은 참조 답변의 일부 내용을 따르지만, 목소리 변화의 원인에 대한 접근 방식과 설명이 다소 다릅니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 260,
+        "prompt_tokens": 742,
+        "total_tokens": 1002
+    }
+}

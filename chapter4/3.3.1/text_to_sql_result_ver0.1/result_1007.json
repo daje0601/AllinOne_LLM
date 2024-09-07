@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 'peak chart positions\\nus country'가 1인 경우의 개수를 세는 기능을 수행합니다. 첫 번째 쿼리는 'title'을 카운트하고, 두 번째 쿼리는 전체 행을 카운트하는데, 'title'이 있는 모든 행은 'peak chart positions\\nus country'가 1인 경우에 해당하므로 동일한 결과를 반환합니다.\"\n}"

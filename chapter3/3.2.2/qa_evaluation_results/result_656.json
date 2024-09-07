@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBA2YeEqs8Dgb7UTPpYMDZYpqqZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대해 논의하고는 있으나, 베토벤이 직접 이름을 지었다고 잘못된 주장을 하고 있어 관련성이 낮습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실과 다르게 베토벤이 직접 제목을 지었다고 주장하고 있는데, 이는 오류입니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델은 단순히 베토벤이 제목을 지었다고 주장하면서 관련된 배경이나 다른 설명을 제시하지 않아 완전성이 부족합니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일반적으로 문법적으로 명확하지만 잘못된 정보로 인해 혼동을 줄 수 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 매우 다르며, 특히 의미적으로 반대되는 주장을 하고 있어 유사성 점수가 낮습니다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대해 논의하고는 있으나, 베토벤이 직접 이름을 지었다고 잘못된 주장을 하고 있어 관련성이 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실과 다르게 베토벤이 직접 제목을 지었다고 주장하고 있는데, 이는 오류입니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델은 단순히 베토벤이 제목을 지었다고 주장하면서 관련된 배경이나 다른 설명을 제시하지 않아 완전성이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일반적으로 문법적으로 명확하지만 잘못된 정보로 인해 혼동을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 매우 다르며, 특히 의미적으로 반대되는 주장을 하고 있어 유사성 점수가 낮습니다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222496,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 225,
+        "prompt_tokens": 509,
+        "total_tokens": 734
+    }
+}

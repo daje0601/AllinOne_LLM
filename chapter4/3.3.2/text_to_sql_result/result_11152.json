@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Elevator'와 'Elector'라는 서로 다른 열(column)을 기준으로 데이터를 필터링하고 있습니다. 첫 번째 쿼리는 'Elevator'가 'pedro martínez de lunares y gotor'인 경우를 찾고, 두 번째 쿼리는 'Elector'가 'pedro martínez de luna y gotor'인 경우를 찾습니다. 따라서 이 두 쿼리는 서로 다른 조건을 기준으로 하므로 결과가 의미적으로 동일하지 않습니다.\"\n}"

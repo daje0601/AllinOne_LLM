@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNARbqH4tqTOURwseUYfZmOQGTZJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 유전자 조작식품에 대한 정보와 관련된 주제를 다루고 있어 높게 평가됨.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 정보 중 일부는 정확하지만, 세계 최초의 유전자 조작식품과 관련된 내용이 정확하지 않음. 루시다인이라는 식품명은 잘못된 정보일 수 있음.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 유전자 조작식품에 대한 일부 정보를 제공하지만, 보다 깊이 있는 설명과 다양한 예시가 부족함.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 명확하게 쓰여 있지만, 일부 전문 용어가 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사하지만, 다루는 세부 사항과 예시가 다르기 때문에 유사성이 낮음.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 유전자 조작식품에 대한 정보와 관련된 주제를 다루고 있어 높게 평가됨."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 정보 중 일부는 정확하지만, 세계 최초의 유전자 조작식품과 관련된 내용이 정확하지 않음. 루시다인이라는 식품명은 잘못된 정보일 수 있음."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 유전자 조작식품에 대한 일부 정보를 제공하지만, 보다 깊이 있는 설명과 다양한 예시가 부족함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 명확하게 쓰여 있지만, 일부 전문 용어가 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사하지만, 다루는 세부 사항과 예시가 다르기 때문에 유사성이 낮음."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222451,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 645,
+        "total_tokens": 879
+    }
+}

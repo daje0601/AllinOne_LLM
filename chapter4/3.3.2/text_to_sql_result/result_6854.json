@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'stadium'의 경우에 대한 대소문자 구분에 차이가 있습니다. 첫 번째 쿼리는 'Memorial Stadium'로 써졌고, 두 번째 쿼리는 'Memorial stadium'으로 작성되어 있습니다. SQL에서는 대소문자가 구분되기 때문에, 두 쿼리는 서로 다른 결과를 반환할 수 있습니다.\"\n}"

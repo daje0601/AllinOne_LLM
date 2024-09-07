@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 name 필드의 값이 서로 다릅니다. 생성된 쿼리는 'matakohe school'을 참조하는 반면, 정답 쿼리는 'matatoki school'을 참조합니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환하게 됩니다.\"\n}"

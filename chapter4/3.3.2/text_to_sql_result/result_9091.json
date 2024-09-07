@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Opponent' 필드에서 필터링하는 값을 다릅니다. 첫 번째 쿼리는 'Steaua Bucharest'를 사용하고, 두 번째 쿼리는 'Steaua Bucureşti'를 사용합니다. 이 두 값은 다르기 때문에, 각 쿼리가 반환하는 결과가 동일할 수 없습니다.\"\n}"

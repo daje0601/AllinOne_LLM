@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Prothrombin time'과 'Partial thromboplastin time'의 값을 다르게 설정하고 있습니다. 첫 번째 쿼리는 이들 값을 'normal'로 설정하지만, 두 번째 쿼리는 'unaffected'로 설정합니다. 이는 결과적으로 서로 다른 조건을 의미하게 되며, 또 'Platelet count'에서도 첫 번째 쿼리는 'decreased or normal'을, 두 번째 쿼리는 'decreased or unaffected'를 사용하므로 semantics가 서로 다릅니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

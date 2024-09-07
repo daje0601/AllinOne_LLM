@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNApQVuuMnNJdAzzubUdmOr9WM2R",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 성우들이 더빙을 하는 이유에 대해 다루고 있지만, 질문의 주제가 기술적 원인에 좀 더 집중되어 있으므로 관련성이 약간 떨어진다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 정보 중 일부는 부정확하거나 뒷받침되는 증거가 부족하다. 특히, '성우는 남자이고 사운드 기술은 여자였다'는 주장은 역사적 사실과 거리가 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 가지 이유를 제시하지만, 깊이 있는 설명이나 구체적인 기술적 배경이 부족하여 포괄적이지 않다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 이유를 나열하고 있으나, 전반적으로 구조가 불명확하고 중복된 정보가 있어 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 프레임워크의 역사적 맥락이나 기술적 세부사항 없이 성우와 관련된 다양한 이론을 나열하고 있어 참조 답변과 크게 다르다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 성우들이 더빙을 하는 이유에 대해 다루고 있지만, 질문의 주제가 기술적 원인에 좀 더 집중되어 있으므로 관련성이 약간 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 정보 중 일부는 부정확하거나 뒷받침되는 증거가 부족하다. 특히, '성우는 남자이고 사운드 기술은 여자였다'는 주장은 역사적 사실과 거리가 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 가지 이유를 제시하지만, 깊이 있는 설명이나 구체적인 기술적 배경이 부족하여 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 이유를 나열하고 있으나, 전반적으로 구조가 불명확하고 중복된 정보가 있어 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 프레임워크의 역사적 맥락이나 기술적 세부사항 없이 성우와 관련된 다양한 이론을 나열하고 있어 참조 답변과 크게 다르다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 279,
+        "prompt_tokens": 1047,
+        "total_tokens": 1326
+    }
+}

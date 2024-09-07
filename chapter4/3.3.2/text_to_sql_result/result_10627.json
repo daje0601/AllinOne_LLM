@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 points_classification 값이 다릅니다. 생성된 쿼리에서는 'Filippo GILBERTO'를 사용하고, 정답 쿼리에서는 'Philippe Gilbert'를 사용하고 있습니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환하게 됩니다.\"\n}"

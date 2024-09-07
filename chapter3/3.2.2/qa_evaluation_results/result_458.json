@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAtIVC31Kmeu1qtYAVeUqJixZme",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대해 전자레인지에서 계란이 터지는 이유를 설명하고 있으며, 관련된 정보도 제공하고 있습니다. 다만, 좀 더 직접적인 이유나 더 명확한 설명이 있었으면 좋았을 것입니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 터지는 이유를 설명하는 데 있어 일부 정확하지만, 참조 답변에서의 내용과 비교했을 때 수증기의 발생 원인과 관련하여 조금 덜 구체적입니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적인 정보를 제공하지만, 참조 답변에서 제시된 추가적인 세부사항(껍데기와 난각막의 역할 등)을 포함하지 않아 완전성이 떨어집니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 일반적으로 이해하기 쉬우나, 약간의 전문 용어가 사용되어 일부 독자에게는 다소 복잡할 수 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점도 있으나, 설명 방식이나 세부 내용 측면에서 차이가 큽니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대해 전자레인지에서 계란이 터지는 이유를 설명하고 있으며, 관련된 정보도 제공하고 있습니다. 다만, 좀 더 직접적인 이유나 더 명확한 설명이 있었으면 좋았을 것입니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 터지는 이유를 설명하는 데 있어 일부 정확하지만, 참조 답변에서의 내용과 비교했을 때 수증기의 발생 원인과 관련하여 조금 덜 구체적입니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적인 정보를 제공하지만, 참조 답변에서 제시된 추가적인 세부사항(껍데기와 난각막의 역할 등)을 포함하지 않아 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 일반적으로 이해하기 쉬우나, 약간의 전문 용어가 사용되어 일부 독자에게는 다소 복잡할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점도 있으나, 설명 방식이나 세부 내용 측면에서 차이가 큽니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222479,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 280,
+        "prompt_tokens": 750,
+        "total_tokens": 1030
+    }
+}

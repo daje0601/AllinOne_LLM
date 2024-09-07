@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단의 긴 제목(long_title)에서 다르며, 첫 번째 쿼리는 'Adverse effects of therapeutic antineoplastic and immunosuppressive drugs'를 사용하는 반면, 두 번째 쿼리는 'Antineoplastic and immunosuppressive drugs causing adverse effects in therapeutic use'를 사용합니다. 이 두 긴 제목은 서로 다른 의미를 내포할 수 있으며, 따라서 쿼리의 결과는 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAz8519yAENCJ97whuvDbfAb6Kq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변이 제사 때 술을 따르는 법에 대한 질문에 일부 관련성을 가지지만, 조상님과 산신령에 대한 언급은 질문의 본질에서 벗어남.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 제공한 정보의 일부는 정확하나, 병에 술을 담그거나 향이 나는 술에 대한 정보는 전통적인 제사 관습과 일치하지 않음.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 세부 정보가 추가되었지만, 질문의 주제인 술을 세 번에 나누어 따르는 방법에 대한 구체적인 설명이 부족함.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 명확하지만, 일부 정보는 혼동을 줄 수 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변이 참조 답변과 유사한 부분도 있으나, 전체적인 방향성이 달라 유사성은 낮음.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 제사 때 술을 따르는 법에 대한 질문에 일부 관련성을 가지지만, 조상님과 산신령에 대한 언급은 질문의 본질에서 벗어남."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 제공한 정보의 일부는 정확하나, 병에 술을 담그거나 향이 나는 술에 대한 정보는 전통적인 제사 관습과 일치하지 않음."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 세부 정보가 추가되었지만, 질문의 주제인 술을 세 번에 나누어 따르는 방법에 대한 구체적인 설명이 부족함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 명확하지만, 일부 정보는 혼동을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 참조 답변과 유사한 부분도 있으나, 전체적인 방향성이 달라 유사성은 낮음."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222485,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 832,
+        "total_tokens": 1084
+    }
+}

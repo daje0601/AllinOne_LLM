@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 SELECT 문에서 COUNT(DISTINCT author.name)에 대해 완전히 동일한 논리를 실행하고 있습니다. 괄호의 유무는 결과에 영향을 미치지 않으므로 두 쿼리는 의미적으로 동일합니다.\"\n}"

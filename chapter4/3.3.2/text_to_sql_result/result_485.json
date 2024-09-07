@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'purity' 열에서 서로 다른 값을 사용하고 있습니다. 첫 번째 쿼리는 'pureness of the body is recognised'를 필터로 사용하고, 두 번째 쿼리는 'apprehension'을 필터로 사용합니다. 이 두 값은 서로 다르며, 따라서 이 쿼리들은 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

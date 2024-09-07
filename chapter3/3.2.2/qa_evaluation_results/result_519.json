@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAyBja3ffPeFHooFYVnGefY2kWR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 벌집 술에 대한 설명을 포함하고 있으나 주로 꿀벌의 활동에 대한 설명에 집중되어 있어 질문의 초점인 '벌집 술'의 정의 및 제조 방법은 불명확하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델은 벌집 술의 정의를 설명하기보다는 꿀의 생성 과정에 대한 정보에 주목하고 있어, 벌집 술에 대한 정보가 부족하여 사실적 정확성이 떨어진다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 제조 방법에 대한 설명이 거의 없으며, 전반적으로 불완전한 내용으로 질문에 대해 충분히 답변하지 못하고 있다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 언어적으로는 이해할 수 있는 수준이지만, 내용이 질문과 크게 관련이 없기 때문에 이질감이 있게 느껴질 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변의 내용과 큰 차이를 보이며, 주제와 정보의 방향이 다르므로 유사성이 낮다.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 벌집 술에 대한 설명을 포함하고 있으나 주로 꿀벌의 활동에 대한 설명에 집중되어 있어 질문의 초점인 '벌집 술'의 정의 및 제조 방법은 불명확하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델은 벌집 술의 정의를 설명하기보다는 꿀의 생성 과정에 대한 정보에 주목하고 있어, 벌집 술에 대한 정보가 부족하여 사실적 정확성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 제조 방법에 대한 설명이 거의 없으며, 전반적으로 불완전한 내용으로 질문에 대해 충분히 답변하지 못하고 있다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 언어적으로는 이해할 수 있는 수준이지만, 내용이 질문과 크게 관련이 없기 때문에 이질감이 있게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 큰 차이를 보이며, 주제와 정보의 방향이 다르므로 유사성이 낮다."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222484,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 274,
+        "prompt_tokens": 687,
+        "total_tokens": 961
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'name' 값을 비교하고 있어 의미적으로 동일하지 않습니다. 첫 번째 쿼리는 'swan coverage'를 찾고, 두 번째 쿼리는 'swann covered bridge'를 찾고 있습니다. 따라서 결과가 다를 수 있습니다.\"\n}"

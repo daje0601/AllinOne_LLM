@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical in structure and logic. They both count the distinct number of patients (subject_id) discharged (dischtime not null) from the admissions table, ensuring that the discharge time is earlier than or equal to one year ago from the current time. There are no differences between the queries.\"\n}"

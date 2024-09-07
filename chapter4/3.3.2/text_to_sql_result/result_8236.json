@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 구조를 가지고 있으며, JOIN 절에서 테이블 간의 관계를 정의하는 방식이 다르지만, 결과적으로 같은 ID와 이름을 반환합니다. 두 쿼리 모두 web_client_accelerator 테이블의 ID를 accelerator_compatible_browser 테이블의 accelerator_id와 매칭하여 그룹화한 후, COUNT(*)가 2 이상인 조건을 통해 결과를 필터링합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

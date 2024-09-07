@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Thomas Jean-Baptiste'와 'Thomas Jeanbaptiste'라는 이름이 다르기 때문에, 대소문자 구분에 따라 SQL 쿼리의 결과가 달라질 수 있습니다. 즉, 쿼리의 조건이 동일하지 않으므로 결과가 의미적으로 동일하지 않습니다.\"\n}"

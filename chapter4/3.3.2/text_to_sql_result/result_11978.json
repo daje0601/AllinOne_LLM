@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 카운트하는 대상이 다릅니다. 생성된 쿼리는 'course_offering.course_id'를 세고 있으며, 정답 쿼리는 'course.department', 'course.name', 'course.number', 'semester.semester'의 조합을 세고 있습니다. 또한, 생성된 쿼리는 'EECS' 부서에 대한 필터를 적용하고 있지만, 정답 쿼리는 'department0'라는 임의의 값을 사용하여 필터링하고 있습니다. 이로 인해 두 쿼리는 결과적으로 서로 다른 데이터를 세기 때문에 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Displacement, Hull Speed Complement' 필드가 'Overall chart'인 조건을 만족하는 레코드의 'Name (Namesake)' 값을 선택합니다. 반면 두 번째 쿼리는 'table_31387'의 모든 'Name (Namesake)' 값을 선택합니다. 첫 번째 쿼리는 특정 조건을 반영하여 결과를 제한하지만, 두 번째 쿼리는 모든 이름을 반환하기 때문에 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

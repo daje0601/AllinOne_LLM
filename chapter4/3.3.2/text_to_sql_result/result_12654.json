@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'spec_type_desc' 열의 조건에서 차이점이 있습니다. 첫 번째 쿼리는 'blood culture'를 조건으로 사용하고, 두 번째 쿼리는 'fluid received in blood culture bottles'를 조건으로 사용하고 있습니다. 이러한 차이로 인해 반환되는 결과가 다르므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAIng4iv8IYy3FVR5syCYsyNNUB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 궁중 화장실의 위치와 사용 방식에 대해 언급하여 질문과 관련이 있지만, 모든 세부 사항이 포함되어 있지는 않다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제공한 정보는 일부 맞지만, 수세식 화장실에 대한 언급이 없는 점 등 제외한 정확성에서 차이가 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"요약된 정보와 몇 가지 포인트는 포함되었으나, 참조 답변에서 제시된 정보의 깊이와 범위를 충분히 담고 있지 않다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하나, 일부 문장이 다소 혼란스러울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사하지만 다르게 표현되거나 일부 세부사항이 빠져있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 궁중 화장실의 위치와 사용 방식에 대해 언급하여 질문과 관련이 있지만, 모든 세부 사항이 포함되어 있지는 않다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제공한 정보는 일부 맞지만, 수세식 화장실에 대한 언급이 없는 점 등 제외한 정확성에서 차이가 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "요약된 정보와 몇 가지 포인트는 포함되었으나, 참조 답변에서 제시된 정보의 깊이와 범위를 충분히 담고 있지 않다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하나, 일부 문장이 다소 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사하지만 다르게 표현되거나 일부 세부사항이 빠져있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 232,
+        "prompt_tokens": 588,
+        "total_tokens": 820
+    }
+}

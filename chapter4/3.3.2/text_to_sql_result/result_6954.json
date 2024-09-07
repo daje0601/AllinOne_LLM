@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 학교 이름을 사용하고 있습니다. 첫 번째 쿼리는 'Tori Pines HS'를 조건으로 하고, 두 번째 쿼리는 'Torrey Pines High School'을 조건으로 하고 있습니다. 이로 인해 반환되는 선수 목록이 다를 수 있습니다.\"\n}"

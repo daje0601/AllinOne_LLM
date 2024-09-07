@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical in structure and logic, they both compute the total sum of the 'Goals' column for the season '2004/05'. Therefore, they will return the same result.\"\n}"

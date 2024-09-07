@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'airport' 조건에서 비교하는 값이 다릅니다. 첫 번째 쿼리는 'Belfast International Airport'를 찾고, 두 번째 쿼리는 'Belfast International'을 찾고 있습니다. 이로 인해 두 쿼리의 결과가 다를 수 있으며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

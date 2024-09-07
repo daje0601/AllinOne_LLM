@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일하며, 동일한 결과를 의미합니다. 두 쿼리 모두 demographic 테이블에서 subject_id가 '2560'인 행의 생일(dob)과 언어(language)를 선택합니다.\"\n}"

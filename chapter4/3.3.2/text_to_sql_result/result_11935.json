@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 완전히 동일하며, 'Year'가 1998인 경우의 'Winner Season'을 선택하는 동일한 SQL 질의를 수행하고 있습니다.\"\n}"

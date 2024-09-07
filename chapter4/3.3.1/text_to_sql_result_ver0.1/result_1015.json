@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 같은 SQL 문을 사용하고 있으며, 'ben 10: alien force volume 9'라는 동일한 DVD 제목으로 'Release date'를 정확히 요청하고 있습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

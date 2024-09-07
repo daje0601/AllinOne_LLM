@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAJmJK53PZuwDHTmtWJwMvzb7Qj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 달에 그려진 토끼 민화에 대한 질문과 관련이 없고, 소련과 한국전쟁과 관련된 내용으로 답변하였다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실에 대한 정확성과 관련성이 부족하며, 특히 민화와 관련된 정보가 부재하다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 달에 토끼가 그려진 민화의 의미에 대해서 전혀 다루지 않고 있으며, 내용이 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 그 자체로는 명확하게 작성되었지만, 관련성이 없는 정보로 인해 질문에 대한 이해가 복잡해진다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 거의 모든 면에서 다르며, 같은 주제를 다루고 있지 않다.\"},\"average_score\":2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 달에 그려진 토끼 민화에 대한 질문과 관련이 없고, 소련과 한국전쟁과 관련된 내용으로 답변하였다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실에 대한 정확성과 관련성이 부족하며, 특히 민화와 관련된 정보가 부재하다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 달에 토끼가 그려진 민화의 의미에 대해서 전혀 다루지 않고 있으며, 내용이 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 그 자체로는 명확하게 작성되었지만, 관련성이 없는 정보로 인해 질문에 대한 이해가 복잡해진다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 거의 모든 면에서 다르며, 같은 주제를 다루고 있지 않다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222443,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 573,
+        "total_tokens": 801
+    }
+}

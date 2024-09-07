@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 약물 이름 중 하나가 다릅니다. 생성된 쿼리에서는 'isosmotic dextrose'라는 약물이 사용되었고, 정답 쿼리에서는 'iso-osmotic dextrose'로 오타가 발생했습니다. 이로 인해 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

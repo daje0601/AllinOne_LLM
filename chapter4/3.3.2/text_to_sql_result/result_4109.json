@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'trach tube tracheostomy'와 'insert endotracheal tube'라는 서로 다른 두 가지 절차 코드(icd9_code)를 사용하고 있습니다. 따라서, 두 쿼리는 서로 다른 절차를 계산하고 있어 결과가 다릅니다.\"\n}"

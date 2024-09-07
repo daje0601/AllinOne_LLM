@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 컬럼을 선택하고 있으며, 'gladiator'와 'gladiators'라는 다른 프로그램 이름을 사용하여 결과가 다를 수 있습니다. 첫 번째 쿼리는 'Original channel' 정보를 반환하고, 두 번째 쿼리는 'New channel(s)' 정보를 반환하므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 질병 진단과 약물 투여 경로를 기준으로 환자를 세고 있습니다. 첫 번째 쿼리는 'SIGMOID DIVERTICULITIS, WITH SIGMOID VOLVULUS/SDA/COLOVESTICAL FISTULA/SDA' 진단을 찾고 'PO' 경로를 요구하는 반면, 두 번째 쿼리는 'SIGMOID DIVERTICULITIS, COLOVESTICAL FISTULA/SDA'를 진단으로 하고 'DIALYS' 경로를 요구합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

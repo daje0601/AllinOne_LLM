@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNArXK7lb4deRf8i0f04mbEUSwGF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문의 핵심인 '식욕을 돋구다' vs '돋우다'에 대한 설명이 부족하고, 생소한 의미를 포함하고 있어 질문과의 관련성이 낮음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 '돋구다'와 '돋우다'의 의미를 잘못 설명하였고, 잘못된 정의를 제공해 정확한 정보를 전달하지 못함.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 두 단어의 차이점을 설명하는 데 실패했지만, 주제에 대한 정보는 포함되어 있으나 불완전함.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 언어는 비교적 명확하지만, 제공하는 정보에 대한 정확성 부족으로 인해 명확성이 떨어짐.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용이 다르게 설명되고, 두 단어의 사용 예시를 제공하지 않아 유사성이 크게 떨어짐.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문의 핵심인 '식욕을 돋구다' vs '돋우다'에 대한 설명이 부족하고, 생소한 의미를 포함하고 있어 질문과의 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 '돋구다'와 '돋우다'의 의미를 잘못 설명하였고, 잘못된 정의를 제공해 정확한 정보를 전달하지 못함."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 두 단어의 차이점을 설명하는 데 실패했지만, 주제에 대한 정보는 포함되어 있으나 불완전함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 언어는 비교적 명확하지만, 제공하는 정보에 대한 정확성 부족으로 인해 명확성이 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 다르게 설명되고, 두 단어의 사용 예시를 제공하지 않아 유사성이 크게 떨어짐."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222477,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 818,
+        "total_tokens": 1071
+    }
+}

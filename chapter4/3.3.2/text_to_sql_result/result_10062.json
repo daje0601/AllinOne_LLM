@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'tobramycin (trough)'와 'tobramycin - trough'라는 서로 다른 lab.labname 값을 사용하고 있습니다. 이로 인해 쿼리 결과에 차이가 발생할 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

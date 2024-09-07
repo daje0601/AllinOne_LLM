@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAbkF1mKLQDmW7ElhbMCybkyhCP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 공의 개수와 관련된 정보가 틀리고 부족합니다. 질문에 대한 정확한 답변이 제공되지 않아 관련성이 낮습니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 언급한 경기당 공의 개수(9개)와 교체에 대한 정보가 참조 답변과 크게 다릅니다. 공에 대한 정보가 부정확하여 점수가 낮습니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델은 공의 교체와 재사용에 대한 질문을 일부 다루지만, 상세한 절차와 양에 대한 정보가 부족하여 완전성이 떨어집니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 설명은 나름 명확하지만, 정보의 정확성 부족으로 인해 전반적인 이해에는 여전히 혼란을 줄 수 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 큰 차이를 보이며, 정보를 서로 맞추기 힘들 정도로 유사성이 낮습니다.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 공의 개수와 관련된 정보가 틀리고 부족합니다. 질문에 대한 정확한 답변이 제공되지 않아 관련성이 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 언급한 경기당 공의 개수(9개)와 교체에 대한 정보가 참조 답변과 크게 다릅니다. 공에 대한 정보가 부정확하여 점수가 낮습니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델은 공의 교체와 재사용에 대한 질문을 일부 다루지만, 상세한 절차와 양에 대한 정보가 부족하여 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 설명은 나름 명확하지만, 정보의 정확성 부족으로 인해 전반적인 이해에는 여전히 혼란을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 큰 차이를 보이며, 정보를 서로 맞추기 힘들 정도로 유사성이 낮습니다."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222461,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 579,
+        "total_tokens": 828
+    }
+}

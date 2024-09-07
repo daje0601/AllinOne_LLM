@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있으며, 카운팅하는 열이 다릅니다. 첫 번째 쿼리는 'Monday Day Two'가 'יום שישי‎'와 같은 경우의 'Sunday Day One'의 수를 세고, 두 번째 쿼리는 'Sunday Day One'이 'Ahad'와 같은 경우의 'Thursday Day Five'의 수를 세고 있습니다. 따라서 두 쿼리의 의미가 다릅니다.\"\n}"

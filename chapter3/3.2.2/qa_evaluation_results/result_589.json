@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB57cuPZFp6mCIixhUauWn9QeXC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 QR코드의 원리와 작동 방식에 대한 정보를 제공하고 있으나, 조금 더 구체적인 내용이 필요하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 QR코드의 기능과 특성에 대해 설명했지만, 모양이 모두 동일하다는 부분은 부정확하다. QR코드는 유사하지만 각기 다른 정보를 담고 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 대부분의 원리에 대한 설명을 포함하고 있으나, QR코드의 특징이나 용도에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하게 읽히지만, 일부 부분은 다소 복잡하게 느껴질 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 같은 주제를 다루나, 접근 방식이나 설명이 다르기 때문에 유사성이 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 QR코드의 원리와 작동 방식에 대한 정보를 제공하고 있으나, 조금 더 구체적인 내용이 필요하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 QR코드의 기능과 특성에 대해 설명했지만, 모양이 모두 동일하다는 부분은 부정확하다. QR코드는 유사하지만 각기 다른 정보를 담고 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 대부분의 원리에 대한 설명을 포함하고 있으나, QR코드의 특징이나 용도에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하게 읽히지만, 일부 부분은 다소 복잡하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 같은 주제를 다루나, 접근 방식이나 설명이 다르기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222491,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 648,
+        "total_tokens": 886
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 home_game 테이블에서 각 연도별 홈 게임 수를 계산하는 기능을 수행합니다. COUNT(*)와 COUNT(year)은 동일한 결과를 반환하는데, COUNT(*)는 모든 행을 count하고, COUNT(year)는 year 컬럼이 NULL이 아닌 행만 세기 때문입니다. 그러나 year 컬럼에 NULL 값이 없다고 가정하면 결과는 동일합니다.\"\n}"

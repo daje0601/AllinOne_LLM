@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'former_local_authority' 값을 사용하고 있습니다. 첫 번째 쿼리는 'arden and mablethorpe urban district'를 기준으로 인구를 조회하고, 두 번째 쿼리는 'audenshaw urban district'를 기준으로 합니다. 따라서, 두 쿼리가 반환하는 결과는 서로 다를 수 있으며 문제에서 요구하는 의미에 부합하지 않습니다.\"\n}"

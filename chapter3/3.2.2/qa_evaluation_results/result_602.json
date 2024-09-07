@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB6BVpgFb15BJ9cTUuU8wSUDOe2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 헤겔의 정반합에 대한 질문과 관련이 전혀 없고, 대신에 전혀 다른 주제인 인슐린과 뇌하수체 호르몬에 대해 언급하고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 헤겔과 관련된 정확한 정보를 제공하지 않으며, 오히려 잘못된 사실을 포함하고 있다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 헤겔의 정반합이라는 주제에 대해 아무런 내용을 제공하지 않으므로 완전성이 없다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로 이해 가능하나, 제공하는 내용이 질문과 전혀 관련이 없기 때문에 명확성은 낮다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변에 비해 주제와 내용이 완전히 다르므로 유사성이 매우 낮다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 헤겔의 정반합에 대한 질문과 관련이 전혀 없고, 대신에 전혀 다른 주제인 인슐린과 뇌하수체 호르몬에 대해 언급하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 헤겔과 관련된 정확한 정보를 제공하지 않으며, 오히려 잘못된 사실을 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 헤겔의 정반합이라는 주제에 대해 아무런 내용을 제공하지 않으므로 완전성이 없다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로 이해 가능하나, 제공하는 내용이 질문과 전혀 관련이 없기 때문에 명확성은 낮다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변에 비해 주제와 내용이 완전히 다르므로 유사성이 매우 낮다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222492,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 560,
+        "total_tokens": 802
+    }
+}

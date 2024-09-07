@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 '진단의 짧은 제목' 조건이 다릅니다. 첫 번째 쿼리는 'Retention in surgical site'를 사용하고, 두 번째 쿼리는 'Seroma complicting proc'를 사용합니다. 이로 인해 두 쿼리는 서로 다른 진단을 기반으로 환자 수를 계산하게 되어 의미적으로 동일하지 않습니다.\"\n}"

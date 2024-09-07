@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'sprintr cup series'와 'sprint cup series'는 문자열이 동일하지 않습니다. 이는 'Championship' 열에서 검색할 값이 다르므로, 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

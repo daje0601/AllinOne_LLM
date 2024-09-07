@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAps7Rd0TEPXaTaZyfmT6eVr9Cc",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 주자가 2루에서 1루로 도루를 할 수 있는지에 대한 질문에 적절히 대답하고 있다. 하지만 질문의 맥락과 관련된 규정을 명확히 다루지 않은 점이 다소 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 2루에서 1루로 도루를 시도할 수 있다고 하지만, 도루로 인정되지 않는 이유에 대한 설명이 추상적이고 기준규정을 충분히 반영하지 못했다. 따라서 정확성에서 중간 정도로 평가된다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 주자의 위치에 대한 도루의 안전성에 대한 언급은 했지만, 도루 관련 규정과 관련하여 더 많은 설명이 필요하다. 참조 답변에 비해 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 이해하기 어렵지 않으나, 일부 표현이 불명확하거나 논리적 흐름이 다소 어색하여 바람직한 명확성과는 거리가 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 점검된 점이 많아 다소 다른 해석을 가지고 있어 참조 답변과 유사성이 낮다. 규정의 인용이나 구체적인 사례가 부족하다.\"},\"average_score\":6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 주자가 2루에서 1루로 도루를 할 수 있는지에 대한 질문에 적절히 대답하고 있다. 하지만 질문의 맥락과 관련된 규정을 명확히 다루지 않은 점이 다소 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 2루에서 1루로 도루를 시도할 수 있다고 하지만, 도루로 인정되지 않는 이유에 대한 설명이 추상적이고 기준규정을 충분히 반영하지 못했다. 따라서 정확성에서 중간 정도로 평가된다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 주자의 위치에 대한 도루의 안전성에 대한 언급은 했지만, 도루 관련 규정과 관련하여 더 많은 설명이 필요하다. 참조 답변에 비해 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 이해하기 어렵지 않으나, 일부 표현이 불명확하거나 논리적 흐름이 다소 어색하여 바람직한 명확성과는 거리가 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 점검된 점이 많아 다소 다른 해석을 가지고 있어 참조 답변과 유사성이 낮다. 규정의 인용이나 구체적인 사례가 부족하다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 321,
+        "prompt_tokens": 510,
+        "total_tokens": 831
+    }
+}

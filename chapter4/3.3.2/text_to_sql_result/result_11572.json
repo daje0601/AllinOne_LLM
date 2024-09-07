@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'spec_type_desc' 값을 사용하고 있습니다. 첫 번째 쿼리는 'acute respiratory viral screen'을 사용하고, 두 번째 쿼리는 'rapid respiratory viral screen & culture'을 사용합니다. 이러한 차이는 검사 결과의 유형이 다르기 때문에 의미적인 결과도 다르게 나오게 됩니다.\"\n}"

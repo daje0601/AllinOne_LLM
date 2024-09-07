@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB9E9j1WsqawWJ2SkECN3j6oBZH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 패딩의 흰색 라인 세탁 방법에 관한 다양한 옵션을 제시하고 있어 질문과 관련이 높습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 언급한 여러 방법 중 일부는 정확하지만, 락스와 같은 강한 화학물질 사용은 권장되지 않을 수 있습니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 방법을 제시하지만, 각 방법에 대한 구체적인 절차나 팁이 부족해 다소 포괄성이 떨어집니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 각 방법의 필요한 사항이 잘 나와 있어 이해하기 쉽습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있지만, 제시된 방법에 있어서 차이가 있어 유사도는 낮습니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 패딩의 흰색 라인 세탁 방법에 관한 다양한 옵션을 제시하고 있어 질문과 관련이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 언급한 여러 방법 중 일부는 정확하지만, 락스와 같은 강한 화학물질 사용은 권장되지 않을 수 있습니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 방법을 제시하지만, 각 방법에 대한 구체적인 절차나 팁이 부족해 다소 포괄성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 각 방법의 필요한 사항이 잘 나와 있어 이해하기 쉽습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있지만, 제시된 방법에 있어서 차이가 있어 유사도는 낮습니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222495,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 229,
+        "prompt_tokens": 621,
+        "total_tokens": 850
+    }
+}

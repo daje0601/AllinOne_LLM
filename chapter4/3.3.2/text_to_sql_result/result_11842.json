@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 가지고 있으며, 'conference_joined'와 'mascot' 값이 다른 문자열을 사용합니다. 첫 번째 쿼리는 'indiana lake shore conference'와 'the governors'를 기준으로 하고, 두 번째 쿼리는 'indiana lake shore'와 'governors'를 기준으로 합니다. 이로 인해 각 쿼리가 반환하는 결과가 다를 수 있습니다.\"\n}"

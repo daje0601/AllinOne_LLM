@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 검색하는 'English title' 값이 다릅니다. 첫 번째 쿼리는 'Witman Boys'를 찾고, 두 번째 쿼리는 'The Witman Boys'를 찾습니다. 이는 서로 다른 제목이기 때문에 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

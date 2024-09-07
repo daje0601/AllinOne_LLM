@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAU0uoXN4tniri3Ii3tWbqnHSz4",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 주머니 난로의 기본 작동 원리에 대한 설명이 아닌 압력 차이에 대한 설명을 제공하고 있어 질문의 주제와 크게 관련이 없다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 주머니 난로의 실제 작동 원리를 잘못 설명하고 있으며, 하이포라와 같은 물질의 사용이나 고체화 과정에 대한 언급이 없다.\"},\"completeness\":{\"score\":3,\"explanation\":\"주머니 난로의 작동 원리에 대해 압력 차이에 관한 정보는 포함되어 있으나, 하이포라의 역할이나 열 방출 방식에 대한 설명은 누락되어 있어 불완전하다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 설명은 일부 부문에서 이해하기 어려운 부분이 있을 만큼 복잡하지만, 단계적으로 설명하려는 점은 긍정적이다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 개념적으로 동일한 주제를 다루지 않고, 크게 다른 원리에 대한 설명을 하고 있어 유사성이 매우 낮다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 주머니 난로의 기본 작동 원리에 대한 설명이 아닌 압력 차이에 대한 설명을 제공하고 있어 질문의 주제와 크게 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 주머니 난로의 실제 작동 원리를 잘못 설명하고 있으며, 하이포라와 같은 물질의 사용이나 고체화 과정에 대한 언급이 없다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "주머니 난로의 작동 원리에 대해 압력 차이에 관한 정보는 포함되어 있으나, 하이포라의 역할이나 열 방출 방식에 대한 설명은 누락되어 있어 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 설명은 일부 부문에서 이해하기 어려운 부분이 있을 만큼 복잡하지만, 단계적으로 설명하려는 점은 긍정적이다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 개념적으로 동일한 주제를 다루지 않고, 크게 다른 원리에 대한 설명을 하고 있어 유사성이 매우 낮다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222454,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 266,
+        "prompt_tokens": 605,
+        "total_tokens": 871
+    }
+}

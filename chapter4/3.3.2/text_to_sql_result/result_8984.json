@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'treatmentname'의 값이 다릅니다. 첫 번째 쿼리에서는 'colloid administration - hydroxyethyl starch'로 되어 있고, 두 번째 쿼리에서는 'colloid administration - hydroxyethylstarch'로 되어 있습니다. 이로 인해 첫 번째 쿼리와 두 번째 쿼리가 다른 환자 그룹을 선택할 수 있으며, 따라서 평균 병원 비용의 계산 결과가 달라질 수 있습니다.\"\n}"

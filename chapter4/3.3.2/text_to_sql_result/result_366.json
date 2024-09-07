@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Mitral valve disorder'와 'Mitral valve disorders'라는 다른 제목을 사용하고 있습니다. 이로 인해 두 쿼리는 서로 다른 진단명을 기준으로 환자를 counting하므로 의미적으로 동일하지 않습니다.\"\n}"

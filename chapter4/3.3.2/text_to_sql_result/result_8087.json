@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Lib Dem'이 '2'보다 작고 'Conservative'가 '0'보다 큰 경우의 평균 'Independent'를 계산하고 있으며, 두 번째 쿼리는 'Conservative'가 '0'보다 작은 경우의 평균 'Lib Dem'을 계산하고 있습니다. 문제는 'Lib Dem'의 평균을 구하는 것이고, 첫 번째 쿼리는 'Independent'의 평균을 구하고 있어 서로 의미가 다릅니다.\"\n}"

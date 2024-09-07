@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있기 때문에 의미적으로 동일하지 않습니다. 생성된 쿼리는 'Region 1'이 'TBA'인 경우와 'Complete Series'가 '8th'인 경우를 선택하는 반면, 정답 쿼리는 'Region 4'가 'TBA'인 경우와 'Complete Series'가 'The Complete Eighth Series'인 경우를 선택합니다. 이로 인해 반환되는 결과가 다를 수 있습니다.\"\n}"

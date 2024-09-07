@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAeecnk2jYVZJIaeofCHhZ0fDZE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 질문에 대한 정확한 입장을 취하지 않고, 불확정한 진술을 하여 관련성이 낮다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델에서 제시한 백두산 높이는 잘못되었고, 지리적 사실 또한 부정확하다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 질문의 요구 사항을 완전히 충족하지 못하고, 백두산의 순위에 대한 충분한 설명이 결여되어 있다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 혼란스럽고 다소 모호하여 이해하기 어렵다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 응답과 내용적으로 크게 다르며, 여러 사실이 잘못 기술되어 있다.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 질문에 대한 정확한 입장을 취하지 않고, 불확정한 진술을 하여 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델에서 제시한 백두산 높이는 잘못되었고, 지리적 사실 또한 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문의 요구 사항을 완전히 충족하지 못하고, 백두산의 순위에 대한 충분한 설명이 결여되어 있다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 혼란스럽고 다소 모호하여 이해하기 어렵다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 응답과 내용적으로 크게 다르며, 여러 사실이 잘못 기술되어 있다."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222464,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 204,
+        "prompt_tokens": 605,
+        "total_tokens": 809
+    }
+}

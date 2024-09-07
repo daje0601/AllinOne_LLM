@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'lewy_body_dementia'가 1이거나 'mini_mental_state_examination_mmse'가 24 미만인 경우를 선택합니다. 두 번째 쿼리는 'lewy_body_dementia'가 1이거나 'mild_cognitive_impairment'가 1인 경우를 선택합니다. 이 두 조건은 서로 다르며, 각각의 조건이 의미하는 바가 다르기 때문에 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

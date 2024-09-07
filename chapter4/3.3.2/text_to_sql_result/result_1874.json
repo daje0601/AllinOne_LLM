@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 조건을 사용하고 있으며, '활동성 대사, 간 질환 또는 소화기 질환이 있다'라는 문제 설명에 정확히 부합합니다. 모두 'active_metabolic = 1' 또는 'hepatic_disease = 1' 또는 'gastrointestinal_disease = 1'인 경우를 추출하는 쿼리이므로, 의미적으로 동일한 결과를 반환합니다.\"\n}"

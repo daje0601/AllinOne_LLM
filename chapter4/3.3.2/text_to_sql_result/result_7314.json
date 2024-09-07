@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 조건이 다릅니다. 첫 번째 쿼리는 cultural_and_educational_panel이 2보다 큰 값을 가진 경우를 선택합니다. 반면 두 번째 쿼리는 cultural_and_educational_panel이 정확히 2인 경우만을 선택합니다. 이로 인해 결과가 달라질 수 있습니다.\"\n}"

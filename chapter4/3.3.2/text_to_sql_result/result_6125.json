@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 쿼리입니다. 동일한 조건인 country = 'france'와 icao = 'lfrn'을 사용하여 'iata' 열을 선택하고 있으므로, 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

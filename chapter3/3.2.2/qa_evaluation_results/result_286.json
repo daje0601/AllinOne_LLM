@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAej8yIWCkrNBfVQs6z1949aB6K",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문과 매우 관련이 있지만, 지나치게 기술적인 부분이 포함되어 있어 전반적인 파악은 어려울 수 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 설명은 사실 일부는 맞지만, '적외선 망치'와 같은 용어와 원리에 대한 설명은 실제와 다르다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적인 사실은 포함하고 있으나, 사막뿔도마뱀의 행동 및 생태에 대한 전반적인 설명이 부족하다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 다소 복잡하고 기술적인 언어 사용으로 인해 이해하기 어렵고 혼란스러운 부분이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변이 참고 답변과 다소 유사한 점이 있지만, 주요 개념과 설명이 부정확하여 유사성 점수는 낮다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문과 매우 관련이 있지만, 지나치게 기술적인 부분이 포함되어 있어 전반적인 파악은 어려울 수 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 설명은 사실 일부는 맞지만, '적외선 망치'와 같은 용어와 원리에 대한 설명은 실제와 다르다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적인 사실은 포함하고 있으나, 사막뿔도마뱀의 행동 및 생태에 대한 전반적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 다소 복잡하고 기술적인 언어 사용으로 인해 이해하기 어렵고 혼란스러운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 참고 답변과 다소 유사한 점이 있지만, 주요 개념과 설명이 부정확하여 유사성 점수는 낮다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222464,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 506,
+        "total_tokens": 746
+    }
+}

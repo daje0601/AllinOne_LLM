@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단명에서 차이가 있습니다. 첫 번째 쿼리는 'metabolic acidosis - secondary to bicarbonate loss'라는 진단명을 사용하고, 두 번째 쿼리는 'metabolic acidosis - due to bicarbonate loss'라는 진단명을 사용하고 있습니다. 따라서 두 쿼리는 서로 다른 진단명을 기준으로 환자를 집계하게 되어, 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

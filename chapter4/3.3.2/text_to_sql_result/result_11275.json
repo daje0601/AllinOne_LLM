@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 '7:30 am'과 '6:30 pm'의 프로그램 이름을 'local programming'과 'local programs'로 다르게 사용하고 있습니다. DB에서 이러한 값들은 서로 다르게 취급되며, 따라서 동일한 결과를 반환하지 않습니다.\"\n}"

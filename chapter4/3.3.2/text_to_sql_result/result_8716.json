@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Player' 값을 기준으로 결과를 조회하고 있습니다. 첫 번째 쿼리는 'steve boswell'에 대해 조회하고, 두 번째 쿼리는 'steve borthwick'에 대해 조회하므로, 결과가 의미적으로 동일하지 않습니다.\"\n}"

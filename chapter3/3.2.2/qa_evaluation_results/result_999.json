@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBeSdEk9zViccw4MIwqTgbEMXdg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 깻잎에 털이 많은 이유를 보호기능과 관련하여 설명하였고, 질문에 매우 관련성이 높음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변에서 털의 기능이 보호와 수분 유지라는 두 가지 측면을 포함하고 있지만, 광합성 기관 보호의 이유와 같은 설명은 모호할 수 있음.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 깻잎의 털이 많은 이유를 몇 가지로 설명했지만, 참조 답변에서 언급한 해충 방어와 관련된 내용이 부족함.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고, 문장이 명확하나, 일부 내용은 중복되거나 모호할 수 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 유사점을 갖고 있으나, 내용의 초점과 접근 방식이 다름.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 깻잎에 털이 많은 이유를 보호기능과 관련하여 설명하였고, 질문에 매우 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변에서 털의 기능이 보호와 수분 유지라는 두 가지 측면을 포함하고 있지만, 광합성 기관 보호의 이유와 같은 설명은 모호할 수 있음."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 깻잎의 털이 많은 이유를 몇 가지로 설명했지만, 참조 답변에서 언급한 해충 방어와 관련된 내용이 부족함."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고, 문장이 명확하나, 일부 내용은 중복되거나 모호할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 유사점을 갖고 있으나, 내용의 초점과 접근 방식이 다름."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222526,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 246,
+        "prompt_tokens": 539,
+        "total_tokens": 785
+    }
+}

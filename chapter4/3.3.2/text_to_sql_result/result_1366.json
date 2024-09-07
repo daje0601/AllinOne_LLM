@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'diagnoses.short_title'에서 조건으로 사용하는 값이 다릅니다. 첫 번째 쿼리는 'Hx-ven thrombosis/embolism'을 사용하고, 두 번째 쿼리는 'Hx-ven thrombosis/embols'을 사용하고 있습니다. 이 차이로 인해 두 쿼리가 집계하는 환자의 숫자가 다를 수 있습니다. 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

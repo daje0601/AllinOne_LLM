@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 게시물의 Body에 'youtube.com' 또는 'facebook.com' 링크가 포함된 게시물의 ID, CreationDate, Body, OwnerUserId, Title를 가져오고, 최신 게시물 100개를 반환합니다. 반면 두 번째 쿼리는 답변 수가 3개 이상인 게시물 중에서 특정 태그('youtube-api', 'facebook-api')가 포함된 게시물의 Title, Body, Tags 및 링크를 가져옵니다. 두 쿼리는 조회하는 데이터의 기준과 결과 형식이 다르며, 필터링 조건 또한 다릅니다.\"\n}"

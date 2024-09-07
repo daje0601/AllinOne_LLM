@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 열을 선택하고, 서로 다른 조건을 기준으로 필터링합니다. 첫 번째 쿼리는 'Captain'이 'michael mcglinchey'인 경우의 'Vice-Captain'을 선택하고, 두 번째 쿼리는 'Vice-Captain'이 'michael mcglinchey'인 경우의 'International Marquee'를 선택합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

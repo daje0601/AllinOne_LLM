@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'antarctica'와 동일한 'original air date'를 가진 모든 에피소드를 반환하는 반면, 두 번째 쿼리는 'antarctica' 에피소드를 제외한 같은 'original air date'의 에피소드를 반환합니다. 즉, 첫 번째 쿼리는 'antarctica' 에피소드도 포함될 수 있지만, 두 번째 쿼리는 반드시 'antarctica'를 제외한 결과만 포함하므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 GROUP BY가 없어서 date_address_to별로 COUNT를 계산하지만, 정답 쿼리는 ORDER BY를 추가하여 결과를 monthly_rental 기준으로 정렬합니다. 즉, 정답 쿼리는 결과의 정렬이 포함되어 있어 결과의 순서가 달라질 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

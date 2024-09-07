@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 champion과 runner_up의 이름 철자가 다릅니다. 첫 번째 쿼리에서는 'peter mcvey'와 'paul mackellar'가 사용되었고, 두 번째 쿼리에서는 'peter mcevoy'와 'paul mckellar'가 사용되었습니다. 결과적으로 이 둘은 서로 다른 사람을 나타내기 때문에, 같은 결과를 반환하지 않습니다.\"\n}"

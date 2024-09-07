@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 opponent_in_final의 값이 각각 'alize cornet janette husárová'와 'alizé cornet janette husárová'로 다릅니다. 이 이름에서 'é'의 유무는 문자의 정확한 값에 중요한 차이를 만들어서, 두 쿼리는 서로 다른 결과를 반환할 것입니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

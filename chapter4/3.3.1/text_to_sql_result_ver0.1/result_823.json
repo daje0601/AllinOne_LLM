@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 diagnoses.long_title의 조건이 서로 다릅니다. 첫 번째 쿼리는 'Encephalopathy, unspecified etiology'를 찾고, 두 번째 쿼리는 'Encephalopathy, unspecified'를 찾습니다. 이는 서로 다른 진단명이므로 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리에서는 GROUP BY 절이 없어, installation_date의 각 고유값에 대해 개수를 집계하지 않고 전체 카운트를 반환합니다. 반면 두 번째 쿼리는 GROUP BY를 사용하여 각 installation_date에 대해 개수를 계산하므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

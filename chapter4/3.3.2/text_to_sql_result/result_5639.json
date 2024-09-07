@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 동일하게 'hawthorn'을 away_team으로 필터링하여 venue를 선택하고 있기 때문에, 의미적으로 동일한 결과를 반환합니다.\"\n}"

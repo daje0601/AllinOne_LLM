@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 GROUP BY 와 ORDER BY 절에 사용된 기준이 다릅니다. 첫 번째 쿼리는 COUNT(facility_code) 기준으로 내림차순 정렬하고, 두 번째 쿼리는 facility_code를 기준으로 내림차순 정렬합니다. 이로 인해 반환되는 결과의 순서가 달라질 수 있으며, 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

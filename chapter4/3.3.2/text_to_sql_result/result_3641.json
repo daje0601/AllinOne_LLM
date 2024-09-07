@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 결과를 그룹화하는 키와 정렬 기준이 다릅니다. 첫 번째 쿼리는 'semester'를 기준으로 GROUP BY하고 'semester'로 ORDER BY 합니다. 반면, 두 번째 쿼리는 'semester'로 GROUP BY하지만 'T1.title'로 ORDER BY 하여 과목 제목을 기준으로 정렬합니다. 이로 인해 정렬된 결과가 다른 방식으로 나타날 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

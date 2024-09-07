@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 둘 다 'junior men individual 5.64km'에 대한 위치(position)를 선택하는 동일한 SELECT 쿼리입니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

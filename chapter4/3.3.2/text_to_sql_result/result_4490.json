@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'always fixed rate'와 '3p per minute'를 조건으로 사용하고, 두 번째 쿼리는 'Pence per minute, fixed at all times'와 '3p/min'을 조건으로 사용합니다. 이 때문에 두 쿼리는 서로 다른 의미를 가지며, 결과적으로 같은 결과를 반환하지 않을 수 있습니다.\"\n}"

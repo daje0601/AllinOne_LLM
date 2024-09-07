@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Carlos Molano'와 'Carlos Moreno'라는 서로 다른 감독 이름을 기준으로 조건을 설정하고 있습니다. 문제는 'Carlos Moreno'가 감독한 영어 제목의 수를 셀 것을 요구하고 있으므로, 생성된 쿼리는 잘못된 결과를 반환합니다.\"\n}"

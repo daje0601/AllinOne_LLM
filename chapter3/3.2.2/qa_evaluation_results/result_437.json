@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNArjkJt7Q0KPPSsfStEziUbGtDw",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문과 관련이 있으며, 수면 중 깨는 증상의 건강 영향과 이를 줄이는 방법에 대해 언급하고 있습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델은 수면 중 깨는 것이 건강에 나쁜 영향을 미치지 않는다고 했으나, 이러한 문제의 원인에 대한 설명이 부족하며, 일부 정보는 부정확할 수 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델 답변은 증상을 줄이는 방법을 제시하지만, 참조 답변에 비해 덜 포괄적입니다. 예를 들어, 성장호르몬 등의 여러 요인에 대한 언급이 부족합니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉬운 언어로 작성되었습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 내용과 유사한 점이 있지만, 수면과 관련된 여러 요소에 대한 인식이 부족한 점에서 차이가 있습니다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문과 관련이 있으며, 수면 중 깨는 증상의 건강 영향과 이를 줄이는 방법에 대해 언급하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델은 수면 중 깨는 것이 건강에 나쁜 영향을 미치지 않는다고 했으나, 이러한 문제의 원인에 대한 설명이 부족하며, 일부 정보는 부정확할 수 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델 답변은 증상을 줄이는 방법을 제시하지만, 참조 답변에 비해 덜 포괄적입니다. 예를 들어, 성장호르몬 등의 여러 요인에 대한 언급이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉬운 언어로 작성되었습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 유사한 점이 있지만, 수면과 관련된 여러 요소에 대한 인식이 부족한 점에서 차이가 있습니다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222477,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 596,
+        "total_tokens": 849
+    }
+}

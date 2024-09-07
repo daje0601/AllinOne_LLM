@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBL0vDMp5TBuHSrd1ljvK22kyJ8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델 답변은 질문에 대한 일부 관련성은 있으나, 지구형과 목성형 행성의 질량 차이에 관한 심층적인 설명이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델 답변은 중력의 역할에 대한 잘못된 설명이 포함되어 있으며, 지구형과 목성형 행성의 형성 과정에 대한 정보가 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델 답변은 일부 요소를 다루고 있지만, 형성 원인과 질량 차이에 대한 포괄적인 설명이 부족하여 완전성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델 답변은 어느 정도 명확하지만, 잘못된 정보를 포함하고 있어 사용자에게 혼란을 초래할 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델 답변은 참조 답변과 개념적으로 다르며, 유사한 내용이 거의 없다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델 답변은 질문에 대한 일부 관련성은 있으나, 지구형과 목성형 행성의 질량 차이에 관한 심층적인 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델 답변은 중력의 역할에 대한 잘못된 설명이 포함되어 있으며, 지구형과 목성형 행성의 형성 과정에 대한 정보가 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델 답변은 일부 요소를 다루고 있지만, 형성 원인과 질량 차이에 대한 포괄적인 설명이 부족하여 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델 답변은 어느 정도 명확하지만, 잘못된 정보를 포함하고 있어 사용자에게 혼란을 초래할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델 답변은 참조 답변과 개념적으로 다르며, 유사한 내용이 거의 없다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222507,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 782,
+        "total_tokens": 1017
+    }
+}

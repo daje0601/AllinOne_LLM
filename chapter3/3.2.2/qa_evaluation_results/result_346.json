@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAin5u6Dd1umG5sEa0xQ7yBOiff",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 연탄 구멍이 많을 경우의 좋은 점에 대해 잘 설명하고 있으며, 구멍이 적을 경우의 단점도 언급하고 있어 질문과 관련성이 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 연소 효율과 구멍의 역할을 논의하고 있으나, 물에 젖는 것과 관련된 설명은 다소 불명확하고 부정확하게 표현되어 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 구멍이 많은 연탄의 장점과 적은 연탄의 단점을 설명했지만, 구멍이 적어도 좋은 점에 대한 내용이 부족하며, 전반적인 설명이 약간 불완전하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해가 쉽지만, 일부 문장은 다소 복잡하게 구성되어 있어 명확성이 떨어질 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 결론이나 표현 방식에서 약간의 차이가 있어 유사성 점수는 낮게 평가되었다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 연탄 구멍이 많을 경우의 좋은 점에 대해 잘 설명하고 있으며, 구멍이 적을 경우의 단점도 언급하고 있어 질문과 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 연소 효율과 구멍의 역할을 논의하고 있으나, 물에 젖는 것과 관련된 설명은 다소 불명확하고 부정확하게 표현되어 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 구멍이 많은 연탄의 장점과 적은 연탄의 단점을 설명했지만, 구멍이 적어도 좋은 점에 대한 내용이 부족하며, 전반적인 설명이 약간 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해가 쉽지만, 일부 문장은 다소 복잡하게 구성되어 있어 명확성이 떨어질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 결론이나 표현 방식에서 약간의 차이가 있어 유사성 점수는 낮게 평가되었다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222468,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 289,
+        "prompt_tokens": 655,
+        "total_tokens": 944
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 writer에 사용된 문자열의 형식이 다릅니다. 첫 번째 쿼리는 'russell t. davies and james moran'이라는 문자열을 사용하고 있으며, 두 번째 쿼리는 'russell t davies and james moran'이라는 문자열을 사용합니다. 이로 인해 조건이 서로 다르기 때문에 결과가 의미적으로 동일하다고 할 수 없습니다.\"\n}"

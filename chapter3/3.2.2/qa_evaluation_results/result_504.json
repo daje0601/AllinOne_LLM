@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAxGDrIUf94ApDdXZMrI6tkHy2D",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 흰 옷 세탁법이라는 질문에 직접적으로 관련이 있으며, 여러 방법을 제안하고 있음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제안한 방법들은 유용하지만, 정확한 정보와 조화를 이루지 않거나 적절한 설명이 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 몇 가지 방법만 제시하며, 참조 답변에 비해 불완전한 정보 제공.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전체적으로 명확하고 이해하기 쉬운 구조를 가지고 있으나 일부 기술적인 부분이 다소 순차적이지 않았음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 방법적으로 크게 다르며, 유사한 요소가 제한되어 있음.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 흰 옷 세탁법이라는 질문에 직접적으로 관련이 있으며, 여러 방법을 제안하고 있음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제안한 방법들은 유용하지만, 정확한 정보와 조화를 이루지 않거나 적절한 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 몇 가지 방법만 제시하며, 참조 답변에 비해 불완전한 정보 제공."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전체적으로 명확하고 이해하기 쉬운 구조를 가지고 있으나 일부 기술적인 부분이 다소 순차적이지 않았음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 방법적으로 크게 다르며, 유사한 요소가 제한되어 있음."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222483,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 776,
+        "total_tokens": 988
+    }
+}

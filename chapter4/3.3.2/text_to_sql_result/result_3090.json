@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 SQL 쿼리 내용을 갖고 있습니다. 'SELECT Allergy, COUNT(*) FROM Has_Allergy GROUP BY Allergy ORDER BY Allergy DESC'라는 쿼리는 알레르기별 학생 수를 세고, 알레르기 이름에 따라 내림차순으로 정렬하는 작업을 수행합니다. 문제에서 요구하는 결과와 일치하므로 의미적으로 동일합니다.\"\n}"

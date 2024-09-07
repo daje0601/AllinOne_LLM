@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAEuthQ8imDtZBrL8cpmBROsk68",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 LPG와 가솔린의 연비 차이에 대한 설명을 일부 포함하고 있지만, 질문의 핵심인 연비 차이를 명확히 설명하지 않음.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 설명 중 일부는 사실이지만, LPG와 가솔린의 물리적 특성과 연비 차이에 대한 설명이 부족하고 정확하지 않음.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 요소를 언급하지만, 질문의 요점인 연비 저하의 이유에 대한 포괄적인 설명이 부족함.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장에서는 혼란스러운 부분이 있음.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 관련된 내용을 언급하고 있지만, 접근 방식과 내용에서 상당히 다름.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 LPG와 가솔린의 연비 차이에 대한 설명을 일부 포함하고 있지만, 질문의 핵심인 연비 차이를 명확히 설명하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 설명 중 일부는 사실이지만, LPG와 가솔린의 물리적 특성과 연비 차이에 대한 설명이 부족하고 정확하지 않음."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 요소를 언급하지만, 질문의 요점인 연비 저하의 이유에 대한 포괄적인 설명이 부족함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장에서는 혼란스러운 부분이 있음."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 관련된 내용을 언급하고 있지만, 접근 방식과 내용에서 상당히 다름."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 594,
+        "total_tokens": 825
+    }
+}

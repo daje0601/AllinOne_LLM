@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAJO3vB25CZVoxeznFvKy9IKQG1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문과 관련이 있지만, 군고구마가 찐 고구마보다 더 맛있고 단 이유에 대해 더 구체적인 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에 있는 몇 가지 정보는 정확하지 않거나 과장되어 있다. 예를 들어, 군고구마의 당도 및 기타 성분에 대한 설명이 부적절하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 군고구마와 찐 고구마의 차이점에 대한 포괄적인 논의를 제공하지 않으며, 구체적인 조리법이나 효소 반응에 대한 설명이 없다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하지만, 일부 부분에서 용어가 불명확하여 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 낮고, 군고구마의 당도와 씹히는 느낌에 대해 언급하지만, 참조 답변에서 제시된 과학적 근거가 결여되어 있다.\"},\"average_score\":6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문과 관련이 있지만, 군고구마가 찐 고구마보다 더 맛있고 단 이유에 대해 더 구체적인 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에 있는 몇 가지 정보는 정확하지 않거나 과장되어 있다. 예를 들어, 군고구마의 당도 및 기타 성분에 대한 설명이 부적절하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 군고구마와 찐 고구마의 차이점에 대한 포괄적인 논의를 제공하지 않으며, 구체적인 조리법이나 효소 반응에 대한 설명이 없다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 일부 부분에서 용어가 불명확하여 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 낮고, 군고구마의 당도와 씹히는 느낌에 대해 언급하지만, 참조 답변에서 제시된 과학적 근거가 결여되어 있다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222443,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 279,
+        "prompt_tokens": 763,
+        "total_tokens": 1042
+    }
+}

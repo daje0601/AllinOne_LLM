@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'directed_by' 조건이 서로 다릅니다. 첫 번째 쿼리는 'Bill Gates'를 기준으로, 두 번째 쿼리는 'Bill Gereghty'를 기준으로 최대 디스크 수를 찾습니다. 이 때문에 결과가 다를 수 있습니다.\"\n}"

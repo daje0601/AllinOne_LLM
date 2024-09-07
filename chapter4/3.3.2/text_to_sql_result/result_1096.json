@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'League from' 조건이 서로 다릅니다. 첫 번째 쿼리는 리그가 'usa hhl'인 경우를 찾고, 두 번째 쿼리는 'united states hockey league'인 경우를 찾습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

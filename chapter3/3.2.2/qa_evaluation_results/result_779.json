@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBLjJ4A90aXV83pIJ8gKmbuwafb",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문과 직접적인 관련이 있으며 가래에 대한 정보를 잘 제공하고 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델 답변은 대체로 정확하지만, '가래는 백혈구나 세균의 시체가 아니다'라는 부분에서 다소 모호하게 설명되고 있어 명확성이 떨어집니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 가래의 성격에 대해 여러 관점을 다루고 있지만, 모든 가능성에 대한 깊은 설명은 부족합니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 상당히 명확하고 이해하기 쉽게 구성되어 있습니다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델 답변은 참조 답변과 유사한 내용을 담고 있으나, 문장 구성과 표현에서 차이가 존재합니다.\"},\"average_score\":8.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문과 직접적인 관련이 있으며 가래에 대한 정보를 잘 제공하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델 답변은 대체로 정확하지만, '가래는 백혈구나 세균의 시체가 아니다'라는 부분에서 다소 모호하게 설명되고 있어 명확성이 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 가래의 성격에 대해 여러 관점을 다루고 있지만, 모든 가능성에 대한 깊은 설명은 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 상당히 명확하고 이해하기 쉽게 구성되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델 답변은 참조 답변과 유사한 내용을 담고 있으나, 문장 구성과 표현에서 차이가 존재합니다."
+                    },
+                    "average_score": 8.2
+                }
+            }
+        }
+    ],
+    "created": 1723222507,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 798,
+        "total_tokens": 1007
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 WHERE 절에서 조건을 섞어서 기입했지만, 조건의 순서나 구조가 다르지 않습니다. 'Frequency'가 'bimonthly'이고 'Magazine type'이 'video games'인 경우를 모두 찾고 있으며, 조건의 의미는 동일하므로 결과적으로 같은 결과를 반환합니다.\"\n}"

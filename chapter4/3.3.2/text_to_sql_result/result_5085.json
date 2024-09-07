@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 필드를 기준으로 조건을 설정하고 있습니다. 생성된 쿼리는 'Description' 필드에서 'giles point'를 찾으려 하고, 정답 쿼리는 'Reserve' 필드에서 'gales point'를 찾고 있습니다. 또한 'Est.' 필드는 같은 조건을 사용하지만, 'Description'과 'Reserve'의 값이 다르기 때문에 쿼리의 결과는 달라질 수 있습니다.\"\n}"

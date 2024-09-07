@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB6mZcgPX222Vsqc5GW4CTyqDkL",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 솜이불 세탁 방법과 관련된 정보를 제공하고 있다. 다만, 질문에서 요청한 구체적인 세탁 절차보다는 일반적인 주의사항에 더 중점을 두고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변이 제공하는 정보는 대부분 정확하지만, 참조 답변에서 강조하는 털기와 햇볕에 말리는 과정이 생략되었다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 특정 세탁 단계에 대한 지침이 부족하며, 세탁 전 후의 조치에 대한 정보가 덜 구체적이다. 전체적인 절차를 포괄하지 못하고 있다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하며, 각 단계가 잘 정리되어 있어 이해하기 쉽다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 내용이 다소 상이하며, 세탁 단계에 대한 구체적인 설명에서 차이가 있다. 기본적인 주제는 유사하지만 내용에 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 솜이불 세탁 방법과 관련된 정보를 제공하고 있다. 다만, 질문에서 요청한 구체적인 세탁 절차보다는 일반적인 주의사항에 더 중점을 두고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 제공하는 정보는 대부분 정확하지만, 참조 답변에서 강조하는 털기와 햇볕에 말리는 과정이 생략되었다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 특정 세탁 단계에 대한 지침이 부족하며, 세탁 전 후의 조치에 대한 정보가 덜 구체적이다. 전체적인 절차를 포괄하지 못하고 있다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하며, 각 단계가 잘 정리되어 있어 이해하기 쉽다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 다소 상이하며, 세탁 단계에 대한 구체적인 설명에서 차이가 있다. 기본적인 주제는 유사하지만 내용에 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222492,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 273,
+        "prompt_tokens": 611,
+        "total_tokens": 884
+    }
+}

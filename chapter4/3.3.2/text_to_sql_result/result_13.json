@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 'role' 조건에서 값을 비교해보면 첫 번째 쿼리에서는 'joan gordon, aka frances la rue'로 명시되어 있고, 정답 쿼리에서는 'joan gordon, aka francine la rue'로 되어 있습니다. 'frances la rue'와 'francine la rue'는 서로 다른 이름으로 확인되므로, 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

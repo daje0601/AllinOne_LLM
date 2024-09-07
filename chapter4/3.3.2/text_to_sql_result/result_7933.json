@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'marienfels golf club'을 대상으로 하고 'To par [a ]'가 'to par'인 조건을 사용하고 있으며, 두 번째 쿼리는 'merion golf club'을 대상으로 하고 'To par [a ]'가 'e'인 조건을 사용하고 있습니다. 따라서, 두 쿼리는 서로 다른 골프 클럽과 파에 대한 세팅을 조회하고 있어 결과가 같지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPqvxJVvaJZNnbpTuZocyE4EDy",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 바리스타의 의미, 역할, 과정 및 커피 종류를 잘 설명하고 있어 질문에 매우 관련성이 높음.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 정보는 대체로 정확하나, 일부 세부 사항이 명확하게 전달되지 않아 조금 아쉬움.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 질문에 답변하였지만, 바리스타의 역할 중 일부가 더 구체적으로 서술되었으면 좋았을 것.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 언어는 비교적 간단하고 이해하기 쉽게 작성되었음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 내용은 참조 답변과 유사한 점도 있으나, 구성과 설명이 달라 유사성이 다소 낮음.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 바리스타의 의미, 역할, 과정 및 커피 종류를 잘 설명하고 있어 질문에 매우 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 정보는 대체로 정확하나, 일부 세부 사항이 명확하게 전달되지 않아 조금 아쉬움."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 질문에 답변하였지만, 바리스타의 역할 중 일부가 더 구체적으로 서술되었으면 좋았을 것."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 언어는 비교적 간단하고 이해하기 쉽게 작성되었음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 내용은 참조 답변과 유사한 점도 있으나, 구성과 설명이 달라 유사성이 다소 낮음."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 207,
+        "prompt_tokens": 740,
+        "total_tokens": 947
+    }
+}

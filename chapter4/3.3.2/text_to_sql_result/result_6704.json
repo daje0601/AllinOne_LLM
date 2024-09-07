@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'league'와 'team' 조건에서 서로 다른 값을 사용합니다. 첫 번째 쿼리는 league가 'mite'이고 team이 'spvgg lümmersheim'인 경우를 선택하고, 두 번째 쿼리는 league가 'mitte'이고 team이 'spvgg ruhmannsfelden'인 경우를 선택합니다. 이로 인해 두 쿼리는 전혀 다른 조건을 기준으로 데이터를 검색하고 있으므로 의미적으로 동일하지 않습니다.\"\n}"

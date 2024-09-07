@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 JOIN의 순서와 GROUP BY의 필드가 다릅니다. 첫 번째 쿼리는 Manufacturers 테이블을 T1로, Products 테이블을 T2로 설정하여 T1.Headquarter 기준으로 그룹화하고 있으며, 결과적으로 Headquarter와 T1.Code를 선택합니다. 반면, 두 번째 쿼리는 Products 테이블을 T1로, Manufacturers 테이블을 T2로 설정하고 T2.Headquarter로 그룹화하여 T2.Headquarter와 T1.Code를 선택합니다. 따라서 GROUP BY와 SELECT에서의 컬럼 차이로 인해 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 문제에서 요구하는 조건을 충족시키는 같은 논리를 가지고 있습니다. 'surface', 'championship', 'opponent_in_the_final' 필드의 조건이 모두 일치하므로, 두 쿼리는 같은 결과를 반환합니다.\"\n}"

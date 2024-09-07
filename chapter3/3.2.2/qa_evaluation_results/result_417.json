@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNApI6GdLE8w5Miom863QKwDpdpe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변이 방사능과 바이러스 표식의 차이에 대해 언급하고 있지만, 질문에 대한 직접적인 비교가 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변이 방사능과 바이러스 표식의 정의를 일부 설명했지만, 방사능 표식과 바이러스 표식의 모양과 의미의 차이를 명확하게 설명하지 못했다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변이 방사능과 바이러스 표식의 기본 개념은 언급했지만, 더 많은 세부사항이나 비교가 필요하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 간단하지만 다소 모호한 부분이 있어 명확성이 떨어진다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루지만, 체계적인 설명이 부족하여 유사성이 낮다.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변이 방사능과 바이러스 표식의 차이에 대해 언급하고 있지만, 질문에 대한 직접적인 비교가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 방사능과 바이러스 표식의 정의를 일부 설명했지만, 방사능 표식과 바이러스 표식의 모양과 의미의 차이를 명확하게 설명하지 못했다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 방사능과 바이러스 표식의 기본 개념은 언급했지만, 더 많은 세부사항이나 비교가 필요하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 간단하지만 다소 모호한 부분이 있어 명확성이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루지만, 체계적인 설명이 부족하여 유사성이 낮다."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 521,
+        "total_tokens": 757
+    }
+}

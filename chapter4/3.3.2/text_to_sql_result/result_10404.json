@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 tournament의 문자열 구성에서 다릅니다. 첫 번째 쿼리는 'f5 rabat, morocco'를 사용하고, 두 번째 쿼리는 'morocco f5, rabat , morocco'로 다른 순서를 가지고 있습니다. 이러한 차이는 질의의 결과에 영향을 미치므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

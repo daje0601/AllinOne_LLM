@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 질병 코드(short_title)로 필터링하고 있습니다. 첫 번째 쿼리는 'crnry nephrtz 3rd-4th st'를 사용하는 반면, 두 번째 쿼리는 'hy kid nos w cr kid i-iv'를 사용합니다. 또한, 두 쿼리는 데이터를 비교하는 방식에서도 차이가 있으며, 첫 번째 쿼리는 2100년 이전의 charttime을 필터링하는 반면, 두 번째 쿼리는 정확히 2100년의 charttime만을 고려하고 있습니다. 이로 인해 결과가 동일하지 않습니다.\"\n}"

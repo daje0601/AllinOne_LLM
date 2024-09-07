@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 검사 이름에 대한 조건이 다릅니다. 첫 번째 쿼리는 lab.label이 'Creatinine'인 환자를 찾고, 두 번째 쿼리는 lab.label이 'Creatinine, Body Fluid'인 환자를 찾습니다. 따라서 두 쿼리는 서로 다른 조건을 기준으로 환자를 집계하므로 의미적으로 동일하지 않습니다.\"\n}"

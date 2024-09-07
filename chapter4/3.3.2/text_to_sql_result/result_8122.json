@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리의 감독 이름이 'jeff lindsay'로 잘못되어 있으며, 두 번째 쿼리의 감독 이름은 'jeff london'입니다. 또한, 두 쿼리에서 사용된 영화 제목도 다릅니다. 첫 번째 쿼리는 'before the dawn'과 'after the summer'를 찾고 있으며, 두 번째 쿼리는 'before night falls'와 'and then came summer'를 찾고 있습니다. 이로 인해 두 쿼리는 같은 감독과 같은 제목을 검색하지 않으므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 'body_builder' 테이블에서 Snatch와 Clean_Jerk 열을 선택하고 있으므로, 결과적으로 동일한 데이터 세트를 반환합니다.\"\n}"

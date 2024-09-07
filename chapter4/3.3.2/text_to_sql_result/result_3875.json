@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical and will return the same results. They select the 'home_team' from the table where 'away_team' is 'liverpool', which directly answers the problem statement.\"\n}"

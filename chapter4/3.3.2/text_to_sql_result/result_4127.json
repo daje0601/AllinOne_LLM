@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 조건을 사용하고 서로 다른 방식으로 시즌을 찾아냅니다. 첫 번째 쿼리는 'typort'가 'east region south division'에 해당하는 시즌을 찾고, 동시에 'east premier league'가 'unknown'인 시즌을 찾습니다. 반면 두 번째 쿼리는 'tayport'의 id를 기준으로 그 바로 이전 id의 'season'을 찾습니다. 두 쿼리는 결과적으로 서로 다른 조건을 사용하므로 결과도 다를 수 있습니다.\"\n}"

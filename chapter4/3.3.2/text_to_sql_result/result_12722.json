@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Sideline reporter(s)'의 값이 다릅니다. 첫 번째 쿼리는 'lesley visser and dan poutsma'를 찾고 있고, 정답 쿼리는 'lesley visser and dan fouts'를 찾고 있습니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 수 있습니다.\"\n}"

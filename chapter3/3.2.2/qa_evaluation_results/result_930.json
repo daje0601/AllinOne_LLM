@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBYighhZvIiA8384LQ4z45tZKCU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 flap track fairing의 기본적인 설명을 제공하지만, 질문의 본질적인 요소나 기능에 대한 세밀한 언급이 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 정보 일부는 참조 답변과 유사하지만, 불규칙성이라는 표현이나 날개의 아름다움에 대한 언급은 정확하지 않거나 필요 없는 정보이다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 flap track fairing의 구조와 기능에 대한 상세한 설명이 부족해 완전성이 떨어진다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 문장으로 구성되어 있지만, 일부 표현이 부정확하게 사용되어 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 대체로 다른 정보를 제시하며, 기능적 측면에 대한 설명이 상당히 다르다.\"},\"average_score\":6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 flap track fairing의 기본적인 설명을 제공하지만, 질문의 본질적인 요소나 기능에 대한 세밀한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 정보 일부는 참조 답변과 유사하지만, 불규칙성이라는 표현이나 날개의 아름다움에 대한 언급은 정확하지 않거나 필요 없는 정보이다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 flap track fairing의 구조와 기능에 대한 상세한 설명이 부족해 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 문장으로 구성되어 있지만, 일부 표현이 부정확하게 사용되어 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 대체로 다른 정보를 제시하며, 기능적 측면에 대한 설명이 상당히 다르다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222520,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 541,
+        "total_tokens": 779
+    }
+}

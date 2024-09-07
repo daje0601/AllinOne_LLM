@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 정보를 조회하고 있습니다. 첫 번째 쿼리는 'Date of vacancy'가 '20 June'인 경우에 'Replaced by' 값을 선택하고, 두 번째 쿼리는 'Date of appointment'가 'June 20'인 경우에 'Outgoing manager' 값을 선택합니다. 문제에서 요구하는 정보는 감독 교체에 대한 것이므로, 두 쿼리는 의미적으로 다릅니다.\"\n}"

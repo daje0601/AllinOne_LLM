@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 Document_Locations 테이블에서 Location_Code로 그룹화하고 각 그룹의 행 수를 계산합니다. COUNT(*)는 각 그룹의 모든 행을 세는 것이고, COUNT(Location_Code)는 Location_Code가 NULL이 아닌 행만 세는 것이기 때문에 두 쿼리의 결과는 동일합니다. 결과적으로 두 쿼리는 의미적으로 동일합니다.\"\n}"

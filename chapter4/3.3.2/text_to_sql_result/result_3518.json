@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'moderate'가 'outgoing and sociable'인 경우를 선택하고, 두 번째 쿼리는 'moderate'가 'Introverted Sanguine'인 경우를 선택합니다. 따라서 쿼리의 조건이 달라 동일한 결과를 반환하지 않습니다.\"\n}"

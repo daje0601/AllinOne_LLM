@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'treatmentname'에 대한 조건이 다릅니다. 첫 번째 쿼리는 'thrombolytic therapy'라는 치료명을 사용하고, 두 번째 쿼리는 'thrombolytics'라는 치료명을 사용합니다. 이로 인해 두 쿼리가 반환하는 결과가 다를 수 있습니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

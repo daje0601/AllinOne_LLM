@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAoQv7eys8Aq9wTGXDV763j6TmJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 악수 에티켓에 대한 정보를 포함하고 있지만, 주제를 혼란스럽게 하는 다양한 측면(예: 경기장 내 광고 언급 등)을 다루고 있어 적절한 관련성을 지니지 못함).\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에는 참조 답변에 있는 몇 가지 정확하고 일반적인 악수 에티켓이 포함되었지만, 많은 정보가 관련 없는 내용이나 잘못된 정보를 포함하고 있다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 악수 에티켓에 관한 기본적인 정보를 일부 담고 있지만, 참조 답변에서 언급된 주요 에티켓을 누락하고 있어 불완전함.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 전반적으로 길고 복잡하며, 여러 가지 관련 없는 요소들이 담겨 있어 이해하기 어려운 부분이 있다. 간결함이 부족함.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주요 포인트에서 비슷하지 않으며, 많은 아이디어가 중복적이고 관련이 떨어진다.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 악수 에티켓에 대한 정보를 포함하고 있지만, 주제를 혼란스럽게 하는 다양한 측면(예: 경기장 내 광고 언급 등)을 다루고 있어 적절한 관련성을 지니지 못함)."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에는 참조 답변에 있는 몇 가지 정확하고 일반적인 악수 에티켓이 포함되었지만, 많은 정보가 관련 없는 내용이나 잘못된 정보를 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 악수 에티켓에 관한 기본적인 정보를 일부 담고 있지만, 참조 답변에서 언급된 주요 에티켓을 누락하고 있어 불완전함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 전반적으로 길고 복잡하며, 여러 가지 관련 없는 요소들이 담겨 있어 이해하기 어려운 부분이 있다. 간결함이 부족함."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주요 포인트에서 비슷하지 않으며, 많은 아이디어가 중복적이고 관련이 떨어진다."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 279,
+        "prompt_tokens": 996,
+        "total_tokens": 1275
+    }
+}

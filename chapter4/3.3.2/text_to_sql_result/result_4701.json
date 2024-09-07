@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 선수의 국가(nationality), 포지션(position), 그리고 선택된 라운드(round)에 대한 조건을 동일하게 평가하고 있습니다. 쿼리의 조건이 서로 순서가 다를 뿐만 아니라 'defensive back'와 'defence'가 의미적으로 같기 때문에, 두 쿼리는 결과적으로 동일한 결과를 반환합니다.\"\n}"

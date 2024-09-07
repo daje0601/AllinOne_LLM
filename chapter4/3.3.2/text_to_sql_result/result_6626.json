@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The two queries refer to different players: the first query looks for the rounds associated with 'kori chubb', while the second query looks for 'corey chavous'. Since they are different players, the results will not be the same, even though both queries are structured identically.\"\n}"

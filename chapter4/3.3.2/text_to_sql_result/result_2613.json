@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The generated query retrieves scores from the round 'quarterfinals 1', while the correct query retrieves scores from 'semifinal 1'. These two rounds are different, thus the queries do not semantically return the same results.\"\n}"

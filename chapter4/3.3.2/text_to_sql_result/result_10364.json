@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조상 동일하며, 같은 결과를 반환합니다. 둘 다 이력(job_history)이 없는 직원(empoyees)들을 선택하고, 그들의 고용일(HIRE_DATE)에 따라 관리자 ID(MANAGER_ID)의 총합을 계산하여 내림차순으로 정렬합니다.\"\n}"

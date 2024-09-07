@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'event_type' 필드의 값이 상이합니다. 첫 번째 쿼리는 'world championships'를 사용하고, 두 번째 쿼리는 'world championship'를 사용하고 있습니다. 이 두 값은 서로 다르므로, 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

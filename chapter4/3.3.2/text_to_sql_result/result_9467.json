@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 기반으로 결과를 가져옵니다. 생성된 쿼리는 'Country'가 'scotland'이고 'Location'이 'muirfield'인 행의 'Name'을 선택하고, 정답 쿼리는 'Country'가 'scotland'이고 'Name'이 'muirfield'인 행의 'Location'을 선택합니다. 즉, 두 쿼리가 찾는 조건과 결과의 열이 다르므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAn1vZRRUrdWiqaxAIBHzVpme4G",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 숫모기의 침이 없는 이유에 대한 관련 정보를 포함하고 있으며, 질문에 적절히 답변하고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"참조 답변에서 제공한 정보에 비추어볼 때, 숫모기의 생리적인 특성에 대한 모델의 설명은 부분적으로 정확하지만, 일부 상세한 설명은 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기본 정보를 제공하지만, 참조 답변이 다룬 입의 구조와 생존 이유에 대한 심층적인 내용을 포함하고 있지 않아 완전성에서 차이가 있다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉬운 표현으로 구성되어 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 내용상 참조 답변과 유사한 점이 있으나, 구체적인 설명이나 근거 부족으로 인해 유사성은 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 숫모기의 침이 없는 이유에 대한 관련 정보를 포함하고 있으며, 질문에 적절히 답변하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "참조 답변에서 제공한 정보에 비추어볼 때, 숫모기의 생리적인 특성에 대한 모델의 설명은 부분적으로 정확하지만, 일부 상세한 설명은 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본 정보를 제공하지만, 참조 답변이 다룬 입의 구조와 생존 이유에 대한 심층적인 내용을 포함하고 있지 않아 완전성에서 차이가 있다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉬운 표현으로 구성되어 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 내용상 참조 답변과 유사한 점이 있으나, 구체적인 설명이나 근거 부족으로 인해 유사성은 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222473,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 571,
+        "total_tokens": 811
+    }
+}

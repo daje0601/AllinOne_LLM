@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB3zA4gAPK6zvfg3ey2sjPCr4XR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변이 질문에 대한 질문 의도와 관련이 적고, 잔털의 정의에 대한 언급이 없다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 설명은 항공기 타이어와 관련된 정보를 제공하지만, 일반적인 타이어의 잔털(스퓨라)에 대한 잘못된 정보를 포함하고 있어 정확성이 낮다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 잔털이 생기는 이유에 대한 단편적인 설명만 제공하고, 관련된 정보나 해결책에 대한 언급이 부족하다.\"},\"clarity\":{\"score\":4,\"explanation\":\"답변이 다소 혼란스러울 수 있지만 전체적인 의도가 이해 가능하므로 적당한 점수를 부여한다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제나 내용에서 상당한 차이가 있으며, 스퓨라에 대한 정보가 부족하다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 질문에 대한 질문 의도와 관련이 적고, 잔털의 정의에 대한 언급이 없다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 설명은 항공기 타이어와 관련된 정보를 제공하지만, 일반적인 타이어의 잔털(스퓨라)에 대한 잘못된 정보를 포함하고 있어 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 잔털이 생기는 이유에 대한 단편적인 설명만 제공하고, 관련된 정보나 해결책에 대한 언급이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "답변이 다소 혼란스러울 수 있지만 전체적인 의도가 이해 가능하므로 적당한 점수를 부여한다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제나 내용에서 상당한 차이가 있으며, 스퓨라에 대한 정보가 부족하다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222489,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 612,
+        "total_tokens": 846
+    }
+}

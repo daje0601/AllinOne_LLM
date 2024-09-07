@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'diagnoses.long_title' 필드에서 비교하는 값이 다릅니다. 첫 번째 쿼리는 'Recurrent laryngeal nerve paralysis due to drug administration by subcutaneous route'를 검사하지만, 두 번째 쿼리는 'Hydronephrosis'를 검사합니다. 따라서 두 쿼리는 서로 다른 진단을 기준으로 집계하므로 의미적으로 동일하지 않습니다.\"\n}"

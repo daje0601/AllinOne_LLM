@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 조건에서 fare.round_trip_cost의 접근 방식이 다릅니다. 첫 번째 쿼리는 fare.round_trip_cost가 0보다 큰 것을 확인하는 반면, 두 번째 쿼리는 fare.round_trip_cost가 NULL이 아닌지를 확인합니다. 이로 인해 첫 번째 쿼리는 0인 값을 포함하지 않지만, 두 번째 쿼리는 0을 포함할 수 있는 logic을 가지고 있습니다. 이로 인해 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

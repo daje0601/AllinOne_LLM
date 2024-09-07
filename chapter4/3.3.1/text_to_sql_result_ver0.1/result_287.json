@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 필터링 하는 'meaning'의 값이 다릅니다. 첫 번째 쿼리는 'god knows my way'를 사용하고, 두 번째 쿼리는 'god knows my journey'를 사용합니다. 따라서 두 쿼리는 서로 다른 조건을 가지고 있으며, 이로 인해 결과도 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'mens_singles' 컬럼에서 'Arvind Bhat / Valiyaveetil Diju Jwala Gutta'로 지정된 단일 문자열을 찾고 있으며, 이는 두 선수의 이름이 하나의 문자열로 결합되어 있는 것입니다. 반면 두 번째 쿼리는 'mens_singles'에서 'Arvind Bhat'과 'mixed_doubles'에서 'Valiyaveetil Diju Jwala Gutta'를 각각 분리하여 검사합니다. 따라서 두 쿼리는 서로 다른 조건을 가지고 있어 의미적으로 동일하지 않습니다.\"\n}"

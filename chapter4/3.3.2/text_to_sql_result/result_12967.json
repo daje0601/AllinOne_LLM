@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'grey sisters' hospital'의 'date(s)'를 두 번 선택하고 이를 서로 빼기 때문에 항상 0을 반환하게 됩니다. 반면, 두 번째 쿼리는 'grey nuns' hospital'의 'date(s)'와 'designated'를 사용하여 그 차이의 절대값을 계산합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

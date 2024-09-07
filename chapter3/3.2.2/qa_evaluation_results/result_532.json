@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB0MdDhMSUa2EyCBDoYKYm7k3mo",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 대한 직접적인 답변을 제공하며 벚꽃과 겹벚꽃의 관계를 명확히 설명하고 있습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 정확하지만, 겹벚꽃의 정의와 관련하여 다소 잘못된 부분이 있습니다. 겹벚꽃은 벚꽃의 한 종류인데, 모델은 이를 잘못 설명했습니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 질문에 대한 대답을 제공하였지만, 겹벚꽃의 종류와 관련된 정보를 포함하지 않아 정보가 부족합니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 몇몇 부분에서 용어 사용이 혼동을 줄 수 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 구조적으로 다르고, 정보의 일부가 누락되어 유사성이 낮습니다. 하지만 개념은 비슷합니다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 대한 직접적인 답변을 제공하며 벚꽃과 겹벚꽃의 관계를 명확히 설명하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 정확하지만, 겹벚꽃의 정의와 관련하여 다소 잘못된 부분이 있습니다. 겹벚꽃은 벚꽃의 한 종류인데, 모델은 이를 잘못 설명했습니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 질문에 대한 대답을 제공하였지만, 겹벚꽃의 종류와 관련된 정보를 포함하지 않아 정보가 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 몇몇 부분에서 용어 사용이 혼동을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 구조적으로 다르고, 정보의 일부가 누락되어 유사성이 낮습니다. 하지만 개념은 비슷합니다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222486,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 248,
+        "prompt_tokens": 704,
+        "total_tokens": 952
+    }
+}

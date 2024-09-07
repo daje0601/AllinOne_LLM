@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일하며, 동일한 조건으로 'frank gifford and dan dierdorf'라는 색상 해설자를 가진 선수의 사이드라인 리포터를 조회합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

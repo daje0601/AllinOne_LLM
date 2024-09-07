@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 정확히 동일합니다. 두 쿼리 모두 같은 SELECT 문, DISTINCT 구문, 그리고 동일한 WHERE 조건을 사용하여 587번 과목에 대한 조언 요구 사항(advisory_requirement), 강제 요구 사항(enforced_requirement), 과목 이름(name)을 반환합니다. 따라서 이 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

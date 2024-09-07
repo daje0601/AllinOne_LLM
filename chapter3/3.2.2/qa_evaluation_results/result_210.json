@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAWomUsy0rurTNPW9XsAKuK0zbr",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문과 관련이 있지만, 실루엣의 정의와 역사를 잘 설명하지 못하고 오히려 잘못된 정보를 제공하고 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 역사적 사실에 대한 잘못된 설명을 포함하고 있어, 참조 답변과 비교해서 명백히 부정확하다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 포괄적인 정보 제공이 부족하고, 실루엣과 관련된 유래나 개념을 설명하지 않았다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문장이 있으나 내용이 혼란스러워 이해하기 어렵다. 기계적이고 불명확한 표현이 많다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 크게 다르며, 그 주제와 방향성도 일치하지 않는다.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문과 관련이 있지만, 실루엣의 정의와 역사를 잘 설명하지 못하고 오히려 잘못된 정보를 제공하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 역사적 사실에 대한 잘못된 설명을 포함하고 있어, 참조 답변과 비교해서 명백히 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 포괄적인 정보 제공이 부족하고, 실루엣과 관련된 유래나 개념을 설명하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문장이 있으나 내용이 혼란스러워 이해하기 어렵다. 기계적이고 불명확한 표현이 많다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다르며, 그 주제와 방향성도 일치하지 않는다."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222456,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 561,
+        "total_tokens": 795
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'bernard colman'과 'bernie colman'이 아닌 드라이버들을 선택하며, 'bernie colman'과 동일한 'entrant'를 가진 드라이버를 찾습니다. 그러나 두 번째 쿼리는 'bernard collomb'라는 특정 드라이버의 'time/retired' 정보를 선택하고 있어, 반환하는 컬럼과 조건이 다릅니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

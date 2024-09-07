@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBPmt361g4sbqTuWevNdRttef47",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 영화 '300'과 관련이 없고, 잘못된 전투 및 인물 정보를 제공하고 있어 질문과 크게 관련이 없습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 '300' 영화의 전투를 전혀 다른 전투인 '안시카노토스와 카로타이오스'에 적용하고 있어 역사적 정확성이 없습니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델은 전투의 기본 정보를 제시하지만, 테르모필레 전투에 대한 설명이 없고, 영화 속 전투와의 관계를 잘 설명하지 않아 완전성이 떨어집니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문장이 성립하나, 정보가 사실과 다르고 맥락이 어긋나 불명확하게 느껴질 수 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"참조 답변과의 유사성이 전혀 없고, 관련된 전투와 인물도 전혀 다릅니다.\"},\"average_score\":2.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 영화 '300'과 관련이 없고, 잘못된 전투 및 인물 정보를 제공하고 있어 질문과 크게 관련이 없습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '300' 영화의 전투를 전혀 다른 전투인 '안시카노토스와 카로타이오스'에 적용하고 있어 역사적 정확성이 없습니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델은 전투의 기본 정보를 제시하지만, 테르모필레 전투에 대한 설명이 없고, 영화 속 전투와의 관계를 잘 설명하지 않아 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문장이 성립하나, 정보가 사실과 다르고 맥락이 어긋나 불명확하게 느껴질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "참조 답변과의 유사성이 전혀 없고, 관련된 전투와 인물도 전혀 다릅니다."
+                    },
+                    "average_score": 2.2
+                }
+            }
+        }
+    ],
+    "created": 1723222511,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 818,
+        "total_tokens": 1071
+    }
+}

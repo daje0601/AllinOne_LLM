@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZWZufZ01lhxoYZKRAhDjY7dJQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 진흥왕을 왕이라고 부르는 이유에 대해 잘 설명하고 있으나, 일부 문장이 명확히 질문에 대한 답변으로 연결되지 않음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제공한 정보는 대체로 정확하나, 신라의 역사적 호칭에 대한 설명이 다소 부족하여 진흥왕에 대한 호칭의 기원을 명확히 설명하지 못함.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적인 정보는 포함하고 있지만, 역사적 맥락이나 진흥왕과 신라의 관계에 대한 깊이 있는 설명이 부족함.\"},\"clarity\":{\"score\":7,\"explanation\":\"답변은 전반적으로 이해하기 쉽지만, 일부 문장은 명확성이 떨어져 독자가 혼동할 수 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 요소가 많지만, 일부 내용이 명확히 연결되지 않아 일관성이 떨어짐.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 진흥왕을 왕이라고 부르는 이유에 대해 잘 설명하고 있으나, 일부 문장이 명확히 질문에 대한 답변으로 연결되지 않음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제공한 정보는 대체로 정확하나, 신라의 역사적 호칭에 대한 설명이 다소 부족하여 진흥왕에 대한 호칭의 기원을 명확히 설명하지 못함."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적인 정보는 포함하고 있지만, 역사적 맥락이나 진흥왕과 신라의 관계에 대한 깊이 있는 설명이 부족함."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "답변은 전반적으로 이해하기 쉽지만, 일부 문장은 명확성이 떨어져 독자가 혼동할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 요소가 많지만, 일부 내용이 명확히 연결되지 않아 일관성이 떨어짐."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 809,
+        "total_tokens": 1058
+    }
+}

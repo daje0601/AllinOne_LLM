@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 'Name' 필드의 값이 다릅니다. 생성된 쿼리는 'brumfield school'을 검색하고, 정답 쿼리는 'broomfield school'을 검색합니다. 따라서 두 쿼리는 서로 다른 지역을 찾게 되어 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

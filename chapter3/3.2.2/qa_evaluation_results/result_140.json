@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAQzZFQsvLPARZVfcmW0kcdXHJP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변이 엽전의 단위 및 물건 가격에 대한 정보를 담고 있어 질문과 관련성이 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 엽전의 변환 및 물건 가격 정보를 잘 제공하였으나, 일부 정확성이 떨어지는 부분이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 물건 가격을 나열하였지만, 엽전의 역사적 가치나 더 구체적인 사례에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 명확하지만, 일부 정보가 다소 세부적이지 않아 다소 복잡할 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 정보를 제공하나, 세부적인 내용이나 맥락에서 차이가 있다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변이 엽전의 단위 및 물건 가격에 대한 정보를 담고 있어 질문과 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 엽전의 변환 및 물건 가격 정보를 잘 제공하였으나, 일부 정확성이 떨어지는 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 물건 가격을 나열하였지만, 엽전의 역사적 가치나 더 구체적인 사례에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 명확하지만, 일부 정보가 다소 세부적이지 않아 다소 복잡할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 정보를 제공하나, 세부적인 내용이나 맥락에서 차이가 있다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222450,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 218,
+        "prompt_tokens": 830,
+        "total_tokens": 1048
+    }
+}

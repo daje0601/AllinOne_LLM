@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 2019년의 봄(SP)과 여름(SS, SU) 학기에 제공되는 'hardware' 관련 강좌를 조회합니다. 'semester.semester IN ('SP', 'SS', 'SU')'와 'semester.semester IN ('SP', 'SU', 'SS')'는 순서에 관계없이 동일한 결과를 생성하므로 의미적으로 동일합니다.\"\n}"

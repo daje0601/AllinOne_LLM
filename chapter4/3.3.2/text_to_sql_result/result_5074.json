@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 비정상적인 대변(즉, abnormal stool)의 ICD 코드가 서로 다릅니다. 첫 번째 쿼리는 'abn react-oth diuretic'을 사용하고, 두 번째 쿼리는 'abn find-stool contents'를 사용합니다. 따라서 각각 비정상적인 대변을 나타내는 코드가 다르므로, 쿼리의 결과는 의미적으로 동일하지 않습니다.\"\n}"

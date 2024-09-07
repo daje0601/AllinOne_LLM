@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZW92veqRw8fFvx0s3MNgKcHi8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 테니스 점수 계산 방식의 기원과 관련된 몇 가지 설을 언급하여 질문에 잘 부합합니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 정확하지만, 거위의 깃털과 관련된 부분은 잘못된 정보로 보이며, 참조 답변과 비교할 때 정확성이 떨어집니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 다양한 설을 간략히 언급했으나, 역사적 배경이나 다른 관련 요소들이 부족하여 포괄적이지 않습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 구조가 잘 되어 있어 명확하게 전달됩니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 공통된 내용을 포함하고 있지만, 참조 답변과는 상당히 다른 정보를 제공하여 유사성이 낮습니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 테니스 점수 계산 방식의 기원과 관련된 몇 가지 설을 언급하여 질문에 잘 부합합니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 정확하지만, 거위의 깃털과 관련된 부분은 잘못된 정보로 보이며, 참조 답변과 비교할 때 정확성이 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 다양한 설을 간략히 언급했으나, 역사적 배경이나 다른 관련 요소들이 부족하여 포괄적이지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 구조가 잘 되어 있어 명확하게 전달됩니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 공통된 내용을 포함하고 있지만, 참조 답변과는 상당히 다른 정보를 제공하여 유사성이 낮습니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 730,
+        "total_tokens": 958
+    }
+}

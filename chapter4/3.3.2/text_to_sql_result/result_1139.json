@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'henri leconte'가 승자인 경우('Winner')이고 'michael stich'가 준우승자인 경우('Runner-up')의 점수를 선택합니다. 반면 두 번째 쿼리는 'henri leconte'가 3위('Third Place')인 경우의 점수를 선택합니다. 따라서 두 쿼리는 문제의 요구사항에 대해 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 조건을 사용하고 있으며, 환자를 선택하는 방식이 동일합니다. 두 쿼리는 'hematopoietic' 필드가 1이거나 'organ_transplantation' 필드가 1인 모든 레코드를 반환하므로 의미적으로 동일합니다.\"\n}"

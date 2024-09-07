@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Other proc on cochlear canal'을 조건으로 사용하지만, 두 번째 쿼리는 'Other diagnostic procedures on nasal sinuses'을 조건으로 사용합니다. 따라서 이 두 쿼리는 서로 다른 진단 절차를 기준으로 환자를 세고 있어 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

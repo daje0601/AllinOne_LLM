@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 WHERE 조건에서 검색하는 'Rank points'의 값이 서로 다릅니다. 첫 번째 쿼리는 'defensive champion'을 검색하는 반면, 두 번째 쿼리는 'defending champion'을 검색합니다. 이로 인해 두 쿼리가 반환하는 결과는 달라질 수 있습니다.\"\n}"

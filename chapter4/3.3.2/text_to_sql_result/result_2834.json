@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'intakeoutput.celllabel'에 대해 서로 다른 값을 사용하고 있습니다. 첫 번째 쿼리는 'volume (ml)-enteral/gastrostomy/gastroenteral tube (20 french, left lower quadrant intake)'을 필터링하는 반면, 두 번째 쿼리는 'intake (ml)-gastrostomy/enterostomy gastrostomy 20 fr. luq'를 필터링합니다. 따라서 각각의 'celllabel'이 다르므로, 같은 환자에 대한 요청하였더라도 서로 다른 결과를 반환할 가능성이 있습니다.\"\n}"

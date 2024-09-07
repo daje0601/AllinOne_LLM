@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBYZ3Q5leabSgu6MNGcv9a3Ze6v",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문에서 요청한 수증기의 상태에 대한 관련 정보를 잘 제공하고 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델은 수증기가 기체 상태임을 명확히 설명했으나, 일부 기술적인 진술(온도에 따라 기체와 액체 상태가 변하는 내용)이 다소 부정확하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 수증기의 상태를 설명했으나, 수증기와 김(안개)의 구분 및 습윤증기와 건조증기의 관점에서 더 많은 정보를 제공하지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전체적으로 명확하나 일부 내용이 반복적이어서 다소 혼란스러울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델 답변은 참조 답변과 구조적으로 유사하지만, 여러 부분에서 구체적인 설명이나 용어 사용이 다르다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문에서 요청한 수증기의 상태에 대한 관련 정보를 잘 제공하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델은 수증기가 기체 상태임을 명확히 설명했으나, 일부 기술적인 진술(온도에 따라 기체와 액체 상태가 변하는 내용)이 다소 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 수증기의 상태를 설명했으나, 수증기와 김(안개)의 구분 및 습윤증기와 건조증기의 관점에서 더 많은 정보를 제공하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전체적으로 명확하나 일부 내용이 반복적이어서 다소 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델 답변은 참조 답변과 구조적으로 유사하지만, 여러 부분에서 구체적인 설명이나 용어 사용이 다르다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222520,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 1059,
+        "total_tokens": 1298
+    }
+}

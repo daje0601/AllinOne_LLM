@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query checks for 'fa_cup_goals' and 'league_goals' as integers (1 and 10), while the second query checks for them as strings ('1' and '10'). This difference in data type could lead to different results, especially if the columns were defined as integers. Thus, the two queries are not semantically identical.\"\n}"

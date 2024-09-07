@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 제목을 사용하고 있으며, 각각 'Unspec anxiety dis NOS'와 'Anxiety state NOS'를 사용합니다. 또한, 첫 번째 쿼리는 'CONTINUOUS IV' 약물 경로를 검사하고, 두 번째 쿼리는 'DWELL' 약물 경로를 검사합니다. 이 두 가지 요소는 서로 다른 집합의 결과를 초래하므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

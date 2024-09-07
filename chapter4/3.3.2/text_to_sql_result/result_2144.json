@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리인 'SELECT MAX(\\\"Enrollment\\\") FROM table_65691 WHERE \\\"IHSAA Class\\\" = 'aaaa''는 AAAA 학급의 최대 등록 인원을 반환합니다. 그러나 두 번째 쿼리인 'SELECT SUM(\\\"Enrollment\\\") FROM table_65691 WHERE \\\"IHSAA Football Class\\\" = 'aaaa''는 AAAA 풋볼 학급의 전체 등록 인원을 합산하여 반환합니다. 이 두 쿼리는 다른 수치를 반환하기 때문에 의미적으로 동일하지 않습니다.\"\n}"

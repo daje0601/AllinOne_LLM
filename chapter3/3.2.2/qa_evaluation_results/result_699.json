@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBE30dGj7kOMV4SSST2GlGzoxox",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 비의 하강 속도에 대한 언급이 다소 혼란스럽고 질문에 대한 직접적인 답변을 제공하지 않음.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델이 제공한 속도에 대한 설명이 잘못된 부분이 있으며, 가랑비의 지름 또한 사실과 다르게 기술됨.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 두 가지 질문에 대해 모두 불완전하게 보이며, 세부적인 정보가 부족하여 명확하지 않음.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 다소 혼란스럽지만 일부는 이해할 수 있는 부분이 존재함.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용이 크게 다르고, 정보의 형식이나 구성이 많이 달라 유사성이 낮음.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 비의 하강 속도에 대한 언급이 다소 혼란스럽고 질문에 대한 직접적인 답변을 제공하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델이 제공한 속도에 대한 설명이 잘못된 부분이 있으며, 가랑비의 지름 또한 사실과 다르게 기술됨."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 두 가지 질문에 대해 모두 불완전하게 보이며, 세부적인 정보가 부족하여 명확하지 않음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 다소 혼란스럽지만 일부는 이해할 수 있는 부분이 존재함."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 크게 다르고, 정보의 형식이나 구성이 많이 달라 유사성이 낮음."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222500,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 690,
+        "total_tokens": 909
+    }
+}

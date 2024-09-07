@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Name' 필드를 GROUP BY하고 있습니다. 첫 번째 쿼리는 'Products' 테이블에서 'T1.Name'을 사용하고, 두 번째 쿼리는 'Manufacturers' 테이블에서 'T2.Name'을 사용합니다. 조인 관계와 COUNT 등의 집계 함수를 사용하지 않기 때문에, 'Products'의 각 제품 이름으로 그룹화할 것인지 'Manufacturers'의 제조업체 이름으로 그룹화할 것인지에 따라 결과가 달라집니다.\"\n}"

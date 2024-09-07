@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 열을 필터링합니다. 생성된 쿼리는 'For Prohibition'의 최솟값을 반환하고 'Percent Against' 조건을 사용하고, 정답 쿼리는 'Percent Against'의 최솟값을 반환하며 'Percent For' 조건을 사용합니다. 문제에서 요구하는 것은 금지에 반대하는 최저 비율이므로 'Percent Against'와 관련된 정답 쿼리가 올바르며, 따라서 둘은 의미적으로 동일하지 않습니다.\"\n}"

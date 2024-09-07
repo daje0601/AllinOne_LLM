@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일하며, 동일한 조건을 사용하여 같은 결과를 반환합니다. 두 쿼리 모두 game이 7보다 크고 record가 '5-2-1'인 조건을 만족하는 location_attendance를 선택합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAhjbLxYKAc3MPY1AX2et5RFGAf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델은 번호판 대신 별이 붙은 차량이 외교관 차량이라는 점을 언급하며 관련성 있는 정보를 제공한다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정확하지만, 2005년 이전과 이후의 구분이 명확하지 않으며, 질문의 핵심인 '별이 붙은 차량'에 대해 명확히 설명하지 않는다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 외교 차량에 대한 정보는 포함하지만, 별이 붙은 차량에 대한 자세한 정보나 군용 차량에 대한 설명이 빠져 있다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 두 가지 다른 개념(군용 차량과 외교관 차량)에 대해 명확하게 구분되지 않는다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주제가 전혀 다르며, 군대의 차량에 대한 설명을 포함하지 않아 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델은 번호판 대신 별이 붙은 차량이 외교관 차량이라는 점을 언급하며 관련성 있는 정보를 제공한다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정확하지만, 2005년 이전과 이후의 구분이 명확하지 않으며, 질문의 핵심인 '별이 붙은 차량'에 대해 명확히 설명하지 않는다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 외교 차량에 대한 정보는 포함하지만, 별이 붙은 차량에 대한 자세한 정보나 군용 차량에 대한 설명이 빠져 있다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 두 가지 다른 개념(군용 차량과 외교관 차량)에 대해 명확하게 구분되지 않는다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 전혀 다르며, 군대의 차량에 대한 설명을 포함하지 않아 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222467,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 250,
+        "prompt_tokens": 459,
+        "total_tokens": 709
+    }
+}

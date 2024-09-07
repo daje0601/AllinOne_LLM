@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAxSlorXuhlJY9Da1GHPZfxqJgN",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 방사선이 와인의 맛에 미치는 영향을 언급했으며, 질문과 관련이 있지만 구체적인 화학적 과정에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 방사선의 영향을 정확하게 언급하고 있지 않으며, 방사선이 유기화합물을 '활성화'하는 것에 대한 정확한 과학적 근거가 부족하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 방사선이 와인의 맛에 미치는 영향을 부분적으로 설명하고 있지만, 화학적 변화나 방사선의 종류에 대한 구체적인 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전체적으로 잘 구성되어 있지만, 방사선의 구체적 영향에 대한 설명이 다소 애매하게 느껴질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 방사선의 영향을 언급하고 있지만, 참조 답변의 구체적인 화학적 내용 및 방사선 종류에 대한 설명과는 상당히 다르다.\"},\"average_score\":6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 방사선이 와인의 맛에 미치는 영향을 언급했으며, 질문과 관련이 있지만 구체적인 화학적 과정에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 방사선의 영향을 정확하게 언급하고 있지 않으며, 방사선이 유기화합물을 '활성화'하는 것에 대한 정확한 과학적 근거가 부족하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 방사선이 와인의 맛에 미치는 영향을 부분적으로 설명하고 있지만, 화학적 변화나 방사선의 종류에 대한 구체적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전체적으로 잘 구성되어 있지만, 방사선의 구체적 영향에 대한 설명이 다소 애매하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 방사선의 영향을 언급하고 있지만, 참조 답변의 구체적인 화학적 내용 및 방사선 종류에 대한 설명과는 상당히 다르다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222483,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 275,
+        "prompt_tokens": 653,
+        "total_tokens": 928
+    }
+}

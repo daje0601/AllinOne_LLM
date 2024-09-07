@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 감독 이름을 사용하고 있습니다. 첫 번째 쿼리는 'maximilian jejelo-paródszky'라는 이름을, 두 번째 쿼리는 'maximilian jezo-parovsky'라는 이름을 사용하고 있습니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

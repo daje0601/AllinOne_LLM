@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'maxi ambulance'와 'maxi-ambulance'의 표현이 다릅니다. 이는 SQL에서 텍스트 비교에 있어 서로 다른 문자열이므로, 같은 결과를 반환하지 않습니다.\"\n}"

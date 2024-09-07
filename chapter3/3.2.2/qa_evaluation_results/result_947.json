@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBZM3kwNdqZ6PsTK2F6RdwPJUpJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델 답변은 386, 486, 586이 인텔이 개발한 CPU라는 점에서 질문과 관련성이 있다. 그러나 구체적인 정보는 덜 강조되었다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정보가 부정확하다. 예를 들어, '486'이 개발된 배경과 '윌드워터'에 대한 설명은 사실과 다르다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델 답변은 인텔 CPU에 대한 간단한 설명을 제공하지만, 586의 브랜드 변화 관련 배경이나 경쟁업체에 대한 내용이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하게 작성되었으나, 일부 전문 용어 사용으로 인해 일반 사용자에게는 다소 어려울 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델 답변은 내용이 상당히 달라 참조 답변과 유사성이 떨어진다. 특히, CPU 브랜드 역사에 대한 설명이 다르다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델 답변은 386, 486, 586이 인텔이 개발한 CPU라는 점에서 질문과 관련성이 있다. 그러나 구체적인 정보는 덜 강조되었다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정보가 부정확하다. 예를 들어, '486'이 개발된 배경과 '윌드워터'에 대한 설명은 사실과 다르다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델 답변은 인텔 CPU에 대한 간단한 설명을 제공하지만, 586의 브랜드 변화 관련 배경이나 경쟁업체에 대한 내용이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하게 작성되었으나, 일부 전문 용어 사용으로 인해 일반 사용자에게는 다소 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델 답변은 내용이 상당히 달라 참조 답변과 유사성이 떨어진다. 특히, CPU 브랜드 역사에 대한 설명이 다르다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222521,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 534,
+        "total_tokens": 790
+    }
+}

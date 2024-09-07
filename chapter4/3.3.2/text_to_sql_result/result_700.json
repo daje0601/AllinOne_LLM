@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'hemolytic uremic syndrome'와 'hemolysis - hus'라는 서로 다른 진단명을 쿼리하고 있습니다. 이 두 진단명은 의학적으로 같은 질병을 지칭하지 않으며, 동일한 결과를 반환하지 않습니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

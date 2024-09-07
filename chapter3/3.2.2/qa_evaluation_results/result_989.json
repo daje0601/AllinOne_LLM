@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBdBTUcWqR5MC1s8kcSn8pctnWQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 자전거 관리법에 대한 정보를 제공하지만 질문의 구체적인 요구 사항에 대한 적절한 대응이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 정확한 정보를 담고 있으나, 잘못된 부분이나 의미가 명확하지 않은 내용이 포함되어 있다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 여러 부품에 대한 윤활제 사용 방법 등의 질문에 대한 답변이 부족하고, 주제에 대한 정보가 매우 제한적이다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 읽기 쉬운 문장으로 작성되었지만, 일부 내용이 모호하여 명확성이 떨어지는 부분이 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 매우 유사하지 않으며, 내용이 크게 달라 다른 관점에서 설명되고 있다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 자전거 관리법에 대한 정보를 제공하지만 질문의 구체적인 요구 사항에 대한 적절한 대응이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 정확한 정보를 담고 있으나, 잘못된 부분이나 의미가 명확하지 않은 내용이 포함되어 있다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 여러 부품에 대한 윤활제 사용 방법 등의 질문에 대한 답변이 부족하고, 주제에 대한 정보가 매우 제한적이다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 읽기 쉬운 문장으로 작성되었지만, 일부 내용이 모호하여 명확성이 떨어지는 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 매우 유사하지 않으며, 내용이 크게 달라 다른 관점에서 설명되고 있다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 229,
+        "prompt_tokens": 1093,
+        "total_tokens": 1322
+    }
+}

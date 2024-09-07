@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBVOn9R3vaD6ZE9SOexT44xNe7a",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문과 관련이 거의 없으며, 육교와 관련된 실제 정보를 제시하지 않고 있습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 육교가 없는 이유에 대한 정확한 정보가 전혀 포함되어 있지 않습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 포괄적인 정보를 제공하지 않으며, 질문의 맥락과도 관련이 없습니다.\"},\"clarity\":{\"score\":3,\"explanation\":\"모델의 답변이 지나치게 복잡하고 주제가 다르기 때문에 이해하기 어려웠습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제와 내용에서 거의 유사성이 없습니다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문과 관련이 거의 없으며, 육교와 관련된 실제 정보를 제시하지 않고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 육교가 없는 이유에 대한 정확한 정보가 전혀 포함되어 있지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 포괄적인 정보를 제공하지 않으며, 질문의 맥락과도 관련이 없습니다."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 지나치게 복잡하고 주제가 다르기 때문에 이해하기 어려웠습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제와 내용에서 거의 유사성이 없습니다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222517,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 191,
+        "prompt_tokens": 775,
+        "total_tokens": 966
+    }
+}

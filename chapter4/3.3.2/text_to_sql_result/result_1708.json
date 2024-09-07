@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'tournament' 조건에 사용된 문자열이 다릅니다. 첫 번째 쿼리는 'michelob light open at king's mill'을 기준으로 하고, 두 번째 쿼리는 'michelob light open at kingsmill'을 기준으로 합니다. 따라서, 같은 선수의 준우승자를 찾기 위해서 서로 다른 토너먼트명을 사용하고 있어 의미적으로 동일하지 않습니다.\"\n}"

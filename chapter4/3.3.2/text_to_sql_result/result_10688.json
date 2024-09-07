@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 다른 'ships_name' 값을 필터링하고 있습니다. 첫 번째 쿼리는 'Queen Beatrice'를 찾고, 두 번째 쿼리는 'Koningin Beatrix'를 찾고 있습니다. 이 두 이름이 동일한 대상을 가리키지 않기 때문에 쿼리의 결과는 다릅니다.\"\n}"

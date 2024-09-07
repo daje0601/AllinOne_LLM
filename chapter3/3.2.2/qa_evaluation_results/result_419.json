@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAp8n0rnC1HpZ6pahFETS0bHuwv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 북한 여성들이 사용하는 화장품과 미용실에 대한 정보를 제공하지만, 질문에 있는 특정 화장품 종류 및 미용실에 대한 세부 정보가 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 언급한 화장품과 미용실에 대한 정보 중 일부는 사실과 일치하지 않거나 제시된 참조 답변의 내용과 다르다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 중요한 정보(예: '피야스카'와 같은 화장품 이름)를 생략하고 있으며, 미용실에 대한 상세한 설명도 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고, 문장 구조가 명확하나 다소 반복적인 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 내용에서 차이가 크고, 일부 다른 용어와 표현을 사용하여 유사성이 낮다.\"},\"average_score\":6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 북한 여성들이 사용하는 화장품과 미용실에 대한 정보를 제공하지만, 질문에 있는 특정 화장품 종류 및 미용실에 대한 세부 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 언급한 화장품과 미용실에 대한 정보 중 일부는 사실과 일치하지 않거나 제시된 참조 답변의 내용과 다르다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 중요한 정보(예: '피야스카'와 같은 화장품 이름)를 생략하고 있으며, 미용실에 대한 상세한 설명도 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고, 문장 구조가 명확하나 다소 반복적인 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 내용에서 차이가 크고, 일부 다른 용어와 표현을 사용하여 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 250,
+        "prompt_tokens": 614,
+        "total_tokens": 864
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBYBZzeDYwFiBzIZO6WJRWrPQuG",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 햇빛 알레르기의 증상과 예방법 및 치료법에 대한 정보를 모두 포함하고 있어 질문과 매우 관련이 높습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변에서 언급된 증상과 치료법은 일반적으로 맞는 내용이나, 자외선에 대한 과민 반응이라는 표현이 빠져 있어 다소 정확성이 떨어집니다.\"},\"completeness\":{\"score\":9,\"explanation\":\"모델의 답변은 증상, 예방법, 치료법을 모두 포함하고 있어 답변이 포괄적입니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 문장이 간결하고 이해하기 쉽게 작성되어 있습니다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변의 내용을 토대로 하였으나, 일부 주요 표현이 빠져 있어 유사성 점수가 다소 낮습니다.\"},\"average_score\":8.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 햇빛 알레르기의 증상과 예방법 및 치료법에 대한 정보를 모두 포함하고 있어 질문과 매우 관련이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변에서 언급된 증상과 치료법은 일반적으로 맞는 내용이나, 자외선에 대한 과민 반응이라는 표현이 빠져 있어 다소 정확성이 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 증상, 예방법, 치료법을 모두 포함하고 있어 답변이 포괄적입니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 문장이 간결하고 이해하기 쉽게 작성되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변의 내용을 토대로 하였으나, 일부 주요 표현이 빠져 있어 유사성 점수가 다소 낮습니다."
+                    },
+                    "average_score": 8.4
+                }
+            }
+        }
+    ],
+    "created": 1723222520,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 407,
+        "total_tokens": 633
+    }
+}

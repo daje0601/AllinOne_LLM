@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'site'의 값이 다르습니다. 첫 번째 쿼리는 'USF Softball Stadium • Tampa, FL'을 사용하고 있고, 두 번째 쿼리는 'USF Softball Field • Tampa, FL'을 사용합니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 수 있으며, result 조건에서도 'W 4-0'과 'W4-0'의 차이로 인해 결과가 다를 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

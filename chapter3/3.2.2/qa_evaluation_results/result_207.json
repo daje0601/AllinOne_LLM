@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAWdvHp6jP6j9r27uu14L0bK81r",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 'go 챌린지'라는 용어를 언급하고 있지만, 질문에서 요구하는 소방관 go 챌린지에 대한 정보와는 관련이 없다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 잘못된 내용을 포함하고 있으며, 'go 챌린지'를 소방관 고용의 모의고사로 잘못 설명하고 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 문제의 핵심인 소방관 go 챌린지의 목적과 맥락을 전혀 언급하지 않아 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로 명확하나, 내용이 틀려서 질문의 의도를 충족하지 않는다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 내용이 완전히 다르며, 참조 답변과의 유사점이 거의 없다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 'go 챌린지'라는 용어를 언급하고 있지만, 질문에서 요구하는 소방관 go 챌린지에 대한 정보와는 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 잘못된 내용을 포함하고 있으며, 'go 챌린지'를 소방관 고용의 모의고사로 잘못 설명하고 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 문제의 핵심인 소방관 go 챌린지의 목적과 맥락을 전혀 언급하지 않아 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로 명확하나, 내용이 틀려서 질문의 의도를 충족하지 않는다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 내용이 완전히 다르며, 참조 답변과의 유사점이 거의 없다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222456,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 529,
+        "total_tokens": 767
+    }
+}

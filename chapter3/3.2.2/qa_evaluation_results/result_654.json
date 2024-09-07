@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBB5KzzUuslAk92Lv2F1A47xrYC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 손소독제의 불꽃 발생 여부에 관한 질문에 대해 직접적으로 관련된 내용을 담고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 정확하지만, 설명이 다소 모호하며 참조 답변에서의 이유와 일치하지 않는 부분이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 주제를 다루고 있지만, 손소독제가 불에 붙었을 때 불꽃이 보이지 않는 구체적 원인을 충분히 설명하지 않는다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전체적으로 명확하나, 일부 표현이 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 비슷한 주제를 다루고 있지만, 접근 방식과 세부 내용에서 상당한 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 손소독제의 불꽃 발생 여부에 관한 질문에 대해 직접적으로 관련된 내용을 담고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 정확하지만, 설명이 다소 모호하며 참조 답변에서의 이유와 일치하지 않는 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 주제를 다루고 있지만, 손소독제가 불에 붙었을 때 불꽃이 보이지 않는 구체적 원인을 충분히 설명하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전체적으로 명확하나, 일부 표현이 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 비슷한 주제를 다루고 있지만, 접근 방식과 세부 내용에서 상당한 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222497,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 222,
+        "prompt_tokens": 472,
+        "total_tokens": 694
+    }
+}

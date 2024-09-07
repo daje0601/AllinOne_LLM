@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Condition'이 'well-preserved'인 경우를 찾고, 두 번째 쿼리는 'Condition'이 'preserved'인 경우를 찾습니다. 이 두 조건은 서로 다른 상태를 나타내므로, 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

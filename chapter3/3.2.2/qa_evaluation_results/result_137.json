@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPaIMdAvlYgtte6Xyg9lTlcGDm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 '느루먹기'의 의미와 관련성이 낮고, 질문의 핵심 내용과는 크게 다릅니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 '느루먹기'에 대한 잘못된 정보를 제공하고 있으며, 참조 답변과 전혀 일치하지 않습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 관련 내용이 전혀 없고, 질문에 대한 성격이나 배경 없이 임의로 내용이 구성되어 있습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변 자체는 문법적으로 나쁘지 않지만, 원래 질문과 주제와 맞지 않아 이해하기 어려운 측면이 존재합니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과의 내용적 유사성이 전혀 없으며, 서로 다른 주제를 다루고 있습니다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '느루먹기'의 의미와 관련성이 낮고, 질문의 핵심 내용과는 크게 다릅니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '느루먹기'에 대한 잘못된 정보를 제공하고 있으며, 참조 답변과 전혀 일치하지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 관련 내용이 전혀 없고, 질문에 대한 성격이나 배경 없이 임의로 내용이 구성되어 있습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변 자체는 문법적으로 나쁘지 않지만, 원래 질문과 주제와 맞지 않아 이해하기 어려운 측면이 존재합니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과의 내용적 유사성이 전혀 없으며, 서로 다른 주제를 다루고 있습니다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 510,
+        "total_tokens": 738
+    }
+}

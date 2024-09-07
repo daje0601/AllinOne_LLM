@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 동일한 SQL 코드로 작성되어 있으며, Both queries select the same columns (All_Neutral and School_ID) from the same table (basketball_match) and sort the results by School_ID in descending order. Therefore, they return the same semantic result.\"\n}"

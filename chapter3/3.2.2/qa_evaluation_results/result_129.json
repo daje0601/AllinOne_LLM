@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPWSftVLuuOXdx9zu9uUbLArWd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문에서 물어본 무궁화가 언제 우리나라 꽃으로 정해졌는지에 대한 내용을 정확히 다루고 있어 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 무궁화가 1971년 12월 24일에 국화로 정해졌다고 하지만, 1949년 12월 24일에도 관련된 언급을 하여 불확실성을 존재하게 합니다. 따라서 정확도가 조금 떨어집니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델의 답변은 무궁화의 역사 및 상징성을 잘 설명하고 있지만, 참조 답변이 포함한 일제 강점기와 같은 특정 역사적 배경을 완전히 반영하지는 못했습니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 길이가 길어 다소 복잡하게 느껴질 수 있으며, 몇몇 정보가 서로 중복되어 조금 더 직관적으로 정리될 필요가 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 정보가 유사하지만, 주된 초점과 세부사항이 다릅니다. 예를 들어, 참조 답변은 1928년과 고대 조선 시대에 대한 언급이 있는 반면, 모델의 답변은 다른 날짜를 중심으로 기술하고 있습니다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문에서 물어본 무궁화가 언제 우리나라 꽃으로 정해졌는지에 대한 내용을 정확히 다루고 있어 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 무궁화가 1971년 12월 24일에 국화로 정해졌다고 하지만, 1949년 12월 24일에도 관련된 언급을 하여 불확실성을 존재하게 합니다. 따라서 정확도가 조금 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 무궁화의 역사 및 상징성을 잘 설명하고 있지만, 참조 답변이 포함한 일제 강점기와 같은 특정 역사적 배경을 완전히 반영하지는 못했습니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 길이가 길어 다소 복잡하게 느껴질 수 있으며, 몇몇 정보가 서로 중복되어 조금 더 직관적으로 정리될 필요가 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 정보가 유사하지만, 주된 초점과 세부사항이 다릅니다. 예를 들어, 참조 답변은 1928년과 고대 조선 시대에 대한 언급이 있는 반면, 모델의 답변은 다른 날짜를 중심으로 기술하고 있습니다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 331,
+        "prompt_tokens": 594,
+        "total_tokens": 925
+    }
+}

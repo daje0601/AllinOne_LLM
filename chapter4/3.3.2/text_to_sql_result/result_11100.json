@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 정보를 반환합니다. 첫 번째 쿼리는 특정 사용자(OwnerUserId가 102031인)의 포스트 중에서 다운투표(Score < 0)의 개수를 카운트하여 'DownVotes'라는 별칭으로 반환합니다. 반면, 두 번째 쿼리는 모든 사용자에 대한 'TotalDownVotes'를 카운트하고, 사용자의 Id와 Reputation으로 그룹화한 후, Reputation에 따라 정렬하여 상위 10명의 사용자만 반환합니다. 따라서 두 쿼리는 서로 다른 결과를 생성하며, Semantically Equivalent하지 않습니다.\"\n}"

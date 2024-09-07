@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조적으로 동일하며, 't5'의 Place와 'united states'의 Country를 조건으로 사용하여 Score를 선택하는 동일한 목적을 가지고 있습니다. 따라서 결과적으로 의미적으로 동일한 결과를 반환합니다.\"\n}"

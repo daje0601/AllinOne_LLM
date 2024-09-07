@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and will return the same result. They count the distinct number of patients currently aged between 30 and 39 who have not been discharged (dischtime IS NULL). Therefore, they are semantically equivalent.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 생성된 쿼리는 'program_course.category'에 대한 조건이 포함되어 있고, 'course.department'에 대한 조건이 없으며, 'ANTHRCUL'과 관련된 수업을 명시적으로 필터링하지 않습니다. 반면에 정답 쿼리는 'course.department = 'ANTHRCUL'' 조건을 포함하여 ANTHRCUL을 명시적으로 필터링합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

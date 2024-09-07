@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, ugyanazt az SQL query 시행한다. 두 쿼리는 모두 Performer 4가 'john bird'인 에피소드 중에서 가장 낮은 Episode 번호를 가져오는 쿼리로, 구조와 사용된 함수가 동일하다. 따라서 두 쿼리는 문제의 요구 사항에 대해 의미적으로 동일한 결과를 반환한다.\"\n}"

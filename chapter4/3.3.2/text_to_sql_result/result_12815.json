@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 컬럼에서 선수를 찾고 있습니다. 첫 번째 쿼리는 'School/Club Team/Country' 열에서 'Alton Ford'를 검색하고, 두 번째 쿼리는 'Player' 열에서 'Ford, Alton Alton Ford'를 검색합니다. 이로 인해 결과가 다를 수 있으며, 동일한 결과를 보장하지 않습니다.\"\n}"

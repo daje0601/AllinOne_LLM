@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Venue' 조건이 다르기 때문에 의미적으로 동일한 결과를 반환하지 않습니다. 첫 번째 쿼리는 'binh duong stadium, binh duong, vietnam'를 조회하며, 두 번째 쿼리는 'binh duong stadium, vietnam'를 조회합니다. 따라서, Venue의 지역 정보를 포함한 첫 번째 쿼리는 더 구체적인 조건을 가지고 있어 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Other Staph pneumonia'와 'Other Staphylococcus pneumonia'라는 서로 다른 제목을 사용하는 진단을 참조하고 있습니다. 이는 같은 질병을 다루지만, 상이한 ICD9 코드에 대한 다른 설명이 있을 수 있습니다. 따라서 두 쿼리는 서로 다른 환자 수를 반환할 수 있으며, 의미적으로 동일하지 않습니다.\"\n}"

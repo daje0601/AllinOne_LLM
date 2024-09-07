@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'democratic_coalition' 값을 기준으로 필터링하고 있습니다. 첫 번째 쿼리는 'Democratic Unionist'를 기준으로, 두 번째 쿼리는 'René Alinco ( PPD )'를 기준으로 결과를 선택합니다. 따라서 두 쿼리는 서로 다른 결과 집합을 반환하며, 문제의 의미에 부합하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Nepalis admitted'가 714이고 'Pakistanis admitted'가 정확히 13,575인 경우의 'Bangladeshis admitted' 값을 반환합니다. 반면, 두 번째 쿼리는 'Nepalis admitted'가 714이고 'Pakistanis admitted'가 13,575보다 큰 경우의 'Bangladeshis admitted'의 평균을 반환합니다. 이 두 쿼리는 조건이 다르기 때문에 의미적으로 동일하지 않습니다.\"\n}"

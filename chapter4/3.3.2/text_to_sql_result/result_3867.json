@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 GROUP BY 절에서 구체적으로 'Headquarter'를 사용하고 있습니다. 그러나 SELECT 절에서 'Headquarter'는 포함되지 않기 때문에 이 쿼리들은 올바른 SQL 쿼리가 아니며 대조적으로 'Headquarter' 없이 GROUP BY를 수행할 경우 예상치 못한 결과를 초래할 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 COUNT 함수에 다른 열을 사용하고 있습니다. 첫번째 쿼리는 'First broadcast' 열을 세고, 두번째 쿼리는 'Episode' 열을 세며, 문제에서 요구하는 것은 에피소드 수를 세는 것이므로 정답 쿼리인 COUNT('Episode')만 올바른 쿼리입니다.\"\n}"

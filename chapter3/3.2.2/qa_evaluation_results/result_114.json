@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNANQzm9B0eh3XXVyguqsmRtkMi3",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문과 관련이 거의 없으며, 세계에서 가장 오래된 미라에 대한 정보 대신 고대 건축물에 대한 정보를 제공하고 있습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실이 아닌 정보를 포함하고 있으며, '외치'라는 미라에 대한 설명이 전혀 없습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 미라에 대한 구체적인 설명이 부족하며, 역사적 맥락이나 중요성에 대한 정보도 제공하지 않습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 정리된 문장으로 작성되어 있지만, 주제가 잘못 되어 그 자체로는 이해하기 쉬운 부분이 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 관련된 요소가 없으며, 주제와 내용이 완전히 다릅니다.\"},\"average_score\":2.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문과 관련이 거의 없으며, 세계에서 가장 오래된 미라에 대한 정보 대신 고대 건축물에 대한 정보를 제공하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실이 아닌 정보를 포함하고 있으며, '외치'라는 미라에 대한 설명이 전혀 없습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 미라에 대한 구체적인 설명이 부족하며, 역사적 맥락이나 중요성에 대한 정보도 제공하지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 정리된 문장으로 작성되어 있지만, 주제가 잘못 되어 그 자체로는 이해하기 쉬운 부분이 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 관련된 요소가 없으며, 주제와 내용이 완전히 다릅니다."
+                    },
+                    "average_score": 2.2
+                }
+            }
+        }
+    ],
+    "created": 1723222447,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 225,
+        "prompt_tokens": 552,
+        "total_tokens": 777
+    }
+}

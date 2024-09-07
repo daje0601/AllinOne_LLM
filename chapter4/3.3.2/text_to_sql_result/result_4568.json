@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 title 문자열이 다릅니다. 첫 번째 쿼리는 'z.h.p. unchained ranger and darkchilde evil men'을, 두 번째 쿼리는 'z.h.p. unlosing ranger vs darkdeath evilman'을 사용합니다. 이 문자열들은 서로 다른 제목을 나타내므로 쿼리의 결과는 달라질 것입니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 조건을 사용합니다. 첫 번째 쿼리는 'Championship'이 'Tulsa'인 경우와 'Partner'가 'Chuck McKinley'인 경우의 결과를 세는 반면, 두 번째 쿼리는 'Surface'가 'Grass'이고 'Partner'가 'Chuck McKinley'이며 'Year'가 '1962'인 경우의 결과를 세고 있습니다. 따라서 두 쿼리는 서로 다른 기반 조건을 사용하고 있으므로 의미적으로 동일하지 않습니다.\"\n}"

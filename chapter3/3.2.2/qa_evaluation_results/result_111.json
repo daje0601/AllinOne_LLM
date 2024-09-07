@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAN4asth6VlHh7VGXvC03eQoWMq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문과 높은 관련성을 갖고 있으며, 목소리의 차이에 대한 이유를 다루고 있습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 음파의 전달 매체와 관련된 설명을 제공했으나, 내 목소리와 다른 사람의 목소리가 다른 이유에 대한 설명이 성대에서의 울림과 같은 중요한 요소를 놓치고 있어 정확성이 약간 떨어집니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 질문에 대한 두 가지 포인트를 다루고 있지만, 녹음된 목소리로 자신의 목소리를 듣는 방법이나, 이로 인한 효과에 대한 설명이 부족합니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 용이하나, 일부 기술적인 설명이 다소 복잡하게 느껴질 수 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있으나, 성대의 울림과 같은 중요한 포인트를 포함하지 않아 유사성이 감소했습니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문과 높은 관련성을 갖고 있으며, 목소리의 차이에 대한 이유를 다루고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 음파의 전달 매체와 관련된 설명을 제공했으나, 내 목소리와 다른 사람의 목소리가 다른 이유에 대한 설명이 성대에서의 울림과 같은 중요한 요소를 놓치고 있어 정확성이 약간 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 질문에 대한 두 가지 포인트를 다루고 있지만, 녹음된 목소리로 자신의 목소리를 듣는 방법이나, 이로 인한 효과에 대한 설명이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 용이하나, 일부 기술적인 설명이 다소 복잡하게 느껴질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있으나, 성대의 울림과 같은 중요한 포인트를 포함하지 않아 유사성이 감소했습니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222447,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 273,
+        "prompt_tokens": 775,
+        "total_tokens": 1048
+    }
+}

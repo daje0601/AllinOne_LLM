@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB8OG9ecXIjNeCx2HWJN7ggpsSD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변이 기본적인 저장 방법을 설명하고 있으나, 질문의 특정 조건(배경을 날린 이미지 저장)에 대한 언급이 부족함.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정확하나, 프로그램 버전이나 설정과 관련된 정보를 부정확하게 전달하고 있어 정확성이 떨어짐.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델 답변은 저장 방법에 대한 정보는 포함하지만, 질문의 주요 문제점과 솔루션을 충분히 설명하지 않음.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬워 명확하나, 가끔 중복된 표현이 있어 깔끔한 설명이 아님.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과의 유사성이 적고, 제시된 단계가 참조 답변의 내용을 잘 반영하지 못함.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변이 기본적인 저장 방법을 설명하고 있으나, 질문의 특정 조건(배경을 날린 이미지 저장)에 대한 언급이 부족함."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정확하나, 프로그램 버전이나 설정과 관련된 정보를 부정확하게 전달하고 있어 정확성이 떨어짐."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델 답변은 저장 방법에 대한 정보는 포함하지만, 질문의 주요 문제점과 솔루션을 충분히 설명하지 않음."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬워 명확하나, 가끔 중복된 표현이 있어 깔끔한 설명이 아님."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과의 유사성이 적고, 제시된 단계가 참조 답변의 내용을 잘 반영하지 못함."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 667,
+        "total_tokens": 900
+    }
+}

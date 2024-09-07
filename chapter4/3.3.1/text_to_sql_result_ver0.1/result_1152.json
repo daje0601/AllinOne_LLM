@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단의 짧은 제목(short_title)이 다릅니다. 첫 번째 쿼리는 'Poison-paraldehyde'를 기준으로 환자 수를 세고, 두 번째 쿼리는 'Poison-psychotropic agt'를 기준으로 세기 때문에, 결과적으로 반환하는 환자 수가 다를 수 있습니다. 문제에서는 정확히 '정신작용 독소'인 환자의 수를 구해야 합니다.\"\n}"

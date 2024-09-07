@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Replaced by' 열이 'Manuel Pellegrini'인 경우의 공석 날짜를 선택하는 반면, 두 번째 쿼리는 'Outgoing manager' 열이 'Manuel Pellegrini'인 경우의 공석 날짜를 선택합니다. 따라서 쿼리가 참조하는 열이 다르므로 서로 다른 결과를 반환할 수 있습니다.\"\n}"

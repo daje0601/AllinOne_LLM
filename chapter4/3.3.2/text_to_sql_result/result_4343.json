@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단명(diagnosisname)을 사용하고 있습니다. 첫 번째 쿼리는 'intracranial edema - increase in intracranial pressure'를 기준으로 하며, 두 번째 쿼리는 'increased intracranial pressure - from cerebral edema'를 사용하고 있습니다. 따라서, 진단명에 따라 결과가 달라질 수 있으므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

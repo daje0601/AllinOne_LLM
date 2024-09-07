@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'team' 값이 다릅니다. 첫 번째 쿼리는 'san martin de tucuman'이라는 팀 이름을 사용하고, 두 번째 쿼리는 'san martín de tucumán'이라는 팀 이름을 사용합니다. 이 팀 이름의 철자가 다르기 때문에 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

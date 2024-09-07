@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 drugname 값이 다릅니다. 첫 번째 쿼리에서 약물 이름은 'ondansetron 2 mg/1ml 2ml ij solr'이고, 두 번째 쿼리에서는 'ondansetron 2 mg/1 ml 2ml sdv inj'입니다. 이로 인해 같은 약물에 대한 정보를 조회하고 있지 않으므로 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

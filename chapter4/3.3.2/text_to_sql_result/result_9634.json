@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Manner of departure'를 'end of contract'로, 두 번째 쿼리는 'contract terminated'로 지정하고 있습니다. 이 두 표현은 유사하긴 하지만 전혀 동일한 의미가 있는 것은 아니며, 데이터베이스에 따라 다르게 저장되어 있을 수 있습니다. 또한, 두 쿼리에서 'Position in table' 값도 각각 '23'와 '23rd'로 다르므로 이로 인해 결과가 달라질 수 있습니다.\"\n}"

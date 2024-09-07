@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZlIDiEhNDWH0k35ZArWwTfZxE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 화이트와인의 결정체와 관련된 내용이 있지만, 기포와 신맛을 다루는 내용이 포함되어 있는데 이는 원 질문과 관련이 적습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 결정체가 탄산가스와 인체에 해로운 질소화합물로 구성되어 있다고 잘못 설명하고 있으며, 주석에 대한 설명이 아예 없습니다. 이는 사실과 다릅니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 화이트와인 보관에 대한 몇 가지 정보가 포함되어 있으나, 결정체에 대한 설명이 미흡하고 핵심 정보인 주석에 대한 설명이 없습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽지만, 내용의 일관성 부족으로 인해 혼란을 줄 수 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 큰 차이가 있으며, 주제에 대한 정확한 정보와 설명이 부족합니다.\"},\"average_score\":3.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 화이트와인의 결정체와 관련된 내용이 있지만, 기포와 신맛을 다루는 내용이 포함되어 있는데 이는 원 질문과 관련이 적습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 결정체가 탄산가스와 인체에 해로운 질소화합물로 구성되어 있다고 잘못 설명하고 있으며, 주석에 대한 설명이 아예 없습니다. 이는 사실과 다릅니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 화이트와인 보관에 대한 몇 가지 정보가 포함되어 있으나, 결정체에 대한 설명이 미흡하고 핵심 정보인 주석에 대한 설명이 없습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽지만, 내용의 일관성 부족으로 인해 혼란을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 큰 차이가 있으며, 주제에 대한 정확한 정보와 설명이 부족합니다."
+                    },
+                    "average_score": 3.0
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 254,
+        "prompt_tokens": 533,
+        "total_tokens": 787
+    }
+}

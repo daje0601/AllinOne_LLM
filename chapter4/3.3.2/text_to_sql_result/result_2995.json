@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'competition'의 값이 다릅니다. 첫 번째 쿼리는 'world championships in athletics'를 사용하고, 두 번째 쿼리는 'world championships'를 사용합니다. 이로 인해 두 쿼리의 결과는 동일하지 않을 수 있습니다. 또한, 'world championships in athletics'는 더 구체적인 대회 이름으로, 이 대회에만 해당하는 결과를 반환할 것으로 보여집니다.\"\n}"

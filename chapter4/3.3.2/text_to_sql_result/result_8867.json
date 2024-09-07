@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'naighton island'와 'nightingale island'라는 두 개의 다른 행정 구역 이름이 사용되었습니다. 이로 인해 첫 번째 쿼리는 'naighton island'와 관련된 행정 구역을 찾으며, 두 번째 쿼리는 'nightingale island'와 관련된 행정 구역을 찾습니다. 따라서 두 쿼리는 의미적으로 동일하지 않으며, 서로 다른 결과를 반환합니다.\"\n}"

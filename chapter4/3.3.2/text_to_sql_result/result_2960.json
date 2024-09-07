@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'date_address_to'로 그룹화하여 평균 'monthly_rental'을 계산하고, 그 결과를 'monthly_rental'의 내림차순으로 정렬합니다. 반면 두 번째 쿼리는 그룹화를 하지 않고 전체 'monthly_rental'의 평균을 계산한 후 그대로 'monthly_rental'의 내림차순으로 정렬합니다. 두 쿼리는 집계 함수의 사용 여부와 그룹화에 따라 결과가 달라지므로 의미적으로 동일하지 않습니다.\"\n}"

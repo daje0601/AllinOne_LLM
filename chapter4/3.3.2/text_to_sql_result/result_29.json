@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'diagnoses' 테이블에서 진단의 짧은 제목(short_title)이 'Intestinl obstruct NOS'인 환자들을 필터링하고, 'lab' 테이블에서 혈액(fluid)이 포함된 검사 결과가 있는지 확인합니다. 반면 두 번째 쿼리는 'demographic' 테이블에서 진단(diagnosis)이 'BOWEL OBSTRUCTION'인 환자들을 필터링하고, 동일하게 'lab' 테이블의 혈액(fluid) 조건을 체크합니다. 즉, 두 쿼리가 참조하는 진단 조건이 다르기 때문에 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

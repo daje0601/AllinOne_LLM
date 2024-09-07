@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 champion 조건에서 'allison nicholas'와 'alison nicholas'라는 이름이 다릅니다. 이는 데이터베이스에서 찾는 대상이 다르므로, 쿼리의 결과는 의미적으로 동일하지 않습니다.\"\n}"

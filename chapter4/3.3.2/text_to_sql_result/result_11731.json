@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query correctly filters for games against 'atlanta falcons', while the second query incorrectly includes 'at' in the opponent name, which will result in a different filter ('at atlanta falcons'). Therefore, the two queries are not semantically equivalent.\"\n}"

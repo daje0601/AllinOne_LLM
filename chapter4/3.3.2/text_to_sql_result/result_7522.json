@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Third' 열에서 사용된 이름이 다릅니다. 첫 번째 쿼리는 'caroline leid'를 검색하고, 두 번째 쿼리는 'caroline reed'를 검색합니다. 문제에서 요구하는 이름은 'caroline reed'이므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

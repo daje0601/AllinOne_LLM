@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Winning driver'의 값이 다릅니다. 첫 번째 쿼리는 'Jason Button'을 찾고, 두 번째 쿼리는 'Jenson Button'을 찾습니다. 이로 인해 같은 결과를 반환하지 않습니다.\"\n}"

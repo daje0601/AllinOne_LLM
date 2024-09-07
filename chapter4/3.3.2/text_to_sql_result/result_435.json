@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'long_title'을 사용하고 있습니다. 첫 번째 쿼리는 'Insertion of endocardial lead(s)'이고, 두 번째 쿼리는 'Intraoperative cardiac pacemaker'입니다. 이 두 긴 제목은 다른 시술을 의미하므로, 쿼리의 결과는 서로 다를 것입니다.\"\n}"

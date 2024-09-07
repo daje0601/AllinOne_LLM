@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBbW7TvYjZPEsV8YKa1JSHeMVaM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 대한 일반적인 정보를 제공하고 있지만, 아기 고양이 관련 생식의 구체적인 예시가 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 부분에서 부정확하거나 불완전하며, 생식의 종류나 건강에 대한 설명이 명확하지 않다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 질문의 각 항목에 대한 답변을 제공했지만, 깊이나 세부사항이 부족하여 전반적으로 불완전하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 일부 부분에서 용어 사용이 불명확하여 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변에서 사용된 구체적인 내용과 다르며, 단어 선택이나 설명에서 유사성을 충분히 보이지 않는다.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 대한 일반적인 정보를 제공하고 있지만, 아기 고양이 관련 생식의 구체적인 예시가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 부분에서 부정확하거나 불완전하며, 생식의 종류나 건강에 대한 설명이 명확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 질문의 각 항목에 대한 답변을 제공했지만, 깊이나 세부사항이 부족하여 전반적으로 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 일부 부분에서 용어 사용이 불명확하여 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변에서 사용된 구체적인 내용과 다르며, 단어 선택이나 설명에서 유사성을 충분히 보이지 않는다."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222523,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 721,
+        "total_tokens": 954
+    }
+}

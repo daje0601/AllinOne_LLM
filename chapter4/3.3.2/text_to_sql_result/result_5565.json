@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 날짜 형식과 이벤트 명칭이 서로 다릅니다. 첫 번째 쿼리는 '31 may 1953'라는 날짜 형식을 사용하고, 이벤트 명칭이 'grand prix de l'algérie and finale'입니다. 두 번째 쿼리는 '31st may 1953'라는 날짜 형식을 사용하고, 이벤트 명칭은 'grand prix de l'albigeois final'입니다. 따라서 둘은 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'addresses' 테이블에서 직접 고객 정보를 조회하는 반면, 두 번째 쿼리는 'customer_addresses' 테이블을 통해 고객과 주소를 연결하고 그 후에 'addresses' 테이블을 조회합니다. 또한, 두 쿼리에서 사용하는 'city' 값이 다릅니다. 첫 번째 쿼리는 'Lake Giovanni'라는 도시를 검색하고, 두 번째 쿼리는 'Lake Geovannyton'이라는 도시를 검색합니다. 이로 인해 두 쿼리가 반환하는 결과는 서로 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 district ('patnaipur' vs 'fatehpur')와 name ('zamania' vs 'jahanabad')을 기준으로 수치를 집계하고 있어 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

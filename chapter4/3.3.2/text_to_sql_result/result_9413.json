@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일한 SQL 쿼리이며, 같은 테이블에서 'Chironius multiventris septentrionalis'라는 종의 일반적인 이름을 반환하는 목적을 가지고 있습니다. 따라서 둘은 의미적으로 동일한 결과를 반환합니다.\"\n}"

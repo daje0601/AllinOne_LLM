@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAjJHy04G5oo5QWAPbpaSAiOC10",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 직접적인 연관성이 낮으며, 주제가 디자인이 아닌 예고에 대한 내용으로 흐트러져 있다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"정보의 일부는 정확하나, 예고와 디자인 관련 정보의 연결성이 약해 올바른 맥락에서 제공되지 않았다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 예고에 대한 세부 정보가 많지만 디자인에 대한 구체적인 조언이 부족하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"전반적으로 문장이 이해하기 어렵지 않으나 일부 부분은 표현이 모호하다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제가 다르고, 디자인에 대한 구체적인 조언이 없어서 유사성이 매우 낮다.\"},\"average_score\":3.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 직접적인 연관성이 낮으며, 주제가 디자인이 아닌 예고에 대한 내용으로 흐트러져 있다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "정보의 일부는 정확하나, 예고와 디자인 관련 정보의 연결성이 약해 올바른 맥락에서 제공되지 않았다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 예고에 대한 세부 정보가 많지만 디자인에 대한 구체적인 조언이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "전반적으로 문장이 이해하기 어렵지 않으나 일부 부분은 표현이 모호하다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 다르고, 디자인에 대한 구체적인 조언이 없어서 유사성이 매우 낮다."
+                    },
+                    "average_score": 3.4
+                }
+            }
+        }
+    ],
+    "created": 1723222469,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 210,
+        "prompt_tokens": 1164,
+        "total_tokens": 1374
+    }
+}

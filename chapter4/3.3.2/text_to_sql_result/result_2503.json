@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 SELECT 문과 WHERE 조건을 가지고 있으며, 'Illinois-Chicago'를 오퍼넌트로 하는 어시스트 수를 반환합니다.\"\n}"

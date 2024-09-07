@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAfMO8dOiCKvXkmc9acsdRVClab",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 배와 관련된 내용을 다루고 있으나, 질문의 핵심인 뱃고동이 울리는 이유에 대한 설명이 부족함.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 뱃고동의 기능에 대한 기본적인 오해를 포함하고 있으며, 실제 뱃고동의 작동 원리를 잘못 기술하고 있음.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 짧고 정보가 제한적이며, 뱃고동에 대한 전반적인 맥락을 다루지 않음.\"},\"clarity\":{\"score\":4,\"explanation\":\"답변이 비교적 간단하지만, 몇 가지 표현이 혼란을 줄 수 있어 완전한 명확성은 아님.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 크게 다른 방향성을 가져, 유사성이 낮음.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 배와 관련된 내용을 다루고 있으나, 질문의 핵심인 뱃고동이 울리는 이유에 대한 설명이 부족함."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 뱃고동의 기능에 대한 기본적인 오해를 포함하고 있으며, 실제 뱃고동의 작동 원리를 잘못 기술하고 있음."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 짧고 정보가 제한적이며, 뱃고동에 대한 전반적인 맥락을 다루지 않음."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "답변이 비교적 간단하지만, 몇 가지 표현이 혼란을 줄 수 있어 완전한 명확성은 아님."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다른 방향성을 가져, 유사성이 낮음."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222465,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 229,
+        "prompt_tokens": 555,
+        "total_tokens": 784
+    }
+}

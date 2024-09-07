@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAobQXs358DSbmjZwEIOdXbi2ha",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 화면 떨림에 관련된 여러 원인을 제시하여 질문과 관련이 높습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대부분 정확하나, 일부 내용(예: 타이틀 바 마우스 관련)은 질문의 본질과 직접적으로 연관이 떨어집니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 여러 가지 가능한 원인을 제시하였으나, 참조 답변에 비해 다소 간단하고 일부 중요한 원인을 간과했습니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델이 제공한 답변은 잘 구조화되어 있으며 이해하기 쉽습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 주제는 관련 있으나, 설명 방식과 제안이 다르기 때문에 유사성은 낮습니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 화면 떨림에 관련된 여러 원인을 제시하여 질문과 관련이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대부분 정확하나, 일부 내용(예: 타이틀 바 마우스 관련)은 질문의 본질과 직접적으로 연관이 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 여러 가지 가능한 원인을 제시하였으나, 참조 답변에 비해 다소 간단하고 일부 중요한 원인을 간과했습니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델이 제공한 답변은 잘 구조화되어 있으며 이해하기 쉽습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 관련 있으나, 설명 방식과 제안이 다르기 때문에 유사성은 낮습니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 651,
+        "total_tokens": 867
+    }
+}

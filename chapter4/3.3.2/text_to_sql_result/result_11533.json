@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'long_title' 조건이 다릅니다. 첫 번째 쿼리는 'Acute venous embolism and thrombosis of deep vessels of thigh'를 기준으로 하고, 두 번째 쿼리는 'Acute venous embolism and thrombosis of deep vessels of proximal lower extremity'를 기준으로 하고 있습니다. 이로 인해 두 쿼리는 서로 다른 환자 수를 반환할 것입니다.\"\n}"

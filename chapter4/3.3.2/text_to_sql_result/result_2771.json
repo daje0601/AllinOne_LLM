@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 검색하는 'high_school' 이름이 다릅니다. 첫 번째 쿼리는 'Oakland Alternative High school'을 검색하는 반면, 두 번째 쿼리는 'Oakland Alternative'를 검색합니다. 따라서 반환되는 결과가 다를 수 있습니다.\"\n}"

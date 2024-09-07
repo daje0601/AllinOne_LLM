@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 제목(short_title와 long_title)을 사용하고 있습니다. 첫 번째 쿼리는 'Ven thrombosis upper extrem'이라는 짧은 제목을 기준으로 하고, 두 번째 쿼리는 'Phlebitis and thrombophlebitis of superficial veins of upper extremities'라는 긴 제목을 기준으로 하고 있습니다. 따라서 이 두 제목은 동일하지 않으며, 문제에서 요구하는 '상지의 얕은 정맥에 대한 정맥염 및 혈전성 정맥염'을 의미하는지 여부가 다를 수 있습니다.\"\n}"

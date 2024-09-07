@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBcUvUreZsT5U4GxG3wg3AZM1mr",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 '바닷가 바위 틈에 사는 벌레'와 관련이 있지만, 특정 벌레(갯강구)가 아닌 다른 정보를 제공하여 질문과의 직접적인 관련성이 낮음.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변에서 언급된 '바다별'과 '잭구비'는 질문 및 참조 답변의 벌레(갯강구)와 다른 내용으로, 정확성이 낮음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 바닷가 바위 틈에 사는 벌레에 대한 일부 정보를 포함하나, 갯강구에 대한 정보는 빠져있고, 전반적으로 질문에 대한 포괄성이 부족함.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 문장이 비교적 잘 구성되어 있지만, 바다별과 잭구비의 관련성을 이해하기 어렵게 만드므로 명확성이 다소 떨어짐.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변의 내용과 다르며, 언급되는 종이 전혀 다른 두 종류여서 유사성이 크게 결여됨.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 '바닷가 바위 틈에 사는 벌레'와 관련이 있지만, 특정 벌레(갯강구)가 아닌 다른 정보를 제공하여 질문과의 직접적인 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변에서 언급된 '바다별'과 '잭구비'는 질문 및 참조 답변의 벌레(갯강구)와 다른 내용으로, 정확성이 낮음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 바닷가 바위 틈에 사는 벌레에 대한 일부 정보를 포함하나, 갯강구에 대한 정보는 빠져있고, 전반적으로 질문에 대한 포괄성이 부족함."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 문장이 비교적 잘 구성되어 있지만, 바다별과 잭구비의 관련성을 이해하기 어렵게 만드므로 명확성이 다소 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 다르며, 언급되는 종이 전혀 다른 두 종류여서 유사성이 크게 결여됨."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 289,
+        "prompt_tokens": 554,
+        "total_tokens": 843
+    }
+}

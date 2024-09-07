@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'eastern' 노선에서 'crystal palace'로 가는 빈도를 반환하는 반면, 두 번째 쿼리는 'east london' 노선에서 'crystal palace'로 가는 노선의 수를 COUNT하여 반환합니다. 또한, 첫 번째 쿼리는 빈도 정보를 직접 선택하는 반면, 두 번째 쿼리는 노선의 개수를 세므로 결과의 의미가 다릅니다.\"\n}"

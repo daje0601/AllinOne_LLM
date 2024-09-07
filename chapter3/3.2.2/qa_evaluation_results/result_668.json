@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBCJmg4sHmFEN3wvUKqfhTzclvf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문과 관련성이 낮다. 인사고과제도에 대한 질문인데, 실제 인사제도에 대한 올바른 설명이 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 역사적 사실에 대한 정확성이 떨어진다. 조선시대 인사법에 대한 언급은 있지만, 인사고과에 대한 설명이 틀리거나 모호하다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 정보가 불완전하다. 인사고과 제도에 대한 구체정보를 적절히 포함하지 않고 있다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 혼란스러울 수 있으며 명확성이 떨어진다. 주제가 인사고과제도인데, 내용이 자칫 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 거의 없다. 각각의 정보와 설명이 다르고, 구체적인 인사고과제도와 관련된 내용이 아니다.\"},\"average_score\":3.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문과 관련성이 낮다. 인사고과제도에 대한 질문인데, 실제 인사제도에 대한 올바른 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 역사적 사실에 대한 정확성이 떨어진다. 조선시대 인사법에 대한 언급은 있지만, 인사고과에 대한 설명이 틀리거나 모호하다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 정보가 불완전하다. 인사고과 제도에 대한 구체정보를 적절히 포함하지 않고 있다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 혼란스러울 수 있으며 명확성이 떨어진다. 주제가 인사고과제도인데, 내용이 자칫 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 거의 없다. 각각의 정보와 설명이 다르고, 구체적인 인사고과제도와 관련된 내용이 아니다."
+                    },
+                    "average_score": 3.0
+                }
+            }
+        }
+    ],
+    "created": 1723222498,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 269,
+        "prompt_tokens": 571,
+        "total_tokens": 840
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 'School_ID'와 'All_Games_Percent'를 선택하며, 'ACC_Home'에 따라 그룹화합니다. 따라서 결과적으로 의미적으로 동일한 결과를 반환합니다.\"\n}"

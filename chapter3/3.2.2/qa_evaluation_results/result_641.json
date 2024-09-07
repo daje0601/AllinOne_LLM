@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB9AeCUFzJJwnL4tKM3NuoykrFB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 KBS 1TV의 광고 중단에 대한 질문과 직접적인 관련이 적지 않지만, KBS TV 광고 역사와 다른 채널들에 대한 정보로 이루어져 있어 질문의 핵심에 답하지 못하고 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변에서 언급된 내용은 사실과 다르며, 특히 KBS 1TV와 광고 관련 정책에 대한 혼동이 존재한다. KBS 1TV는 광고를 하지 않으며, 모델이 언급한 광고 판매는 잘못된 정보다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 KBS 1TV가 광고를 하지 않는 이유에 대해 설명하지 않고, 역사적 정보와 다른 채널에 유도되어 있어 질문에 대한 충분한 답변을 제공하지 않는다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로는 이해할 수 있으나, 내용의 일관성이 떨어져 독자가 질문에 대한 명확한 답변을 찾기 어려울 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변과 참조 답변 사이에는 정책에 대한 기본 개념 차이가 크며, 모델은 광고의 역사에 대한 정보를 전달하면서도 질문에 대해서는 누락하고 있다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 KBS 1TV의 광고 중단에 대한 질문과 직접적인 관련이 적지 않지만, KBS TV 광고 역사와 다른 채널들에 대한 정보로 이루어져 있어 질문의 핵심에 답하지 못하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변에서 언급된 내용은 사실과 다르며, 특히 KBS 1TV와 광고 관련 정책에 대한 혼동이 존재한다. KBS 1TV는 광고를 하지 않으며, 모델이 언급한 광고 판매는 잘못된 정보다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 KBS 1TV가 광고를 하지 않는 이유에 대해 설명하지 않고, 역사적 정보와 다른 채널에 유도되어 있어 질문에 대한 충분한 답변을 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로는 이해할 수 있으나, 내용의 일관성이 떨어져 독자가 질문에 대한 명확한 답변을 찾기 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변과 참조 답변 사이에는 정책에 대한 기본 개념 차이가 크며, 모델은 광고의 역사에 대한 정보를 전달하면서도 질문에 대해서는 누락하고 있다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222495,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 312,
+        "prompt_tokens": 406,
+        "total_tokens": 718
+    }
+}

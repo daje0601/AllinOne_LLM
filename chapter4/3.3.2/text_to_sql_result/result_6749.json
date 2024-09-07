@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'woodbourne dragstrip'과 'woodburn dragstrip'의 이름이 다르기 때문에, 쿼리가 반환하는 결과는 서로 다를 수 있습니다. 이로 인해 두 쿼리가 의미적으로 동일하지 않습니다.\"\n}"

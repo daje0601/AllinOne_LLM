@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAcJ2VzMlhmeKLMLE10rrNubuo1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 고층 아파트단지에 대한 정보이지만, 질문에 명시된 한국 최초의 고층 아파트단지와는 관련성이 떨어진다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 정보는 역사적 사실과 일치하지 않으며, 1930년대 아파트단지의 이름과 세부사항이 정확하지 않다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 아파트 단지의 개요를 제공하지만, 최초의 고층 아파트에 대한 정확한 정보와 명확한 설명이 부족하다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 이해하기 쉬운 문장이지만, 정보의 정확성과 관련성 부족으로 인해 명확성이 저해된다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 거의 유사성이 없고, 내용이 다르다.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 고층 아파트단지에 대한 정보이지만, 질문에 명시된 한국 최초의 고층 아파트단지와는 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 정보는 역사적 사실과 일치하지 않으며, 1930년대 아파트단지의 이름과 세부사항이 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 아파트 단지의 개요를 제공하지만, 최초의 고층 아파트에 대한 정확한 정보와 명확한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 이해하기 쉬운 문장이지만, 정보의 정확성과 관련성 부족으로 인해 명확성이 저해된다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 거의 유사성이 없고, 내용이 다르다."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222462,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 590,
+        "total_tokens": 821
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNALucQNMMTBeILzJ1j0ItAS3aqZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 대변의 형성과정과 그 처리 과정을 자세히 설명하고 있어 질문답변 간의 관련성이 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 몇 가지 과정을 명확히 설명하지만, 정화조와 분뇨 처리 시설 관련 정보가 빠져 있어 정확성이 다소 떨어진다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 대변의 처리 과정을 다양한 측면에서 설명하지만, 실제 처리 과정과 방법에 대한 구체적인 정보가 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 단계별로 진행되어 명확하게 구성되어 있으나 일부 과정을 과학적으로 기술하여 일반인에게는 다소 어려울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 기본 주제는 유사하지만, 많은 기술적인 세부 사항과 정보가 참조 답변과 다르다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대변의 형성과정과 그 처리 과정을 자세히 설명하고 있어 질문답변 간의 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 몇 가지 과정을 명확히 설명하지만, 정화조와 분뇨 처리 시설 관련 정보가 빠져 있어 정확성이 다소 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 대변의 처리 과정을 다양한 측면에서 설명하지만, 실제 처리 과정과 방법에 대한 구체적인 정보가 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 단계별로 진행되어 명확하게 구성되어 있으나 일부 과정을 과학적으로 기술하여 일반인에게는 다소 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 기본 주제는 유사하지만, 많은 기술적인 세부 사항과 정보가 참조 답변과 다르다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222445,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 638,
+        "total_tokens": 876
+    }
+}

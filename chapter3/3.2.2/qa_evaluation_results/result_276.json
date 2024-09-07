@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAdF3DGOOteiTWsX5UJkpN0W6OS",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 문학상을 나열하지만, 질문에서 요청한 권위 있는 한국 문학상과 연결되는 정보가 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변에 포함된 문학상들은 일부 정확하지 않거나 잘 알려지지 않은 문학상들이 포함되어 있으며, 권위 있는 문학상과의 연관성이 약하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델이 여러 문학상을 나열했으나, 그들 중 어떤 것이 권위 있는 것인지에 대한 기준이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 명확한 구성이 있으나, 어떤 문학상이 무엇인지에 대한 설명이 부족해서 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"참조 답변과 비교할 때, 모델의 답변은 제시된 문학상들의 대부분이 참조 답변에 없고, 내용의 방향성이 크게 다르다.\"},\"average_score\":4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 문학상을 나열하지만, 질문에서 요청한 권위 있는 한국 문학상과 연결되는 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변에 포함된 문학상들은 일부 정확하지 않거나 잘 알려지지 않은 문학상들이 포함되어 있으며, 권위 있는 문학상과의 연관성이 약하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델이 여러 문학상을 나열했으나, 그들 중 어떤 것이 권위 있는 것인지에 대한 기준이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 명확한 구성이 있으나, 어떤 문학상이 무엇인지에 대한 설명이 부족해서 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "참조 답변과 비교할 때, 모델의 답변은 제시된 문학상들의 대부분이 참조 답변에 없고, 내용의 방향성이 크게 다르다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222463,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 749,
+        "total_tokens": 991
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 비슷해 보이지만, WHERE 절의 조건이 서로 다릅니다. 첫 번째 쿼리는 labevents.charttime이 현재 시간보다 67개월 전 이후의 값을 대상으로 평균을 계산하는 반면, 두 번째 쿼리는 labevents.charttime이 현재 시간보다 67개월 전보다 이전의 값을 대상으로 평균을 계산합니다. 또한, 두 쿼리에서 'cholesterol, total/hdl ratio'와 'cholesterol ratio (total/hdl)'의 라벨 차이도 있습니다. 이러한 이유로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

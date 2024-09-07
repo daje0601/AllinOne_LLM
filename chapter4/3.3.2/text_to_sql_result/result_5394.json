@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 만족합니다. 첫 번째 쿼리는 'Lawrence Academy Groton'이라는 이름의 학교를 검색하지만, 두 번째 쿼리는 'Lawrence Academy at Groton'이라는 이름의 학교를 검색합니다. 즉, 두 쿼리가 사용하는 학교 이름이 다르기 때문에 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

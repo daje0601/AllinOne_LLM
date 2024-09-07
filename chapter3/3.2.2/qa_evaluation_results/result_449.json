@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAsjvfP7YTHYY3F8u8XATKH0FGj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 부메랑이 돌아오는 원리에 대한 질문에 대한 직접적인 설명을 포함하고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 회전 운동과 힘의 작용을 설명하고 있지만, 부메랑의 실제 날개 구조와 양력 등에 대한 세부적인 설명이 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적인 원리를 설명하지만, 부메랑의 구조, 역사, 및 실제 작동 원리에 대한 구체적인 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하게 설명되어 있지만, 일부 부분에서 더 명확한 진술이 필요하다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 크게 다르며, 구체적인 세부사항이 결여되어 있다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 부메랑이 돌아오는 원리에 대한 질문에 대한 직접적인 설명을 포함하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 회전 운동과 힘의 작용을 설명하고 있지만, 부메랑의 실제 날개 구조와 양력 등에 대한 세부적인 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적인 원리를 설명하지만, 부메랑의 구조, 역사, 및 실제 작동 원리에 대한 구체적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하게 설명되어 있지만, 일부 부분에서 더 명확한 진술이 필요하다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다르며, 구체적인 세부사항이 결여되어 있다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222478,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 221,
+        "prompt_tokens": 913,
+        "total_tokens": 1134
+    }
+}

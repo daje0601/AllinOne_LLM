@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZtuclaUHg8btRVOkFfY8KoXQT",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 곤충에 대한 정보를 제공하지만, 질문자가 요구한 곤충의 종류 및 특징과는 다소 차이가 있다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델이 제공한 정보는 사실과 다르며, 곤충의 명칭이나 서식지 및 습성 측면에서 참조 답변과 불일치한다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 곤충의 방어 메커니즘과 먹이 등을 언급하지만, 기본 외모 및 생태에 대한 정보가 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하게 작성되었지만, 일부 과학적 용어가 다소 어렵게 느껴질 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 곤충의 종류 및 서식에 대한 정보가 완전히 다르기 때문에 유사성이 낮다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 곤충에 대한 정보를 제공하지만, 질문자가 요구한 곤충의 종류 및 특징과는 다소 차이가 있다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델이 제공한 정보는 사실과 다르며, 곤충의 명칭이나 서식지 및 습성 측면에서 참조 답변과 불일치한다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 곤충의 방어 메커니즘과 먹이 등을 언급하지만, 기본 외모 및 생태에 대한 정보가 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하게 작성되었지만, 일부 과학적 용어가 다소 어렵게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 곤충의 종류 및 서식에 대한 정보가 완전히 다르기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 588,
+        "total_tokens": 830
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBVtTDAobsHKh2ElqRvOXFMB96T",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 답변이지만, '힘이다'라는 현상에 대한 설명이 주제와 관련이 적음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 제시한 정보에는 깍지벌레에 대한 정확한 언급이 없으며, 잘못된 병리적 설명을 제공함.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델은 병의 원인과 예방 방법에 대한 정보를 제공하지만, 질문에 대한 정확한 진단 및 참고할 사항이 부족함.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 문장은 비교적 명확하나, 제시된 정보의 정확성 문제로 명확하게 이해하기 어려움.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 매우 다르게 보이며, 핵심 내용이 크게 다름.\"},\"average_score\":3.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 답변이지만, '힘이다'라는 현상에 대한 설명이 주제와 관련이 적음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 제시한 정보에는 깍지벌레에 대한 정확한 언급이 없으며, 잘못된 병리적 설명을 제공함."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델은 병의 원인과 예방 방법에 대한 정보를 제공하지만, 질문에 대한 정확한 진단 및 참고할 사항이 부족함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 문장은 비교적 명확하나, 제시된 정보의 정확성 문제로 명확하게 이해하기 어려움."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 매우 다르게 보이며, 핵심 내용이 크게 다름."
+                    },
+                    "average_score": 3.0
+                }
+            }
+        }
+    ],
+    "created": 1723222517,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 600,
+        "total_tokens": 815
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNANrM4MRTmb8rP61g8yTADwmxva",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 자동차 차체에 사용되는 다양한 재료와 그 특징을 다루고 있어 질문과 매우 관련이 깊습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제공한 정보는 대부분 정확하나, 일부 내용(케블 등)에서 모호성이 있으며 철강의 부식성 언급이 부적절합니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 다양한 재료를 소개하였고 특정 성질까지 설명하였으나, 각각의 장단점에 대한 분석이 부족합니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하지만 일부 문장은 다소 복잡하게 처리되어 이해하는 데 시간이 걸릴 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 유사하지만, 참조 답변보다 다양한 재료를 포함하고 있어 완전히 유사하지는 않습니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 자동차 차체에 사용되는 다양한 재료와 그 특징을 다루고 있어 질문과 매우 관련이 깊습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제공한 정보는 대부분 정확하나, 일부 내용(케블 등)에서 모호성이 있으며 철강의 부식성 언급이 부적절합니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 다양한 재료를 소개하였고 특정 성질까지 설명하였으나, 각각의 장단점에 대한 분석이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하지만 일부 문장은 다소 복잡하게 처리되어 이해하는 데 시간이 걸릴 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 유사하지만, 참조 답변보다 다양한 재료를 포함하고 있어 완전히 유사하지는 않습니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222447,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 1010,
+        "total_tokens": 1236
+    }
+}

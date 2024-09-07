@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBJ2rj6FM9Y1Z6srCip3c9CCb9I",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 여왕이 출현한 역사적 배경에 대한 질문과 부분적으로 관련이 있지만, 신라시대 여왕의 배경에 대한 구체적인 설명이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에서 언급한 여왕들이 신라 시대와 관련이 없는 고구려와 백제의 여왕들로서, 신라 여왕의 등장 배경을 오해하고 있다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 여왕이 등장한 배경에 대한 깊이 있는 설명이나 신라사회에서의 성골의 개념을 거의 설명하지 않으므로 완전성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 명확하지만, 주제와 관련된 구체적인 정보 부족으로 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 매우 낮고, 기존의 신라 여왕에 대한 의미를 잘 전달하지 못하고 있다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여왕이 출현한 역사적 배경에 대한 질문과 부분적으로 관련이 있지만, 신라시대 여왕의 배경에 대한 구체적인 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에서 언급한 여왕들이 신라 시대와 관련이 없는 고구려와 백제의 여왕들로서, 신라 여왕의 등장 배경을 오해하고 있다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 여왕이 등장한 배경에 대한 깊이 있는 설명이나 신라사회에서의 성골의 개념을 거의 설명하지 않으므로 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 주제와 관련된 구체적인 정보 부족으로 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 매우 낮고, 기존의 신라 여왕에 대한 의미를 잘 전달하지 못하고 있다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222505,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 264,
+        "prompt_tokens": 840,
+        "total_tokens": 1104
+    }
+}

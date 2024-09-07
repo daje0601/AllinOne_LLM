@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'sacked' 상태의 매니저만 고려하여 'date of vacancy'와 'date of appointment'의 차이를 계산하고 이 중 최소값을 반환합니다. 반면, 두 번째 쿼리는 'manner of departure'에 대한 조건 없이 모든 레코드를 포함하여 차이를 계산합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

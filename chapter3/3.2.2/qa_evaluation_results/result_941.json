@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBZ26onIgmQ4bchNgiFxiLG1sbX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 적절한 정보를 제공하지 않으며, 'John Doe'와 'Jane Doe'의 유래와 의미에 대한 직접적인 설명을 하지 않음.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델은 잘못된 역사적 사실을 제시하고 있으며, 'John Doe'와 'Jane Doe'의 유래에 대한 설명이 사실과 다름.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 두 이름의 유래에 대한 전반적인 설명이 부족하고, 질문의 두 부분 모두 충분히 다루지 않음.\"},\"clarity\":{\"score\":4,\"explanation\":\"문장이 다소 복잡하고 비논리적인 흐름이 있어 이해하기 힘들 수 있지만, 마지막 내용은 이해할 수 있음.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 사실 관계에서 크게 벗어나 있으며, 참조 답변과의 유사성이 거의 없음.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 적절한 정보를 제공하지 않으며, 'John Doe'와 'Jane Doe'의 유래와 의미에 대한 직접적인 설명을 하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델은 잘못된 역사적 사실을 제시하고 있으며, 'John Doe'와 'Jane Doe'의 유래에 대한 설명이 사실과 다름."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 두 이름의 유래에 대한 전반적인 설명이 부족하고, 질문의 두 부분 모두 충분히 다루지 않음."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "문장이 다소 복잡하고 비논리적인 흐름이 있어 이해하기 힘들 수 있지만, 마지막 내용은 이해할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실 관계에서 크게 벗어나 있으며, 참조 답변과의 유사성이 거의 없음."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222521,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 232,
+        "prompt_tokens": 669,
+        "total_tokens": 901
+    }
+}

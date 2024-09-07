@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 사용된 'greenback_ticket' 값이 다릅니다. 첫 번째 쿼리는 'abraham j. cuthbert'를 기준으로 하여 결과를 검색하는 반면, 두 번째 쿼리는 'abraham j. cuddeback'을 기준으로 하여 결과를 검색합니다. 따라서 두 쿼리는 서로 다른 후보를 찾고 있으며 의미적으로 동일하지 않습니다.\"\n}"

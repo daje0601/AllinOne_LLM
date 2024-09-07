@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 admission_type이 'URGENT'인 환자를 세는 것은 동일하지만, procedures.short_title의 조건이 다릅니다. 첫 번째 쿼리는 'Skin diverticulostomy'를 조건으로 삼고, 두 번째 쿼리는 'Form cutan ileoureterost'를 조건으로 합니다. 그러므로 두 쿼리는 동일한 환자를 세지 않으므로 의미적으로 동일하지 않습니다.\"\n}"

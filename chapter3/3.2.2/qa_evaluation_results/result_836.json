@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBQzDudr6y0eNMp2Uc1xGCve90A",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 전쟁 포로 처리에 대한 기본적인 틀을 제공하지만, 제네바 협정이나 국제법에 대한 언급이 부족해 관련성이 낮다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변에는 일부 정확하지 않은 정보가 포함되어 있으며, 전쟁 포로의 일반적인 처리 절차와는 거리가 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 전쟁 포로의 처리 방식에 대한 여러 측면을 언급하긴 하지만, 제네바 협정과 같은 주요 요소가 빠져 있어 완전하지 않다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 명확하게 작성되었으나, 일부 용어가 혼란을 줄 수 있어 이해하기 쉽지만은 않다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 상당히 다르며, 주요 포인트나 법적 틀에 대한 유사성이 매우 낮다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 전쟁 포로 처리에 대한 기본적인 틀을 제공하지만, 제네바 협정이나 국제법에 대한 언급이 부족해 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변에는 일부 정확하지 않은 정보가 포함되어 있으며, 전쟁 포로의 일반적인 처리 절차와는 거리가 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 전쟁 포로의 처리 방식에 대한 여러 측면을 언급하긴 하지만, 제네바 협정과 같은 주요 요소가 빠져 있어 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 명확하게 작성되었으나, 일부 용어가 혼란을 줄 수 있어 이해하기 쉽지만은 않다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 상당히 다르며, 주요 포인트나 법적 틀에 대한 유사성이 매우 낮다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222512,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 247,
+        "prompt_tokens": 621,
+        "total_tokens": 868
+    }
+}

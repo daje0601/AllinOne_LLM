@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 각각 'vigilance'와 'virgil'에 대한 조건을 사용하고 있습니다. 즉, 두 쿼리는 서로 다른 identification 값을 기준으로 inscripton을 선택하고 있으며, 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

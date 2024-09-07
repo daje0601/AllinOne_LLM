@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. SELECT 절, FROM 절, WHERE 절이 모두 동일하게 구성되어 있으며, 'School'이 'milford'인 레코드에서 'Division Record' 컬럼을 선택하는 동일한 작업을 수행합니다.\"\n}"

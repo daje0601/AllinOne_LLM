@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하여 환자를 필터링합니다. 첫 번째 쿼리는 'nasoduodenal tube intake: l 14'라는 celllabel을 사용하고, 두 번째 쿼리는 'enteral tube intake: nasoduodenal nostril, l 14'라는 celllabel을 사용합니다. 이 celllabel의 차이는 중요한 의미를 가지므로, 두 쿼리는 의미적으로 동일하지 않습니다. 또한, cellpath의 조건도 다릅니다: 첫 번째 쿼리는 '%intake%'를 사용했으며, 두 번째 쿼리는 '%input%'를 사용하여 필터링하는 방식이 다릅니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBczLiwEwYAdcNjPmBzUZ4J7roK",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 일출 여행에 적합한 장소를 언급하고 있지만, 내용이 주요 일출 명소와 동떨어져 있으며 적합성도 낮음.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변에 나온 장소들은 일출 명소와 관련이 거의 없으며, 실질적인 정보로 볼 때 참조 답변에 비해 부정확함.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 장소를 제시하긴 했지만, 일출에 적합하다고 평가된 장소들보다 내용이 포괄적이지 않음.\"},\"clarity\":{\"score\":6,\"explanation\":\"문장 구성은 나쁘지 않지만 장소의 설명이 일관성이 부족하고 불명확해 이해하기 어려운 부분이 있음.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제는 같지만 지원하는 정보와 내용이 크게 다르기 때문에 유사성이 낮음.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일출 여행에 적합한 장소를 언급하고 있지만, 내용이 주요 일출 명소와 동떨어져 있으며 적합성도 낮음."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변에 나온 장소들은 일출 명소와 관련이 거의 없으며, 실질적인 정보로 볼 때 참조 답변에 비해 부정확함."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 장소를 제시하긴 했지만, 일출에 적합하다고 평가된 장소들보다 내용이 포괄적이지 않음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "문장 구성은 나쁘지 않지만 장소의 설명이 일관성이 부족하고 불명확해 이해하기 어려운 부분이 있음."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 같지만 지원하는 정보와 내용이 크게 다르기 때문에 유사성이 낮음."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 859,
+        "total_tokens": 1102
+    }
+}

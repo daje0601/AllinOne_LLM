@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB1S3wt86ynl2GlFWcWMTE1aKDg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 품과 단의 정의에 대해 전혀 관련이 없는 정보를 제공하고 있어 질문과의 관련성이 낮습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 정보는 틀린 설명으로, 품과 단에 대한 잘못된 정의를 제시하고 있습니다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 품과 단의 차이에 대한 포괄적인 설명을 제공하지 않고, 주제에 대해 전혀 적절하지 않습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문장이 비교적 간결하나, 잘못된 정보를 포함하고 있어 이해하기 어렵습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과의 유사성이 전혀 없으며, 품과 단에 대한 완전히 다른 설명을 제공합니다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 품과 단의 정의에 대해 전혀 관련이 없는 정보를 제공하고 있어 질문과의 관련성이 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 정보는 틀린 설명으로, 품과 단에 대한 잘못된 정의를 제시하고 있습니다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 품과 단의 차이에 대한 포괄적인 설명을 제공하지 않고, 주제에 대해 전혀 적절하지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문장이 비교적 간결하나, 잘못된 정보를 포함하고 있어 이해하기 어렵습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과의 유사성이 전혀 없으며, 품과 단에 대한 완전히 다른 설명을 제공합니다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222487,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 499,
+        "total_tokens": 711
+    }
+}

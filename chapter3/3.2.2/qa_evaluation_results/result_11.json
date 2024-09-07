@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAEub3evUFCnesn8wHJCvhMYgTT",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문의 세 가지 항목에 대해 모두 적절한 정보를 제공하며, 관련성이 높습니다.\"},\"accuracy\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 정확하나, 비닐 제품에 대한 마지막 문장은 참조 답변과 달리 물로 헹구지 않아도 소각처리된다고 하여 약간의 오해를 불러일으킬 수 있습니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 답변을 제공하였으나, 세척 방법 등에 대한 추가적인 정보가 부족합니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉬운데, 일부 문장은 약간의 비문이 있어 완벽한 명확성은 다소 떨어질 수 있습니다.\"},\"similarity\":{\"score\":8,\"explanation\":\"모델의 답변은 참조 답변과 유사하나, 마지막 비닐 처리에 대한 내용이 조금 다르게 언급되어 유사성에 대한 점수가 다소 낮아졌습니다.\"},\"average_score\":8.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문의 세 가지 항목에 대해 모두 적절한 정보를 제공하며, 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 정확하나, 비닐 제품에 대한 마지막 문장은 참조 답변과 달리 물로 헹구지 않아도 소각처리된다고 하여 약간의 오해를 불러일으킬 수 있습니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 답변을 제공하였으나, 세척 방법 등에 대한 추가적인 정보가 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉬운데, 일부 문장은 약간의 비문이 있어 완벽한 명확성은 다소 떨어질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 참조 답변과 유사하나, 마지막 비닐 처리에 대한 내용이 조금 다르게 언급되어 유사성에 대한 점수가 다소 낮아졌습니다."
+                    },
+                    "average_score": 8.8
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 265,
+        "prompt_tokens": 762,
+        "total_tokens": 1027
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAoCn1q77rT8SZJCkHWzF84AL66",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 주로 마늘, 김치, 양파 보관법에 대한 정보를 제공하고 있어 질문과 관련성이 낮음.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 언급된 계란 보관법 중 일부는 유용하지만, 참조 답변의 내용과는 다소 상이하여 정확도가 중간 정도로 평가됨.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 계란 보관에 관한 정보가 불충분하며, 특히 참조 답변이 강조한 방법들만큼이나 폭넓지 않음.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해할 수 있으나, 주제가 분산되어 있어 주제의 명확성이 떨어짐.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용이 거의 유사하지 않으며, 계란 보관에 중점을 두지 않고 다른 식품 보관에 대한 정보가 포함되어 있어 유사성이 낮음.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 주로 마늘, 김치, 양파 보관법에 대한 정보를 제공하고 있어 질문과 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 언급된 계란 보관법 중 일부는 유용하지만, 참조 답변의 내용과는 다소 상이하여 정확도가 중간 정도로 평가됨."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 계란 보관에 관한 정보가 불충분하며, 특히 참조 답변이 강조한 방법들만큼이나 폭넓지 않음."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해할 수 있으나, 주제가 분산되어 있어 주제의 명확성이 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 거의 유사하지 않으며, 계란 보관에 중점을 두지 않고 다른 식품 보관에 대한 정보가 포함되어 있어 유사성이 낮음."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 784,
+        "total_tokens": 1036
+    }
+}

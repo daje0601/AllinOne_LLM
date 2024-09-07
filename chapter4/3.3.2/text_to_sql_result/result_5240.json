@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Award' 필드에서 서로 다른 값을 사용하고 있습니다. 생성된 쿼리는 'best actor in a television drama'를 참조하는 반면, 정답 쿼리는 'best lead actor in a television drama'를 참조합니다. 이 두 상의 이름은 의미상으로 다를 수 있으므로, 결과적으로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

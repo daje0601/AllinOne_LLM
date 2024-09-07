@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 NL 리그에서 1990년에 수상한 모든 점수(points_won)를 가져오지만, 두 번째 쿼리는 특정 'Most Valuable Player'상을 수상한 플레이어의 점수만을 가져옵니다. 즉, 첫 번째 쿼리는 상의 특정 종류(Most Valuable Player)에 대한 조건이 없으므로 동일한 결과를 반환하지 않습니다.\"\n}"

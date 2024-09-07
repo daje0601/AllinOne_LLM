@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Marilyn Novell'과 'Marilyn Norvell'라는 서로 다른 이름으로 검색하고 있습니다. 따라서 결과가 다르게 나타날 것입니다. 'Marilyn Novell'이라는 이름을 가진 환자와 'Marilyn Norvell'이라는 이름을 가진 환자는 서로 다른 개인으로, 각각의 주요 질병과 약물 이름이 다를 수 있기 때문에 쿼리의 결과가 동일하지 않습니다.\"\n}"

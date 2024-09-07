@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 조건을 사용하고 있기 때문에 의미적으로 동일하지 않습니다. 첫 번째 쿼리는 'Currently Part Of...' 컬럼을 기준으로 쿼리하고 있으며, 값이 'Chicago & North Western'인 경우를 찾고 있습니다. 반면, 두 번째 쿼리는 'Railroad' 컬럼을 기준으로 하고 있으며, 값이 'Chicago and North Western'인 경우를 찾고 있습니다. 이 두 값은 동일하지 않으므로 결과가 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Role'의 값이 다릅니다. 첫 번째 쿼리는 'interviewee and monologue'를 찾고, 두 번째 쿼리는 'interviewee & monologues'를 찾습니다. 따라서 반환되는 결과가 다를 가능성이 높아 의미적으로 동일하지 않습니다.\"\n}"

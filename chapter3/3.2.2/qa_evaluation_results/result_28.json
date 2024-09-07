@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAExWc6xp7LrwH1ppoWBNMAXJGi",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에서 요청한 몽골 최초의 화폐와 동아시아의 다양한 화폐에 대한 정보를 포함하고 있어 매우 관련이 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서는 몽골 최초의 화폐로 '몽골 토크'를 언급하지만, 이는 역사적 사실과 다르며, 다양한 화폐 정보 또한 부정확하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 근대 이전 동아시아의 화폐를 나열했지만, 참조 답변에 비해 덜 포괄적이고 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하나, 몇 가지 정보가 혼재되어 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 형식적으로 유사하지만, 내용적으로 매우 다르며, 잘못된 정보를 포함하고 있다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에서 요청한 몽골 최초의 화폐와 동아시아의 다양한 화폐에 대한 정보를 포함하고 있어 매우 관련이 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서는 몽골 최초의 화폐로 '몽골 토크'를 언급하지만, 이는 역사적 사실과 다르며, 다양한 화폐 정보 또한 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 근대 이전 동아시아의 화폐를 나열했지만, 참조 답변에 비해 덜 포괄적이고 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하나, 몇 가지 정보가 혼재되어 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 형식적으로 유사하지만, 내용적으로 매우 다르며, 잘못된 정보를 포함하고 있다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 927,
+        "total_tokens": 1172
+    }
+}

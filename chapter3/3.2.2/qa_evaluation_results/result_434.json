@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNArSAAAnfjiQhaNt11e5h1C12e2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 적절한 정보를 제공하고 있어 관련성이 높음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변 중 일부는 정확하나, 에어컨 여부와 제습 관련 설명이 부족함.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 두 가지 질문에 대한 설명이 있지만, 더 다양한 방법이나 세부 사항이 부족함.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉽게 구성되어 있으며, 그 내용도 명확함.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 비슷한 주제를 다루지만, 구체적인 방법과 설명이 다르기 때문에 유사성이 낮음.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 적절한 정보를 제공하고 있어 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변 중 일부는 정확하나, 에어컨 여부와 제습 관련 설명이 부족함."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 두 가지 질문에 대한 설명이 있지만, 더 다양한 방법이나 세부 사항이 부족함."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉽게 구성되어 있으며, 그 내용도 명확함."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 비슷한 주제를 다루지만, 구체적인 방법과 설명이 다르기 때문에 유사성이 낮음."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222477,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 192,
+        "prompt_tokens": 868,
+        "total_tokens": 1060
+    }
+}

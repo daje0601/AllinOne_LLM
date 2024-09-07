@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'First member'에 대한 조건이 서로 다릅니다. 첫 번째 쿼리는 'hon. roland hill, bt'를 사용하고, 두 번째 쿼리는 'sir rowland hill, bt'를 사용하여 서로 다른 값으로 필터링 하고 있습니다. 이로 인해 두 쿼리가 반환하는 'Second member'의 결과가 다를 가능성이 있습니다.\"\n}"

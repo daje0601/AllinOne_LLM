@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBOFOHZfy6yfBo75wZLjf7lXmyd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 상어가 부레 없이 살아가는 방법에 대한 질문과 잘 연결되어 있으며, 관련된 정보를 제공하고 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델은 상어의 간과 뼈 구조에 대해 언급하며 정확한 정보 대부분을 포함하고 있지만, \\\"물 흡입\\\"의 표현이 그다지 정확하지 않아 약간의 부족함이 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 상어가 어떻게 부레 없이 살아가는지에 대한 설명을 포함하고 있지만, 참조 답변에 비해 세부적인 부분이 덜 포괄적입니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하며 이해하기 쉽게 표현됐지만, 일부 문장에서 반복되는 부분으로 인해 약간의 혼란이 생길 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변을 어느 정도 반영하고 있지만, 세부적인 표현과 설명 방식에서 차이가 있어 유사성 점수가 낮습니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 상어가 부레 없이 살아가는 방법에 대한 질문과 잘 연결되어 있으며, 관련된 정보를 제공하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델은 상어의 간과 뼈 구조에 대해 언급하며 정확한 정보 대부분을 포함하고 있지만, \"물 흡입\"의 표현이 그다지 정확하지 않아 약간의 부족함이 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 상어가 어떻게 부레 없이 살아가는지에 대한 설명을 포함하고 있지만, 참조 답변에 비해 세부적인 부분이 덜 포괄적입니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하며 이해하기 쉽게 표현됐지만, 일부 문장에서 반복되는 부분으로 인해 약간의 혼란이 생길 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변을 어느 정도 반영하고 있지만, 세부적인 표현과 설명 방식에서 차이가 있어 유사성 점수가 낮습니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222510,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 259,
+        "prompt_tokens": 780,
+        "total_tokens": 1039
+    }
+}

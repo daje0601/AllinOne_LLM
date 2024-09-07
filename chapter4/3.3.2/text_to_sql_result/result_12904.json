@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 동일한 조건을 사용하여 평균 'Overall' 값을 계산합니다. 'Pick'이 20 미만이고, 'College'가 'north carolina'이며, 'Round'가 8 미만인 모든 행을 포함해 평균 값을 구합니다.\"\n}"

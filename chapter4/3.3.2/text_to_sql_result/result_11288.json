@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일하며, 같은 결과를 반환합니다. 두 쿼리 모두 'abbreviation'이 'MTC'인 행의 'english_name'을 선택하는 동일한 조건을 사용하고 있습니다.\"\n}"

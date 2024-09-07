@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 가지고 있습니다. 첫 번째 쿼리는 'Positional or Automatic'이 'automatic'이고, 'Opponents'가 'none', 'Count Rectified'가 'none'인 경우에 해당하며, 두 번째 쿼리는 'Positional or Automatic'이 'either', 'Opponents'가 'either', 'Count Rectified'가 'no'인 경우에 해당합니다. 따라서 두 쿼리는 상이한 조건을 기준으로 데이터를 선택하므로 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

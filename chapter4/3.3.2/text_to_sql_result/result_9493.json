@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 정확히 동일하며, 같은 결과를 반환합니다. 'Opponent' 컬럼에서 'chicago bears'를 가진 행의 'Date' 값을 선택하는 형태로, 의미적으로 동일합니다.\"\n}"

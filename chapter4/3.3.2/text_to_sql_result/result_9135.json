@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하여 결과를 필터링합니다. 첫 번째 쿼리는 'executive producer' 역할을 가진 영화 중에서 'with kevin costner and joan allen'이라는 구문이 포함된 노트를 찾고 있으며, 두 번째 쿼리는 'starring kevin costner and joan allen'이라는 노트를 찾고 있습니다. 두 조건은 상대적으로 넓거나 구체적이지 않기 때문에 서로 같은 결과를 보장하지 않습니다.\"\n}"

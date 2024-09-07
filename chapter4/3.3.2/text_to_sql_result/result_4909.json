@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 반환하는 결과의 차이가 있습니다. 생성된 쿼리는 'diagnoses.short_title'과 'procedures.short_title'을 선택하는 반면, 정답 쿼리는 'diagnoses.long_title'과 'procedures.short_title'을 선택합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

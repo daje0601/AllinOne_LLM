@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'short_title'을 기반으로 하여 각각 'cholecystectomy'와 'bile duct incision nec'에 대한 비용을 조회하고 있습니다. 따라서, 같은 비용을 반환하지 않으며 문제의 요구 사항인 '담도 절개 수술의 비용'과도 일치하지 않습니다.\"\n}"

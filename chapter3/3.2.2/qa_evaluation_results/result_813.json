@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBOS5LTxoiy8uZeiCYhsANnkf2C",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 '마카롱삐에'를 발효 빵으로 설명하고 있어 질문과 관련성이 매우 낮음.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델은 마카롱삐에의 정의를 잘못 설명하고 있으며, 본래의 의미와는 독립적인 내용으로 부정확함.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 마카롱삐에의 특성을 설명하지 못하고 발효 빵에 대한 내용에 집착하여 주제를 벗어나 있음.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 문법적으로는 이해할 수 있지만, 내용 자체가 틀려서 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 내용과 방향성이 다르기 때문에 유사성이 거의 없음.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '마카롱삐에'를 발효 빵으로 설명하고 있어 질문과 관련성이 매우 낮음."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델은 마카롱삐에의 정의를 잘못 설명하고 있으며, 본래의 의미와는 독립적인 내용으로 부정확함."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 마카롱삐에의 특성을 설명하지 못하고 발효 빵에 대한 내용에 집착하여 주제를 벗어나 있음."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 문법적으로는 이해할 수 있지만, 내용 자체가 틀려서 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 내용과 방향성이 다르기 때문에 유사성이 거의 없음."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222510,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 222,
+        "prompt_tokens": 606,
+        "total_tokens": 828
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBXKdONL7QopuHAFprN8PF5hrsE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 소면과 소바면의 차이에 대한 관련성이 낮으며, 실제 차이를 설명하기보다는 잘못된 내용을 제시하고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 여러 점에서 부정확하며, 특히 소면과 소바면의 기본적인 특성을 잘못 설명하고 있다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 소면과 소바면의 차이점을 여러 가지 측면에서 시도했지만, 대부분이 잘못된 내용으로 구성되어 있다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 구조적으로 몇 가지 구조화된 항목으로 구성되어 있지만, 정보가 부정확하기 때문에 명확성은 낮다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 매우 다르며, 내용의 유사성이 전혀 없다.\"},\"average_score\":2.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 소면과 소바면의 차이에 대한 관련성이 낮으며, 실제 차이를 설명하기보다는 잘못된 내용을 제시하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 여러 점에서 부정확하며, 특히 소면과 소바면의 기본적인 특성을 잘못 설명하고 있다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 소면과 소바면의 차이점을 여러 가지 측면에서 시도했지만, 대부분이 잘못된 내용으로 구성되어 있다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 구조적으로 몇 가지 구조화된 항목으로 구성되어 있지만, 정보가 부정확하기 때문에 명확성은 낮다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 매우 다르며, 내용의 유사성이 전혀 없다."
+                    },
+                    "average_score": 2.0
+                }
+            }
+        }
+    ],
+    "created": 1723222519,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 622,
+        "total_tokens": 850
+    }
+}

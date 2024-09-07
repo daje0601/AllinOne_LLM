@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Flights'와 'Launcher' 조건이 있지만 서로 다른 필드를 반환합니다. 첫 번째 쿼리는 'Spacecraft'를 반환하며, 두 번째 쿼리는 'Launch complex'를 반환합니다. 또한, 첫 번째 쿼리에서는 '14 orbits'를 사용하고 두 번째 쿼리에서는 '14 orbital'을 사용하여 두 쿼리가 완전히 동일한 의미로 해석될 수 없습니다.\"\n}"

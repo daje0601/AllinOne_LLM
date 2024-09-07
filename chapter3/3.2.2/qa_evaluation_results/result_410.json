@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAotwvxlFwdpP9ETA8mRV8f3tLM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변이 질문과 관련이 있지만, 시력 기준의 중요성을 충분히 강조하지 않음.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 정보는 일부 맞지만, 라식 수술에 대한 규정이 틀림. 라식 수술 후 파일럿이 될 수 없다는 점이 누락됨.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 시력 기준의 관계는 언급하였지만, 라식 수술에 대한 명확한 제약 조건을 누락함.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변이 여러 세부사항을 언급하지만, 구성상 다소 중복성이 있어 이해하는 데 약간의 혼란을 줄 수 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 내용을 일부 포함하고 있지만, 표현과 정보의 정확성이 다소 차이를 보임.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 질문과 관련이 있지만, 시력 기준의 중요성을 충분히 강조하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 정보는 일부 맞지만, 라식 수술에 대한 규정이 틀림. 라식 수술 후 파일럿이 될 수 없다는 점이 누락됨."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 시력 기준의 관계는 언급하였지만, 라식 수술에 대한 명확한 제약 조건을 누락함."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 여러 세부사항을 언급하지만, 구성상 다소 중복성이 있어 이해하는 데 약간의 혼란을 줄 수 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 내용을 일부 포함하고 있지만, 표현과 정보의 정확성이 다소 차이를 보임."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 230,
+        "prompt_tokens": 641,
+        "total_tokens": 871
+    }
+}

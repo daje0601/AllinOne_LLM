@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAIQviyBd0mXmN30iFFIFSdkUKW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 대해 관련된 정보를 제공하고 있으며, 프로야구에서 캔 반입 금지의 이유를 다루고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 안전 문제에 대한 이유를 설명하고 있으나, '고도한 전망대'와 '장비를 던지는 위험성'에 대한 부분은 올바르지 않거나 부정확하다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 가지 위험 요소를 언급하고 있지만, 참조 답변에 비해 다소 정보가 부족하고 명확하게 캔과 병의 반입 금지 이유를 설명하지 않는다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽게 쓰였지만, 일부 문장이 불명확하고 복잡하다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점도 있으나, 설명하는 방식과 내용에서 차이가 있다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 대해 관련된 정보를 제공하고 있으며, 프로야구에서 캔 반입 금지의 이유를 다루고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 안전 문제에 대한 이유를 설명하고 있으나, '고도한 전망대'와 '장비를 던지는 위험성'에 대한 부분은 올바르지 않거나 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 가지 위험 요소를 언급하고 있지만, 참조 답변에 비해 다소 정보가 부족하고 명확하게 캔과 병의 반입 금지 이유를 설명하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽게 쓰였지만, 일부 문장이 불명확하고 복잡하다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점도 있으나, 설명하는 방식과 내용에서 차이가 있다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 538,
+        "total_tokens": 787
+    }
+}

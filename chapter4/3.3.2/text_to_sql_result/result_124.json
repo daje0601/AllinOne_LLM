@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 같은 내용을 포함하고 있으며, GROUP BY 절이 Team_Name으로 동일하게 설정되어 있습니다. 이는 팀 이름을 기준으로 그룹화하여 각 Team_ID와 그에 해당하는 All_Games_Percent 값을 반환하므로, 의미적으로 동일한 결과를 생성합니다.\"\n}"

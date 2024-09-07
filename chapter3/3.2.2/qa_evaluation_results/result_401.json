@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAodkinhDRGPYwoGhgzDZdW5r6v",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문의 주요 요소인 CIP와 관련된 내용을 다루고 있으며, 'outwith'와 'partial shipment'에 대한 해석도 포함하고 있어 관련성은 높다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"대체로 정확한 정보를 제공하고 있지만, CIP의 위험 이전 시점에 대한 설명에서 CIF와의 비교가 명확하게 이루어지지 않아 약간의 혼란을 줄 수 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 질문에 대해 필요한 여러 요소를 설명했으나, 특히 CIP 조건과 CIF 조건의 차이에 대한 설명이 부족하고 상세하지 않다. 추가적인 설명이 필요하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"전반적으로 명확하게 작성되어 있어 이해하기 쉽지만, 일부 복잡한 표현이 사용되어 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 구조와 내용에서 일부 중복되지만, 세부 사항의 접근 방식과 설명 방식에서 차이가 있다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문의 주요 요소인 CIP와 관련된 내용을 다루고 있으며, 'outwith'와 'partial shipment'에 대한 해석도 포함하고 있어 관련성은 높다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "대체로 정확한 정보를 제공하고 있지만, CIP의 위험 이전 시점에 대한 설명에서 CIF와의 비교가 명확하게 이루어지지 않아 약간의 혼란을 줄 수 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 질문에 대해 필요한 여러 요소를 설명했으나, 특히 CIP 조건과 CIF 조건의 차이에 대한 설명이 부족하고 상세하지 않다. 추가적인 설명이 필요하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "전반적으로 명확하게 작성되어 있어 이해하기 쉽지만, 일부 복잡한 표현이 사용되어 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 구조와 내용에서 일부 중복되지만, 세부 사항의 접근 방식과 설명 방식에서 차이가 있다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222474,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 1118,
+        "total_tokens": 1373
+    }
+}

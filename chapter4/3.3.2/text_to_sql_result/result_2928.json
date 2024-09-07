@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Final Placing'이 '10th'인 경우의 'Podiums' 값 중 최대값을 반환합니다. 반면에 두 번째 쿼리는 'Final Placing'이 '10th'인 경우의 모든 'Podiums' 값을 반환합니다. 결과적으로, 두 쿼리는 서로 다른 결과를 생성하므로 의미적으로 동일하지 않습니다.\"\n}"

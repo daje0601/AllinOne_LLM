@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 조건의 순서가 다르지만, 모두 'Year'가 2001이고 'Location'이 'network associates coliseum'인 결과를 선택하므로 의미적으로 동일합니다. SQL에서는 WHERE 절의 조건이 어떤 순서로 나열되든 상관없이 결과에 영향을 미치지 않습니다.\"\n}"

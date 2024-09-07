@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBV09boi0ShgE6mucxcuLD3qmKJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 물고기가 미끌거리는 이유를 물고기 비늘, 지방질, 점액으로 설명하여 질문과 잘 연관되어 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델 답변의 정확성은 참조 답변과 비교해 점액의 역할은 정확하나 비늘의 구성에 대한 설명은 다소 부족하여 일부 부정확하다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 비늘과 점액 두 가지 측면을 모두 설명했지만 비늘의 방향이나 구조에 대한 추가 설명이 부족하다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 잘 구성되어 있고 이해하기 쉽게 작성되어 있다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변의 내용과 유사하나 세부사항에서 차이가 있어 유사성이 다소 낮다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 물고기가 미끌거리는 이유를 물고기 비늘, 지방질, 점액으로 설명하여 질문과 잘 연관되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델 답변의 정확성은 참조 답변과 비교해 점액의 역할은 정확하나 비늘의 구성에 대한 설명은 다소 부족하여 일부 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 비늘과 점액 두 가지 측면을 모두 설명했지만 비늘의 방향이나 구조에 대한 추가 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 잘 구성되어 있고 이해하기 쉽게 작성되어 있다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 유사하나 세부사항에서 차이가 있어 유사성이 다소 낮다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222517,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 221,
+        "prompt_tokens": 749,
+        "total_tokens": 970
+    }
+}

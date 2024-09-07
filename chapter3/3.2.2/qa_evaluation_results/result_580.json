@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB4f3xMo9PKvUteTw4j1vmKUE7y",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 알콜 중독과 그 증상에 대한 질문에 관련된 정보를 제공하고 있으며, 질문자의 상황에 대해서도 언급하므로 관련성이 높다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변 중 검사를 명시적으로 제공하지 않았고, 알콜 중독의 직접적인 징후에 대한 언급이 부족하였다. 다만, 전반적으로 내용은 틀리지 않았다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 요소를 다루고 있지만, 알콜 중독 진단의 구체적인 방법이나 초기 증상에 대한 정보가 부족하여 완전성이 떨어진다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 일부 문장이 혼란을 줄 수 있어 완전한 이해를 돕지 못할 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변이 다루는 검사 방법과 증상에 대한mentions이 부족해 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 알콜 중독과 그 증상에 대한 질문에 관련된 정보를 제공하고 있으며, 질문자의 상황에 대해서도 언급하므로 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변 중 검사를 명시적으로 제공하지 않았고, 알콜 중독의 직접적인 징후에 대한 언급이 부족하였다. 다만, 전반적으로 내용은 틀리지 않았다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 요소를 다루고 있지만, 알콜 중독 진단의 구체적인 방법이나 초기 증상에 대한 정보가 부족하여 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 일부 문장이 혼란을 줄 수 있어 완전한 이해를 돕지 못할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변이 다루는 검사 방법과 증상에 대한mentions이 부족해 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222490,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 257,
+        "prompt_tokens": 666,
+        "total_tokens": 923
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAzo4JqIlmAtRLcHZcPV8fpgO1P",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변이 악어가 눈물을 흘리는지에 대한 질문에 대해 적절히 관련된 정보를 제공하고 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델은 악어의 눈물에 대한 과학적 사실을 거의 정확하게 전달하고 있으나, 반사작용 등의 정보가 불포함되어 정확성에서 살짝 떨어집니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 기본적인 사실을 다루고 있지만, 악어의 눈물이 신화나 관용구로 사용되는 배경이나 의미에 대한 설명이 부족합니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 명확하고 잘 정리되어 있으며, 쉽게 이해할 수 있도록 작성되어 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 정보를 포함하고 있지만, 출처와 기원을 명확히 설명하지 않아 유사성이 낮아 보입니다.\"},\"average_score\":8.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변이 악어가 눈물을 흘리는지에 대한 질문에 대해 적절히 관련된 정보를 제공하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델은 악어의 눈물에 대한 과학적 사실을 거의 정확하게 전달하고 있으나, 반사작용 등의 정보가 불포함되어 정확성에서 살짝 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 기본적인 사실을 다루고 있지만, 악어의 눈물이 신화나 관용구로 사용되는 배경이나 의미에 대한 설명이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 잘 정리되어 있으며, 쉽게 이해할 수 있도록 작성되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 정보를 포함하고 있지만, 출처와 기원을 명확히 설명하지 않아 유사성이 낮아 보입니다."
+                    },
+                    "average_score": 8.0
+                }
+            }
+        }
+    ],
+    "created": 1723222485,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 507,
+        "total_tokens": 748
+    }
+}

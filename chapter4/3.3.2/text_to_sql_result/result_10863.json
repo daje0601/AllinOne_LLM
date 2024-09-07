@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 약물 이름이 다릅니다. 첫 번째 쿼리는 'pennystil 2ml syr 0.05 mg/ml'와 'sodium chloride 0.9% 250 ml ij soln'을 사용하고, 두 번째 쿼리는 '2 ml : fentanyl citrate 0.05 mg/ml ij soln'와 'sodium chloride 0.9% 250 ml lvp'을 사용합니다. 이로 인해 각각의 쿼리가 다르게 정의된 약물을 확인하려고 하므로, 동일한 결과를 반환하지 않습니다.\"\n}"

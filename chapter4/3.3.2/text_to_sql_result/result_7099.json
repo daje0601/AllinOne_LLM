@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 COUNT의 인자로 사용된 열이 다릅니다. 첫 번째 쿼리는 COUNT(*)를 사용하여 모든 행을 카운트하지만, 두 번째 쿼리는 COUNT('award ceremony')를 사용하여 'award ceremony' 열의 비어있지 않은 값의 수를 카운트합니다. 만약 'award ceremony'가 NULL인 경우가 있다면, 두 쿼리는 다른 결과를 반환할 수 있습니다.\"\n}"

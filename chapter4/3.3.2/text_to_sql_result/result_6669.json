@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'race_name'의 문자열 값을 서로 다르게 비교하고 있습니다. 첫 번째 쿼리는 '14th international gold cup'를, 두 번째 쿼리는 'xiv international gold cup'를 사용하고 있습니다. 두 표현은 동일한 명칭을 나타내지 않기 때문에 결과가 동일할 수 없습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문으로, 'high_points'를 선택하는 조건이 'location_attendance'가 'philips arena 14,413'일 때와 같기 때문에 의미적으로 동일한 결과를 반환합니다.\"\n}"

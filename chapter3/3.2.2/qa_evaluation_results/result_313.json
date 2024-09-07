@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAgs1NsFVWYDP7mg15FkKRdljAH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변에서 언더와 오버의 정의가 다소 맞지 않고 힙합 용어도 완전하지 않지만, 질문에 대한 답변은 전반적으로 관련이 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 설명 중 일부가 부정확하고, 힙합 용어와 개념이 정확하게 전달되지 않았다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 몇 가지 중요 용어를 빠뜨리고 예시 곡들의 명확성이 부족하여, 질문의 요청에 비해 불완전하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 편이지만, 일부 용어 설명이 혼란스러울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델 답변은 참조 답변과 주제가 유사하지만, 표현과 내용 면에서 다소 다르다.\"},\"average_score\":5.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 언더와 오버의 정의가 다소 맞지 않고 힙합 용어도 완전하지 않지만, 질문에 대한 답변은 전반적으로 관련이 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 설명 중 일부가 부정확하고, 힙합 용어와 개념이 정확하게 전달되지 않았다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 몇 가지 중요 용어를 빠뜨리고 예시 곡들의 명확성이 부족하여, 질문의 요청에 비해 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 편이지만, 일부 용어 설명이 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델 답변은 참조 답변과 주제가 유사하지만, 표현과 내용 면에서 다소 다르다."
+                    },
+                    "average_score": 5.4
+                }
+            }
+        }
+    ],
+    "created": 1723222466,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 921,
+        "total_tokens": 1149
+    }
+}

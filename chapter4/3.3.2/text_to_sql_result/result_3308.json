@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 조회하는 진단명이 서로 다릅니다. 첫 번째 쿼리는 'SINOATRAL TRANSFER (TELEMETRY)'를, 두 번째 쿼리는 'SYNCOPE;TELEMETRY'를 대상으로 하고 있습니다. 이러한 서로 다른 진단명 때문에 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

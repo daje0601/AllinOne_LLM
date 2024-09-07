@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'diagnoses.long_title' 필드에서 사용하는 다르게 명명된 진단 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Contusion of face, scalp, and neck without mention of opening of face'를 기준으로 하고, 두 번째 쿼리는 'Contusion of face, scalp, and neck except eye(s)'를 기준으로 하고 있습니다. 이 두 진단 제목은 서로 다른 진단을 나타내므로 결과가 달라질 것입니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 약물(drug)을 참조하고 있습니다. 첫 번째 쿼리는 'Ranitidine Gastrointest Tabs'를 사용하고 있으며, 두 번째 쿼리는 'Lansoprazole Oral Disintegrating Tab'을 사용합니다. 문제 설명에서는 'Lansoprazole' 구강 분해 정제의 정보를 요청하고 있기 때문에, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

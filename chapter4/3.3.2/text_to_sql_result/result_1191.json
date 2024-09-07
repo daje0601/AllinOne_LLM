@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 두 쿼리 모두 'Hector Blair'의 보험 및 사망 상태를 찾기 위해 demographic 테이블에서 insurance 및 expire_flag를 조회하며, 조건으로 name이 'Hector Blair'인 경우를 필터링합니다. 그 결과는 동일합니다.\"\n}"

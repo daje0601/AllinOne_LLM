@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Competition' 열에서 서로 다른 문자열을 비교하고 있습니다. 첫 번째 쿼리는 '2007 gulf nations cup'을 선택하는 반면, 두 번째 쿼리는 '2007 gulf cup of nations'을 선택합니다. 이 두 문자열은 의미가 다르며, 따라서 쿼리의 결과도 달라질 수 있습니다.\"\n}"

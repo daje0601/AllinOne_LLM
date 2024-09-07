@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBQMrrISrQWeHdyTM05utNBAwDD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 보조개에 대한 정보가 포함되어 있지만, 질문에서 요구하는 정보나 설명이 충분하지 않다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델이 제시한 내용 중 '양수정'이라는 용어는 적절하지 않으며, 보조개가 후천적으로 생긴다는 설명이 참조 답변과 다르게 안전하지 않은 표현으로 보인다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델이 제공한 답변은 보조개의 형성 기전과 유전 여부에 대한 자세한 설명이 부족하여 불완전하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 문장이 중복되며, 읽기에 다소 불편하고 직관적이지 않다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 내용이 참조 답변과 다르며, 비슷한 정보가 적고 잘못된 표현이 포함됐다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 보조개에 대한 정보가 포함되어 있지만, 질문에서 요구하는 정보나 설명이 충분하지 않다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델이 제시한 내용 중 '양수정'이라는 용어는 적절하지 않으며, 보조개가 후천적으로 생긴다는 설명이 참조 답변과 다르게 안전하지 않은 표현으로 보인다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델이 제공한 답변은 보조개의 형성 기전과 유전 여부에 대한 자세한 설명이 부족하여 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 문장이 중복되며, 읽기에 다소 불편하고 직관적이지 않다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 내용이 참조 답변과 다르며, 비슷한 정보가 적고 잘못된 표현이 포함됐다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222512,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 232,
+        "prompt_tokens": 625,
+        "total_tokens": 857
+    }
+}

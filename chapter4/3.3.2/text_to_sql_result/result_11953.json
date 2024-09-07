@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 population_in_millions에 대한 조건이 다릅니다. 생성된 쿼리는 population_in_millions < 5.88 조건을 사용하고, 정답 쿼리는 population_in_millions < 58.8 조건을 사용합니다. 5.88은 58.8의 경우의 수가 아니라는 점에서 결과가 다릅니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

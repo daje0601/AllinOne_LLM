@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리가 완전히 동일하며, 같은 결과를 반환합니다. 두 쿼리는 모두 Course 테이블에서 CID와 Instructor를 선택하고, Credits에 따라 정렬합니다.\"\n}"

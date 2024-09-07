@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBS61yzJczMAgNSSeHdtdi9h2Tc",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 슈퍼볼과 미식축구에 대한 정보를 잘 전달하고 있어 질문과 높은 관련성을 보인다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대부분 정확하지만, '전통적인 스타일과 새로운 스타일의 충돌'이라는 표현은 다소 모호하며 슈퍼볼의 인기 요인을 완전히 설명하지 못한다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 슈퍼볼의 인기와 미식축구의 특성을 간단히 설명하였지만, 참조 답변에 비해 내용이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 일반적으로 명확하며 이해하기 쉬운 구조를 가지고 있지만, 일부 표현이 어려울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루지만, 진술 방식과 구조에서 차이가 크다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 슈퍼볼과 미식축구에 대한 정보를 잘 전달하고 있어 질문과 높은 관련성을 보인다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대부분 정확하지만, '전통적인 스타일과 새로운 스타일의 충돌'이라는 표현은 다소 모호하며 슈퍼볼의 인기 요인을 완전히 설명하지 못한다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 슈퍼볼의 인기와 미식축구의 특성을 간단히 설명하였지만, 참조 답변에 비해 내용이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 일반적으로 명확하며 이해하기 쉬운 구조를 가지고 있지만, 일부 표현이 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루지만, 진술 방식과 구조에서 차이가 크다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222514,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 619,
+        "total_tokens": 856
+    }
+}

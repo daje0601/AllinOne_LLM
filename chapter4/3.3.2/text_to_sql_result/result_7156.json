@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 각각 invoice_number에 따라 Financial_Transactions 테이블의 레코드를 그룹화하고 각 그룹의 개수를 세어 거래 수를 계산합니다. 따라서 이 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

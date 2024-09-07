@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 아티스트 이름이 다릅니다. 첫 번째 쿼리는 'anastasiya prihodko'로 되어 있고, 두 번째 쿼리는 'anastasia prikhodko'입니다. 아티스트 이름이 다르면 쿼리의 결과도 달라질 수 있기 때문에, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

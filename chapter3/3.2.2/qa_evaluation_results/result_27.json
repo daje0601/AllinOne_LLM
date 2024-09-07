@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAFwQsxiaMIs0TXHS8Xc5QwwaBm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에서 거봉과 포도의 크기 차이에 관한 궁금증을 다루고 있으며, 환경과 품종의 영향을 언급하여 관련성을 높이고 있습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정확하지 않은 정보가 포함되어 있으며, 특히 결실 기간이나 환경 차이에 대한 설명이 올바르지 않을 수 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 크기 차이에 대한 여러 요인을 언급했지만, 품종 차이에 대한 정보와 같은 특정 내용이 부족하여 완전성이 떨어집니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 몇몇 구문이 복잡하게 표현되어 이해하기에 어려운 부분이 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변과 참조 답변의 주제는 유사하나, 내용에서 많은 차이가 있어 유사성이 낮습니다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에서 거봉과 포도의 크기 차이에 관한 궁금증을 다루고 있으며, 환경과 품종의 영향을 언급하여 관련성을 높이고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정확하지 않은 정보가 포함되어 있으며, 특히 결실 기간이나 환경 차이에 대한 설명이 올바르지 않을 수 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 크기 차이에 대한 여러 요인을 언급했지만, 품종 차이에 대한 정보와 같은 특정 내용이 부족하여 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 몇몇 구문이 복잡하게 표현되어 이해하기에 어려운 부분이 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변과 참조 답변의 주제는 유사하나, 내용에서 많은 차이가 있어 유사성이 낮습니다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 1023,
+        "total_tokens": 1261
+    }
+}

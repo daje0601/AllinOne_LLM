@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB8qSf5WrPBRG6AxWRFPtcUMbQ1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 '닫집'에 대한 질문에 대한 직접적인 설명을 하지 않고, 의미를 잘못 전달하고 있습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 '닫집'의 의미에 대한 정확한 정보를 제공하지 않아 참조 답변과 크게 다릅니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 '닫집'의 정의 및 관련 정보가 부족하여 포괄적이지 않습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은文장 구조가 명확하나 내용이 잘못되어 혼란스러울 수 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 관련이 없고 유사점이 없습니다.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '닫집'에 대한 질문에 대한 직접적인 설명을 하지 않고, 의미를 잘못 전달하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '닫집'의 의미에 대한 정확한 정보를 제공하지 않아 참조 답변과 크게 다릅니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 '닫집'의 정의 및 관련 정보가 부족하여 포괄적이지 않습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은文장 구조가 명확하나 내용이 잘못되어 혼란스러울 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 관련이 없고 유사점이 없습니다."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 198,
+        "prompt_tokens": 635,
+        "total_tokens": 833
+    }
+}

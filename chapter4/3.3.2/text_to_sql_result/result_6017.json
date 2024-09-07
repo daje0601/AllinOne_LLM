@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 keyphrase의 keyphrasename 조건이 서로 다릅니다. 첫 번째 쿼리는 'syntax analysis'를 기준으로, 두 번째 쿼리는 'syntactic parsing'을 기준으로 하고 있습니다. 만약 주어진 조건이 다르면 각각의 쿼리는 서로 다른 결과를 반환하며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

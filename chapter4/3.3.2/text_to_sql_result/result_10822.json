@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. SELECT 구문, FROM 절, WHERE 조건의 내용이 모두 동일하며, 결과적으로 'simone colombo'라는 상대와 관련된 outcome 값을 반환합니다.\"\n}"

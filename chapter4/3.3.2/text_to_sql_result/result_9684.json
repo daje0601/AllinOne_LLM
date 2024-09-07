@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 반환하는 환자의 수는 다를 수 있습니다. 첫 번째 쿼리는 'URGENT'라는 응급 입원 유형을 사용하고, 두 번째 쿼리는 'EMERGENCY'라는 유형을 사용합니다. 또한, 첫 번째 쿼리의 수술 절차는 'Repair of fistula of bladder and intestine'인 반면, 두 번째 쿼리는 'Repair of fistula involving bladder and intestine'입니다. 이 두 항목은 언어적으로 유사하지만, SQL의 조건이 미세하게 다르므로 의미적으로 동일하지 않습니다.\"\n}"

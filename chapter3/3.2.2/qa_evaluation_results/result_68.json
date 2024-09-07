@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAIgsPQ9EcXSpqkQN8xMFFzh1wE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 고속 충전기가 어떻게 충전 속도를 높이는지에 대해 설명하고 있어 관련성이 높습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 제시된 전압과 전류의 수치가 오해의 소지가 있으며, 일반적인 고속 충전기의 작동 원리에 비해 정확하지 않은 부분이 존재합니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 몇 가지 측면을 언급했으나 고속 충전 방식의 다양한 기술이나 전반적인 운영 원리에 대한 설명이 부족합니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 편이나, 일부 기술적인 설명으로 인해 명확성이 떨어질 수 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루지만, 내용 구성과 초점이 다소 차이가 납니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 고속 충전기가 어떻게 충전 속도를 높이는지에 대해 설명하고 있어 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 제시된 전압과 전류의 수치가 오해의 소지가 있으며, 일반적인 고속 충전기의 작동 원리에 비해 정확하지 않은 부분이 존재합니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 몇 가지 측면을 언급했으나 고속 충전 방식의 다양한 기술이나 전반적인 운영 원리에 대한 설명이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 편이나, 일부 기술적인 설명으로 인해 명확성이 떨어질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루지만, 내용 구성과 초점이 다소 차이가 납니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 606,
+        "total_tokens": 841
+    }
+}

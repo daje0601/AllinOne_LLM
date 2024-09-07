@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Completion %'가 'redshirt'인 레코드를 필터링하며, 'Year'가 '2006'인 조건을 추가하고 있습니다. 반면에 두 번째 쿼리는 'Completions'가 'redshirt'인 레코드를 필터링합니다. 따라서 두 쿼리는 서로 다른 열(한 쿼리는 'Completion %', 다른 쿼리는 'Completions')을 기준으로 필터링하므로 의미적으로 동일하지 않습니다.\"\n}"

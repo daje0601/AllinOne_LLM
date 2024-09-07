@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하고 동일한 조건을 사용하여 'illinois'에 해당하며 'Affected area codes'가 '217'인 경우의 'Effective date'를 선택합니다. 결과적으로 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

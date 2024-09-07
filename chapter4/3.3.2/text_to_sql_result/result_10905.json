@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 SUM 함수가 서로 다른 열을 대상으로 사용하고 있습니다. 첫 번째 쿼리는 'Natural change (per 1000)'의 합계를 구하는 반면, 두 번째 쿼리는 'Natural change'의 합계를 구합니다. 이로 인해 반환되는 값이 다를 수 있습니다. 'Natural change (per 1000)'는 10,000명당 자연 변화의 값을, 'Natural change'는 총 자연 변화의 값을 의미하므로 의미적으로 동일하지 않습니다.\"\n}"

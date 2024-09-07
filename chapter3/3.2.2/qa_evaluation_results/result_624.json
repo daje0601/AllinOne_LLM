@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB835mpQCvswgGhqTKQQji8ZEcQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 대한 두 가지 주요 질문을 다루고 있으나, 녹용과 녹각의 차이에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변 일부는 정확하지 않거나 잘못된 정보를 포함하고 있다. 예를 들어, 녹각의 효능에 대한 정보가 혼동되어 제시되었다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 필요한 정보를 일부 제공하지만, 녹용과 녹각의 효능과 부작용에 대한 자세한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 대체로 이해하기 쉽지만, 일부 문장 구조가 복잡해 내용이 혼란스러울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사한 내용을 포함하고 있지만, 전반적으로 다루는 방식과 핵심 내용이 다른 점이 많다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 대한 두 가지 주요 질문을 다루고 있으나, 녹용과 녹각의 차이에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변 일부는 정확하지 않거나 잘못된 정보를 포함하고 있다. 예를 들어, 녹각의 효능에 대한 정보가 혼동되어 제시되었다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 필요한 정보를 일부 제공하지만, 녹용과 녹각의 효능과 부작용에 대한 자세한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 대체로 이해하기 쉽지만, 일부 문장 구조가 복잡해 내용이 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사한 내용을 포함하고 있지만, 전반적으로 다루는 방식과 핵심 내용이 다른 점이 많다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 1080,
+        "total_tokens": 1325
+    }
+}

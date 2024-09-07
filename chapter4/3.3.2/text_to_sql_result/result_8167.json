@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'days_stay'와 'diagnosis'를 반환하지만, 두 번째 쿼리는 'diagnosis'와 'dischtime'을 반환합니다. 문제는 퇴원 시점(dischtime)과 주요 질병(diagnosis)을 물어보았으므로, 두 쿼리는 반환하는 열이 다르며, 의미적으로 동일하지 않습니다.\"\n}"

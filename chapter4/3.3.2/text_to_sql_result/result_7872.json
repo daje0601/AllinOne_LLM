@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 결과를 반환합니다. 두 쿼리 모두 주어진 조건인 erp_w가 4보다 크고 call_sign이 'w218ap'인 행의 frequency_mhz 값을 선택합니다.\"\n}"

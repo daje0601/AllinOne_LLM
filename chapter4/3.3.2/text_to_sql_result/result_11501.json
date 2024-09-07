@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are identical and will return the same result, which is the minimum age of married patients discharged against medical advice. There are no differences in the SQL structure or logic.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAuIyJb5LduWDWCcPspDIlo0oAt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 고려시대의 경제 활동에 대해 언급하고 있지만, 질문에서 묻는 고리대금과 땅 투기 활동에 대한 구체적인 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 고리대금과 땅 투기에 대한 역사적 맥락을 포함하고 있지만, 부유한 집단이 농민을 대상으로 한 제도적 구조와 관련된 정보를 놓치고 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 고려시대의 고리대금과 투기에 대한 범위를 좁혀 설명하고 있어, 질문의 모든 측면을 포괄하지 못했다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉬우나, 일부 문장은 다소 애매하게 표현되어 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사점을 보이지만, 내용과 접근 방식이 다르기 때문에 그 유사성은 낮다.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 고려시대의 경제 활동에 대해 언급하고 있지만, 질문에서 묻는 고리대금과 땅 투기 활동에 대한 구체적인 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 고리대금과 땅 투기에 대한 역사적 맥락을 포함하고 있지만, 부유한 집단이 농민을 대상으로 한 제도적 구조와 관련된 정보를 놓치고 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 고려시대의 고리대금과 투기에 대한 범위를 좁혀 설명하고 있어, 질문의 모든 측면을 포괄하지 못했다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉬우나, 일부 문장은 다소 애매하게 표현되어 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사점을 보이지만, 내용과 접근 방식이 다르기 때문에 그 유사성은 낮다."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222480,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 262,
+        "prompt_tokens": 523,
+        "total_tokens": 785
+    }
+}

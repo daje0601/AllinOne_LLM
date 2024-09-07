@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Runner Up' 컬럼을 카운트하고 있습니다. 첫 번째 쿼리는 '1st Runner Up'의 수를 세고, 두 번째 쿼리는 '3rd Runner Up'의 수를 세기 때문에 결과는 동일하지 않습니다. 또한, 쿼리에서 사용된 이름도 약간 다릅니다 ('Milyola' vs 'Mailoa').\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"생성된 쿼리와 정답 쿼리는 완전히 동일합니다. 둘 다 'Influenza Virus Vaccine'이라는 약물의 투여 경로(route)를 prescriptions 테이블에서 조회합니다. 쿼리의 구조와 내용이 같으므로 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

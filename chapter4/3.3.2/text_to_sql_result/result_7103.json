@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 실험실 검사 이름을 비교하는데, 첫 번째 쿼리는 'Protein Electrophoresis, Urine'을 찾고 두 번째 쿼리는 'Prot. Electrophoresis, Urine'을 찾습니다. 이 두 이름은 다르기 때문에, 쿼리의 결과는 동일하지 않습니다.\"\n}"

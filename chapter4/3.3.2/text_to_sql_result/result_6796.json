@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 조건을 사용하여 결과를 반환합니다. 두 쿼리 모두 'Rank'가 4보다 작고 'Nationality'가 'trinidad and tobago'이며 'Time'이 45.13보다 큰 조건을 만족하는 'React'의 평균을 계산합니다.\"\n}"

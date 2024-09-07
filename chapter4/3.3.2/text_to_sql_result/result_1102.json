@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용합니다. 생성된 쿼리는 prescriptions.startdate가 현재 시간에서 56개월 이전보다 작거나 같아야 한다고 조회하는 반면, 정답 쿼리는 prescriptions.startdate가 현재 시간에서 56개월 이전보다 크거나 같아야 한다고 조회합니다. 따라서 결과가 서로 다를 수 있습니다.\"\n}"

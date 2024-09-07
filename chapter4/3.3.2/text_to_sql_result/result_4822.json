@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 WHERE 절에서 비교하는 이름이 다릅니다. 첫 번째 쿼리는 'Olivia Francisca'를 사용하고, 두 번째 쿼리는 'Olivia Franciska'를 사용합니다. 이 두 이름은 철자가 다르기 때문에 같은 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Stadium'의 값이 다릅니다. 첫 번째 쿼리에서는 'tapiola urheilupuisto'로 되어 있으나, 두 번째 쿼리에서는 'tapiolan urheilupuisto'로 되어 있습니다. 이로 인해 첫 번째 쿼리는 올바른 경기장을 찾지 못할 수 있으며, 두 쿼리는 서로 의미적으로 일치하지 않습니다.\"\n}"

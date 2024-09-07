@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문을 사용하고 있으며, 'High points'가 'dwyane wade (27)'인 경우에 대해 'Location Attendance' 값을 선택합니다. 그러므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 및 시술을 사용하는데, 첫 번째 쿼리는 'alcoh abus-unspecif'를 참조하는 반면, 두 번째 쿼리는 'alcohol abuse-unspec'를 참조합니다. 또한, 첫 번째 쿼리는 'endosc insert tracheostomy'를 참조하는 반면, 두 번째 쿼리는 'insert endotracheal tube'를 참조합니다. 따라서 두 쿼리는 각기 다른 ICD 코드와 시술 제목을 사용하므로 의미적으로 동일하지 않습니다.\"\n}"

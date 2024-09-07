@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 'Left'가 2012이고 'Current Conference'가 'mid-south'인 행에서 'Enrollment'의 최솟값을 선택하고 있습니다. 문자열 'mid-south'의 따옴표 사용이 다르지만, 이는 SQL에서 결과에 영향을 미치지 않으므로 두 쿼리는 의미적으로 동일합니다.\"\n}"

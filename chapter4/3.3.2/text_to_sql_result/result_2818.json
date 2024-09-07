@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 절차의 이름을 사용하고 있습니다. 첫 번째 쿼리에서는 'Transplant from deceased donor'라는 절차명을 사용하고, 두 번째 쿼리에서는 'Transplant from cadaver'라는 절차명을 사용하고 있습니다. 이 두 명칭은 의미적으로 유사할 수 있지만, SQL 쿼리에서는 정확한 일치가 필요하므로 서로 다른 결과를 반환할 것입니다.\"\n}"

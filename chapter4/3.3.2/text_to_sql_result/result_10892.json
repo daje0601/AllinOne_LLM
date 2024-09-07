@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일하게 'Visitor'가 'chicago black hawks'이고 'Date'가 'april 17'인 경우에 대한 'Record'를 조회하는 쿼리입니다. 두 쿼리의 내용이 완전히 일치하므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

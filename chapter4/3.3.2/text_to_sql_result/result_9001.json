@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 둘 다 'mccain_percentage'가 '61.2%'인 행에 대한 'obama_percentage'를 선택하고 있으며, 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

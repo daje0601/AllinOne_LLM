@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNApjy0uu6LoZCV7AyAZfvMq6Osf",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 팝콘의 발명에 대한 정보를 제공하지만, 질문에서 요구하는 팝콘의 역사와 조리 방법에 대한 세부정보가 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 찰리 크레터스에 대한 정보가 있지만, 참조 답변의 역사와 유래에 대한 정보는 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 팝콘의 발명에 대한 일부 정보를 제공하지만, 질문의 두 가지 측면(역사와 튀김 방법)에 대한 전체적인 답변이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 대체로 명확하지만, 일부 기술적인 세부사항이 혼란스러울 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용이 크게 다르며, 팝콘의 역사에 대한 설명이 부족하다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 팝콘의 발명에 대한 정보를 제공하지만, 질문에서 요구하는 팝콘의 역사와 조리 방법에 대한 세부정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 찰리 크레터스에 대한 정보가 있지만, 참조 답변의 역사와 유래에 대한 정보는 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 팝콘의 발명에 대한 일부 정보를 제공하지만, 질문의 두 가지 측면(역사와 튀김 방법)에 대한 전체적인 답변이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 대체로 명확하지만, 일부 기술적인 세부사항이 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 크게 다르며, 팝콘의 역사에 대한 설명이 부족하다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 597,
+        "total_tokens": 838
+    }
+}

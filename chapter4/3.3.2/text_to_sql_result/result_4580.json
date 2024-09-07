@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 조건을 사용하여 같은 결과를 반환합니다. competition 컬럼에서 '2010 fifa world cup qualification'에 해당하는 score를 선택하고 있기 때문에 의미적으로 동일한 결과를 제공합니다.\"\n}"

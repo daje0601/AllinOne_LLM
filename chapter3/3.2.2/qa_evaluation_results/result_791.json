@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBMZlzyaGac50u9EAOlYnSt09OG",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 라면의 기름과 칼로리를 줄이는 여러 가지 방법을 제공하였으며, 질문에 대한 관련성이 높다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 일부 정보는 부정확하다. 특히, 면을 삶아서 찬물에 담그는 방법은 기름을 줄이는 효과가 명확하지 않다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 여러 가지 방법을 제시했지만, 참조 답변에 비해 덜 포괄적이다. 예를 들어, 야채 추가 및 면의 양 줄이는 방법이 포함되지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 명확하지만, 일부 방법은 모호하게 표현되어 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 방법론에서 다소 유사하지만, 전반적인 접근과 세부 사항에서 차이가 있다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 라면의 기름과 칼로리를 줄이는 여러 가지 방법을 제공하였으며, 질문에 대한 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 일부 정보는 부정확하다. 특히, 면을 삶아서 찬물에 담그는 방법은 기름을 줄이는 효과가 명확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 여러 가지 방법을 제시했지만, 참조 답변에 비해 덜 포괄적이다. 예를 들어, 야채 추가 및 면의 양 줄이는 방법이 포함되지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 명확하지만, 일부 방법은 모호하게 표현되어 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 방법론에서 다소 유사하지만, 전반적인 접근과 세부 사항에서 차이가 있다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222508,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 243,
+        "prompt_tokens": 992,
+        "total_tokens": 1235
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'mozaic stadium'과 'mosaic stadium'은 철자가 다릅니다. 'mosaic stadium'이 맞는 철자이며, 결과가 같다 하더라도 venue 조건이 올바르지 않으므로 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

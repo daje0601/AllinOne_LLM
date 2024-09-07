@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 `phone` 테이블에서 직접 'Graphics'라는 화면 모드를 가진 데이터를 필터링하고 있습니다. 그러나 두 번째 쿼리는 `screen_mode` 테이블과 `phone` 테이블을 조인하여 'Graphics'라는 타입을 가진 `screen_mode` 데이터만 대상으로 합니다. 즉, 두 번째 쿼리는 `phone` 테이블에서의 화면 모드 `screen_mode` 필드의 값이 `screen_mode` 테이블의 `Graphics_mode`와 매칭되는 경우만 결과로 포함시키므로 각각의 쿼리에서 필터링하는 데이터의 기준이 다릅니다. 따라서 결과가 달라질 수 있습니다.\"\n}"

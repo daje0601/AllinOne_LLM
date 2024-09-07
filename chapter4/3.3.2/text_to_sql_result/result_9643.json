@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 registration이 's5-hpg & s5-hpc'인 항공기의 role을 찾고 있습니다. 두 번째 쿼리는 registration이 's5-hpg s5-hpc'인 항공기의 role을 찾고 있습니다. '&'와 ' ' (공백)은 다른 의미를 가지므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

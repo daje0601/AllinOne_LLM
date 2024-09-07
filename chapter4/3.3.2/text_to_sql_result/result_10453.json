@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL을 사용하고 있으며, ACC_Regular_Season과 ACC_Percent 값을 basketball_match 테이블에서 반환합니다. 따라서 두 쿼리는 문제에 대해 의미적으로 동일한 결과를 반환합니다.\"\n}"

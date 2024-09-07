@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 'Home team'이 'south melbourne'인 경우의 'Away team' 값을 선택하는 동일한 SQL 쿼리입니다. 문자열의 대소문자 차이는 SQL에서 일반적으로 무시되므로, 두 쿼리는 의미적으로 동일합니다.\"\n}"

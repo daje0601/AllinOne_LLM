@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'U.S. Banknote Company'에서 인쇄된 37 센트 우표의 시트 수를 반환하는 반면, 두 번째 쿼리는 'Banknote Corporation of America'에서 인쇄된 37 센트 우표의 시트 수를 셉니다. 두 쿼리는 서로 다른 인쇄 회사에 대한 조건을 가지고 있어 의미적으로 동일하지 않습니다.\"\n}"

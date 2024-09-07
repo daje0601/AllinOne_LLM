@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Cook Islands' 컬럼이 'Macedonian'인 모든 'Bosnian' 데이터를 선택하는 것이고, 두 번째 쿼리는 'Bosnian' 컬럼이 'Macedonian'인 모든 'Cook Islands' 데이터의 수를 세는 것이다. 따라서 쿼리들이 필드와 조건이 서로 다르기 때문에 의미적으로 동일하지 않다.\"\n}"

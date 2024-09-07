@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Name'이 'Attacking Player'인 레코드를 선택하여 'Period' 값을 가져오는 반면, 두 번째 쿼리는 'Position'이 'Attaquant'인 레코드를 선택하여 'Period' 값을 가져옵니다. 'Attacking Player'와 'Attaquant'는 서로 다른 조건을 사용할 뿐만 아니라, 각기 다른 열을 기준으로 필터링하고 있으므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAV0vMo0AExNzwWYVV17pMTDWWD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 닭이 밤에 알을 낳지 않는 이유에 대한 질문에 직접 관련된 정보를 제공하고 있다. 그러나 산란 주기나 생산량에 대한 정보는 적절하지 않았다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 빛의 영향으로 인한 산란과 관련된 기본 사실은 언급했지만, 뇌하수체와 호르몬의 역할 같은 구체적인 정보는 빠져 있었다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 기본적인 정보를 포함하고 있지만, 산란주기와 클러치 개념 같은 추가적인 정보를 제공하지 않아 완전성이 떨어진다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 이해하기 쉽고 간결하게 구성되어 있지만, 일부 문장 구조가 혼동을 줄 수 있었다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 단어를 사용하지만, 깊이와 세부정보에서 차이가 많아 유사성 점수가 낮았다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 닭이 밤에 알을 낳지 않는 이유에 대한 질문에 직접 관련된 정보를 제공하고 있다. 그러나 산란 주기나 생산량에 대한 정보는 적절하지 않았다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 빛의 영향으로 인한 산란과 관련된 기본 사실은 언급했지만, 뇌하수체와 호르몬의 역할 같은 구체적인 정보는 빠져 있었다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기본적인 정보를 포함하고 있지만, 산란주기와 클러치 개념 같은 추가적인 정보를 제공하지 않아 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 이해하기 쉽고 간결하게 구성되어 있지만, 일부 문장 구조가 혼동을 줄 수 있었다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 단어를 사용하지만, 깊이와 세부정보에서 차이가 많아 유사성 점수가 낮았다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222455,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 262,
+        "prompt_tokens": 578,
+        "total_tokens": 840
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 WHERE 절의 조건을 다르게 나열하고 있지만, SQL에서는 조건의 순서가 결과에 영향을 미치지 않기 때문에 두 쿼리는 의미적으로 동일합니다. 즉, 두 쿼리 모두 'Outcome'이 'winner'이고, 'Surface'가 'hard'이며, 'Date'가 'april 17, 1994'인 경우의 'Opponents in Final'을 조회하므로 결과는 동일합니다.\"\n}"

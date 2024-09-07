@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 조건을 사용하여 같은 결과를 반환합니다. both queries count the number of records in 'table_name_20' where 'fa_cup_apps' is greater than 1, 'total_apps' equals 37, and 'league_apps' is less than 30. 그 조건들이 완벽하게 일치하므로 의미적으로 동일합니다.\"\n}"

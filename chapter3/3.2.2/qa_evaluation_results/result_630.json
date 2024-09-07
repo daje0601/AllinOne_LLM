@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB8iLyCCGCGL27ftcudYatFt7fq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 헐크의 바지가 찢어지지 않는 이유에 대한 질문에 잘 대응하고 있으며, 관련된 정보를 제공합니다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에는 헐크가 자신의 몸을 컨트롤한다는 주장이 있으나, 이는 사실적인 근거가 부족하다. 헐크의 바지가 찢어지지 않는다는 점은 스판덱스의 특성 때문이라는 주관적인 관점이 피력되어 있지 않아 정확성을 다소 잃고 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 헐크의 변신과 바지 복원에 대한 이유를 설명하고 있으나, 섬유의 특성에 대한 보다 깊은 설명이나 관련 사실이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장 구조가 복잡하여 완전한 명확성을 제공하지 않을 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주장의 차이가 있으며 특히 섬유에 대한 언급이 부족하다. 따라서 두 답변 사이의 유사성은 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 헐크의 바지가 찢어지지 않는 이유에 대한 질문에 잘 대응하고 있으며, 관련된 정보를 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에는 헐크가 자신의 몸을 컨트롤한다는 주장이 있으나, 이는 사실적인 근거가 부족하다. 헐크의 바지가 찢어지지 않는다는 점은 스판덱스의 특성 때문이라는 주관적인 관점이 피력되어 있지 않아 정확성을 다소 잃고 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 헐크의 변신과 바지 복원에 대한 이유를 설명하고 있으나, 섬유의 특성에 대한 보다 깊은 설명이나 관련 사실이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장 구조가 복잡하여 완전한 명확성을 제공하지 않을 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주장의 차이가 있으며 특히 섬유에 대한 언급이 부족하다. 따라서 두 답변 사이의 유사성은 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222494,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 295,
+        "prompt_tokens": 873,
+        "total_tokens": 1168
+    }
+}

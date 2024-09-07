@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 조건('Coach'가 'fisher'이고 'Actual adjusted record'가 '0–11'인 경우)으로 'Season'의 평균을 구하는 SQL 쿼리입니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

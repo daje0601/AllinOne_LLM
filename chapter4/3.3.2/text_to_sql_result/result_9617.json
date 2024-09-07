@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 결과를 반환합니다. 둘 다 'France'라는 country 값을 가진 레코드에서 pole_position을 선택합니다.\"\n}"

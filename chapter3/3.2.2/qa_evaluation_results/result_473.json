@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAuEeqvgSLnqqwchnPYUUDwvzWR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 축의금 봉투 작성 방법에 대한 정보와 관련 배경을 포함하고 있으나, 특정한 부분에서 일반적인 조언을 넘어서는 부분도 있어 약간의 혼란을 줄 수 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 제공하는 정보 중 몇 가지는 부정확하다. 특히 축의금 봉투의 색상이나 금액 관련의 부정확성이 있어 참조 답변과 차이가 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 유용한 정보(예: 봉투에 이름과 주소 적기)와 함께 다른 내용(예: 선물 제안 등)을 포함하고 있으나, 질문에 대해 구체적으로 필요한 요소에 대한 언급이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하나, 일부 내용이 다소 불필요하거나 혼란스러울 수 있어 이해하기 쉽지 않을 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 굉장히 다르며, 내용과 접근 방식이 서로 상이하여 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 축의금 봉투 작성 방법에 대한 정보와 관련 배경을 포함하고 있으나, 특정한 부분에서 일반적인 조언을 넘어서는 부분도 있어 약간의 혼란을 줄 수 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 제공하는 정보 중 몇 가지는 부정확하다. 특히 축의금 봉투의 색상이나 금액 관련의 부정확성이 있어 참조 답변과 차이가 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 유용한 정보(예: 봉투에 이름과 주소 적기)와 함께 다른 내용(예: 선물 제안 등)을 포함하고 있으나, 질문에 대해 구체적으로 필요한 요소에 대한 언급이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하나, 일부 내용이 다소 불필요하거나 혼란스러울 수 있어 이해하기 쉽지 않을 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 굉장히 다르며, 내용과 접근 방식이 서로 상이하여 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222480,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 287,
+        "prompt_tokens": 620,
+        "total_tokens": 907
+    }
+}

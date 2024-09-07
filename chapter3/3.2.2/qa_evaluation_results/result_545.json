@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB1I7fbJ9iDMVkIve7G7Wb6wbZO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변이 계란찜과 은수저에 대한 질문에 관련되어 있지만, 자세한 설명이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"은수저가 변하는 이유에 대한 설명이 대기 중 수증기와 관련되어 있으나, 이는 참조 답변의 황과의 반응 설명과는 다르다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 변색의 원인에 대한 명확한 설명이 부족하고, 여러 측면을 충분히 고려하지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하나, 내용의 정확성에 따라 다소 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변의 주요 내용—은과 계란의 화학적 반응—과는 크게 다른 주제를 다루고 있다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 계란찜과 은수저에 대한 질문에 관련되어 있지만, 자세한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "은수저가 변하는 이유에 대한 설명이 대기 중 수증기와 관련되어 있으나, 이는 참조 답변의 황과의 반응 설명과는 다르다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 변색의 원인에 대한 명확한 설명이 부족하고, 여러 측면을 충분히 고려하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하나, 내용의 정확성에 따라 다소 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변의 주요 내용—은과 계란의 화학적 반응—과는 크게 다른 주제를 다루고 있다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222487,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 601,
+        "total_tokens": 829
+    }
+}

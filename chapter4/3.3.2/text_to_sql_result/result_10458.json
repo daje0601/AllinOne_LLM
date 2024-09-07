@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있으며, 반환하는 항목도 다릅니다. 첫 번째 쿼리는 'The Galloping Children'이라는 영어 번역에 해당하는 'Artist'를 검색하고, 두 번째 쿼리는 'La Ribambelle aux Galopingos'라는 프랑스어 제목에 해당하는 'English Translation'을 검색합니다. 따라서 결과는 의미적으로 동일하지 않습니다.\"\n}"

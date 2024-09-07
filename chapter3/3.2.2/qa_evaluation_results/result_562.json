@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB2i6P1ueIO0fHUSKcsReMhWP1S",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 개미로부터 음식을 지키는 방법에 대한 질문에 충분히 관련 있는 정보를 제공하고 있음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 설명 중 일부는 사실이나 잘못된 정보가 포함되어 있음. 예를 들어, 개미가 싱크대에서 물을 말리는 것이 개미를 방지하는 데 효과적이라는 내용은 잘못된 정보임.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델의 답변은 여러 가지 방법을 제시하고 있지만, 특정 방법의 이유나 배경 설명이 부족하여 다소 부족하다고 봄.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 잘 작성되어 있어 이해하기 쉬움. 그러나 일부 설명이 더 명확했으면 함.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변과 참조 답변은 공통점이 있지만, 참조 답변에서 제시한 고무밴드 사용과 같은 특정 방법이 빠져 있음.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 개미로부터 음식을 지키는 방법에 대한 질문에 충분히 관련 있는 정보를 제공하고 있음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 설명 중 일부는 사실이나 잘못된 정보가 포함되어 있음. 예를 들어, 개미가 싱크대에서 물을 말리는 것이 개미를 방지하는 데 효과적이라는 내용은 잘못된 정보임."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 여러 가지 방법을 제시하고 있지만, 특정 방법의 이유나 배경 설명이 부족하여 다소 부족하다고 봄."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 잘 작성되어 있어 이해하기 쉬움. 그러나 일부 설명이 더 명확했으면 함."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변과 참조 답변은 공통점이 있지만, 참조 답변에서 제시한 고무밴드 사용과 같은 특정 방법이 빠져 있음."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222488,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 248,
+        "prompt_tokens": 620,
+        "total_tokens": 868
+    }
+}

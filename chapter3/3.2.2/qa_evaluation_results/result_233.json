@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZAuOjepxIQIiqok4syjXtvc00",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 CTS의 의미를 잘못 제시하였으며, 질문에 대한 적절한 정보가 아닙니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델 답변에서 제시한 CTS의 의미가 잘못되었으며, 정확한 정보를 제공하지 못했습니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델 답변은 CTS에 대한 설명이 부족하고, 자가진단 키트의 작동원리에 대한 정보가 결여되어 있습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 읽기 쉽지만, 잘못된 정보를 제공하여 신뢰도를 낮춥니다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델 답변은 내용적으로 참조 답변과 큰 차이를 보이며, 개념이 전반적으로 다릅니다.\"},\"average_score\":3.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 CTS의 의미를 잘못 제시하였으며, 질문에 대한 적절한 정보가 아닙니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델 답변에서 제시한 CTS의 의미가 잘못되었으며, 정확한 정보를 제공하지 못했습니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델 답변은 CTS에 대한 설명이 부족하고, 자가진단 키트의 작동원리에 대한 정보가 결여되어 있습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 읽기 쉽지만, 잘못된 정보를 제공하여 신뢰도를 낮춥니다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델 답변은 내용적으로 참조 답변과 큰 차이를 보이며, 개념이 전반적으로 다릅니다."
+                    },
+                    "average_score": 3.4
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 204,
+        "prompt_tokens": 440,
+        "total_tokens": 644
+    }
+}

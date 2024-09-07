@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAVuYYUwRgz1vP1n7coNmPLJrwn",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 관련된 요소들을 언급하지만, 가분수의 이유에 대한 명확한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에는 일부 부정확한 정보가 있으며, 고려 시대 불상의 가분수의 역사적 맥락을 충분히 전달하지 못하고 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 요소들을 다룬 것 같지만, 가분수에 대한 주요 원인에 대한 설명이 부족해 완전성을 떨어뜨린다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변이 일부 문장 구조가 복잡하고 반복적인 경향이 있어 이해하기 조금 어렵다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 주제에 대한 언급은 있지만, 참조 답변의 핵심 내용과 구조적 유사성이 부족하다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 관련된 요소들을 언급하지만, 가분수의 이유에 대한 명확한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에는 일부 부정확한 정보가 있으며, 고려 시대 불상의 가분수의 역사적 맥락을 충분히 전달하지 못하고 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 요소들을 다룬 것 같지만, 가분수에 대한 주요 원인에 대한 설명이 부족해 완전성을 떨어뜨린다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 일부 문장 구조가 복잡하고 반복적인 경향이 있어 이해하기 조금 어렵다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 주제에 대한 언급은 있지만, 참조 답변의 핵심 내용과 구조적 유사성이 부족하다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222455,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 227,
+        "prompt_tokens": 748,
+        "total_tokens": 975
+    }
+}

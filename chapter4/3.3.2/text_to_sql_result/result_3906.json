@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 같은 원본 쿼리를 사용하고 있습니다. 두 쿼리 모두 'richard m. griffin'이라는 greenback_ticket을 조건으로 하여 office를 선택하는 데 동일한 SQL 문을 사용하고 있으므로, 문제의 설명에 정확히 부합합니다.\"\n}"

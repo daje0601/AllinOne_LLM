@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리에서 'short_title' 필드의 조건이 다릅니다. 첫 번째 쿼리는 'nb obsrv suspct infct'를 사용하고, 두 번째 쿼리는 'nb obsrv suspct infect'를 사용합니다. 이로 인해 반환되는 ICD9 코드가 달라질 수 있으므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

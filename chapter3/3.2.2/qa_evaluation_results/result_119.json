@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAOiJ2kcd6ObY1GNF6GWE6cBWJQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 항공기 내 음주와 기압의 관련성을 설명하고 있어 관련성이 높지만, 주 내용이 다소 다르게 접근하고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 기압이 낮아지는 이유와 그로 인한 소용돌이에 대해 언급하지만, 일부 내용은 정확하지 않거나 명확하지 않다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 요소를 다루고 있지만, 참조 답변과 비교했을 때 음주에 관한 과학적 설명이 덜 깊다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변에는 복잡한 표현과 약간의 중첩이 있어 이해하기 쉬운 만큼 명확하지는 않다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루지만 내용과 형식에서 차이가 난다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 항공기 내 음주와 기압의 관련성을 설명하고 있어 관련성이 높지만, 주 내용이 다소 다르게 접근하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 기압이 낮아지는 이유와 그로 인한 소용돌이에 대해 언급하지만, 일부 내용은 정확하지 않거나 명확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 요소를 다루고 있지만, 참조 답변과 비교했을 때 음주에 관한 과학적 설명이 덜 깊다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변에는 복잡한 표현과 약간의 중첩이 있어 이해하기 쉬운 만큼 명확하지는 않다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루지만 내용과 형식에서 차이가 난다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222448,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 635,
+        "total_tokens": 872
+    }
+}

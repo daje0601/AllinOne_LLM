@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하며, 내용 및 결과가 정확히 일치합니다. 둘 다 basketball_match 테이블에서 'All_Home' 값을 기준으로 그룹화하여 각 그룹에 대한 'School_ID'의 합계를 계산하고 있습니다.\"\n}"

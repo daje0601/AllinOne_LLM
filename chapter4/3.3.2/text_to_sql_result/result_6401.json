@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The two queries return different columns: the first query returns the 'date' of the last match of the 2013 season, while the second query returns the 'opponent' of that match. Thus, they do not have the same semantic meaning.\"\n}"

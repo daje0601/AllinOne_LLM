@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 선택하고 있는 열이 다릅니다. 생성된 쿼리에서는 booking_start_date와 booking_end_date를 반환하는 반면, 정답 쿼리에서는 booking_start_date가 두 번 반환되고 있습니다. 이로 인해 결과의 의미가 달라집니다.\"\n}"

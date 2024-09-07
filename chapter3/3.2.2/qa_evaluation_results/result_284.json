@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAd8UH3TThFupe4bmwOckXa9JqX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대한 직접적인 답을 제공하며, 작은 악기의 예를 들어 관련성을 갖추고 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에 언급된 '티더 앨리'라는 악기의 정보는 사실이 아닐 가능성이 높으며, 구체적인 악기에 대한 설명이 부정확하여 점수가 낮다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 특정 작은 악기 하나에 집중하지만, 다른 예시나 종류를 더 포함하지 않아 상대적으로 미비하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 악기에 대한 구체적인 설명이 추가되면 더욱 명확해질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변과 참조 답변은 서로 다른 악기를 언급하고 있으며, 참조에 비해 구체적이지 않다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대한 직접적인 답을 제공하며, 작은 악기의 예를 들어 관련성을 갖추고 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에 언급된 '티더 앨리'라는 악기의 정보는 사실이 아닐 가능성이 높으며, 구체적인 악기에 대한 설명이 부정확하여 점수가 낮다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 특정 작은 악기 하나에 집중하지만, 다른 예시나 종류를 더 포함하지 않아 상대적으로 미비하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 악기에 대한 구체적인 설명이 추가되면 더욱 명확해질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변과 참조 답변은 서로 다른 악기를 언급하고 있으며, 참조에 비해 구체적이지 않다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222463,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 543,
+        "total_tokens": 779
+    }
+}

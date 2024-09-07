@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 조건에서 'bass'와 'base'는 서로 다른 스펠링이며, 각 쿼리에서 'keyboards / drums'와 'keyboards or drum' 또한 표현 방식이 다릅니다. 첫 번째 쿼리는 'base'일 때와 'keyboards / drums'일 때를 대상으로 하고, 두 번째 쿼리는 'bass'일 때와 'keyboards or drum'일 때를 대상으로 하므로 의미적으로 동일하지 않습니다.\"\n}"

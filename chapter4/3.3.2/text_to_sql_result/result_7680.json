@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Team' 필드의 값이 다릅니다. 첫 번째 쿼리에서는 'r.j. macarthur onsow'로 잘못 입력되어 있으며, 두 번째 쿼리에서는 'r.j.macarthur onslow'로 정확히 입력되어 있습니다. 따라서, 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

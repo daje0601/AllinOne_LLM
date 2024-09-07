@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBcdxC0ouibjZSN1Gub0IvFy3Js",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변 중 일부는 질문과 관련이 있으나, 음주운전과 연관 지은 부분은 다소 엉뚱하여 낮은 점수를 받았습니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 언급한 음주운전과 관련된 내용은 사실과 다릅니다. 썬팅 자체가 음주운전의 원인이라는 주장은 잘못된 정보입니다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 썬팅과 관련된 여러 가지 요소를 언급했지만, 법적인 기준과 자연광선 투과율 등에 대한 정확한 정보는 부족합니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 명료하게 서술되었으나, 일부 복잡한 문장 구조로 인해 이해하기 어려운 부분이 있습니다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 주제는 같지만 내용의 일부가 잘못된 정보를 포함하고 있어 참조 답변과의 유사성이 낮습니다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변 중 일부는 질문과 관련이 있으나, 음주운전과 연관 지은 부분은 다소 엉뚱하여 낮은 점수를 받았습니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 언급한 음주운전과 관련된 내용은 사실과 다릅니다. 썬팅 자체가 음주운전의 원인이라는 주장은 잘못된 정보입니다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 썬팅과 관련된 여러 가지 요소를 언급했지만, 법적인 기준과 자연광선 투과율 등에 대한 정확한 정보는 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 명료하게 서술되었으나, 일부 복잡한 문장 구조로 인해 이해하기 어려운 부분이 있습니다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 주제는 같지만 내용의 일부가 잘못된 정보를 포함하고 있어 참조 답변과의 유사성이 낮습니다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 636,
+        "total_tokens": 885
+    }
+}

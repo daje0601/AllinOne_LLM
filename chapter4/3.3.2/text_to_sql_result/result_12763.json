@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 SQL 테이블과 같은 조건으로 실행되며, 둘 다 'metallica: escape from the studio' 이벤트에 대한 날짜를 조회하는 쿼리입니다.\"\n}"

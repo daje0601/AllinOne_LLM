@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 'Monte Carlo Simulation'과 'monte carlo simulation'의 대소문자만 다를 뿐, 나머지 조건은 동일합니다. SQL에서는 기본적으로 대소문자를 구분하지 않기 때문에 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

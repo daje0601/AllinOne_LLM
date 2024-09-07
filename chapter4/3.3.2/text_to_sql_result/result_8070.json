@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'diagnoses.long_title' 조건에서 다른 값을 사용하고 있습니다. 첫 번째 쿼리는 'Hypotonic hyponatremia', 두 번째 쿼리는 'Hyposmolality and/or hyponatremia'를 사용하므로, 결과적으로 서로 다른 환자 수를 반환할 수 있습니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

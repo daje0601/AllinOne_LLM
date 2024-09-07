@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 컬럼에서 조건을 적용하고 선택하는 방식입니다. 첫 번째 쿼리는 'Ryuji Hijikata'가 'ryuji hijikata'인 경우 'Block A' 값을 반환하고, 두 번째 쿼리는 'Block A'가 'ryuji hijikata'인 경우 'Ryuji Hijikata' 값을 반환합니다. 따라서 결과가 다를 수 있어 의미적으로 동일하지 않습니다.\"\n}"

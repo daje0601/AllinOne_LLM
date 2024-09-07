@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNApUKCn7jOeR0hEo170LEgD22Sp",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 엔진을 날개 아래에 장착하는 이유와 관련이 있지만, 일부 항목은 정확한 설명이라고 보기 어렵습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변 중 일부는 참조 답변과 정확히 일치하지 않으며, 잘못된 정보가 포함되어 있습니다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변에 비해 포괄적이지 않으며 여러 중요한 이유를 누락하고 있습니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대부분 이해하기 쉽지만, 일부 내용은 혼동을 줄 수 있습니다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변에서 제공된 내용과 다소 다르며, 비슷한 요소를 공유하지 않습니다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 엔진을 날개 아래에 장착하는 이유와 관련이 있지만, 일부 항목은 정확한 설명이라고 보기 어렵습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변 중 일부는 참조 답변과 정확히 일치하지 않으며, 잘못된 정보가 포함되어 있습니다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변에 비해 포괄적이지 않으며 여러 중요한 이유를 누락하고 있습니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대부분 이해하기 쉽지만, 일부 내용은 혼동을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변에서 제공된 내용과 다소 다르며, 비슷한 요소를 공유하지 않습니다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 208,
+        "prompt_tokens": 689,
+        "total_tokens": 897
+    }
+}

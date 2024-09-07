@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 클럽 이름('rimouski csp'와 'limoges csp')과 다른 컵 이름('france basketball cup'와 'french basketball cup')을 사용하고 있어, 전혀 다른 결과를 반환할 수 있습니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

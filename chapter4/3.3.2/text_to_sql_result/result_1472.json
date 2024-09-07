@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 competition 값을 사용하고 있습니다. 첫 번째 쿼리는 'euro 2000 qualifying'을, 두 번째 쿼리는 '1999 fifa world cup qualification (uefa)'를 참조합니다. 따라서 두 쿼리는 서로 다른 데이터 집합을 반환할 수 있으며, 의미적으로 동일하지 않습니다.\"\n}"

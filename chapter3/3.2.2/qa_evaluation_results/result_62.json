@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAIzSXGLMqAGosRENv6DVIBFTGv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 북한에서 라면을 먹는지에 대한 질문에 잘 대응하고 있으며, 직접 만드는 것과 수입되는 라면에 대한 정보를 포함하고 있습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 사실에 오류가 있으며, '진라면'과 '라면'의 설명이 참조 답변의 내용과 일치하지 않습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 라면의 종류와 역사적인 배경에 대해 설명하지만, 참조 답변에 포함된 최근의 생산 정보와 브랜드 이름이 누락되었습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 읽기 쉽고 이해하기 쉬운 문장 구조를 가지고 있지만, 일부 정보가 혼동을 줄 수 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 구조와 내용과는 달리 다른 방향의 설명을 하고 있으며, 공통적인 내용이 적어 유사성이 낮습니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 북한에서 라면을 먹는지에 대한 질문에 잘 대응하고 있으며, 직접 만드는 것과 수입되는 라면에 대한 정보를 포함하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 사실에 오류가 있으며, '진라면'과 '라면'의 설명이 참조 답변의 내용과 일치하지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 라면의 종류와 역사적인 배경에 대해 설명하지만, 참조 답변에 포함된 최근의 생산 정보와 브랜드 이름이 누락되었습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 읽기 쉽고 이해하기 쉬운 문장 구조를 가지고 있지만, 일부 정보가 혼동을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 구조와 내용과는 달리 다른 방향의 설명을 하고 있으며, 공통적인 내용이 적어 유사성이 낮습니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 579,
+        "total_tokens": 828
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 검색하는 이름이 다릅니다. 첫 번째 쿼리는 'dmytrolushchenko'를 검색하는 반면, 두 번째 쿼리는 'dmytro hlushchenko'를 검색하고 있어, 서로 다른 결과를 반환합니다.\"\n}"

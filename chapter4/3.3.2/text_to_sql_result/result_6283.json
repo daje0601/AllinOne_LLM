@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조적으로 동일하며, 'Championship' 컬럼에서 'pga championship'이라는 값을 기준으로 'Winning score'를 선택한다. 따라서, 두 쿼리는 의미적으로 동일한 결과를 반환한다.\"\n}"

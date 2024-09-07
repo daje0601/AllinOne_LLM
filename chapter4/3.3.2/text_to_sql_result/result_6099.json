@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 townland 값이 다릅니다. 첫 번째 쿼리는 'Cappanaboule'를 사용하고, 두 번째 쿼리는 'Cappanaboul'을 사용합니다. 이는 서로 다른 행정구역을 나타낼 수 있으므로, 결과가 동일하지 않습니다.\"\n}"

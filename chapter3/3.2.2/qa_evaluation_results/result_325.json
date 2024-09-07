@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAhYpAq0Pjk9YK71ydlKNaLgI26",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 겨울철 미세먼지와 관련된 기상 요인들을 언급하고 있어 질문과 잘 연결된다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 말한 내용 중 일부는 정확하지만, 세부사항(예: 이동성 고기압의 언급)에서 일부 누락이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델 답변은 요인들을 나열하지만, 이동성 고기압과 같은 중요 요소를 충분히 설명하지 않아 다소 불완전하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 잘 구성되어 있으며 이해하기 쉽고 정보가 잘 전달된다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변이 참조 답변과 다소 유사한 점이 있으나, 특히 사용된 용어와 설명 스타일에서 차이가 있다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 겨울철 미세먼지와 관련된 기상 요인들을 언급하고 있어 질문과 잘 연결된다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 말한 내용 중 일부는 정확하지만, 세부사항(예: 이동성 고기압의 언급)에서 일부 누락이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델 답변은 요인들을 나열하지만, 이동성 고기압과 같은 중요 요소를 충분히 설명하지 않아 다소 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 잘 구성되어 있으며 이해하기 쉽고 정보가 잘 전달된다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 참조 답변과 다소 유사한 점이 있으나, 특히 사용된 용어와 설명 스타일에서 차이가 있다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222467,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 751,
+        "total_tokens": 967
+    }
+}

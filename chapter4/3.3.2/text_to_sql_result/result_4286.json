@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 진단의 긴 제목(long_title)의 값이 다릅니다. 첫 번째 쿼리에서는 'Other specified skin disorders'를 사용하고, 두 번째 쿼리에서는 'Other specified disorders of skin'을 사용합니다. 이 두 제목은 서로 다른 의미를 가질 수 있으며, 그에 따라 반환되는 환자 수가 다를 수 있습니다.\"\n}"

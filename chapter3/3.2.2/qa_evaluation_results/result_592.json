@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB57Vew9wsaYFFmgooyv1hExNuF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델 답변이 아르바이트의 휴무일과 근로시간에 대해 언급하고 있으나, 관련 법령 및 세부 사항을 충분히 포함하고 있지 않다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에는 부정확하거나 잘못된 정보가 포함되었으며, 45시간 이상 근무하는 경우에 대한 규정이 잘못 설명되었다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 필요한 정보의 일부만 제공하며, 유급휴일, 주휴수당, 생리휴가와 같은 중요한 세부 사항이 빠져 있다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉽게 언급되고 있지만, 일부 내용이 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 다소 다르게 법적 규정을 설명하고 있으며, 추가적인 세부 사항이 제한적이다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델 답변이 아르바이트의 휴무일과 근로시간에 대해 언급하고 있으나, 관련 법령 및 세부 사항을 충분히 포함하고 있지 않다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에는 부정확하거나 잘못된 정보가 포함되었으며, 45시간 이상 근무하는 경우에 대한 규정이 잘못 설명되었다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 필요한 정보의 일부만 제공하며, 유급휴일, 주휴수당, 생리휴가와 같은 중요한 세부 사항이 빠져 있다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉽게 언급되고 있지만, 일부 내용이 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 다소 다르게 법적 규정을 설명하고 있으며, 추가적인 세부 사항이 제한적이다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222491,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 979,
+        "total_tokens": 1224
+    }
+}

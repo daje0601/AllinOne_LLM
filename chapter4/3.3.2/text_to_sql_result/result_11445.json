@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 경기장을 기준으로 결과를 조회하고 있습니다. 첫 번째 쿼리는 'naghi bashli stadium'에 대한 'City'를 찾고 있고, 두 번째 쿼리는 'naghsh jahan'에 대한 'City'를 찾고 있습니다. 따라서 두 쿼리는 서로 의미적으로 다릅니다.\"\n}"

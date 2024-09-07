@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query counts the total number of users in the Users table, while the second query counts the number of posts created by users who have created at least one post of a certain type. Therefore, the two queries are not semantically equivalent as they are querying different perspectives of the data.\"\n}"

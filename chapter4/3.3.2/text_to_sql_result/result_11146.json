@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Sought negotiated asylum to Austria'라는 해상도를 기준으로 하고, 두 번째 쿼리는 'Negotiated exile in Austria'라는 해상도를 기준으로 합니다. 이 두 구문은 의미적으로 다르며, 따라서 조건이 다르므로 같은 결과를 반환하지 않습니다.\"\n}"

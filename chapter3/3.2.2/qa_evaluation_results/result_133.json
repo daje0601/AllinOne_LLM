@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPBHzJA5OjVig5V0XTgIgTJMHF",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 땅콩은 땅속에서 성장한다고 언급하지만, 나무에서 열린다는 부분은 명확한 틀림이나 이상한 표현을 가지고 있어 관련성이 낮다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 땅콩이 '무서운 나무'에서 열린다고 잘못 설명하고 있으며, 여러 부분에서 정보의 정확성이 부족하다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 땅콩의 성장 과정에 대해 일부 설명하고 있지만, 참조 답변처럼 자세한 성장 방식이나 환경 조건에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 다소 이해하기 쉬운 구조를 가지고 있으나, '무서운 나무'라는 표현이 혼동을 줄 수 있어 명확성이 떨어진다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 많은 부분에서 다르며, 정확한 정보를 전달하지 못하기 때문에 유사성이 낮다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 땅콩은 땅속에서 성장한다고 언급하지만, 나무에서 열린다는 부분은 명확한 틀림이나 이상한 표현을 가지고 있어 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 땅콩이 '무서운 나무'에서 열린다고 잘못 설명하고 있으며, 여러 부분에서 정보의 정확성이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 땅콩의 성장 과정에 대해 일부 설명하고 있지만, 참조 답변처럼 자세한 성장 방식이나 환경 조건에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 다소 이해하기 쉬운 구조를 가지고 있으나, '무서운 나무'라는 표현이 혼동을 줄 수 있어 명확성이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 많은 부분에서 다르며, 정확한 정보를 전달하지 못하기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 733,
+        "total_tokens": 988
+    }
+}

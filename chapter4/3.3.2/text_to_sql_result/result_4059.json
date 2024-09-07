@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 같은 SQL 구문을 사용하고 있으며, 's-8ko'라는 designation을 가진 행의 'Length overall' 값을 선택하는 것입니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

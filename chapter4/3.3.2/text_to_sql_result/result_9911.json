@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 생성된 쿼리는 'Shigella' 값이 'yopb'인 행에 대해 'Yersinia' 값을 선택하고 있으며, 정답 쿼리는 'Yersinia' 값이 'yopb'인 행에 대해 'Shigella' 값을 선택합니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

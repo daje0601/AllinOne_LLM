@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 label 값을 사용하고 있습니다. 첫 번째 쿼리는 'essential castle'을 찾고, 두 번째 쿼리는 'essential, castle music'을 찾고 있습니다. 따라서 반환되는 결과가 다를 수 있습니다.\"\n}"

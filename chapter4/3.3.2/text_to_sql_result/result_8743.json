@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Breckenbrough School'의 'Roll' 값을 가져오고 있으며, 두 번째 쿼리는 'Brechin High School'의 'Roll' 값 중 최대 값을 가져옵니다. 두 쿼리가 질의하는 학교명이 다르고, 하나는 특정 값을 선택(SELECT)하는 반면, 다른 하나는 최대값을 찾고(MAX) 있어 의미적으로 동일하지 않습니다.\"\n}"

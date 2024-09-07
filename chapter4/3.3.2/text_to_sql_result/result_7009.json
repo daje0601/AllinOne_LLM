@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단 코드의 제목이 다르고, 두 번째 쿼리는 환자가 2개월 이내에 병원에 다시 오지 않았는지를 확인하는 추가 조건(DATETIME(admissions.admittime) BETWEEN DATETIME(t2.charttime) AND DATETIME(t2.charttime, '+2 month'))를 포함하고 있습니다. 반면 첫 번째 쿼리는 이러한 조건이 없습니다. 따라서 두 쿼리는 동일한 의미를 가지지 않습니다.\"\n}"

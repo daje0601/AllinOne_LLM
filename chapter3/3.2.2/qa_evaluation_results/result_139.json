@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAQM2kaHqw9P1gKnv2QLP56ZSND",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문과 관련 있지만, 왼손과 오른손 장갑의 사용 이유를 명확히 설명하지 못하고 있는 부분이 있어 관련성이 낮다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 설명은 다소 부정확하다. 왼손잡이의 비율이나 장갑의 기능에 대한 정보가 불명확하고 사실 관계가 틀린 부분이 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변에는 일부 정보가 포함되어 있으나, 왼손 장갑만 판매되는 이유에 대한 명확한 설명이나 여성 골퍼의 경우 등을 누락하고 있어 완전성이 떨어진다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 어느 정도 명확하게 기술되어 있지만, 정보의 정확성이 떨어져 혼란을 줄 수 있는 표현이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과는 내용적으로 많은 차이점이 있으며, 장갑의 필요성에 대한 해석이 다르게 나타난다.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문과 관련 있지만, 왼손과 오른손 장갑의 사용 이유를 명확히 설명하지 못하고 있는 부분이 있어 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 설명은 다소 부정확하다. 왼손잡이의 비율이나 장갑의 기능에 대한 정보가 불명확하고 사실 관계가 틀린 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변에는 일부 정보가 포함되어 있으나, 왼손 장갑만 판매되는 이유에 대한 명확한 설명이나 여성 골퍼의 경우 등을 누락하고 있어 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 어느 정도 명확하게 기술되어 있지만, 정보의 정확성이 떨어져 혼란을 줄 수 있는 표현이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과는 내용적으로 많은 차이점이 있으며, 장갑의 필요성에 대한 해석이 다르게 나타난다."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222450,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 260,
+        "prompt_tokens": 760,
+        "total_tokens": 1020
+    }
+}

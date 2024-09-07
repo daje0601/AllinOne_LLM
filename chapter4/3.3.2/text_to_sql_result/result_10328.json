@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 같은 SQL 구문이지만 WHERE 절의 조건이 잘못된 논리적 그룹화로 인해 의미가 다르다. 'AND'와 'OR'의 결합으로, COMMISSION_PCT가 null이 아닌 직원이거나 DEPARTMENT_ID가 40이 아닌 직원도 포함되어 결과가 더 넓어진다. 문제에서 요구하는 것은 두 조건 모두를 만족하는 직원만을 선택하는 것이다. 올바른 조건은 'AND (COMMISSION_PCT IS NOT NULL OR DEPARTMENT_ID <> 40)'이어야 한다.\"\n}"

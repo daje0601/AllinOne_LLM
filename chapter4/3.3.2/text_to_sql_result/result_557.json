@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Romanised name' 조건이 다릅니다. 첫 번째 쿼리는 'Chan Chi-huen'을 기준으로 찾고 있으며, 두 번째 쿼리는 'Chan Chi-yuen, Paul'을 기준으로 찾습니다. 따라서, 두 쿼리는 서로 다른 'Romanised name'을 검색하므로 반환되는 결과가 다릅니다.\"\n}"

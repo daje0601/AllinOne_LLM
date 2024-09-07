@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 생성된 쿼리는 'cellpath'가 '%output%'이고 'celllabel'이 'continuous infusion'인 행을 검사하는 반면, 정답 쿼리는 'cellpath'가 '%intake%'이고 'celllabel'이 'continuous infusion meds'인 행을 검사합니다. 따라서 두 쿼리는 서로 다른 내용을 필터링하고 있어 의미적으로 동일하지 않습니다.\"\n}"

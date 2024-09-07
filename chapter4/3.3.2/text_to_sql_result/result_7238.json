@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 차이는 'spec_type_desc' 조건에서 발생합니다. 첫 번째 쿼리는 'blood culture'를 기준으로 필터링하고, 두 번째 쿼리는 'fluid received in blood culture bottles'를 기준으로 필터링합니다. 이들은 서로 다른 조건이므로 같은 의미의 결과를 반환하지 않습니다.\"\n}"

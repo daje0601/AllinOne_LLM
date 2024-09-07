@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 약물 이름에서 차이를 보입니다. 첫 번째 쿼리에서는 'panotrazone 40 mg in 250 ml iv recons'를 사용하고, 두 번째 쿼리에서는 'pantoprazole 40 mg iv recon soln'을 사용합니다. 또한 첫 번째 쿼리에서는 'meropenem 500 mg in ns'를, 두 번째 쿼리에서는 'meropenem 500 mg iv solr'을 사용하고 있습니다. 각각의 약물이 다르기 때문에 쿼리 결과는 다를 수 있습니다.\"\n}"

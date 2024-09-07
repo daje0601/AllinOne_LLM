@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAF5qlrdwlJ79VVZ3pZMNQj7kkB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 호주의 여름 크리스마스에 대한 다양한 활동을 언급하며 질문과 높은 관련성을 가지고 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델이 제공한 정보는 전반적으로 정확하지만, 참조 답변의 자세한 활동이나 이벤트에 대한 설명이 부족하다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 여러 여름철 활동을 언급하지만, 호주 크리스마스 관련 이벤트나 축제에 대한 포괄적인 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 명확하고 잘 구성되어 이해하기 쉽지만, 다소 복잡한 문장 구성이 있을 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델 답변은 참조 답변과 유사한 점이 있으나, 구체적인 활동과 문화적 요소에서도 차이가 있다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 호주의 여름 크리스마스에 대한 다양한 활동을 언급하며 질문과 높은 관련성을 가지고 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델이 제공한 정보는 전반적으로 정확하지만, 참조 답변의 자세한 활동이나 이벤트에 대한 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 여러 여름철 활동을 언급하지만, 호주 크리스마스 관련 이벤트나 축제에 대한 포괄적인 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 명확하고 잘 구성되어 이해하기 쉽지만, 다소 복잡한 문장 구성이 있을 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델 답변은 참조 답변과 유사한 점이 있으나, 구체적인 활동과 문화적 요소에서도 차이가 있다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 728,
+        "total_tokens": 947
+    }
+}

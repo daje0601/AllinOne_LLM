@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical in structure and content. They both select the 'GVW (kg/ton)' from the same table and apply the same condition to filter the results based on 'Model Designation' being '97H00'. Therefore, they return the same result.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 정확히 동일한 SQL 쿼리로, 둘 다 'Location/Attendance'가 'wachovia center'인 경기의 'Date'를 선택합니다. 따라서 결과는 동일합니다.\"\n}"

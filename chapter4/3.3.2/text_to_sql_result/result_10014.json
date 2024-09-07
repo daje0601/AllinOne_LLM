@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and return the same result. They both select the 'directed_by' column from the 'table_27332038_1' table where the 'written_by' column matches 'Elaine Ko'. Therefore, they semantically produce the same outcome.\"\n}"

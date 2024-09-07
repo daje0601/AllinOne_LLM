@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Nominee' 필드의 값이 서로 다릅니다. 첫 번째 쿼리는 'matthew warkus'를 찾고, 두 번째 쿼리는 'matthew warchus'를 찾습니다. 따라서 같은 사람을 찾고 있지 않으므로 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

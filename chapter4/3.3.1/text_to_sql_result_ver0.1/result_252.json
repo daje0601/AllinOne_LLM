@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 drug의 이름이 약간 다릅니다. 첫 번째 쿼리는 'Acetaminophen-caff-with-butalbital'을 사용하고, 두 번째 쿼리는 'Acetaminophen-Caff-Butalbital'을 사용합니다. 이 두 표현이 다르기 때문에 쿼리의 결과가 의미적으로 동일하다고 볼 수 없습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하여 환자를 필터링합니다. 첫 번째 쿼리는 'admission_type'이 'EMERGENCY'인 환자를 선택하는 반면, 두 번째 쿼리는 'admission_location'이 'EMERGENCY ROOM ADMIT'인 환자를 선택합니다. 이 두 조건은 세부사항이 다르기 때문에, 동일한 결과를 보장하지 않습니다.\"\n}"

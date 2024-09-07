@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'intakeoutput.cellpath'가 '%intake%'인 모든 기록을 포함하여 환자의 중환자실 방문 시 경구 투여가 있었는지를 확인합니다. 반면 두 번째 쿼리는 'intakeoutput.cellpath'가 '%intake%'인 조건 외에도 'intakeoutput.celllabel'이 'enteral two kal hn'인 기록만 포함하므로, 경구 투여의 특정 조건을 추가하여 한정적으로 검사합니다. 이로 인해 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

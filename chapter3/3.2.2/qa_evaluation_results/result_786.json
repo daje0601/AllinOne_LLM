@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBMrfa8g19JBcYx5T3yTgU3oYkE",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 가오리가 날아오는 것에 대한 내용을 담고 있지만, 질문에서 언급된 '날아가오리'와의 직접적인 연결이 부족하다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 많은 오류가 포함되어 있으며, '가오리가 날아오는 것'이라는 사실 자체는 잘못된 정보이다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 날아오르는 이유를 포함하고 있지만, 질문의 핵심인 '가오리의 비행 능력'에 대한 명확한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 어느 정도 이해하기 쉽게 작성되었으나, 주장의 근거가 불분명하고 주제를 벗어난 느낌을 준다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제나 내용에서 큰 차이를 보이며, 유사성과 일관성이 부족하다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 가오리가 날아오는 것에 대한 내용을 담고 있지만, 질문에서 언급된 '날아가오리'와의 직접적인 연결이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 많은 오류가 포함되어 있으며, '가오리가 날아오는 것'이라는 사실 자체는 잘못된 정보이다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 날아오르는 이유를 포함하고 있지만, 질문의 핵심인 '가오리의 비행 능력'에 대한 명확한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 어느 정도 이해하기 쉽게 작성되었으나, 주장의 근거가 불분명하고 주제를 벗어난 느낌을 준다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제나 내용에서 큰 차이를 보이며, 유사성과 일관성이 부족하다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222508,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 447,
+        "total_tokens": 691
+    }
+}

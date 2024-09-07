@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBQ9EuwzElp8IM81X9iJZQOGwXX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 수학여행의 목적과 형식에 대해 일부 언급하지만, 질문에 명확하게 대답하지는 못하고 주제를 조금 벗어난 요소가 포함되어 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 특정 활동에 대한 정보를 나타내지만, 수학여행이란 개념에 대한 설명으로서 부정확한 정보가 포함되어 있어 정확도는 떨어진다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 수학여행의 개념을 전반적으로 설명하지 않으며, 특정 여행 일정과 참여자에 대한 세부 사항에 치중하고 있어 포괄성이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 어느 정도 이해하기 쉬우나, 용어의 혼용과 설명이 산만하여 일부 독자에게 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 주제가 비슷하지만, 접근 방식과 주제의 초점이 다르며 그로 인해 유사성이 낮다.\"},\"average_score\":5.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 수학여행의 목적과 형식에 대해 일부 언급하지만, 질문에 명확하게 대답하지는 못하고 주제를 조금 벗어난 요소가 포함되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 특정 활동에 대한 정보를 나타내지만, 수학여행이란 개념에 대한 설명으로서 부정확한 정보가 포함되어 있어 정확도는 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 수학여행의 개념을 전반적으로 설명하지 않으며, 특정 여행 일정과 참여자에 대한 세부 사항에 치중하고 있어 포괄성이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 어느 정도 이해하기 쉬우나, 용어의 혼용과 설명이 산만하여 일부 독자에게 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 비슷하지만, 접근 방식과 주제의 초점이 다르며 그로 인해 유사성이 낮다."
+                    },
+                    "average_score": 5.4
+                }
+            }
+        }
+    ],
+    "created": 1723222512,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 271,
+        "prompt_tokens": 477,
+        "total_tokens": 748
+    }
+}

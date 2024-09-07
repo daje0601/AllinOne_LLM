@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBS8WYYltuuqS1sgcGwEfp7hZe6",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 난방과 냉방의 온도 측정에 대해 언급하여 관련성이 높지만, 세부적인 질문에 대한 직접적인 맥락은 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델은 난방과 냉방의 차이에 대해 일부 언급하였으나, 실제로 온도가 같다는 점에 대한 정확한 설명이 부족하여 정확성이 떨어진다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 난방과 냉방의 차이에 대한 일부 정보를 제공하지만, 질문의 핵심인 '따뜻함'에 대한 설명이 부족하여 완전성이 낮다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 적당히 명확하지만, 몇몇 문장들이 복잡하여 이해하기 어려운 부분이 있으며, 좀 더 간단하게 풀어서 설명할 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 전반적인 주제를 포함하지만, 핵심 내용과 방식이 다르기 때문에 유사성 점수가 낮다.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 난방과 냉방의 온도 측정에 대해 언급하여 관련성이 높지만, 세부적인 질문에 대한 직접적인 맥락은 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델은 난방과 냉방의 차이에 대해 일부 언급하였으나, 실제로 온도가 같다는 점에 대한 정확한 설명이 부족하여 정확성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 난방과 냉방의 차이에 대한 일부 정보를 제공하지만, 질문의 핵심인 '따뜻함'에 대한 설명이 부족하여 완전성이 낮다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 적당히 명확하지만, 몇몇 문장들이 복잡하여 이해하기 어려운 부분이 있으며, 좀 더 간단하게 풀어서 설명할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 전반적인 주제를 포함하지만, 핵심 내용과 방식이 다르기 때문에 유사성 점수가 낮다."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222514,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 268,
+        "prompt_tokens": 604,
+        "total_tokens": 872
+    }
+}

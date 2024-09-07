@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Pregame analysts' 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Darren Flutie and Eric Tillman'을 조건으로 하고 있으며, 두 번째 쿼리는 'Darren Flutie, Eric Tillman and Greg Frers'을 조건으로 하고 있어 각 쿼리가 반환하는 결과는 동일하지 않습니다. 즉, 두 쿼리는 서로 다른 세트의 플레이-바이-플레이 해설자를 필터링하므로 조건의 차이가 결과에 영향을 미칩니다.\"\n}"

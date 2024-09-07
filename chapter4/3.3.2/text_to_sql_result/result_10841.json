@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 회사를 기준으로 가스 스테이션의 수를 세고 있으며, GROUP BY 절에서 Company_ID를 사용하고 있습니다. COUNT(Company)와 COUNT(*)는 결과적으로 동일한 값을 반환합니다. COUNT(Company)는 NULL이 아닌 Company 컬럼의 개수를 세고, COUNT(*)는 전체 행의 개수를 세는데, 조인된 결과에서 Company가 NULL이 아닌 경우만 남므로 두 쿼리의 결과는 동일합니다.\"\n}"

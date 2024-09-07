@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일하게 'rabbit romeo'라는 제목을 가진 항목의 'Release date'를 조회합니다. 대소문자를 구분하지 않는 SQL에서는 'rabbit romeo'와 'Rabbit Romeo'가 동일하게 처리되므로, 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

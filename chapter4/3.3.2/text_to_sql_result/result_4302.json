@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Central Murray'의 값으로 서로 다른 값을 사용합니다. 첫 번째 쿼리에서는 'koonong-bahram'을, 두 번째 쿼리에서는 'koondrook-barham'을 사용하고 있습니다. 따라서 조건이 충족되는 행이 다를 수 있으며, 이는 결과에 영향을 미칩니다.\"\n}"

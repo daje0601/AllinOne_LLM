@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 CommunityOwnedDate가 NULL이고 ClosedDate가 NULL인 채택되지 않은 답변 중 Score가 0인 답변을 찾습니다. 그러나 두 번째 쿼리는 사용자가 소유한 채택된 답변 중에서 점수가 0인 답변을 찾습니다. 첫 번째 쿼리는 채택된 답변을 필터링하는 조건이 없고, AcceptedAnswerId가 0보다 큰 경우에 제한하며, 두 번째 쿼리는 OwnerUserId가 특정 사용자와 일치해야 합니다. 그래서 결과가 다릅니다.\"\n}"

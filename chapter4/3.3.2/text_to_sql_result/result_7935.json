@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 코드('parox atr with flutter'와 'parox atrial tachycardia')를 사용하고 있으며, 각각의 쿼리에서 검사 항목 레이블(d_labitems.label)과 미생물 이벤트 유형(microbiologyevents.spec_type_desc)을 조회합니다. 따라서 결과가 서로 다르며, 의미적으로 동일하지 않습니다.\"\n}"

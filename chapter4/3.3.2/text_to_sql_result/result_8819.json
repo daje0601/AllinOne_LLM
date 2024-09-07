@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'lymphoma - nhl'와 'malignancy - lymphoma'라는 서로 다른 진단 이름을 조사하고 있습니다. 따라서 두 쿼리는 서로 다른 결과를 반환할 수 있으며, '악성 종양'('malignancy - lymphoma')의 진단이 포함된 경우와 비포함된 경우에 따라 비용이 다를 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

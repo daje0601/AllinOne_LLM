@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 차이는 diagnosis.diagnosisname에서의 문자열입니다. 첫 번째 쿼리는 'pneumonia - community acquired'를 사용하고, 두 번째 쿼리는 'pneumonia - community-acquired'를 사용합니다. 이 문자열 차이는 쿼리가 반환하는 결과에 영향을 미치며, 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 환자 009-11235의 hospitaladmittime 값이 2104년 이하인 고유한 patienthealthsystemstayid의 개수를 센 후, 그 결과를 반환합니다. 반면 두 번째 쿼리는 환자가 2104년 이하의 hospitaladmittime으로 병원에 입원했는지를 판단하는 boolean 값을 반환하며, 이는 개수를 세는 것이 아니라 존재 여부를 확인하는 것이기 때문에 두 쿼리는 의미적으로 일치하지 않습니다.\"\n}"

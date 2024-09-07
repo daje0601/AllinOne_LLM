@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 동일한 테이블에서 'nhl_team'이 'Pittsburgh Penguins'인 조건을 사용하여 'college_junior_club_team'을 선택합니다. 결과적으로 두 쿼리는 문제에 대한 의미적으로 동일한 결과를 반환합니다.\"\n}"

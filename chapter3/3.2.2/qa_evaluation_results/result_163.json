@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNASKEuIKJk1wGekOTIQHtJxQPpd",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 조선의 첫 해외 파병 시기가 아닌 1876년의 사건을 다루고 있어 질문과 관련성이 낮다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 역사적 사건을 잘못 기술하고 있어 정확성이 매우 낮다. 최초의 해외 파병으로 잘못된 날짜와 사건을 제시하였다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변이 특정 사건만 언급하고 있어 다른 관련 정보는 포함되지 않아 완전성이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 정보의 구조가 약간 혼란스러워 이해하기 어려운 부분이 있지만, 전달하려는 메시지는 꽤 명확하다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 사실관계와 주제가 크게 다르므로 유사성이 매우 낮다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 조선의 첫 해외 파병 시기가 아닌 1876년의 사건을 다루고 있어 질문과 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 역사적 사건을 잘못 기술하고 있어 정확성이 매우 낮다. 최초의 해외 파병으로 잘못된 날짜와 사건을 제시하였다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 특정 사건만 언급하고 있어 다른 관련 정보는 포함되지 않아 완전성이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 정보의 구조가 약간 혼란스러워 이해하기 어려운 부분이 있지만, 전달하려는 메시지는 꽤 명확하다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 사실관계와 주제가 크게 다르므로 유사성이 매우 낮다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222452,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 225,
+        "prompt_tokens": 562,
+        "total_tokens": 787
+    }
+}

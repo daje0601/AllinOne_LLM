@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB19Tergz0aFahrttOITI1cEcQB",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 생선회에서 피가 나오지 않는 이유에 대한 정보를 제공하며, 질문에 잘 연결되어 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정보가 정확하지만, 생선회에서 피가 나오지 않는 주요 원인에 대한 설명이 참조 답변보다 덜 명확하다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 문제의 다양한 측면을 다루었으나, 생선회가 어떻게 준비되는지를 구체적으로 설명하지 않았다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 전반적으로 이해 가능하지만 몇 가지 문장이 다소 복잡하여 명확성이 떨어진다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있으나, 직접적인 설명과 요점 전달에서 차이가 있다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 생선회에서 피가 나오지 않는 이유에 대한 정보를 제공하며, 질문에 잘 연결되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정보가 정확하지만, 생선회에서 피가 나오지 않는 주요 원인에 대한 설명이 참조 답변보다 덜 명확하다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 문제의 다양한 측면을 다루었으나, 생선회가 어떻게 준비되는지를 구체적으로 설명하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 전반적으로 이해 가능하지만 몇 가지 문장이 다소 복잡하여 명확성이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있으나, 직접적인 설명과 요점 전달에서 차이가 있다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222487,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 549,
+        "total_tokens": 772
+    }
+}

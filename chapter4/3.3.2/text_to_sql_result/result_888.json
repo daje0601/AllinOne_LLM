@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문장으로, Location_Code를 기준으로 Document_Locations에서 Location_Code의 개수를 세고 그룹화합니다. 따라서 문제에서 요구하는 '다양한 위치 코드에 대한 문서 수'를 정확히 계산하며 둘 다 의미적으로 동일한 결과를 반환합니다.\"\n}"

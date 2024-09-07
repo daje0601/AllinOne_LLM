@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAHqrjwXTdPcfAWSF84xVZvbUG9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 자동문에 사용되는 센서들에 대한 정보를 제공하므로 질문과 매우 관련이 있습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 정확한 센서들의 종류를 나열하고 있으나, 일부 내용은 참조 답변의 깊이와 정확성에 못 미치는 부분이 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 여러 센서들을 나열했지만, 참조 답변에 비해 몇 가지 센서가 누락되어 있어 정보의 포괄성은 다소 떨어집니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 잘 구성되어 있고 이해하기 쉬우며 센서의 기능을 설명하는 방식도 명확합니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 주제를 다루고 있지만, 센서의 기능 설명에 있어 참조 답변과의 유사성은 낮습니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 자동문에 사용되는 센서들에 대한 정보를 제공하므로 질문과 매우 관련이 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 정확한 센서들의 종류를 나열하고 있으나, 일부 내용은 참조 답변의 깊이와 정확성에 못 미치는 부분이 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 여러 센서들을 나열했지만, 참조 답변에 비해 몇 가지 센서가 누락되어 있어 정보의 포괄성은 다소 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 잘 구성되어 있고 이해하기 쉬우며 센서의 기능을 설명하는 방식도 명확합니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 주제를 다루고 있지만, 센서의 기능 설명에 있어 참조 답변과의 유사성은 낮습니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222441,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 232,
+        "prompt_tokens": 598,
+        "total_tokens": 830
+    }
+}

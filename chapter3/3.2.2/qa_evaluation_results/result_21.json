@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAF0QgPyKHX4C495okOAPYOxnqC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 애드벌룬성 발언에 대한 정의를 명확히 설명하지 않고 대신 역사적 맥락을 제공하여 질문과 관련성이 낮음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 내용 중 '애드벌룬정책'과 'Adams-Onís Treaty'는 잘못된 정보로, 이는 애드벌룬성 발언과 관련이 없음.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델은 용어의 정의를 제공하지 않고 19세기 역사에 대한 배경만 설명하였으므로 불완전함.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 문장은 어느 정도 이해 가능하나, 맥락이 다소 혼란스러워 명확성에서 부족함.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 주제가 다르고, 애드벌룬에 대한 명확한 설명이 없기 때문에 유사성이 매우 낮음.\"},\"average_score\":2.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 애드벌룬성 발언에 대한 정의를 명확히 설명하지 않고 대신 역사적 맥락을 제공하여 질문과 관련성이 낮음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 내용 중 '애드벌룬정책'과 'Adams-Onís Treaty'는 잘못된 정보로, 이는 애드벌룬성 발언과 관련이 없음."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델은 용어의 정의를 제공하지 않고 19세기 역사에 대한 배경만 설명하였으므로 불완전함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 문장은 어느 정도 이해 가능하나, 맥락이 다소 혼란스러워 명확성에서 부족함."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 다르고, 애드벌룬에 대한 명확한 설명이 없기 때문에 유사성이 매우 낮음."
+                    },
+                    "average_score": 2.6
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 473,
+        "total_tokens": 718
+    }
+}

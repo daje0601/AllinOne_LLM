@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'chronic kidney disease - end stage renal disease'와 'esrd (end stage renal disease)'라는 서로 다른 진단명을 사용하고 있습니다. 이들은 의미적으로 비슷할 수 있지만, 데이터베이스에서 정확히 일치하는 진단명을 찾기 때문에 서로 다른 결과를 반환할 수 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

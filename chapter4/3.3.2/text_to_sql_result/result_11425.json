@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query counts male patients diagnosed with 'CORONARY ARTERY DISEASE', while the second query counts male patients diagnosed with 'Anemia in neoplastic disease'. The diagnoses being counted are different, so the two queries do not return the same result.\"\n}"

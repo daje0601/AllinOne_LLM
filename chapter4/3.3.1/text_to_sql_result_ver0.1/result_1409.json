@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 사용된 문자열이 서로 다릅니다. 첫 번째 쿼리는 'quarter-finals women +60kg'를 사용하고, 두 번째 쿼리는 'women +60kg quarterfinal'을 사용합니다. 'quarter-finals'와 'quarterfinal'은 서로 다른 형태의 표현이며, 이는 두 쿼리가 서로 다른 결과를 반환할 수 있음을 나타냅니다.\"\n}"

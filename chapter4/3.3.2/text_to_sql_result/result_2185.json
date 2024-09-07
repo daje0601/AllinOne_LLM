@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단 이름에 사용된 필드가 다릅니다. 생성된 쿼리는 'Complete heart block'을 사용하고, 정답 쿼리는 'Atrioventricular block, complete'을 사용합니다. 이 두 진단명이 서로 다른 진단을 나타내므로, 이 쿼리들이 의미적으로 동일하다고 볼 수 없습니다.\"\n}"

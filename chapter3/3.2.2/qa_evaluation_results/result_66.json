@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAITXWuBPgoMPAiWmZHyno61Pno",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 가죽 제품의 냄새 제거에 대한 다양한 방법을 제시하고 있어 질문과 잘 관련되어 있습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 몇 가지 방법은 불확실하거나 가죽 제품에 적합하지 않을 수 있습니다(예: 바셀린 사용). 반면 참조 답변은 물세탁이라는 실질적인 방법을 제안합니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 방법을 제공하지만, 물세탁과 같은 방법을 포함하지 않아 참조 답변보다 덜 포괄적입니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 방법을 나열하고 있지만, 언어 사용이 다소 복잡해 이해하기 어려운 부분도 존재합니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 가죽 냄새 제거 방법에 대해 언급하고 있으나, 접근 방식이 상당히 다르고, 참조 답변에 제시된 주요 방법과 직접적으로 유사하지 않습니다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 가죽 제품의 냄새 제거에 대한 다양한 방법을 제시하고 있어 질문과 잘 관련되어 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 몇 가지 방법은 불확실하거나 가죽 제품에 적합하지 않을 수 있습니다(예: 바셀린 사용). 반면 참조 답변은 물세탁이라는 실질적인 방법을 제안합니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 방법을 제공하지만, 물세탁과 같은 방법을 포함하지 않아 참조 답변보다 덜 포괄적입니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 방법을 나열하고 있지만, 언어 사용이 다소 복잡해 이해하기 어려운 부분도 존재합니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 가죽 냄새 제거 방법에 대해 언급하고 있으나, 접근 방식이 상당히 다르고, 참조 답변에 제시된 주요 방법과 직접적으로 유사하지 않습니다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 701,
+        "total_tokens": 957
+    }
+}

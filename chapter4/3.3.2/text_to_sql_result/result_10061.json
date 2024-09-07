@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Ground' 컬럼이 'bishop's stoop'인 경기를 찾고 있으며, 두 번째 쿼리는 'Opponent' 컬럼이 'bishop's stortford'인 경기를 찾고 있습니다. 따라서, 이 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

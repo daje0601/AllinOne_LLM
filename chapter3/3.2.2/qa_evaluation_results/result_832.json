@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBPVuOcmAaXmNRmZ3cORSSJzhHg",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에 전혀 관련이 없는 정보를 포함하고 있어 관련성이 매우 낮습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 나이아가라 폭포에 대한 정보는 정확하지만, 한국의 나이아가라에 대한 질문에는 적절하지 않은 정보가 많습니다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문의 요구 사항을 충족하지 못하고, 질문에 직접적인 답변 없이 불필요한 정보로 가득 차 있습니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 상대적으로 문장이 명확하긴 하지만 내용이 질문과 관련이 없기 때문에 이해하기 어렵습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 거의 유사점이 없으며, 질문에 대한 접근 방식이 완전히 다릅니다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에 전혀 관련이 없는 정보를 포함하고 있어 관련성이 매우 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 나이아가라 폭포에 대한 정보는 정확하지만, 한국의 나이아가라에 대한 질문에는 적절하지 않은 정보가 많습니다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문의 요구 사항을 충족하지 못하고, 질문에 직접적인 답변 없이 불필요한 정보로 가득 차 있습니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 상대적으로 문장이 명확하긴 하지만 내용이 질문과 관련이 없기 때문에 이해하기 어렵습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 거의 유사점이 없으며, 질문에 대한 접근 방식이 완전히 다릅니다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222511,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 221,
+        "prompt_tokens": 551,
+        "total_tokens": 772
+    }
+}

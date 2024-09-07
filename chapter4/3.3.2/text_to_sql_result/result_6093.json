@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'All Athletic Complex'라는 야구 스타디움의 수용 인원을 조회하고, 두 번째 쿼리는 'Owl Athletic Complex'의 수용 인원을 조회합니다. 따라서 결과는 서로 다를 것으로 예상됩니다.\"\n}"

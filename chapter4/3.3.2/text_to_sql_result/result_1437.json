@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The two SQL queries are not semantically identical because they refer to different 'Driver' names. The first query looks for 'ivan kapeliš' while the second one searches for 'ivan capelli'. Therefore, they may return different results based on the data in the 'table_11665'.\"\n}"

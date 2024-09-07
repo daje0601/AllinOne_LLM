@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Class A' 값이 'Carthage'인 행에서 'Class AAA' 값을 조회하는 반면, 두 번째 쿼리는 'Class AAAA' 값이 'Carthage'인 행에서 'Class A' 값을 조회합니다. 따라서 두 쿼리는 서로 다른 조건을 가지고 있으며, 조회하는 열도 다릅니다. 이에 따라 결과가 의미적으로 동일하지 않습니다.\"\n}"

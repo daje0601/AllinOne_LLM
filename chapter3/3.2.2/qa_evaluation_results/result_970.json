@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBb4FRvz2x770o7z9ND0fHPsmOH",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 멸균우유와 일반우유의 차이에 대한 질문에 대해 부합하는 정보를 제공합니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변에는 일반우유에 보존제가 포함되어 있다는 주장이 있으나, 이는 일부 국가에서만 해당될 수 있으며, 전반적으로 정확한 정보는 아닙니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 멸균우유와 일반우유의 차이를 여러 측면에서 다루었으나, 영양소 변화에 대한 논의가 부족합니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하나 일부 문장은 복잡하게 느껴질 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 원래 답변과 같은 주제를 다루고 있으나, 내용 구성과 특정 정보가 다르기 때문에 유사성 점수는 중간입니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 멸균우유와 일반우유의 차이에 대한 질문에 대해 부합하는 정보를 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변에는 일반우유에 보존제가 포함되어 있다는 주장이 있으나, 이는 일부 국가에서만 해당될 수 있으며, 전반적으로 정확한 정보는 아닙니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 멸균우유와 일반우유의 차이를 여러 측면에서 다루었으나, 영양소 변화에 대한 논의가 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하나 일부 문장은 복잡하게 느껴질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 원래 답변과 같은 주제를 다루고 있으나, 내용 구성과 특정 정보가 다르기 때문에 유사성 점수는 중간입니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222523,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 697,
+        "total_tokens": 932
+    }
+}

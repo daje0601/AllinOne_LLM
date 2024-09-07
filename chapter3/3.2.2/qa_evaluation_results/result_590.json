@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB5cAUPCGPUNxWgyFdi4tjfUBIr",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 미술관에서 작품을 설명하는 사람을 다루고 있지만, 도슨트라는 용어를 명확히 언급하지 않고 여러 직업을 나열했습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 언급한 학예가, 큐레이터, 아트 에디터는 관련 직업이지만, 질문에 대한 직접적인 답변인 '도슨트'에 비해 일부 정확성에 결여가 있습니다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 직업을 포함하고 있지만, 질문에 대한 핵심인 도슨트에 대한 정보는 부족하여 포괄적이지 못합니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 각 직업에 대한 설명이 있어 이해하기 어렵지 않지만, 질문에 명확하게 의도한 답변은 아닙니다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 다르게 도슨트에 집중하지 않고, 다양한 직업을 나열함으로써 유사성이 낮습니다.\"},\"average_score\":5.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 미술관에서 작품을 설명하는 사람을 다루고 있지만, 도슨트라는 용어를 명확히 언급하지 않고 여러 직업을 나열했습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 언급한 학예가, 큐레이터, 아트 에디터는 관련 직업이지만, 질문에 대한 직접적인 답변인 '도슨트'에 비해 일부 정확성에 결여가 있습니다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 직업을 포함하고 있지만, 질문에 대한 핵심인 도슨트에 대한 정보는 부족하여 포괄적이지 못합니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 각 직업에 대한 설명이 있어 이해하기 어렵지 않지만, 질문에 명확하게 의도한 답변은 아닙니다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 다르게 도슨트에 집중하지 않고, 다양한 직업을 나열함으로써 유사성이 낮습니다."
+                    },
+                    "average_score": 5.4
+                }
+            }
+        }
+    ],
+    "created": 1723222491,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 267,
+        "prompt_tokens": 434,
+        "total_tokens": 701
+    }
+}

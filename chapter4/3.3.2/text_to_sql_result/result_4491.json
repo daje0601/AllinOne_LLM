@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Seasons and winners'의 조건이 다르기 때문에 의미적으로 동일하지 않습니다. 첫 번째 쿼리는 'Season 1, 2006: Lucy Benjamin'을 사용하고, 두 번째 쿼리는 'Series 1, 2006: Lucy Benjamin'을 사용합니다. 'Season'과 'Series'는 서로 다른 의미를 가지므로, 결과가 다를 수 있습니다.\"\n}"

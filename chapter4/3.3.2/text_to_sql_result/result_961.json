@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기준을 사용하여 결과를 필터링합니다. 첫 번째 쿼리는 'Candidates' 필드를 기준으로 필터링하여 'William Madison Whittington'이 후보로 출마한 결과를 찾고, 두 번째 쿼리는 'Incumbent' 필드를 기준으로 필터링하여 'William Madison Whittington'이 현직자일 때의 결과를 찾습니다. 따라서 한 쿼리는 출마한 후보의 결과를, 다른 쿼리는 현직자의 결과를 반환하므로 의미적으로 동일하지 않습니다.\"\n}"

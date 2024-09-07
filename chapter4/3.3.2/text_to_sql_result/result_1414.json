@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 이름을 기준으로 필터링하고 있습니다. 첫 번째 쿼리는 'canarian union of workers' parties'라는 이름을 조회하고, 두 번째 쿼리는 'canarian workers socialist union'을 조회합니다. 이 두 이름은 서로 다른 조직을 나타낼 가능성이 높으므로, 결과 자연스럽게 다를 것입니다.\"\n}"

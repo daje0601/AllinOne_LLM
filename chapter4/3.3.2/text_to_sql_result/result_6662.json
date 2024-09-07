@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. SQL 쿼리의 구조와 내용이 완전히 일치하여 두 쿼리 모두 'Region (year)'가 'mississippi (2010)'인 레코드에서 'No. 1' 열의 값을 선택하게 됩니다.\"\n}"

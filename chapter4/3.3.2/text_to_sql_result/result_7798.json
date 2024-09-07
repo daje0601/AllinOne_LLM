@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'discharge_location'이 'HOME'인 환자를 카운트하는 동일한 목적을 가지고 하지만, 'procedures.long_title'과 'procedures.short_title'에 사용된 값이 다릅니다. 첫 번째 쿼리는 대뇌 혈관 조영술의 긴 제목을 사용하고, 두 번째 쿼리는 짧은 제목을 사용합니다. 이로 인해 반환되는 환자 수가 다를 수 있으며, 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

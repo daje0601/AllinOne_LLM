@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAzL2SPhDqXDcKPAvWzBpnKWqRQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 별을 뾰족하게 그리는 이유에 대한 여러 가지 의견을 제시하고 있지만, 주제와 약간의 괴리가 있으며, 참조 답변의 구체적인 내용을 포함하지 못함.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 별의 모양에 대한 실제 천문학적 반응이나 빛의 특성에 대한 설명이 불명확하고 비과학적이며, 참조 답변의 표현보다는 정확성이 떨어짐.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 다양한 이유를 언급하지만, 그 이유들이 과학적 근거가 부족하고, 참조 답변에 비해 포괄적인 설명이 아니라 단편적.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 문장은 이해할 수 있으나, 간결하지 않고 중복되는 표현이 있어 상대적으로 명확성이 떨어짐.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 낮고, 주제에 대한 접근 방식이 다름.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 별을 뾰족하게 그리는 이유에 대한 여러 가지 의견을 제시하고 있지만, 주제와 약간의 괴리가 있으며, 참조 답변의 구체적인 내용을 포함하지 못함."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 별의 모양에 대한 실제 천문학적 반응이나 빛의 특성에 대한 설명이 불명확하고 비과학적이며, 참조 답변의 표현보다는 정확성이 떨어짐."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 다양한 이유를 언급하지만, 그 이유들이 과학적 근거가 부족하고, 참조 답변에 비해 포괄적인 설명이 아니라 단편적."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 문장은 이해할 수 있으나, 간결하지 않고 중복되는 표현이 있어 상대적으로 명확성이 떨어짐."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 낮고, 주제에 대한 접근 방식이 다름."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222485,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 268,
+        "prompt_tokens": 511,
+        "total_tokens": 779
+    }
+}

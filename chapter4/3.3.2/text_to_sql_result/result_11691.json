@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 같은 SELECT 구문을 사용하고 있습니다. SCHOOL_CODE별로 DEPT_NAME의 개수를 세는 동일한 목적을 가지고 있으며, DISTINCT를 사용하여 중복된 DEPT_NAME을 제외하여 정확한 학과 수를 구하고 있습니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

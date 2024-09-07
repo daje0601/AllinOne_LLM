@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAyf6zISed36toQEKSs7RodEfVh",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 질문에 대한 답변을 제공하지 않으며, 면적이 가장 큰 비행장에 대한 정보가 틀린 화력을 하고 있다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델에서 언급한 비행장은 사실과 다르고, 면적 순위와 활주로의 수 또한 부정확하다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델 답변은 질문에 대한 직접적인 답변이 없고, 추가 정보를 제공하지만 질문의 요구에 맞지 않아서 그다지 포괄적이지 않다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로 이해할 수 있으나, 정보가 부정확하기 때문에 독자가 혼란스러울 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 유사하지 않으며 비슷한 비행장 면적 리스트를 제공하지 않는다.\"},\"average_score\":3.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 질문에 대한 답변을 제공하지 않으며, 면적이 가장 큰 비행장에 대한 정보가 틀린 화력을 하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델에서 언급한 비행장은 사실과 다르고, 면적 순위와 활주로의 수 또한 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델 답변은 질문에 대한 직접적인 답변이 없고, 추가 정보를 제공하지만 질문의 요구에 맞지 않아서 그다지 포괄적이지 않다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로 이해할 수 있으나, 정보가 부정확하기 때문에 독자가 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 유사하지 않으며 비슷한 비행장 면적 리스트를 제공하지 않는다."
+                    },
+                    "average_score": 3.0
+                }
+            }
+        }
+    ],
+    "created": 1723222484,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 817,
+        "total_tokens": 1048
+    }
+}

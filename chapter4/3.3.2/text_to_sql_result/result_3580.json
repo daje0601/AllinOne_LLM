@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. '생성된 쿼리'와 '정답 쿼리'는 문법적으로 정확히 동일하며, 모두 'Wrestler' 열이 'maria'인 행의 'Elimination Move' 값을 선택하는 SQL 쿼리입니다.\"\n}"

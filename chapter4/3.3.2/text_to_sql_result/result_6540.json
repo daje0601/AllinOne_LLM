@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 팀과 드라이버를 참조하고 있습니다. 생성된 쿼리는 'George Brough Racing'의 'Denis Healy'를 대상으로 하고 있는 반면, 정답 쿼리는 'Joe Gibbs Racing'의 'Denny Hamlin'을 대상으로 하고 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

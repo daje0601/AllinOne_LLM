@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'publication.reference_num > 10' 조건을 추가하여 이제 2016년에 PVLDB 저널에 발표된 논문의 reference_num이 10보다 많은 논문들을 반환합니다. 반면 두 번째 쿼리는 'publication.title'의 DISTINCT COUNT를 사용하여 발표된 논문의 수를 기준으로 합니다. 이로 인해 두 쿼리는 반환하는 결과가 다를 수 있습니다. 즉, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

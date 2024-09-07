@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일한 SQL 문입니다. 동일한 테이블과 같은 조건(incumbent = 'Jerry Kleczka')을 사용하여 동일한 결과를 가져옵니다.\"\n}"

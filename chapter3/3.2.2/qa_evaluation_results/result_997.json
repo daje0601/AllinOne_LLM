@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBdB5IoUzfq8h5fsNFuoBp2u2eu",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문에 대해 밀집날개갯지렁이 서관이라는 정확한 생물을 언급하였고, 갯벌에서 관 형태의 생물에 대한 질문에 완벽하게 부합한다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 대부분 정확하지만, '피부를 벗어나 몸의 일부가 되었다'는 설명은 잘못된 것으로, 집은 생물의 몸에서 분비된 물질로 만들어진다는 점에서 정보의 정확도가 떨어진다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 생물의 서관에 대한 기본적인 정보를 제공하지만, 밀짚대롱 같은 집을 짓는 방식과 다루는 방법에 대한 정보가 부족하여 완전성을 저해한다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 명확하지만, 몇몇 표현이 모호하여 이해하는 데 다소 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변과 유사한 정보를 제공하나, 내용의 깊이나 구체성에서 차이가 있어 완전한 유사성은 없다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문에 대해 밀집날개갯지렁이 서관이라는 정확한 생물을 언급하였고, 갯벌에서 관 형태의 생물에 대한 질문에 완벽하게 부합한다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대부분 정확하지만, '피부를 벗어나 몸의 일부가 되었다'는 설명은 잘못된 것으로, 집은 생물의 몸에서 분비된 물질로 만들어진다는 점에서 정보의 정확도가 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 생물의 서관에 대한 기본적인 정보를 제공하지만, 밀짚대롱 같은 집을 짓는 방식과 다루는 방법에 대한 정보가 부족하여 완전성을 저해한다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 명확하지만, 몇몇 표현이 모호하여 이해하는 데 다소 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 정보를 제공하나, 내용의 깊이나 구체성에서 차이가 있어 완전한 유사성은 없다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 294,
+        "prompt_tokens": 560,
+        "total_tokens": 854
+    }
+}

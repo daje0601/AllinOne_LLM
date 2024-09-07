@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 둘 다 'table_name_96' 테이블에서 college가 'virginia'인 선수의 position을 선택하는 동일한 SQL 쿼리로, 결과적으로 동일한 결과를 반환합니다.\"\n}"

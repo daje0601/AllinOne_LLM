@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 SELECT 절에서 참조하는 열 이름에서 차이가 있습니다. 첫 번째 쿼리는 'London, Great Britain'을 선택하려고 하고, 두 번째 쿼리는 'London , Great Britain'을 선택하려고 합니다. 공백의 유무로 인해 두 컬럼은 서로 다르며, 이로 인해 쿼리의 결과가 동일하지 않게 됩니다.\"\n}"

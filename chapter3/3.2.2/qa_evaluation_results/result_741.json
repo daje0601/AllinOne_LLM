@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBI8ndkC9vOuPKcBMFQSWcF7VM2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변이 질문에 대한 일부 반칙을 언급하고 있으나, K-1과 프라이드의 관련된 금지 반칙 목록이 완전하지 않고, 주요 사항들이 누락되었다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 여러 가지 반칙을 열거했지만, 많은 내용이 정확하지 않거나 실제 룰과 맞지 않다. 예를 들어, 경기 중 주먹을 내민 채로 움직이는 것으로 구별하는 부분은 사실과 다르다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 여러 금지 반칙을 나열했으나, K-1과 프라이드에서의 주요 반칙의 목록이 부족하여 질문에 대한 충분한 정보를 제공하지 못했다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 다소 복잡하게 작성되어 있지만, 각 항목 번호로 나열된 형식 덕분에 읽기는 수월했다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 K-1과 프라이드의 규칙을 언급하고 있으나, 참조 답변과는 다르며 주요 사항들이 다르게 표현되어 유사성이 낮다.\"},\"average_score\":5.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 질문에 대한 일부 반칙을 언급하고 있으나, K-1과 프라이드의 관련된 금지 반칙 목록이 완전하지 않고, 주요 사항들이 누락되었다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 여러 가지 반칙을 열거했지만, 많은 내용이 정확하지 않거나 실제 룰과 맞지 않다. 예를 들어, 경기 중 주먹을 내민 채로 움직이는 것으로 구별하는 부분은 사실과 다르다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 여러 금지 반칙을 나열했으나, K-1과 프라이드에서의 주요 반칙의 목록이 부족하여 질문에 대한 충분한 정보를 제공하지 못했다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 다소 복잡하게 작성되어 있지만, 각 항목 번호로 나열된 형식 덕분에 읽기는 수월했다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 K-1과 프라이드의 규칙을 언급하고 있으나, 참조 답변과는 다르며 주요 사항들이 다르게 표현되어 유사성이 낮다."
+                    },
+                    "average_score": 5.4
+                }
+            }
+        }
+    ],
+    "created": 1723222504,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 296,
+        "prompt_tokens": 841,
+        "total_tokens": 1137
+    }
+}

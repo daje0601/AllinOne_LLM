@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'short_title'과 'long_title'을 사용하고 있습니다. 첫 번째 쿼리는 'Endosc destruc lesion NEC'를 조건으로 사용하고, 두 번째 쿼리는 'Endoscopic excision or destruction of lesion or tissue of stomach'를 사용하고 있습니다. 따라서 두 조건이 서로 다른 의미를 가질 가능성이 높아, 두 쿼리가 의미적으로 동일한 결과를 반환한다고 볼 수 없습니다.\"\n}"

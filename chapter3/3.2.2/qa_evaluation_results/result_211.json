@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAWnfoAemm6dhIpKN5GVcxKZWYV",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 직접적으로 관련된 내용을 다루고 있으며 소의 우유 생산과 인간 소비에 대한 설명을 제공합니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델은 우유의 생산량에 대한 정보를 제공하나, 일부 정보는 참조 답변에 비해 간략하거나 조금 덜 정확합니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 우유 생산과 소비에 관한 기본적인 정보를 제공하나, 참조 답변에 비해 세부 사항이 부족하거나 특정 주제를 더 깊게 다루지 못하고 있습니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 명확하고 이해하기 쉬운 구조를 가지고 있으며, 전문 용어 사용이 적어 일반 독자도 쉽게 이해할 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변의 핵심 내용을 다루고 있으나, 언어 선택이나 세부 사항에서 차이가 있어 유사도는 높지 않습니다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 직접적으로 관련된 내용을 다루고 있으며 소의 우유 생산과 인간 소비에 대한 설명을 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델은 우유의 생산량에 대한 정보를 제공하나, 일부 정보는 참조 답변에 비해 간략하거나 조금 덜 정확합니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 우유 생산과 소비에 관한 기본적인 정보를 제공하나, 참조 답변에 비해 세부 사항이 부족하거나 특정 주제를 더 깊게 다루지 못하고 있습니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 명확하고 이해하기 쉬운 구조를 가지고 있으며, 전문 용어 사용이 적어 일반 독자도 쉽게 이해할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변의 핵심 내용을 다루고 있으나, 언어 선택이나 세부 사항에서 차이가 있어 유사도는 높지 않습니다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222456,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 248,
+        "prompt_tokens": 794,
+        "total_tokens": 1042
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAcZIUi7QFUu5oqSMkK69TRp7me",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문의 핵심인 별의 역할에 대해 여러 가지 측면에서 설명하고 있어 관련성이 높습니다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델이 제공한 정보는 전반적으로 정확하지만, 중력에 항성을 띄어내는 개념이 약간 모호하게 표현되어 있어 일부는 명확하지 않을 수 있습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 다양한 측면에서 별의 활동을 설명하였으나, 단순한 별의 생명 주기와 그에 따른 중요성에 대한 설명 부족으로 인해 상대적으로 완전성에서 아쉬움이 있습니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 여러 요소를 나열하고 있지만, 각 요소의 설명이 다소 간결하며 복잡하게 느껴질 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 동일한 주제를 다루지만, 접근 방식과 정보의 구조가 다르기 때문에 유사성이 낮습니다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문의 핵심인 별의 역할에 대해 여러 가지 측면에서 설명하고 있어 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델이 제공한 정보는 전반적으로 정확하지만, 중력에 항성을 띄어내는 개념이 약간 모호하게 표현되어 있어 일부는 명확하지 않을 수 있습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 다양한 측면에서 별의 활동을 설명하였으나, 단순한 별의 생명 주기와 그에 따른 중요성에 대한 설명 부족으로 인해 상대적으로 완전성에서 아쉬움이 있습니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 여러 요소를 나열하고 있지만, 각 요소의 설명이 다소 간결하며 복잡하게 느껴질 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 동일한 주제를 다루지만, 접근 방식과 정보의 구조가 다르기 때문에 유사성이 낮습니다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222462,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 257,
+        "prompt_tokens": 672,
+        "total_tokens": 929
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and will return the same result. They both select the 'Engine' column from the 'table_79885' where the 'Year' is equal to '1960'. Therefore, they are semantically equivalent.\"\n}"

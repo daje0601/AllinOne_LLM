@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 GROUP BY 절에서 T1.customer_id를 사용하고 있지만, ORDER BY 절에서는 T2.customer_last_name을 사용하고 있습니다. 이는 고객별 계정 수를 제대로 세지 못하고, 고객 ID로 그룹화한 후 다시 성으로 정렬하는 것이 아닌 고객 ID 기준으로 GROUP BY한 결과에 대해 성(last name)으로 정렬하는 것이므로, 잘못된 GROUP BY 기준을 사용하고 있습니다. 정답 쿼리는 'customer_last_name'을 GROUP BY 하지 않고 COUNT를 제대로 세어서 성으로 그룹화하고 정렬할 수 있도록 되어 있습니다.\"\n}"

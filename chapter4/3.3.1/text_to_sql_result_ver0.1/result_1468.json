@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Poll' 조건의 값이 다릅니다. 첫 번째 쿼리는 'usa today/ESPN coaches'' poll (top 25)'를 사용하고, 두 번째 쿼리는 'usa today/espn coaches'' poll (top 25)'를 사용합니다. 대소문자 차이가 있으며 이는 SQL에서는 일반적으로 구분되므로 두 쿼리는 서로 다른 결과를 반환할 것입니다.\"\n}"

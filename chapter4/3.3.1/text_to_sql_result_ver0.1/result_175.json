@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일합니다. 두 쿼리 모두 'CA210'인 'Production code'를 가진 에피소드의 'Original air date'의 개수를 세고 있으므로, 의미적으로 동일한 결과를 반환합니다.\"\n}"

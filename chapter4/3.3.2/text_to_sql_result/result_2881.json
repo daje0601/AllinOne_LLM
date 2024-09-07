@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 'Cell type' 값을 사용하고 있습니다. 하나는 'intermediate large myelinated fibre'를 필터링하고, 다른 하나는 'median giant fiber'를 필터링합니다. 따라서 이 쿼리들은 서로 다른 데이터를 참조하고, 문제에서 요구하는 조건을 충족하지 않기 때문에 의미적으로 동일하지 않습니다.\"\n}"

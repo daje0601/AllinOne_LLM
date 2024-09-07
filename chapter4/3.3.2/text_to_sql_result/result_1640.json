@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'Content'와 'Television service'의 값이 다릅니다. 첫 번째 쿼리는 'Content'가 'movies'이고 'Television service'는 'sky cinema fashion hd'인 반면, 두 번째 쿼리는 'Content'가 'cinema'이고 'Television service'는 'sky cinema passion hd'입니다. 이로 인해 두 쿼리가 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 각각의 쿼리는 'PNEUMONIA;HUMAN IMMUNODEFIENCY VIRUS;RULE OUT TUBERCULOSIS'라는 진단을 가진 환자 중에서 2173년 이전 또는 그 해에 사망한 환자 수를 세고 있으며, 사용된 조건과 문법이 일치하여 의미적으로 동일한 결과를 반환합니다.\"\n}"

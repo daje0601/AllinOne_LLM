@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBXFGnx4qeAYvxE40v1HLBUkoIo",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 심장과 간에 좋은 음식을 언급하며, 여러 영양소와 그 출처도 제시하고 있어 관련성이 높음.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델이 제공한 대부분의 정보는 참조 답변과 일치하지만, 특정 음식 목록 일부가 누락되어 있거나 다른 음식이 중복됨.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 다양한 비타민과 미네랄을 언급하지만, 간과 심장에 좋은 음식의 전체 목록과 조리법에 대한 설명은 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하며, 각 영양소가 어떤 음식에 포함되어 있는지를 알기 쉽게 설명하고 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사하지만, 구성이나 표현 방식이 다르며, 참조 답변의 구체적인 식품 목록을 제공하지 않음.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 심장과 간에 좋은 음식을 언급하며, 여러 영양소와 그 출처도 제시하고 있어 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델이 제공한 대부분의 정보는 참조 답변과 일치하지만, 특정 음식 목록 일부가 누락되어 있거나 다른 음식이 중복됨."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 다양한 비타민과 미네랄을 언급하지만, 간과 심장에 좋은 음식의 전체 목록과 조리법에 대한 설명은 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하며, 각 영양소가 어떤 음식에 포함되어 있는지를 알기 쉽게 설명하고 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사하지만, 구성이나 표현 방식이 다르며, 참조 답변의 구체적인 식품 목록을 제공하지 않음."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222519,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 248,
+        "prompt_tokens": 804,
+        "total_tokens": 1052
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 마지막 WHERE 절에서 차이가 있습니다. 첫 번째 쿼리는 'SEMESTER'라는 조건으로 마무리되며, 두 번째 쿼리는 'SEMESTERalias0.semester_id = COURSE_OFFERINGalias0.semester'로 마무리됩니다. 이는 각각의 쿼리가 semester를 어떻게 조건으로 사용하느냐에 차이가 있기 때문에, 결과적으로 같은 결과를 보장하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 groupyear에 대해 곡의 수를 세고, 가장 많은 곡이 발매된 해를 찾는 기능을 수행합니다. 'ORDER BY COUNT(*)'와 'ORDER BY COUNT(groupname)'은 모두 해당 연도에 속하는 행의 수를 세기 때문에, 의미적으로 동일한 결과를 반환합니다.\"\n}"

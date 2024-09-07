@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAFzttIX7TvZNdc3mMmTZyfnTa8",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 장락문의 홈에 대한 질문에 대해 관련성이 낮습니다. 홈의 이유를 잘못 설명하고 있으며, 초헌과 관련된 정보가 언급되지 않았습니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변은 실제 사실관계와 어긋납니다. 홈이 파여진 이유에 대한 정보가 부정확하며, 문과 바닥 구조의 변경에 대한 정보가 사실과 맞지 않습니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변이 홈을 파여진 이유를 제공하지 않고, 관련된 중요한 정보를 결여하고 있습니다. 초헌과의 연관성을 설명하지 않아 이해가 어렵습니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 다소 이해하기 어려운 문장 구조가 있으며, 의미가 명확하지 않습니다. 그러나 전반적으로 어느 정도의 논리 흐름이 존재합니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 거의 유사한 점이 없습니다. 주제 역시 다르며, 제시된 정보와 맥락도 크게 상이합니다.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 장락문의 홈에 대한 질문에 대해 관련성이 낮습니다. 홈의 이유를 잘못 설명하고 있으며, 초헌과 관련된 정보가 언급되지 않았습니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 실제 사실관계와 어긋납니다. 홈이 파여진 이유에 대한 정보가 부정확하며, 문과 바닥 구조의 변경에 대한 정보가 사실과 맞지 않습니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변이 홈을 파여진 이유를 제공하지 않고, 관련된 중요한 정보를 결여하고 있습니다. 초헌과의 연관성을 설명하지 않아 이해가 어렵습니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 다소 이해하기 어려운 문장 구조가 있으며, 의미가 명확하지 않습니다. 그러나 전반적으로 어느 정도의 논리 흐름이 존재합니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 거의 유사한 점이 없습니다. 주제 역시 다르며, 제시된 정보와 맥락도 크게 상이합니다."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222439,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 276,
+        "prompt_tokens": 649,
+        "total_tokens": 925
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'admission_location'이 'NEWBORN UNIT'이고 'discharge_location'이 'DISCH-TRAN TO CHRNR HOSP'인 경우를 포함하고 있으며, 두 번째 쿼리는 'admission_type'이 'NEWBORN'이고 'discharge_location'이 'DISC-TRAN CANCER/CHLDRN H'인 경우를 포함하고 있습니다. 따라서 동일한 의미를 가진 쿼리가 아닙니다.\"\n}"

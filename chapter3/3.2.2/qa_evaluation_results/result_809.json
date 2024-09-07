@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBOzxpui6a6WboLMAYZ1FbqcGTq",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변이 한국 계란의 색깔과 관련된 정보는 포함하고 있지만, 질문에서 묻는 갈색 계란의 이유에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 설명한 카로티노이드와 난황색, 난백색에 대한 정보는 정확하지만, 닭의 귓불 및 품종 설명 등 다른 중요한 부분은 누락되어 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 계란 색깔의 요소를 설명하지만, 한국 계란 시장의 변화와 백색 계란에 대한 정보는 포함되지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 다소 중복된 내용이 있어 간결함이 떨어진다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변과 참조 답변은 서로 다른 포인트에 초점을 맞추고 있어, 정보의 일치성이 떨어진다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변이 한국 계란의 색깔과 관련된 정보는 포함하고 있지만, 질문에서 묻는 갈색 계란의 이유에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 설명한 카로티노이드와 난황색, 난백색에 대한 정보는 정확하지만, 닭의 귓불 및 품종 설명 등 다른 중요한 부분은 누락되어 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 계란 색깔의 요소를 설명하지만, 한국 계란 시장의 변화와 백색 계란에 대한 정보는 포함되지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 다소 중복된 내용이 있어 간결함이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변과 참조 답변은 서로 다른 포인트에 초점을 맞추고 있어, 정보의 일치성이 떨어진다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222510,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 752,
+        "total_tokens": 997
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBDPFMYKtp5sQ256xbNgLdhMBqa",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 '술'의 어원과 역사에 대해 설명하고 있으나, 참조 답변에서 다루어진 '수블'이나 '수불'에 관한 내용은 포함되어 있지 않다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델은 '술'의 어원에 대해 잘못된 해석을 제공하고 있으며, 참조 답변의 내용과 비교할 때 어원이 다르게 설명되고 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 술의 종류와 의학적 효능 등에 대해서도 언급하지만, 질문의 핵심인 어원 및 역사에 대한 부분이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉬운 표현을 사용하고 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 다소 유사한 주제를 다루고 있으나, 내용이 크게 다른 점이 많아 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 '술'의 어원과 역사에 대해 설명하고 있으나, 참조 답변에서 다루어진 '수블'이나 '수불'에 관한 내용은 포함되어 있지 않다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델은 '술'의 어원에 대해 잘못된 해석을 제공하고 있으며, 참조 답변의 내용과 비교할 때 어원이 다르게 설명되고 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 술의 종류와 의학적 효능 등에 대해서도 언급하지만, 질문의 핵심인 어원 및 역사에 대한 부분이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉬운 표현을 사용하고 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 다소 유사한 주제를 다루고 있으나, 내용이 크게 다른 점이 많아 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222499,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 250,
+        "prompt_tokens": 935,
+        "total_tokens": 1185
+    }
+}

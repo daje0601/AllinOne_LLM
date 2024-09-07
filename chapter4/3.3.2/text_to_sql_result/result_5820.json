@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Hendrick Motorsports'의 출전 횟수를 세기 위해 'COUNT(\\\"Starts\\\")'를 사용하여 해당 팀의 시작 수를 카운트합니다. 반면, 두 번째 쿼리는 'MIN(\\\"Starts\\\")'를 사용하여 'Hendrick Motorsports'의 최소 출전 횟수를 반환합니다. 따라서 두 쿼리는 서로 다른 의미를 가지며 동일한 결과를 반환하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 모두 wrestler 테이블에서 Reign과 Days_held 컬럼을 선택하고 있어 결과적으로 동일한 정보를 반환합니다.\"\n}"

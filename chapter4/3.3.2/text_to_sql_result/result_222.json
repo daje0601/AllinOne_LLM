@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 치료 이름을 사용하고 있습니다. 첫 번째 쿼리는 'hypernatremia - desmopressin therapy'를 필터링하는 반면, 두 번째 쿼리는 'treatment of hypernatremia - desmopressin'을 사용하는데, 이는 두 쿼리가 의미적으로 동일하지 않다는 것을 의미합니다.\"\n}"

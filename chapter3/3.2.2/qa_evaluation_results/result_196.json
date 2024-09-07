@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAVTbdxk1J9neag8gPHjf5DI7a3",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변이 질문과 일부 관련이 있지만, 방울 뱀이 꼬리를 흔드는 주된 이유에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 정보는 방울 뱀의 생리적 기능을 다루지만, 꼬리를 흔드는 이유에 대한 정확한 설명이 없다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델 답변은 여러 기능을 언급하지만, 질문의 핵심인 꼬리 소리 발생의 이유와 경고 기능에 대해 언급하지 않았다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽지만, 논리적인 흐름이 약해 주제가 분산되어 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 관련된 내용이 없고, 방울 뱀의 꼬리 흔들기에 대한 설명이 다르다.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 질문과 일부 관련이 있지만, 방울 뱀이 꼬리를 흔드는 주된 이유에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 정보는 방울 뱀의 생리적 기능을 다루지만, 꼬리를 흔드는 이유에 대한 정확한 설명이 없다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델 답변은 여러 기능을 언급하지만, 질문의 핵심인 꼬리 소리 발생의 이유와 경고 기능에 대해 언급하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽지만, 논리적인 흐름이 약해 주제가 분산되어 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 관련된 내용이 없고, 방울 뱀의 꼬리 흔들기에 대한 설명이 다르다."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222455,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 714,
+        "total_tokens": 945
+    }
+}

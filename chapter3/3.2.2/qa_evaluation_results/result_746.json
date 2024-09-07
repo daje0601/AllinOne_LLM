@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBIzGbO2oiTf42mFdyQ1sIY87nA",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변이 쌍둥이와 혈액형에 대한 질문의 일부를 언급하고 있으나, 내용의 초점이 다소 벗어나 있어 질문과의 관련성이 떨어진다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델 답변은 혈액형에 대한 정보가 정확하지 않으며, 쌍둥이 혈액형 간의 확률관계에 대한 팩트가 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델 답변은 쌍둥이와 혈액형에 대해 일부 정보는 제공하지만, 1란성 및 2란성 쌍둥이의 혈액형 차이에 대한 핵심적인 내용을 포함하고 있지 않아 완전성에서 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 대체로 이해할 수 있으나, 전문용어나 논리적 흐름이 다소 복잡하여 명확성이 떨어지는 부분이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제는 일부 유사하나, 주 내용이 크게 달라 유사성이 낮다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 쌍둥이와 혈액형에 대한 질문의 일부를 언급하고 있으나, 내용의 초점이 다소 벗어나 있어 질문과의 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델 답변은 혈액형에 대한 정보가 정확하지 않으며, 쌍둥이 혈액형 간의 확률관계에 대한 팩트가 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델 답변은 쌍둥이와 혈액형에 대해 일부 정보는 제공하지만, 1란성 및 2란성 쌍둥이의 혈액형 차이에 대한 핵심적인 내용을 포함하고 있지 않아 완전성에서 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 대체로 이해할 수 있으나, 전문용어나 논리적 흐름이 다소 복잡하여 명확성이 떨어지는 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 일부 유사하나, 주 내용이 크게 달라 유사성이 낮다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222504,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 285,
+        "prompt_tokens": 687,
+        "total_tokens": 972
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'college_or_campus_name' 값을 기준으로 필터링하고 있습니다. 첫 번째 쿼리는 'anna university, coimbatore'를, 두 번째 쿼리는 'anna university college of engineering tindivanam'를 찾고 있습니다. 따라서 서로 다른 결과를 반환할 것입니다.\"\n}"

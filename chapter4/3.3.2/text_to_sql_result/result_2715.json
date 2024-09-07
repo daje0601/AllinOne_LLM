@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 Hometown 문자열을 사용하고 있습니다. 첫 번째 쿼리는 'Dallas, Texas'를 사용하고, 두 번째 쿼리는 'Dallas, TX'를 사용하고 있습니다. 'Texas'와 'TX'는 서로 다른 표기법이므로, 결과가 동일하지 않을 것입니다.\"\n}"

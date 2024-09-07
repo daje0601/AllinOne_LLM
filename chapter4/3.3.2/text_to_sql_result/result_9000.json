@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리의 WHERE 절에서 사용된 stopping_pattern의 문자열이 서로 다릅니다. 첫 번째 쿼리는 'all stations a, b, p'를 사용하고, 두 번째 쿼리는 'all stations, a, b, p'를 사용합니다. 두 패턴이 잘못된지 아닌지는 문제의 문맥에 따라 다를 수 있지만, 현재 상태로는 두 쿼리가 반환하는 결과는 의미적으로 동일하지 않다고 판단됩니다.\"\n}"

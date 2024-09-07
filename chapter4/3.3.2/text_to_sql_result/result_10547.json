@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다릅니다. 첫 번째 쿼리는 항공편 정보만 반환하며, 'flight_id', 'airline_code', 'flight_number'를 선택합니다. 반면 두 번째 쿼리는 항공편 정보와 함께 요금 관련 정보도 포함하여 'fare_id', 'airline_code', 'flight_id'를 선택합니다. 또한, 두 번째 쿼리는 Fare 테이블과 Flight Fare 테이블을 추가로 조인하여 요금을 포함시킵니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

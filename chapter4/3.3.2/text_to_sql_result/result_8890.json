@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Encephalopathy, unspecified'라는 긴 제목(long_title)을 기준으로 환자를 counting하고, 두 번째 쿼리는 'Encephalopathy NOS'라는 짧은 제목(short_title)을 기준으로 환자를 counting하고 있습니다. 두 제목이 서로 다른 경우가 있을 수 있으므로, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

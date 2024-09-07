@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Points awarded (Platinum)'의 개수를 계산하여 반환하는 반면, 두 번째 쿼리는 'Points awarded (Platinum)' 값 자체를 반환합니다. 즉, 첫 번째 쿼리는 수량을 세고, 두 번째 쿼리는 특정 값을 가져오는 것이라 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기준을 사용하여 환자를 선택하고 있습니다. '정답 쿼리'에서는 'Other closed [endoscopic] biopsy of biliary duct or sphincter of Oddi'라는 특정한 절차적 설명을 요구하지만, '생성된 쿼리'에서는 'Closed [endosc] cholangio'라는 전혀 다른 절차적 설명을 기준으로 하고 있습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

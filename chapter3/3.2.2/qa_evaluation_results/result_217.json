@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAX0HCxzNmnD6Kpg942o5FDaSNe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 베를린 국회의사당의 붉은 깃발에 대한 질문에 응답했지만, 질문의 맥락과 주제와는 다소 거리가 있다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 답변에서는 과거의 사건과 인물에 대한 정보를 잘못 제공하고 있어, 사실관계가 정확하지 않다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 질문에 대한 부분적으로 응답했지만, 질문의 모든 요소를 다루지 않았다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해하기 어렵지 않지만, 일부 정보는 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 구조 및 내용에서 큰 차이를 보인다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 베를린 국회의사당의 붉은 깃발에 대한 질문에 응답했지만, 질문의 맥락과 주제와는 다소 거리가 있다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 답변에서는 과거의 사건과 인물에 대한 정보를 잘못 제공하고 있어, 사실관계가 정확하지 않다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문에 대한 부분적으로 응답했지만, 질문의 모든 요소를 다루지 않았다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해하기 어렵지 않지만, 일부 정보는 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 구조 및 내용에서 큰 차이를 보인다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222457,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 617,
+        "total_tokens": 826
+    }
+}

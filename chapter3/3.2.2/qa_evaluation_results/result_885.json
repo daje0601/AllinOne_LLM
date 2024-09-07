@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBUSrBikKJJQakSEKpOgj0EMoQe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문의 주제와 관련된 정보들을 대부분 포함하고 있지만, 질문의 일부를 누락한 부분도 있어 약간의 감점이 있었습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 설명 중 일부는 부정확하거나 오해의 소지가 있는 부분이 포함되어 있었고, 특히 신용회복지원위원회의 역할 설명이 부족했습니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 질문에 대한 대부분의 요구 사항을 다루었지만, 캠코와 신용회복지원위원회 간의 직접적인 비교에 대한 설명이 부족하여 완전성이 떨어졌습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽고 명확하게 구성되어 있었지만, 일부 문장은 다소 복잡하게 느껴질 수 있었습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 주제는 공유하나, 세부사항과 표현 방식에서 크게 다르며 유사성이 낮았습니다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문의 주제와 관련된 정보들을 대부분 포함하고 있지만, 질문의 일부를 누락한 부분도 있어 약간의 감점이 있었습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 설명 중 일부는 부정확하거나 오해의 소지가 있는 부분이 포함되어 있었고, 특히 신용회복지원위원회의 역할 설명이 부족했습니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 질문에 대한 대부분의 요구 사항을 다루었지만, 캠코와 신용회복지원위원회 간의 직접적인 비교에 대한 설명이 부족하여 완전성이 떨어졌습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽고 명확하게 구성되어 있었지만, 일부 문장은 다소 복잡하게 느껴질 수 있었습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 공유하나, 세부사항과 표현 방식에서 크게 다르며 유사성이 낮았습니다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222516,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 255,
+        "prompt_tokens": 899,
+        "total_tokens": 1154
+    }
+}

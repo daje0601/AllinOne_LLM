@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"각 쿼리는 서로 다른 부상 유형을 검색하고 있습니다. 생성된 쿼리는 'Left ankle sprain'이라는 부상을 찾고 있으며, 정답 쿼리는 'Sustained posterior thigh strains in his left leg'라는 부상을 찾고 있습니다. 따라서, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

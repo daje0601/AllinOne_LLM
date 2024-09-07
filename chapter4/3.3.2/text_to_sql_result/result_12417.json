@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"주어진 두 쿼리는 서로 다른 어머니 이름을 기준으로 아버지를 찾고 있습니다. 첫 번째 쿼리는 'presidential candidate huntington wilhelmina beulah'를, 두 번째 쿼리는 'presendia huntington buell'를 사용하고 있습니다. 서로 다른 어머니 이름에 대해 쿼리가 실행되므로, 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

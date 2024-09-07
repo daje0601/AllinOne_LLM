@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAcfHeC9Ovcnd7tiL0itHdVhvI5",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 진달래꽃과 영산홍 철쭉의 차이를 잘 설명하고 있으며, 질문에 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변에서 일부 정보는 정확하지만, 영산홍의 꽃색에 대한 설명은 다소 제한적이며, 꽃의 개수와 자루에 대한 설명에서 일부 오류가 있어 정확성이 떨어집니다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 차이점에 대해서만 언급하고 있어 포괄성이 부족합니다. 진달래꽃, 영산홍 과철쭉의 차이점에 대해 더 많은 내용을 포함할 필요가 있습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 이해하기 쉬우나, 일부 문장 구조가 다소 복잡할 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 요소들이 유사하긴 하나, 참조 답변에서 강조된 부분들이 충분히 반영되지 않아 다소 차이가 있습니다.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 진달래꽃과 영산홍 철쭉의 차이를 잘 설명하고 있으며, 질문에 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변에서 일부 정보는 정확하지만, 영산홍의 꽃색에 대한 설명은 다소 제한적이며, 꽃의 개수와 자루에 대한 설명에서 일부 오류가 있어 정확성이 떨어집니다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 차이점에 대해서만 언급하고 있어 포괄성이 부족합니다. 진달래꽃, 영산홍 과철쭉의 차이점에 대해 더 많은 내용을 포함할 필요가 있습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 이해하기 쉬우나, 일부 문장 구조가 다소 복잡할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 요소들이 유사하긴 하나, 참조 답변에서 강조된 부분들이 충분히 반영되지 않아 다소 차이가 있습니다."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222462,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 264,
+        "prompt_tokens": 851,
+        "total_tokens": 1115
+    }
+}

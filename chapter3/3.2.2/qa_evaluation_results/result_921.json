@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBXua7cdeB5m3oPS63AUodcRTon",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변이 질문에 잘 맞추어져 있고, 중요무형문화재와 시도무형문화재의 차이를 잘 설명하고 있습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변 중 일부 표현이 애매하거나 정확하지 않은 부분이 있어, 정확성이 떨어집니다. 예를 들어, 중요성과 관련된 설명에서 '세계적, 국적적, 지역적 중요성' 부분이 모호합니다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 개념을 설명하지만, 참조 답변에 비해 더 구체적인 세부사항이 부족하고, 특히 서울무형문화재에 대한 설명이 더 상세했으면 좋았을 것입니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 구조가 약간 복잡하며, 이해하기 어려운 표현이 일부 섞여 있어 명확성이 떨어지는 부분이 있습니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 한 가지 주제를 다룬 것에 불과하여, 참조 답변과는 상당한 차이가 있으며 정보의 배치와 방식을 전반적으로 달리 하고 있습니다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변이 질문에 잘 맞추어져 있고, 중요무형문화재와 시도무형문화재의 차이를 잘 설명하고 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변 중 일부 표현이 애매하거나 정확하지 않은 부분이 있어, 정확성이 떨어집니다. 예를 들어, 중요성과 관련된 설명에서 '세계적, 국적적, 지역적 중요성' 부분이 모호합니다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 개념을 설명하지만, 참조 답변에 비해 더 구체적인 세부사항이 부족하고, 특히 서울무형문화재에 대한 설명이 더 상세했으면 좋았을 것입니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 구조가 약간 복잡하며, 이해하기 어려운 표현이 일부 섞여 있어 명확성이 떨어지는 부분이 있습니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 한 가지 주제를 다룬 것에 불과하여, 참조 답변과는 상당한 차이가 있으며 정보의 배치와 방식을 전반적으로 달리 하고 있습니다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222519,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 280,
+        "prompt_tokens": 677,
+        "total_tokens": 957
+    }
+}

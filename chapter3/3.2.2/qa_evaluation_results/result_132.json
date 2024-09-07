@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPrmx2uYYiJr35BJpQYnUt0grP",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 취침용 모자를 왜 쓰는지를 설명하며, 질문의 주제에 직접적으로 관련 있다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 취침용 모자의 기원에 대한 잘못된 정보를 포함하고 있으며, 특히 Henry H. Rogers와의 연결이 사실과 다르다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변은 모자의 기능을 다루고 있지만, 역사적 배경의 일부가 틀려서 완전한 정보는 아니다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉬우나, 일부 전문 용어 사용으로 다소 복잡하게 느껴질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주제가 다르고, 역사적 정보를 다르게 해석하여 유사점이 적다.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 취침용 모자를 왜 쓰는지를 설명하며, 질문의 주제에 직접적으로 관련 있다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 취침용 모자의 기원에 대한 잘못된 정보를 포함하고 있으며, 특히 Henry H. Rogers와의 연결이 사실과 다르다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 모자의 기능을 다루고 있지만, 역사적 배경의 일부가 틀려서 완전한 정보는 아니다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉬우나, 일부 전문 용어 사용으로 다소 복잡하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주제가 다르고, 역사적 정보를 다르게 해석하여 유사점이 적다."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 595,
+        "total_tokens": 819
+    }
+}

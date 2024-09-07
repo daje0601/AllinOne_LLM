@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAXJOD8OsngCRRBlxobXJl3yBun",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 결혼에 관한 칼과 같은 물건의 역할과 관련된 내용을 일부 포함하고 있지만, 원래 질문과 연결된 시어머니에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 사실이 있지만, 예를 들어, 신부의 어머니가 갖는다는 점과 같은 중요한 변수를 잘못 표현하고 있으며, 전통에 대한 정보도 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 행사 의미, 지역적 전통 등에 대한 언급이 포함되어 있으나, 결혼할 때의 구매 책임과 관련한 심층 내용이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬운 구조를 가지고 있지만, 일부 서술은 다소 모호하게 느껴질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 주제와 관련성이 있으나, 결혼과 관련된 실제 정보 및 조언에서 차이가 있다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 결혼에 관한 칼과 같은 물건의 역할과 관련된 내용을 일부 포함하고 있지만, 원래 질문과 연결된 시어머니에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 사실이 있지만, 예를 들어, 신부의 어머니가 갖는다는 점과 같은 중요한 변수를 잘못 표현하고 있으며, 전통에 대한 정보도 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 행사 의미, 지역적 전통 등에 대한 언급이 포함되어 있으나, 결혼할 때의 구매 책임과 관련한 심층 내용이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬운 구조를 가지고 있지만, 일부 서술은 다소 모호하게 느껴질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 주제와 관련성이 있으나, 결혼과 관련된 실제 정보 및 조언에서 차이가 있다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222457,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 261,
+        "prompt_tokens": 624,
+        "total_tokens": 885
+    }
+}

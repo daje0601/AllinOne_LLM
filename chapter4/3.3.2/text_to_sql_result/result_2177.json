@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Co-contestant (Yaar vs. Pyaar)' 값이 서로 다릅니다. 생성된 쿼리는 'krishna abhishek'을 사용하고, 정답 쿼리는 'krushna abhishek'을 사용합니다. 이로 인해 결과로 반환되는 데이터가 다를 수 있습니다.\"\n}"

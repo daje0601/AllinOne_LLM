@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리가 검색하는 'entrant' 값이 서로 다릅니다. 첫 번째 쿼리는 'clark modern-tyrrell-guthrie-deringer'를, 두 번째 쿼리는 'clarke-mordaunt-guthrie-durlacher'를 찾고 있으므로 의미적으로 동일하지 않습니다.\"\n}"

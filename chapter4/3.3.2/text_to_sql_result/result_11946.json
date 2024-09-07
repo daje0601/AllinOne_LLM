@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 의미적으로 동일한 결과를 반환합니다. 첫 번째 쿼리는 documents 테이블과 ref_document_types 테이블을 JOIN하여 document_type_code를 가져오지만, WHERE 절에서 document_id가 2인 조건을 사용하고 있습니다. 두 번째 쿼리는 documents 테이블에서 직접 document_id가 2인 경우의 document_type_code를 선택합니다. 그러나 두 쿼리 모두 결국 documents 테이블의 document_id가 2인 레코드의 document_type_code를 반환하므로 결과적으로 동일합니다.\"\n}"

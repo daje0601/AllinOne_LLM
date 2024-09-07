@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 플레이어 이름이 다릅니다. 첫 번째 쿼리는 'Philipp Kolkschreiber'라는 이름을 사용하고, 두 번째 쿼리는 'Philipp Kohlschreiber'라는 이름을 사용합니다. 이 이름의 철자 차이로 인해 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

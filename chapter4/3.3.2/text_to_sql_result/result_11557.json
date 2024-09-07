@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both SQL queries are semantically identical as they retrieve the same data: the 'Away team score' for the team named 'melbourne'. The only difference lies in the formatting of the literal string, but it does not affect the outcome of the query.\"\n}"

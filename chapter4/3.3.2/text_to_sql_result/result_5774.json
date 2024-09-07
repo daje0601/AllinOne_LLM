@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Species Authority'의 값이 다르므로, 쿼리가 반환하는 결과가 서로 다를 수 있습니다. 첫 번째 쿼리는 'microtus pinetorum leconte, 1830'로 표기하고, 두 번째 쿼리는 'microtus pinetorum (le conte, 1830)'로 표기합니다. 이로 인해 SQL 쿼리의 WHERE 절에서의 조건이 서로 다르고, 결과적으로 서로 다른 행을 참조할 가능성이 있습니다.\"\n}"

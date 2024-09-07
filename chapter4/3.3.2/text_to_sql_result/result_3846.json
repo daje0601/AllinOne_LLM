@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 'short_title' 조건에서 미세한 차이가 있습니다. 첫 번째 쿼리에는 'rad subtot pancreatectomy'라는 제목이 있고, 두 번째 쿼리에는 'rad subtot pancreatectom'이라는 제목이 있습니다. 이로 인해 두 쿼리가 다른 결과를 반환할 수 있습니다. 따라서 의미적으로 동일하지 않습니다.\"\n}"

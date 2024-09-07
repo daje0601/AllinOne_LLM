@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both the generated query and the correct query are identical and return the same result. They both retrieve the 'Safari' value from the table where 'Chrome' is equal to '2.05%', thus they are semantically the same.\"\n}"

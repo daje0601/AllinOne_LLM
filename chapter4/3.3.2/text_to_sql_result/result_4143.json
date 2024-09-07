@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'outside zone'이라는 문자열을 사용하고, 두 번째 쿼리는 'outside zones'라는 문자열을 사용합니다. 또한 첫 번째 쿼리는 'walham cross'를 사용하고 두 번째 쿼리는 'waltham cross'를 사용합니다. 이로 인해 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

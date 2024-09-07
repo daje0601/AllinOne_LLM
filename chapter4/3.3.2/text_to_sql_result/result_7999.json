@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 동일한 조건을 사용하고 있으며, 'FA Cup Goals'의 최소값을 추출하는 목적도 같으므로 의미적으로 동일한 결과를 반환합니다. 다만, 'League Apps', 'League Goals', 'League Cup Apps', 'League Cup Goals' 컬럼은 쿼리 내에서 사용되지 않으므로, 두 쿼리의 구조상에는 차이가 있지만, 결과에는 영향을 미치지 않습니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBTIeabQKe823rKA92lqKGPzDtc",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 콘돌과 독수리에 대한 직접적인 비교를 다루고 있으며, 질문의 주제에 맞게 잘 연결되어 있습니다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델의 정보는 여러 부분에서 정확하지 않으며, 특히 콘돌과 독수리의 생물학적 특징 및 행동에 대한 잘못된 설명이 포함되어 있습니다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델 답변은 여러 가지 특성을 언급했지만 고유한 특징과 차이점에 대한 정보가 부정확하거나 불완전합니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 구문이 어색하여 이해하기 어려운 부분이 있으며, 명확하지 않은 설명이 포함되어 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제는 같지만, 제공된 정보의 정확성 및 방식이 상당히 다릅니다.\"},\"average_score\":4.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 콘돌과 독수리에 대한 직접적인 비교를 다루고 있으며, 질문의 주제에 맞게 잘 연결되어 있습니다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델의 정보는 여러 부분에서 정확하지 않으며, 특히 콘돌과 독수리의 생물학적 특징 및 행동에 대한 잘못된 설명이 포함되어 있습니다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델 답변은 여러 가지 특성을 언급했지만 고유한 특징과 차이점에 대한 정보가 부정확하거나 불완전합니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 구문이 어색하여 이해하기 어려운 부분이 있으며, 명확하지 않은 설명이 포함되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제는 같지만, 제공된 정보의 정확성 및 방식이 상당히 다릅니다."
+                    },
+                    "average_score": 4.6
+                }
+            }
+        }
+    ],
+    "created": 1723222515,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 771,
+        "total_tokens": 1004
+    }
+}

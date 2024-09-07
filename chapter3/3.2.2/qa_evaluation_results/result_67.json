@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAI3jRTlIxyPIC9oZ62Z70JwLhU",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 가리비 내장이 먹을 수 있는지 여부를 언급하고 있어 질문에 관련성이 높다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변에서 내장 섭취에 대한 정보는 일부 정확하지만, 숙성 과정에서 소금을 넣는 것은 가리비 내장에 대한 일반적인 조리법과는 다소 다르다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 내장 섭취에 대한 몇 가지 정보는 포함하고 있지만, 가리비 내장의 먹는 방법에 대한 구체적인 조언이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장은 다소 복잡할 수 있어 명확성이 떨어질 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 구조적으로 다르고, 특정 내용이 미비하여 유사성이 낮다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 가리비 내장이 먹을 수 있는지 여부를 언급하고 있어 질문에 관련성이 높다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서 내장 섭취에 대한 정보는 일부 정확하지만, 숙성 과정에서 소금을 넣는 것은 가리비 내장에 대한 일반적인 조리법과는 다소 다르다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 내장 섭취에 대한 몇 가지 정보는 포함하고 있지만, 가리비 내장의 먹는 방법에 대한 구체적인 조언이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉬우나, 일부 문장은 다소 복잡할 수 있어 명확성이 떨어질 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 구조적으로 다르고, 특정 내용이 미비하여 유사성이 낮다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222442,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 501,
+        "total_tokens": 742
+    }
+}

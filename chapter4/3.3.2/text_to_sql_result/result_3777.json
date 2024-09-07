@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Womens Singles' 열이 'Wang Nan Zhang Yining'인 경우에 남자 단식을 선택하지만, 두 번째 쿼리는 'Womens Doubles' 열이 'Wang Nan Zhang Yining'인 경우에 남자 단식을 선택합니다. 문제는 여자 단식에 두 명이 나열된 경우 남자 단식의 선수를 찾는 것이므로, 두 쿼리는 서로 다른 열을 기준으로 비교하고 있어 의미적으로 동일하지 않습니다.\"\n}"

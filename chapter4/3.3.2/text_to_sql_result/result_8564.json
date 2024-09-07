@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용합니다. 생성된 쿼리는 '2013 BAFA Adult division'과 '2013 BAFA Adult flag division'이 'withdrew'인 경우를 필터링하고 있습니다. 반면, 정답 쿼리는 '2013 BAFA Adult division'이 'national central'인 경우만을 필터링하고 있습니다. 따라서 두 쿼리는 서로 다른 조건을 기반으로 하므로 의미적으로 동일하지 않습니다.\"\n}"

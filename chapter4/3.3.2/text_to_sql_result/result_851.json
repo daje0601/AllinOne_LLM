@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일하며, 구성 요소와 구조가 일치합니다. 두 쿼리 모두 Ref_Document_Types와 Documents 테이블을 JOIN하고, 문서 유형 설명에 따라 GROUP BY하며, 각 날짜에 생성된 문서 수를 COUNT하고 있습니다. 따라서 두 쿼리는 동일한 결과를 반환합니다.\"\n}"

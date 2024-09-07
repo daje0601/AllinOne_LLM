@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. 각각의 쿼리는 employees 테이블에서 job_history 테이블에 존재하지 않는 직원들의 JOB_ID에 따라 그룹화된 AVG(SALARY)를 계산합니다. ORDER BY 구문 또한 동일하게 JOB_ID에 대해 내림차순으로 정렬하고 있습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

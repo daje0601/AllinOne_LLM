@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 같은 진단명 ('acute myocardial infarction (non st elevation)'와 'acute myocardial infarction (no st elevation)')을 사용하고 있으며, 이 두 표현은 동일한 의미를 가지므로 쿼리의 결과는 서로 동일합니다. 따라서 쿼리의 의미는 같으며, 결과적으로 동일한 환자 수를 반환합니다.\"\n}"

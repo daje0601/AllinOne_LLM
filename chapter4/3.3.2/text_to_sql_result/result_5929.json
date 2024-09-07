@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단 코드(short_title 및 long_title)를 사용하고 있습니다. 'Peritonitis NOS w hrrn'은 '폐색이나 괴사에 대한 언급이 없는 복막탈장'을 명확히 나타내지 않으며, 사용된 'short_title'은 전혀 다릅니다. 반면, 정답 쿼리는 'Diaphragmatic hernia without mention of obstruction or gangrene'라는 명확한 긴 제목(long_title)을 기준으로 하고 있습니다. 이로 인해 두 쿼리는 동일한 환자 집합을 대상으로 하지 않으므로 결과가 다를 것입니다.\"\n}"

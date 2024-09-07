@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBDIaAI6p6eCc2MaX4sHoh8mpnr",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 밤비노의 저주에 대한 내용이 아니라 스티브 블래스와 관련된 저주에 대해 설명하고 있어, 질문과의 관련성이 낮습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 밤비노의 저주를 잘못된 정보로 묘사하여 명백히 잘못된 내용이 포함되어 있습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변이 매우 제한적이고, 배경 정보나 역사적 맥락이 부족하여 완전성이 떨어집니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽게 서술되었으나, 주제와 관련 없는 내용이 섞여 있어 혼란을 야기할 수 있습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 전혀 다른 주제를 다루고 있어, 참조 답변과의 유사성이 매우 낮습니다.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 밤비노의 저주에 대한 내용이 아니라 스티브 블래스와 관련된 저주에 대해 설명하고 있어, 질문과의 관련성이 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 밤비노의 저주를 잘못된 정보로 묘사하여 명백히 잘못된 내용이 포함되어 있습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변이 매우 제한적이고, 배경 정보나 역사적 맥락이 부족하여 완전성이 떨어집니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽게 서술되었으나, 주제와 관련 없는 내용이 섞여 있어 혼란을 야기할 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 전혀 다른 주제를 다루고 있어, 참조 답변과의 유사성이 매우 낮습니다."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222499,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 600,
+        "total_tokens": 836
+    }
+}

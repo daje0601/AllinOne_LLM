@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리가 완전히 동일하며, 모두 diagnoses 테이블에서 주어진 ICD-9 코드인 '27652'에 해당하는 long_title 값을 선택하고 있습니다.\"\n}"

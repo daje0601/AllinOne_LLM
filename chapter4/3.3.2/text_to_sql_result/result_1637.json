@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 COUNT의 대상이 다릅니다. 첫 번째 쿼리는 DISTINCT author.authorname의 개수를 세며, 즉 SIGCSE에서 2010년에 발표한 서로 다른 저자의 수를 반환합니다. 반면, 두 번째 쿼리는 DISTINCT paper.paperid의 개수를 세어, 2010년 SIGCSE에서 발표된 논문의 수를 반환합니다. 따라서, 저자의 수를 세는 첫 번째 쿼리와 논문의 수를 세는 두 번째 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

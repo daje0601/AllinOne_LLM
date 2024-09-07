@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBXja3EI1zHJtJklM0qsFqP3lHW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 대한 답변으로 사랑니의 발생과 관련된 정보는 포함하고 있지만, 구체적인出현 시기와 제 4대 및 제 5대 구치에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에 포함된 정보가 일부 정확하지만, 사랑니의 발생 시기가 다르게 언급되었고, 제 4대와 제 5대 구치에 대한 설명이 잘못된 부분이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 사랑니에 대해 일부 묘사했으나, 제 4대 및 제 5대 구치에 대한 명확한 설명이나 사랑니의 관리 방법에 대한 정보가 부족하여 완전성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해할 수 있으나 문장 구조가 다소 복잡하고, 특정 용어 사용이 명확하지 않아 독자가 이해하기 어려운 부분도 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 구조와 내용이 상당히 다르며, 언급된 정보에서 일관성이 부족하다.\"},\"average_score\":5.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 대한 답변으로 사랑니의 발생과 관련된 정보는 포함하고 있지만, 구체적인出현 시기와 제 4대 및 제 5대 구치에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에 포함된 정보가 일부 정확하지만, 사랑니의 발생 시기가 다르게 언급되었고, 제 4대와 제 5대 구치에 대한 설명이 잘못된 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 사랑니에 대해 일부 묘사했으나, 제 4대 및 제 5대 구치에 대한 명확한 설명이나 사랑니의 관리 방법에 대한 정보가 부족하여 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해할 수 있으나 문장 구조가 다소 복잡하고, 특정 용어 사용이 명확하지 않아 독자가 이해하기 어려운 부분도 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 구조와 내용이 상당히 다르며, 언급된 정보에서 일관성이 부족하다."
+                    },
+                    "average_score": 5.6
+                }
+            }
+        }
+    ],
+    "created": 1723222519,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 288,
+        "prompt_tokens": 788,
+        "total_tokens": 1076
+    }
+}

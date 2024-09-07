@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단명이 서로 다른 두 개의 필드(short_title와 long_title)를 사용하고 있습니다. 'long_title'에서는 'Klebsiella pneumoniae pneumonia'라는 전체 명칭이 사용되며, 'short_title'에서는 'K. pneumoniae pneumonia'라는 축약 명칭이 사용됩니다. 이 두 이름이 의미적으로 동일할 수 있지만, SQL 쿼리에서는 서로 다른 컬럼에서 각각의 조건을 평가하고 있으므로 결과가 서로 다를 수 있습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 WHERE 절에 사용하는 `first` 필드의 값이 다릅니다. 첫 번째 쿼리는 'antonio pompa-baldi'를 기준으로 COUNT를 수행하고, 두 번째 쿼리는 'antonio pompa-baldi italy'를 기준으로 COUNT를 수행하므로, 결과가 다를 수밖에 없습니다. 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

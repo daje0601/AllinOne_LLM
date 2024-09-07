@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'open left hemicolectomy'라는 용어 대신 'opn lft hemicolectmy nec'라는 다른 ICD-9 코드를 사용하고 있습니다. 이는 두 쿼리가 서로 다른 수술을 카운트하는 결과를 초래할 수 있음을 의미하며, 그러므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

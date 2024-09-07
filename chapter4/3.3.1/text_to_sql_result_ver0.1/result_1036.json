@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'method' 필드의 값이 다릅니다. 첫 번째 쿼리는 'tko (punches and forearms)'를 사용하고, 두 번째 쿼리는 'tko (punches and elbows)'를 사용합니다. 이로 인해 필터링되는 데이터셋이 달라지므로, 두 쿼리는 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

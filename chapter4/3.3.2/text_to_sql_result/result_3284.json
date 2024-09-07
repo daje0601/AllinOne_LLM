@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단 이름의 차이로 인해 의미적으로 다릅니다. 첫 번째 쿼리는 'hypernatremia - due to extracellular volume depletion'을 진단명으로 사용하고, 두 번째 쿼리는 'hypernatremia - due to volume depletion'을 사용합니다. 이는 다른 상태를 반영할 수 있으며, 따라서 조회되는 환자 데이터와 실험실 결과가 달라질 수 있습니다. 또한, 두 번째 쿼리는 lab.resulttime이 진단 시점에서 2개월 이내에 있어야 한다는 추가 조건이 있어, 결과에 제약이 더해집니다.\"\n}"

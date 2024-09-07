@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리가 모두 'City_Population'이 200,000에서 2,000,000 사이인 지역의 'District_name'과 'City_Population'을 반환하도록 작성되어 있으며, 의미적으로 동일한 결과를 생성합니다.\"\n}"

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAJazV5oqluPEKZxF2NkycxXXz0",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 직접적으로 관련이 있으며, 영화와 작가의 계약 조건에 대해 언급하고 있어 관련성이 높습니다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 일부 정확하지만, 러닝 개런티를 받은 작가가 박정우 작가 외에도 더 존재할 수 있다는 점이나 한국에서의 일반적인 상황에 대한 설명이 부족함.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델은 러닝 개런티의 예외성, 계약 조건, 수익 배분 등을 자세히 언급했지만, 한국 내 작가들의 일반적인 처우에 대한 정보는 부족합니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하나, 다소 복잡한 문장 구성이 있어 이해하는 데 약간의 어려움을 줄 수 있습니다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 유사한 포인트를 다루고 있으나, 구체적인 사례 및 작가들의 현실에 대한 서술에서 차이를 보이고 있습니다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 직접적으로 관련이 있으며, 영화와 작가의 계약 조건에 대해 언급하고 있어 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일부 정확하지만, 러닝 개런티를 받은 작가가 박정우 작가 외에도 더 존재할 수 있다는 점이나 한국에서의 일반적인 상황에 대한 설명이 부족함."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델은 러닝 개런티의 예외성, 계약 조건, 수익 배분 등을 자세히 언급했지만, 한국 내 작가들의 일반적인 처우에 대한 정보는 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하나, 다소 복잡한 문장 구성이 있어 이해하는 데 약간의 어려움을 줄 수 있습니다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 포인트를 다루고 있으나, 구체적인 사례 및 작가들의 현실에 대한 서술에서 차이를 보이고 있습니다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222443,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 264,
+        "prompt_tokens": 529,
+        "total_tokens": 793
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBddAmiP5sj30ATPJ457d8dF6iy",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문과 관련이 있지만, 정확한 정보나 주제를 벗어나 방황하는 부분이 많아 관련성이 떨어진다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 제공한 정보는 명백하게 틀렸거나 부정확한 점이 있어, 참조 답변과 비교했을 때 정확성이 낮다.\"},\"completeness\":{\"score\":4,\"explanation\":\"답변은 두 가지를 언급하긴 했지만, 샌드백의 본래 사용 목적이나 내구성에 대한 설명이 부족하므로 완전성이 떨어진다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변이 전체적으로 구성은 있지만, 정보가 다소 혼란스럽고 관련된 주제 간의 연결이 약하다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 주제적으로 몇 가지 공통점이 있지만, 전반적으로 다르게 서술되어 유사성이 낮다.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문과 관련이 있지만, 정확한 정보나 주제를 벗어나 방황하는 부분이 많아 관련성이 떨어진다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 제공한 정보는 명백하게 틀렸거나 부정확한 점이 있어, 참조 답변과 비교했을 때 정확성이 낮다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "답변은 두 가지를 언급하긴 했지만, 샌드백의 본래 사용 목적이나 내구성에 대한 설명이 부족하므로 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 전체적으로 구성은 있지만, 정보가 다소 혼란스럽고 관련된 주제 간의 연결이 약하다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 주제적으로 몇 가지 공통점이 있지만, 전반적으로 다르게 서술되어 유사성이 낮다."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 240,
+        "prompt_tokens": 596,
+        "total_tokens": 836
+    }
+}

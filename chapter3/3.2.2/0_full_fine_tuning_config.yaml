@@ -1,0 +1,25 @@
+model_name: "meta-llama/Meta-Llama-3.1-8B-Instruct"
+dataset_path: "."
+max_seq_length: 512
+output_dir: "./llama-3.1-korean-8b-hf-20-epoch"
+report_to: "wandb"
+learning_rate: 0.00005
+lr_scheduler_type: "linear"
+num_train_epochs: 5
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 2
+gradient_accumulation_steps: 4
+optim: "adamw_torch_fused"
+logging_steps: 10
+save_strategy: "epoch"
+weight_decay: 0.01
+max_grad_norm: 0.5
+warmup_ratio: 0.03
+bf16: true
+tf32: true
+gradient_checkpointing: true
+fsdp: "full_shard auto_wrap"
+fsdp_config:
+  backward_prefetch: "backward_pre"
+  forward_prefetch: "false"
+  use_orig_params: "false"

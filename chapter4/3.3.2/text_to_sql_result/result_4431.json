@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The two queries are searching for members associated with different electorates. The created query looks for members from 'south melbourne', while the correct query searches for 'southern melbourne'. Since these are distinct values, the two queries will return different results, meaning they are not semantically identical.\"\n}"

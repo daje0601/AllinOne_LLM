@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAe5lIur0ARDj4DVR9V1E6AbyQX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문에 대한 주제를 다루고 있지만, 렌즈를 구분하는 방법이 미흡하며 더 구체적인 정보가 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"렌즈의 앞뒤 구분 방법에 대한 설명이 정확하지 않으며, 렌즈 거꾸로 착용의 영향을 설명하는 것도 충분치 않다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 두 가지 질문에 대하여 부분적으로 설명하고 있으나, 깊이가 부족해 충분한 정보를 제공하지 않는다.\"},\"clarity\":{\"score\":8,\"explanation\":\"전반적으로 이해하기 쉽고 간결하나, 일부 내용은 더 명확할 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 직접적인 유사성이 적고, 구체적인 세부사항이 부족하다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문에 대한 주제를 다루고 있지만, 렌즈를 구분하는 방법이 미흡하며 더 구체적인 정보가 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "렌즈의 앞뒤 구분 방법에 대한 설명이 정확하지 않으며, 렌즈 거꾸로 착용의 영향을 설명하는 것도 충분치 않다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 두 가지 질문에 대하여 부분적으로 설명하고 있으나, 깊이가 부족해 충분한 정보를 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "전반적으로 이해하기 쉽고 간결하나, 일부 내용은 더 명확할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 직접적인 유사성이 적고, 구체적인 세부사항이 부족하다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222464,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 693,
+        "total_tokens": 909
+    }
+}

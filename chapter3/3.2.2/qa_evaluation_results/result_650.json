@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBAoH7LY7p97dB7EGikpSVzswbJ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 질문의 요소 중 일부를 다뤘으나, 주요 논점인 '불'과 '비'의 쓰임 차이점에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 부정의 개념에 대한 설명은 부정확하다. '불'과 '비'의 기능과 의미에 대한 설명이 참조 답변에 비해 흐리다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 질문의 일부 요소를 다루고 있지만, '불싸다'와 '불효자'의 구분에 대한 충분한 설명이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 전반적으로 이해 가능하나, 불명확한 표현으로 인해 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과의 주제적 유사성이 낮고, 기초 개념 대부분이 다르다.\"},\"average_score\":4.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 질문의 요소 중 일부를 다뤘으나, 주요 논점인 '불'과 '비'의 쓰임 차이점에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 부정의 개념에 대한 설명은 부정확하다. '불'과 '비'의 기능과 의미에 대한 설명이 참조 답변에 비해 흐리다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문의 일부 요소를 다루고 있지만, '불싸다'와 '불효자'의 구분에 대한 충분한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 전반적으로 이해 가능하나, 불명확한 표현으로 인해 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과의 주제적 유사성이 낮고, 기초 개념 대부분이 다르다."
+                    },
+                    "average_score": 4.4
+                }
+            }
+        }
+    ],
+    "created": 1723222496,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 246,
+        "prompt_tokens": 874,
+        "total_tokens": 1120
+    }
+}

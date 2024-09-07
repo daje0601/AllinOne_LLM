@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하여 데이터를 조회하고 있습니다. 첫 번째 쿼리는 'Role' 필드에서 'malina (german-australian-french)'를 찾고 있고, 두 번째 쿼리는 'Original title' 필드에서 'malina (ger.-aus.-fr.)'를 찾고 있습니다. 따라서 두 쿼리는 서로 다른 데이터를 기준으로 결과를 반환할 것이므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 사용된 'icd9_code'의 조건이 다릅니다. 첫 번째 쿼리는 'periph nerve graft nec'을 조회하고, 두 번째 쿼리는 'peripheral nerve graft'을 조회합니다. 따라서 두 쿼리는 다른 절차를 찾고 있으므로 의미적으로 동일하지 않습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'tour championship of golf'라는 토너먼트의 점수를 조회하는 반면, 두 번째 쿼리는 'tournament players championship'라는 다른 토너먼트를 조회합니다. 두 쿼리의 WHERE 절에 지정된 토너먼트 이름이 다르므로, 반환되는 결과도 다를 수밖에 없습니다.\"\n}"

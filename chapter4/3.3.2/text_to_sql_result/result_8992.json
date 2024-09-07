@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"The first query filters records where points_1 is '2', while the second query filters records where points_1 is '36 2'. These two conditions are not equivalent, meaning the sets of data they return could be different, thus they do not produce the same result in the context of the provided problem.\"\n}"

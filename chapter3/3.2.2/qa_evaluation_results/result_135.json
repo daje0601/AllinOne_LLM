@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPD4fReg2FarR3OAlUvC9QnvkR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 바이오스피어2에 대한 질문에 전혀 관련이 없는 내용으로, 완전히 다른 주제를 다루고 있다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 바이오스피어2에 대해 잘못된 정보를 제공하며, 실제 내용과는 크게 다르다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에 대한 정보가 전혀 없으므로 완전성이 없다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 내부 구성이 단순하고 문장이 명확하지만 주제가 전혀 unrelated하여 이해하기 힘들다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 내용상 유사성이 전혀 없다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 바이오스피어2에 대한 질문에 전혀 관련이 없는 내용으로, 완전히 다른 주제를 다루고 있다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 바이오스피어2에 대해 잘못된 정보를 제공하며, 실제 내용과는 크게 다르다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에 대한 정보가 전혀 없으므로 완전성이 없다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 내부 구성이 단순하고 문장이 명확하지만 주제가 전혀 unrelated하여 이해하기 힘들다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 내용상 유사성이 전혀 없다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 197,
+        "prompt_tokens": 567,
+        "total_tokens": 764
+    }
+}

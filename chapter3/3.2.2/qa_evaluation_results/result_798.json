@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBNSkBsiDX99SkTgLsIxz50u6Z9",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델 답변은 질문에 대한 연결이 명확하지 않으며, 배구에서 다른 옷을 입는 이유를 잘못 설명함.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 사실과 크게 다르며, 오프사이드 규정은 배구가 아닌 축구와 관련된 내용임.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 필요한 정보를 제공하지 않고, 리베로라는 중요한 역할을 언급하지 않아 불완전함.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 문장은 비교적 이해하기 쉬우나, 잘못된 정보로 인해 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변의 내용을 무시하고, 관련성이 적어 유사성이 없음.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델 답변은 질문에 대한 연결이 명확하지 않으며, 배구에서 다른 옷을 입는 이유를 잘못 설명함."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 사실과 크게 다르며, 오프사이드 규정은 배구가 아닌 축구와 관련된 내용임."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 필요한 정보를 제공하지 않고, 리베로라는 중요한 역할을 언급하지 않아 불완전함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 문장은 비교적 이해하기 쉬우나, 잘못된 정보로 인해 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변의 내용을 무시하고, 관련성이 적어 유사성이 없음."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222509,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 206,
+        "prompt_tokens": 668,
+        "total_tokens": 874
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일한 조건을 사용하여 동일한 결과를 반환합니다. 'Pendle'이 1보다 크고 'Rossendale'이 2보다 큰 경우의 'West Lancashire'의 최대 값을 선택하므로 두 쿼리는 의미적으로 동일합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 선택된 칼럼(All_Neutral와 ACC_Percent)과 테이블(basketball_match) 모두 같으며, 따라서 두 쿼리가 반환하는 결과도 의미적으로 동일합니다.\"\n}"

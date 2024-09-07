@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBEe4JjrHJEuflnQRfnAYAfK81k",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 양궁과 국궁의 차이점을 설명하기 위한 내용을 담고 있지만, 질문에서 요구하는 정보를 완전히 포괄하지는 못했다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 사실과 다르며, 특히 역사적 배경 및 기술적인 차이에 대한 설명이 부정확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 양궁과 국궁의 차이점 중 일부는 언급했지만, 필요하다고 판단되는 추가적인 세부사항이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하나, 구조가 다소 산만하여 쉽게 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 내용의 방향성과 구체성에서 큰 차이를 보인다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 양궁과 국궁의 차이점을 설명하기 위한 내용을 담고 있지만, 질문에서 요구하는 정보를 완전히 포괄하지는 못했다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 사실과 다르며, 특히 역사적 배경 및 기술적인 차이에 대한 설명이 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 양궁과 국궁의 차이점 중 일부는 언급했지만, 필요하다고 판단되는 추가적인 세부사항이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하나, 구조가 다소 산만하여 쉽게 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루고 있지만, 내용의 방향성과 구체성에서 큰 차이를 보인다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222500,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 845,
+        "total_tokens": 1078
+    }
+}

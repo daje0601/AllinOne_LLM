@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 노래 제목을 기준으로 'Average grade'를 선택하고 있습니다. 첫 번째 쿼리는 'Marc Tarcinkan'을, 두 번째 쿼리는 'Şımarık Tarkan'을 검색하므로, 결과가 동일하지 않습니다.\"\n}"

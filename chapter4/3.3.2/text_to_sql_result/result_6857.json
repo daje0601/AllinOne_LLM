@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Pos.' 열에서 'test driver points category' 값을 가진 팀을 선택하고, 두 번째 쿼리는 'Points' 열에서 'test driver' 값을 가진 팀을 선택합니다. 두 쿼리는 서로 다른 열을 기준으로 필터링하므로 의미적으로 동일하지 않습니다.\"\n}"

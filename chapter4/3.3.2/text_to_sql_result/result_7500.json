@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일하며, 같은 논리를 사용하여 100과 200 사이의 MANAGER_ID를 가진 부서에 속하지 않는 직원들의 FIRST_NAME과 COMMISSION_PCT를 선택합니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

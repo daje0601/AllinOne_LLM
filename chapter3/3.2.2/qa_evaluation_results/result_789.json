@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBMxmp8ZUhKMZq9IgqK5nFl7vmh",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 양조간장, 국간장, 진간장에서의 차이를 언급하고 있다. 그러나 양조간장에 대한 설명이 일부 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 제공한 정보 중 일부는 부정확하다. 예를 들어, 진간장이 흑임자를 사용한다고 한 점은 잘못된 설명이다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델 답변은 관련된 간장 종류에 대한 설명을 포함하지만, 양조간장에 대한 상세한 후처리 및 맛에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 명확하지만 약간의 혼동을 초래할 수 있는 부분이 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 큰 구조적 차이가 있으며, 특정 정보(예: 일본의 왜간장 설명 등)가 누락되어 참조 답변과 유사성이 낮다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 양조간장, 국간장, 진간장에서의 차이를 언급하고 있다. 그러나 양조간장에 대한 설명이 일부 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 제공한 정보 중 일부는 부정확하다. 예를 들어, 진간장이 흑임자를 사용한다고 한 점은 잘못된 설명이다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델 답변은 관련된 간장 종류에 대한 설명을 포함하지만, 양조간장에 대한 상세한 후처리 및 맛에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 명확하지만 약간의 혼동을 초래할 수 있는 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 큰 구조적 차이가 있으며, 특정 정보(예: 일본의 왜간장 설명 등)가 누락되어 참조 답변과 유사성이 낮다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222508,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 242,
+        "prompt_tokens": 613,
+        "total_tokens": 855
+    }
+}

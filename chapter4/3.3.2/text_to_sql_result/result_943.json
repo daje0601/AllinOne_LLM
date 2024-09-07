@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 도시 이름이 서로 반대입니다. 첫 번째 쿼리는 'DALLAS'에서 'SAN FRANCISCO'로의 비행편을 찾고 있으며, 두 번째 쿼리는 'SAN FRANCISCO'에서 'DALLAS'로의 비행편을 찾고 있습니다. 이로 인해 두 쿼리는 전혀 다른 결과를 반환합니다.\"\n}"

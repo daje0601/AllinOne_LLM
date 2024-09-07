@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAxeBLqHV5KK5kkgscckG4qMUCC",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 '코다리'라는 질문에 대한 적절한 정보를 제공하지 않고, 역사적 맥락에 대한 설명을 하고 있어 관련성이 매우 낮습니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 '코다리'에 대한 잘못된 정보와 관련 없는 내용을 포함하고 있어 정확성이 낮습니다.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 필요한 정보를 전혀 포함하지 않고 있어 완전성이 매우 부족합니다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 문법적으로는 괜찮지만, 내용이 질문과 관련이 없어 이해하기 어려운 부분이 많습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 주제적으로 연결되어 있지 않아 유사성이 낮습니다.\"},\"average_score\":2.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '코다리'라는 질문에 대한 적절한 정보를 제공하지 않고, 역사적 맥락에 대한 설명을 하고 있어 관련성이 매우 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 '코다리'에 대한 잘못된 정보와 관련 없는 내용을 포함하고 있어 정확성이 낮습니다."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 필요한 정보를 전혀 포함하지 않고 있어 완전성이 매우 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 문법적으로는 괜찮지만, 내용이 질문과 관련이 없어 이해하기 어려운 부분이 많습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 주제적으로 연결되어 있지 않아 유사성이 낮습니다."
+                    },
+                    "average_score": 2.2
+                }
+            }
+        }
+    ],
+    "created": 1723222483,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 587,
+        "total_tokens": 799
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 검사 항목('goat ions'와 'chloride, whole blood')을 참조하고 있으며, charttime의 유효한 종료 날짜도 다릅니다. 따라서, 결과로 반환되는 날짜와 검사 항목이 달라서 의미적으로 동일하지 않습니다.\"\n}"

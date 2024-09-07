@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Semifinal Matches'가 'Boulogne WCT Finals'인 경우의 'Final Match'를 선택하는 반면, 두 번째 쿼리는 'Commercial Name'이 'Buick WCT Finals'인 경우의 'Semifinal Matches'를 선택합니다. 즉, 두 쿼리가 참조하는 필드와 비교하는 값이 다르기 때문에 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

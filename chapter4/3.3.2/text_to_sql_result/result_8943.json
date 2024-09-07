@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 각각 다른 작가 'Charlene Hughes'와 'Charleen Easton'에 대해 작품 수를 세고 있습니다. 문제는 'Charleen Easton'이 쓴 작품의 수를 묻고 있으므로 이 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

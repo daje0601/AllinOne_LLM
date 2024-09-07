@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'treatmentname'에서 서로 다른 문자열을 사용하고 있습니다. 첫 번째 쿼리는 'anti-thyroid agents'를 사용하고 있고, 두 번째 쿼리는 'antithyroid therapy'를 사용합니다. 이 두 용어는 서로 다른 치료 명칭일 가능성이 있으며, 따라서 쿼리의 결과도 다를 수 있습니다.\"\n}"

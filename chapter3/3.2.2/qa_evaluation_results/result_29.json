@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAERBZqmtnnjT4crdUdgH11Fggy",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 중동 지역에서 무장단체가 존재하는 이유에 대해 다양한 요인을 제시하며 질문에 잘 연결되어 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 대체로 정확하나, 역사적 배경에 대한 깊이가 부족하고 특정 사례를 들어 설명하지 않았다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 여러 요인을 언급하지만, 반미 감정 및 이슬람교의 교리에 대한 언급이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 명확하나, 대목마다 다소 구체성이 결여되어 약간의 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 참조 답변과 내용적으로 일부 유사하지만, 예시와 구체적인 설명이 적어 중요한 포인트에서 차이를 보인다.\"},\"average_score\":7.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 중동 지역에서 무장단체가 존재하는 이유에 대해 다양한 요인을 제시하며 질문에 잘 연결되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 대체로 정확하나, 역사적 배경에 대한 깊이가 부족하고 특정 사례를 들어 설명하지 않았다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 여러 요인을 언급하지만, 반미 감정 및 이슬람교의 교리에 대한 언급이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 명확하나, 대목마다 다소 구체성이 결여되어 약간의 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 참조 답변과 내용적으로 일부 유사하지만, 예시와 구체적인 설명이 적어 중요한 포인트에서 차이를 보인다."
+                    },
+                    "average_score": 7.6
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 746,
+        "total_tokens": 974
+    }
+}

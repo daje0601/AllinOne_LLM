@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB1d9D1R4bsFRWoBvvEqLhsY9SQ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변이 이베리코 등급에 대한 질문에 일부 관련 있지만, 스페인 내 이베리코의 구체적인 등급 분류 방식을 다루지 않아 관련성이 낮다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 제공한 정보는 사실과 다르며, 이베리코의 혈통과 사육 방법에 대한 설명이 부정확하거나 누락되어 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 이베리코의 등급 분류 방법에 대한 설명이 부족하고 일부 요소만 예시로 사용하여 완전하지 않다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하나, 중복되는 내용이 많아 다소 불필요하게 복잡해 보일 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 거의 없고, 다른 등급 분류 기준을 제시하여 내용 측면에서 차이가 크다.\"},\"average_score\":4.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변이 이베리코 등급에 대한 질문에 일부 관련 있지만, 스페인 내 이베리코의 구체적인 등급 분류 방식을 다루지 않아 관련성이 낮다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 제공한 정보는 사실과 다르며, 이베리코의 혈통과 사육 방법에 대한 설명이 부정확하거나 누락되어 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 이베리코의 등급 분류 방법에 대한 설명이 부족하고 일부 요소만 예시로 사용하여 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하나, 중복되는 내용이 많아 다소 불필요하게 복잡해 보일 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 거의 없고, 다른 등급 분류 기준을 제시하여 내용 측면에서 차이가 크다."
+                    },
+                    "average_score": 4.2
+                }
+            }
+        }
+    ],
+    "created": 1723222487,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 1064,
+        "total_tokens": 1320
+    }
+}

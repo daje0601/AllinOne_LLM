@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 선수 이름을 사용하고 있습니다. 하나는 'corey pieniazek'를 조회하고 다른 하나는 'corey fienhage'를 조회합니다. 문제에서 요구하는 선수는 'corey fienhage'이므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

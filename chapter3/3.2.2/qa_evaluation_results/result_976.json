@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBcwO6q7p6boMenpQYhQtBBGjvX",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 태양을 쳐다볼 때 코가 간지럽고 재채기가 나는 이유에 대한 직접적인 설명이 결여되어 있습니다. 주로 태양의 거리에 대한 설명이 포함되어 있어 질문과 직접적인 관련이 부족합니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 사실과 어긋나는 부분이 많습니다. 태양과의 거리나 대기와의 관계에 대해 잘못된 과학적 정보를 제공합니다. 태양에서 나오는 미세입자는 지구의 대기와 관련이 없고, 코가 간지럽고 재채기가 나는 이유는 일광 화상이나 햇빛 알레르기에 기인한 것이 일반적입니다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 여러 가지 사실을 나열하고 있지만, 주제에 대한 핵심 내용을 간과하고 있어 불완전합니다. 코가 간지럽고 재채기가 나는 구체적인 원인에 대한 설명이 부족합니다.\"},\"clarity\":{\"score\":4,\"explanation\":\"모델의 답변은 읽기 어렵고, 과학적인 용어가 많이 사용되어 일반 대중이 이해하기 힘든 점이 있습니다. 몇 가지 문장은 명확하나, 전체적으로 복잡하게 서술되어 있습니다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변의 내용과 크게 다르며, 주요 정보들도 다르게 제시되고 있습니다. 전반적으로 유사성이 거의 없습니다.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 태양을 쳐다볼 때 코가 간지럽고 재채기가 나는 이유에 대한 직접적인 설명이 결여되어 있습니다. 주로 태양의 거리에 대한 설명이 포함되어 있어 질문과 직접적인 관련이 부족합니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 사실과 어긋나는 부분이 많습니다. 태양과의 거리나 대기와의 관계에 대해 잘못된 과학적 정보를 제공합니다. 태양에서 나오는 미세입자는 지구의 대기와 관련이 없고, 코가 간지럽고 재채기가 나는 이유는 일광 화상이나 햇빛 알레르기에 기인한 것이 일반적입니다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 여러 가지 사실을 나열하고 있지만, 주제에 대한 핵심 내용을 간과하고 있어 불완전합니다. 코가 간지럽고 재채기가 나는 구체적인 원인에 대한 설명이 부족합니다."
+                    },
+                    "clarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 읽기 어렵고, 과학적인 용어가 많이 사용되어 일반 대중이 이해하기 힘든 점이 있습니다. 몇 가지 문장은 명확하나, 전체적으로 복잡하게 서술되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 크게 다르며, 주요 정보들도 다르게 제시되고 있습니다. 전반적으로 유사성이 거의 없습니다."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 353,
+        "prompt_tokens": 795,
+        "total_tokens": 1148
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB6RAYUEGHFj3R3TywBA9v9vuDv",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변이 질문에 대한 직접적인 맥락을 제공하지 않고, 관련 없거나 비논리적인 세부사항에 집중하여 질문과의 관련성이 떨어졌다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 성종과 무열왕에 대한 정보가 혼재되어 있으며, 시호에 대한 설명이 잘못된 사실을 포함하고 있다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 질문에 대한 핵심적인 논점을 포함하지 않고, 백제의 역사와 왕권에 관한 부차적인 정보에 치중하여 질문에 대한 완전성이 부족하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변이 다소 명확하지 않고, 논리적인 흐름이 부족하여 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 크게 다르며, 핵심 논점과 원인 이론이 서로 유기적으로 연결되지 않아 유사성이 낮다.\"},\"average_score\":4.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 질문에 대한 직접적인 맥락을 제공하지 않고, 관련 없거나 비논리적인 세부사항에 집중하여 질문과의 관련성이 떨어졌다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 성종과 무열왕에 대한 정보가 혼재되어 있으며, 시호에 대한 설명이 잘못된 사실을 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문에 대한 핵심적인 논점을 포함하지 않고, 백제의 역사와 왕권에 관한 부차적인 정보에 치중하여 질문에 대한 완전성이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 다소 명확하지 않고, 논리적인 흐름이 부족하여 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 크게 다르며, 핵심 논점과 원인 이론이 서로 유기적으로 연결되지 않아 유사성이 낮다."
+                    },
+                    "average_score": 4.8
+                }
+            }
+        }
+    ],
+    "created": 1723222492,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 251,
+        "prompt_tokens": 553,
+        "total_tokens": 804
+    }
+}

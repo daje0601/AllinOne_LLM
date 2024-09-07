@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'first_member'의 값이 다릅니다. 첫 번째 쿼리는 'John Rudhall'을 검색하는 반면, 두 번째 쿼리는 'John Rudhale'을 검색하고 있습니다. 따라서 서로 다른 결과를 반환하며, 의미적으로 동일하지 않습니다.\"\n}"

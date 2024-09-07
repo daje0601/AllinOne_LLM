@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 서로 다른 조건에서 데이터를 선택하고 있습니다. 첫 번째 쿼리는 'Ship'이 'Spray'인 경우의 'Launched' 값을 가져오는 반면, 두 번째 쿼리는 'Disposition'이 'Stokers'' training ship'인 запись의 'Launched' 값을 가져옵니다. 이로 인해 결과가 서로 다를 수 있으며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

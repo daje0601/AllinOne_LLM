@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Affiliation' 조건으로 지정된 값이 다릅니다. 하나는 'Private/Non-sectarian'을, 다른 하나는 'Private/ Nonsectarian'을 사용하고 있습니다. 이는 띄어쓰기와 하이픈 사용의 차이로 인해 결과에 차이를 가져올 수 있으므로, 의미적으로 동일하지 않습니다.\"\n}"

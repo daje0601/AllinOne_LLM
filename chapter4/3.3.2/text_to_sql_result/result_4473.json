@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일한 SQL 문으로, 정부 보험 정책을 가진 환자의 수를 세기 위해 'COUNT(DISTINCT demographic.subject_id)'를 사용하고, 조건으로 'demographic.insurance = \\\"Government\\\"'를 사용합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

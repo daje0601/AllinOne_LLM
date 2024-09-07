@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 competition의 조건이 다릅니다. 첫 번째 쿼리는 competition이 'london'인 데이터를 찾고 있고, 두 번째 쿼리는 competition이 'london marathon'인 데이터를 찾고 있습니다. 이는 서로 다른 값을 비교하고 있으므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

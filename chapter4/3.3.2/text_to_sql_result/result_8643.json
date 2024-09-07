@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 각각 'impacted stool removal'와 'impacted feces removal'이라는 서로 다른 절차 제목을 사용하고 있습니다. 이러한 차이로 인해 각 쿼리가 조회하는 ICD-9 코드가 다를 수 있으며, 이는 문제의 요구 사항에 대한 결과에 직접적인 영향을 미칩니다. 따라서 결과가 동일하지 않습니다.\"\n}"

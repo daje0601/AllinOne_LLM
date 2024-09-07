@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and will yield the same result, calculating the average of the 'Season' column for records where the 'Position' is '10th'.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 열(column)에서 필터링을 수행하고 있습니다. 첫 번째 쿼리는 'Modern German (close translation)' 열을 기준으로, 두 번째 쿼리는 'Writing system 2 (German-based)' 열을 기준으로 조건을 적용합니다. 이 두 열의 내용이 서로 다를 수 있으므로, 각 쿼리가 반환하는 결과가 동일할 것이라고 보장할 수 없습니다.\"\n}"

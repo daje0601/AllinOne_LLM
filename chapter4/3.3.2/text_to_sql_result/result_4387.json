@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 열에서 'Science Friction' 값을 검색하고 있습니다. 첫 번째 쿼리는 'Pixie and Dixie' 열에서, 두 번째 쿼리는 'Huckleberry Hound' 열에서 해당 값을 찾고 있으므로, 이 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

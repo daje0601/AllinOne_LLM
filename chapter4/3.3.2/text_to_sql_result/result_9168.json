@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 조건과 열을 사용하고 있기 때문에 의미적으로 동일하지 않습니다. 첫 번째 쿼리는 'Location'이 'heigherstown'인 경우의 'Year Joined'의 최대값을 반환하며, 두 번째 쿼리는 'School'이 'hagerstown'인 경우의 'Year Joined' 값을 반환합니다. 또한, 'heigherstown'과 'hagerstown'은 서로 다른 값으로 보이며, 쿼리에서 비교되는 열도 서로 다르기 때문에 결과가 동일하지 않습니다.\"\n}"

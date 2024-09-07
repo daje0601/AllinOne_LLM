@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 간경화 환자의 진단 코드가 'HEPATIC DISEASES/NOS'인 경우에만 퇴원 장소가 'HOME HEALTH CARE'인 환자를 세고 있습니다. 반면, 두 번째 쿼리는 퇴원 장소가 'HOME HEALTH CARE'인 환자를 세는데, 여기서 간경화 환자는 'Percutaneous aspiration of liver'라는 절차가 수행된 경우로 한정하고 있습니다. 따라서 두 쿼리는 서로 다른 조건을 사용하여 환자를 세고 있으므로 의미적으로 동일하지 않습니다.\"\n}"

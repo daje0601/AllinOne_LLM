@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAZGPRSK7aq2GufFnlKqKcfA0C1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 배심원 선정 방법과 한국의 배심원제에 대한 언급이 있지만, 질문의 구체적인 내용에 대한 답변이 부족함.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 배심원 선정 방법을 잘못 설명하였으며, 모든 재판에서 배심원이 사용된다는 점도 부정확하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 일부 내용이 포함되어 있지만, 미국의 배심원 제도에 대한 정보가 불충분하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 이해하기 쉬운 부분도 있지만, 앞부분의 틀린 내용이 혼동을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 유사한 점이 있으나, 배심원 선정 방법의 기초적인 정보조차 틀려서 신뢰성 저하.\"},\"average_score\":3.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 배심원 선정 방법과 한국의 배심원제에 대한 언급이 있지만, 질문의 구체적인 내용에 대한 답변이 부족함."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 배심원 선정 방법을 잘못 설명하였으며, 모든 재판에서 배심원이 사용된다는 점도 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 일부 내용이 포함되어 있지만, 미국의 배심원 제도에 대한 정보가 불충분하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 이해하기 쉬운 부분도 있지만, 앞부분의 틀린 내용이 혼동을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 점이 있으나, 배심원 선정 방법의 기초적인 정보조차 틀려서 신뢰성 저하."
+                    },
+                    "average_score": 3.6
+                }
+            }
+        }
+    ],
+    "created": 1723222459,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 234,
+        "prompt_tokens": 535,
+        "total_tokens": 769
+    }
+}

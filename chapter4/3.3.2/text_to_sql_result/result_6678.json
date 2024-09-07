@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 같은 SELECT 문과 GROUP BY 절을 사용하여 Competition_type별로 개수를 세는 동일한 결과를 반환합니다.\"\n}"

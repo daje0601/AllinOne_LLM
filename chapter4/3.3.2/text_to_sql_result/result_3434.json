@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 조건을 사용하여 'cost___us$__'이 'free'이고, 'activity'가 'some'이며, 'editor'가 'markitup'인 모든 'open_source' 값을 선택하고 있습니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

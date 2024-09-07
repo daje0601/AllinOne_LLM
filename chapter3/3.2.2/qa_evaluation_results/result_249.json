@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAawxKrImHuQ2QlK4QfeeANSgAm",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 유아 충치 치료에 관한 몇 가지 중요한 정보를 제공하지만, 구체적인 치료 방법이나 재료에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 언급한 소아 구강학 전문 병원에서의 치료 필요성은 맞지만, 충치 치료의 재료와 비용에 대한 정보가 다소 불확실하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 치료 방법, 재료 및 보험 사항에 대한 직접적인 설명이 없어 완전성이 떨어진다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 이론적인 내용이 포함되어 있어 일부 독자에게는 다소 헷갈릴 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 요소를 가지고 있지만, 구체적인 치료 방법이나 세부사항이 부족하여 전체적으로 다르다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 유아 충치 치료에 관한 몇 가지 중요한 정보를 제공하지만, 구체적인 치료 방법이나 재료에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 언급한 소아 구강학 전문 병원에서의 치료 필요성은 맞지만, 충치 치료의 재료와 비용에 대한 정보가 다소 불확실하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 치료 방법, 재료 및 보험 사항에 대한 직접적인 설명이 없어 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 이론적인 내용이 포함되어 있어 일부 독자에게는 다소 헷갈릴 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 요소를 가지고 있지만, 구체적인 치료 방법이나 세부사항이 부족하여 전체적으로 다르다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222460,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 963,
+        "total_tokens": 1204
+    }
+}

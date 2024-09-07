@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'winner' 조건에서 'arthur osborn'과 'arthur osborne'의 철자가 다릅니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 수 있으며, 따라서 의미적으로 동일하지 않습니다.\"\n}"

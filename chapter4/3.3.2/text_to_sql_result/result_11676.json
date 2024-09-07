@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 완전히 동일합니다. 같은 SELECT 절과 WHERE 절을 사용하여 'Pat Mills'가 저자인 모든 featuring을 조회하고 있습니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 위치를 필터링합니다. 첫 번째 쿼리는 'gunnaman songkhla' 위치의 ERP를 조회하는 반면, 두 번째 쿼리는 'mount goonaneman' 위치의 ERP를 조회합니다. 따라서 두 쿼리는 의미적으로 서로 다른 결과를 반환합니다.\"\n}"

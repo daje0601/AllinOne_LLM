@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and will return the same results. They both select the 'Partner' from 'table_22873' where the 'Outcome' is 'Runner-up' and the 'Championship' is 'US Open'. Therefore, they are semantically equivalent.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'College/Country/Team' 필드에서 찾는 키워드가 다릅니다. 첫 번째 쿼리는 'university of mississippi'라는 전체 문자열을 조건으로 하고 있으며, 두 번째 쿼리는 'mississippi'라는 부분 문자열을 조건으로 하고 있습니다. 따라서, 결과가 의미적으로 동일하지 않습니다. 'university of mississippi'라는 문자열이 'mississippi'로 포함될 수 있지만, 다를 수 있는 경우도 존재하므로 두 쿼리는 동일한 결과를 보장하지 않습니다.\"\n}"

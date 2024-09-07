@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 Prescription에서 처방된 약물이 다릅니다. 첫 번째 쿼리는 'Cetraxa'를 조회하고, 두 번째 쿼리는 'Sertraline'을 조회합니다. 문제는 'Sertraline'을 처방받은 환자의 수를 찾는 것이기 때문에, 첫 번째 쿼리는 문제의 요구 사항을 충족하지 않습니다.\"\n}"

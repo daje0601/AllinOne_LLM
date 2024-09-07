@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리의 'regular_season' 조건에서 차이가 있습니다. 첫 번째 쿼리에서는 'southern atlantic'을 사용하고, 두 번째 쿼리에서는 'south atlantic'을 사용합니다. 이 두 값은 서로 다른 지역을 나타내므로, 쿼리의 결과가 동일하지 않습니다.\"\n}"

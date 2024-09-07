@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 'played' 컬럼의 값이 22와 'carmarthen athletic rfc'라는 구단 이름에 해당하는 레코드를 선택한다는 점에서 의미적으로 동일합니다. 하나는 숫자형 리터럴 22를 사용하고, 다른 하나는 문자열 리터럴 '22'를 사용하지만, SQL의 타입 변환(implicit conversion) 때문에 두 조건은 같은 결과를 생성합니다.\"\n}"

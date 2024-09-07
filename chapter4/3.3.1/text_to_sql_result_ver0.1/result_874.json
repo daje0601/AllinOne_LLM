@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 position이 'wr'이고 number가 17보다 큰 게임의 수를 세는 결과를 반환합니다. COUNT(games) 함수와 COUNT(games) AS ↑는 결과적으로 같은 값을 반환하며, AS 절은 결과의 이름을 다르게 지정할 뿐입니다. 따라서 두 쿼리는 의미적으로 동일한 결과를 반환합니다.\"\n}"

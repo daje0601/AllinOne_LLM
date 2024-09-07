@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'name'의 값이 다릅니다. 첫 번째 쿼리에서는 'kennan robinson'이며, 두 번째 쿼리에서는 'keenan robinson'입니다. 이는 'kennan'과 'keenan'의 철자가 다르기 때문에 두 쿼리가 반환하는 결과가 다를 수 있습니다.\"\n}"

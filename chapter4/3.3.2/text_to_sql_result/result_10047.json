@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건과 집계 방식을 사용하고 있습니다. 첫 번째 쿼리는 특정 조건(Posts.PostTypeId = 1, Votes.VoteTypeId = 2)을 충족하는 Votes의 총 수와 UpVotes, DownVotes, 그리고 UpVotes의 비율을 계산합니다. 반면 두 번째 쿼리는 Votes의 DownVotes와 UpVotes 합을 기준으로 비율을 계산하는데, VoteTypeId=3의 DownVotes와 VoteTypeId=2의 UpVotes를 집계하여 처리하고 있습니다. 따라서 반환되는 결과의 의미는 다릅니다.\"\n}"

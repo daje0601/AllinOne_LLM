@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'competition'이 'friendly match'인 경우만을 찾는 반면, 두 번째 쿼리는 'competition'이 'friendly'인 경우를 찾고 있습니다. 'friendly match'와 'friendly'는 서로 다르기 때문에 두 쿼리는 서로 다른 결과를 반환할 수 있습니다.\"\n}"

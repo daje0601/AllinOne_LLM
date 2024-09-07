@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAYggpSfW9HwWbx1yB7kTpn3MdT",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 질문에 대한 적절한 답변이 아니며, 세계 7대 불가사의와 관련 없는 정보만 제공합니다.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델이 제공한 정보는 정확하지 않으며, 8대 불가사의에 대한 질문에 전혀 관련 없는 항목을 나열했습니다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 질문의 요구 사항을 전혀 충족하지 않으며, 8대 불가사의에 대한 언급이 없습니다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 읽기는 쉽지만, 내용이 부정확하고 질문과 무관해 실질적인 도움이 되지 않습니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제와 내용 모두가 다릅니다.\"},\"average_score\":2.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 질문에 대한 적절한 답변이 아니며, 세계 7대 불가사의와 관련 없는 정보만 제공합니다."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델이 제공한 정보는 정확하지 않으며, 8대 불가사의에 대한 질문에 전혀 관련 없는 항목을 나열했습니다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문의 요구 사항을 전혀 충족하지 않으며, 8대 불가사의에 대한 언급이 없습니다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 읽기는 쉽지만, 내용이 부정확하고 질문과 무관해 실질적인 도움이 되지 않습니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제와 내용 모두가 다릅니다."
+                    },
+                    "average_score": 2.4
+                }
+            }
+        }
+    ],
+    "created": 1723222458,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 219,
+        "prompt_tokens": 789,
+        "total_tokens": 1008
+    }
+}

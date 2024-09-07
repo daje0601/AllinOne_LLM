@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB0MRT0QzM2DtC4yTB66Mq9fH29",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 '보이콧'의 유래와 관련하여 정보를 제공하지만, 질문의 핵심인 찰스 보이콧에 대한 언급이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 보이콧의 정의를 설명하고 있지만, 찰스 보이콧의 역할과 사건의 세부사항이 틀리거나 불명확하다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델은 보이콧의 기원에 관한 기본적인 정보를 제공하나, 사건의 배경 및 세부사항이 부족하여 완전성이 떨어진다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하고 읽기 쉬운 형태로 작성되었다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 상당히 다른 방향으로 나아갔으며, 중요한 역사적 인물이 누락되었다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 '보이콧'의 유래와 관련하여 정보를 제공하지만, 질문의 핵심인 찰스 보이콧에 대한 언급이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 보이콧의 정의를 설명하고 있지만, 찰스 보이콧의 역할과 사건의 세부사항이 틀리거나 불명확하다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델은 보이콧의 기원에 관한 기본적인 정보를 제공하나, 사건의 배경 및 세부사항이 부족하여 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하고 읽기 쉬운 형태로 작성되었다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 상당히 다른 방향으로 나아갔으며, 중요한 역사적 인물이 누락되었다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222486,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 596,
+        "total_tokens": 834
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 각기 다른 진단 코드(short_title)를 기준으로 하고 있습니다. 첫 번째 쿼리는 'Gastrointestinal bleed NEC'를 사용하고, 두 번째 쿼리는 'Gastrointest hemorr NOS'를 사용하여 각각의 환자를 선택합니다. 이는 서로 다른 환자 그룹을 포함할 수 있으므로 의미적으로 동일하지 않습니다. 또한, 처방(route)에서 첫 번째 쿼리는 'IV'를, 두 번째 쿼리는 'IV DRIP'을 사용하여 약간의 차이가 있습니다.\"\n}"

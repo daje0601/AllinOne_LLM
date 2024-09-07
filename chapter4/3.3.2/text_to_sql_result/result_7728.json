@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'player' 필드의 조건이 서로 다릅니다. 첫 번째 쿼리는 'Hasan Tillakaratne'를 사용하고, 두 번째 쿼리는 'Hashan Tillakaratne'라는 다른 철자를 사용합니다. 이로 인해 두 쿼리는 서로 다른 결과를 반환할 가능성이 높습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 이름을 참조하고 있습니다. 첫 번째 쿼리는 'elizabeth van welsum'이라는 이름을, 두 번째 쿼리는 'elizabeth van welie'라는 이름을 사용하고 있습니다. 따라서 쿼리의 결과는 서로 다를 것입니다.\"\n}"

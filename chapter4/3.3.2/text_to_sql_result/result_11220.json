@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'Tournament' 값을 사용하고 있습니다. 첫 번째 쿼리는 '10,000 jakarta, indonesia f2'를 검색하는 반면, 두 번째 쿼리는 '$10,000 – tarakan , indonesia f2'를 검색합니다. 따라서 결과가 동일할 수 없습니다.\"\n}"

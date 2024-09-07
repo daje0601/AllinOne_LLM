@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAEVhrpjnDSKMjvEDBbdfDuC2Kk",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":2,\"explanation\":\"모델의 답변은 배구 용어와 관련된 내용을 다루지 않고, 배구와 무관한 여러 단어들을 나열하고 있음.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변에는 배구에 대한 정확한 용어나 정의가 전혀 포함되어 있지 않으며, 주제와 관련 없음.\"},\"completeness\":{\"score\":1,\"explanation\":\"제공된 정보는 배구 용어에 대한 설명이 전혀 없어 완전한 답변이라고 할 수 없음.\"},\"clarity\":{\"score\":3,\"explanation\":\"모델의 답변은 구조가 없는 무작위 단어 나열이라 이해하기 어려움.\"},\"similarity\":{\"score\":1,\"explanation\":\"참조 답변과 내용이 전혀 일치하지 않으며, 용어의 주제성이 전혀 없음.\"},\"average_score\":1.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 배구 용어와 관련된 내용을 다루지 않고, 배구와 무관한 여러 단어들을 나열하고 있음."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변에는 배구에 대한 정확한 용어나 정의가 전혀 포함되어 있지 않으며, 주제와 관련 없음."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "제공된 정보는 배구 용어에 대한 설명이 전혀 없어 완전한 답변이라고 할 수 없음."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 구조가 없는 무작위 단어 나열이라 이해하기 어려움."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "참조 답변과 내용이 전혀 일치하지 않으며, 용어의 주제성이 전혀 없음."
+                    },
+                    "average_score": 1.6
+                }
+            }
+        }
+    ],
+    "created": 1723222438,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 201,
+        "prompt_tokens": 1071,
+        "total_tokens": 1272
+    }
+}

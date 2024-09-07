@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB1c9W21gjxeIzVPsUvtXTzJNoe",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 양란에 대한 정의가 잘못되어 있으며, 질문의 핵심 내용인 임진왜란과 병자호란에 대한 언급이 명확하지 않음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델의 답변은 양란에 대한 정보와 역사적 사실을 잘못 제시하고 있으며, 임진왜란과 병자호란의 설명에서 심각한 오류가 있음.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델은 양란의 정의를 명확히 하지 못했으며, 임진왜란과 병자호란에 대한 명확한 언급이 부족함. 추가적인 역사적 사건 언급이 혼동을 초래함.\"},\"clarity\":{\"score\":5,\"explanation\":\"문장은 명확하게 구성되어 있으나, 내용의 정확성 문제로 인해 전체적인 이해를 방해함.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변의 내용과 크게 상이하며, 양란에 대한 기본적인 개념조차 틀림.\"},\"average_score\":3.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 양란에 대한 정의가 잘못되어 있으며, 질문의 핵심 내용인 임진왜란과 병자호란에 대한 언급이 명확하지 않음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 양란에 대한 정보와 역사적 사실을 잘못 제시하고 있으며, 임진왜란과 병자호란의 설명에서 심각한 오류가 있음."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델은 양란의 정의를 명확히 하지 못했으며, 임진왜란과 병자호란에 대한 명확한 언급이 부족함. 추가적인 역사적 사건 언급이 혼동을 초래함."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "문장은 명확하게 구성되어 있으나, 내용의 정확성 문제로 인해 전체적인 이해를 방해함."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변의 내용과 크게 상이하며, 양란에 대한 기본적인 개념조차 틀림."
+                    },
+                    "average_score": 3.2
+                }
+            }
+        }
+    ],
+    "created": 1723222487,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 606,
+        "total_tokens": 862
+    }
+}

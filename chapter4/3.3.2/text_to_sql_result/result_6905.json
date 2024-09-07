@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 각각 'syracuse'라는 학교의 'conf (overall)' 값을 선택하는 동일한 SQL 쿼리로, 결과에 영향을 주는 차이가 없습니다.\"\n}"

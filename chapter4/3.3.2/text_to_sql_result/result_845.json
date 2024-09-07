@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 모두 'Round'가 2보다 클 때와 'Event'가 'Midwest Cage Championships 25: Inferno'일 때 'Res.'를 선택하는 조건을 동일하게 표현하고 있습니다. 단지 문자열 비교에서 대소문자가 다르지만 SQL에서 대소문자는 일반적으로 구분되지 않으므로 결과는 동일합니다.\"\n}"

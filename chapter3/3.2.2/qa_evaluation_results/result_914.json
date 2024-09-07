@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBWIOJXqXGqHQH16h0mzzMLMyhc",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 가벼운 내용이지만, 캡슐약의 재질과 성분, 복용 방법에 대해 질문한 것에 적합하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 제공한 정보는 일부 정확하지만, 캡슐의 성분에 대한 설명이 부족하고 잘못된 정보를 포함하고 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 일부 정보를 포함하지만, 필요한 모든 세부 정보를 다루지 못했으며 서방캡슐과 같이 특수한 경우에 대한 언급이 없다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉬운 문장으로 구성되어 있으나, 일부 부분이 중복되거나 모호하게 표현되어 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사성이 떨어지며, 일부 핵심 내용을 재구성하여 표현했다.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 가벼운 내용이지만, 캡슐약의 재질과 성분, 복용 방법에 대해 질문한 것에 적합하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 제공한 정보는 일부 정확하지만, 캡슐의 성분에 대한 설명이 부족하고 잘못된 정보를 포함하고 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부 정보를 포함하지만, 필요한 모든 세부 정보를 다루지 못했으며 서방캡슐과 같이 특수한 경우에 대한 언급이 없다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉬운 문장으로 구성되어 있으나, 일부 부분이 중복되거나 모호하게 표현되어 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사성이 떨어지며, 일부 핵심 내용을 재구성하여 표현했다."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222518,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 608,
+        "total_tokens": 846
+    }
+}

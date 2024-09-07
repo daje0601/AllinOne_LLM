@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNALTU6c7oizDwEaqxWvtkGpmn0X",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":3,\"explanation\":\"모델의 답변은 세느강에 대한 질문에 대한 적절한 정보가 부족하고, 관련성이 매우 낮음.\"},\"accuracy\":{\"score\":2,\"explanation\":\"모델은 세느강의 다리 개수와 유명한 다리 이름에 대한 잘못된 정보를 제공하고 있어 정확성이 매우 낮음.\"},\"completeness\":{\"score\":2,\"explanation\":\"모델은 다리의 명칭을 과도하게 나열했지만, 이 중 대다수는 세느강과 관련이 없거나 불필요한 정보임.\"},\"clarity\":{\"score\":5,\"explanation\":\"프랑스의 다리들에 대해 나열하고 있으나, 정보의 산만함으로 인해 명확성은 다소 부족함.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 내용이 거의 일치하지 않으며, 대부분의 다리가 세느강과 관련이 없음.\"},\"average_score\":2.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 세느강에 대한 질문에 대한 적절한 정보가 부족하고, 관련성이 매우 낮음."
+                    },
+                    "accuracy": {
+                        "score": 2,
+                        "explanation": "모델은 세느강의 다리 개수와 유명한 다리 이름에 대한 잘못된 정보를 제공하고 있어 정확성이 매우 낮음."
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "explanation": "모델은 다리의 명칭을 과도하게 나열했지만, 이 중 대다수는 세느강과 관련이 없거나 불필요한 정보임."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "프랑스의 다리들에 대해 나열하고 있으나, 정보의 산만함으로 인해 명확성은 다소 부족함."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 거의 일치하지 않으며, 대부분의 다리가 세느강과 관련이 없음."
+                    },
+                    "average_score": 2.8
+                }
+            }
+        }
+    ],
+    "created": 1723222445,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 224,
+        "prompt_tokens": 761,
+        "total_tokens": 985
+    }
+}

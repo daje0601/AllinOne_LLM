@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBHHwfVX0V2X7qU1J73RY7uk9R7",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 Evans Syndrome에 대한 정보가 아닌, 잘못된 내용의 심장 질환에 대해 설명하고 있어 관련성이 매우 낮습니다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 의학적으로 부정확하며, Evans Syndrome과 관련 없는 내용을 포함하고 있습니다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 Evans Syndrome에 대한 이해에 필요한 정보가 전혀 포함되어 있지 않아서 완전성이 없습니다.\"},\"clarity\":{\"score\":2,\"explanation\":\"모델의 답변은 비록 불명확한 정보를 포함하고 있지만, 문장이 구조적으로는 이해할 수 있게 작성되었습니다. 그러나 주제와 관련이 없기 때문에 낮은 점수를 부여합니다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사한 내용을 담고 있지 않아서 유사성이 없습니다.\"},\"average_score\":1.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 Evans Syndrome에 대한 정보가 아닌, 잘못된 내용의 심장 질환에 대해 설명하고 있어 관련성이 매우 낮습니다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 의학적으로 부정확하며, Evans Syndrome과 관련 없는 내용을 포함하고 있습니다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 Evans Syndrome에 대한 이해에 필요한 정보가 전혀 포함되어 있지 않아서 완전성이 없습니다."
+                    },
+                    "clarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 비록 불명확한 정보를 포함하고 있지만, 문장이 구조적으로는 이해할 수 있게 작성되었습니다. 그러나 주제와 관련이 없기 때문에 낮은 점수를 부여합니다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사한 내용을 담고 있지 않아서 유사성이 없습니다."
+                    },
+                    "average_score": 1.2
+                }
+            }
+        }
+    ],
+    "created": 1723222503,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 533,
+        "total_tokens": 756
+    }
+}

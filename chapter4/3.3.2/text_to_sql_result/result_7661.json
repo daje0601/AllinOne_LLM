@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'previous_council'이 19이고 'seats_up_for_election'이 6보다 큰 'new_council'을 선택합니다. 두 번째 쿼리는 동일한 'previous_council'이지만 'seats_up_for_election'이 6보다 작은 경우를 셉니다. 따라서 두 쿼리는 서로 상반된 조건을 가지고 있어 의미적으로 동일하지 않습니다.\"\n}"

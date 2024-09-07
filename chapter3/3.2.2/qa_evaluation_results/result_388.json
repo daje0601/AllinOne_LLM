@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAn0L1UdWSW0aq93vYQnWa8vWae",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 '조리상 한계'라는 개념과 관련 없고, 계란의 영양 성분에 대한 내용만 포함하고 있어 질문과 관련 없음.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변에서 언급된 개념인 '조리상 한계'는 잘못 사용되었고, 그 내용이 사실과 일치하지 않음.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 조리상 한계의 정의나 개념을 전혀 포함하지 않고 있으므로 완전성이 없음.\"},\"clarity\":{\"score\":3,\"explanation\":\"모델의 답변이 잘못된 내용을 담고 있지만, 내부적으로는 구조가 있어서 이해는 가능. 그러나 주제의 일관성이 부족.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제가 완전히 다름.\"},\"average_score\":1.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '조리상 한계'라는 개념과 관련 없고, 계란의 영양 성분에 대한 내용만 포함하고 있어 질문과 관련 없음."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변에서 언급된 개념인 '조리상 한계'는 잘못 사용되었고, 그 내용이 사실과 일치하지 않음."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 조리상 한계의 정의나 개념을 전혀 포함하지 않고 있으므로 완전성이 없음."
+                    },
+                    "clarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변이 잘못된 내용을 담고 있지만, 내부적으로는 구조가 있어서 이해는 가능. 그러나 주제의 일관성이 부족."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사하지 않으며, 주제가 완전히 다름."
+                    },
+                    "average_score": 1.2
+                }
+            }
+        }
+    ],
+    "created": 1723222473,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 229,
+        "prompt_tokens": 612,
+        "total_tokens": 841
+    }
+}

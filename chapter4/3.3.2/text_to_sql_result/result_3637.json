@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 AVG 함수에 대해 서로 다른 칼럼을 사용하고 있습니다. 첫 번째 쿼리는 EMPLOYEE_ID의 평균을 계산하고, 두 번째 쿼리는 MANAGER_ID의 평균을 계산합니다. 문제에서 요구하는 것은 manager_id 별 hire_date의 평균이므로, 두 쿼리는 동일한 의미를 가지지 않습니다.\"\n}"

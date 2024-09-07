@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 WHERE 절의 'host' 값이 다릅니다. 첫 번째 쿼리는 'University of Manitoba Manitoba, Winnipeg'로 입력되어 있고, 두 번째 쿼리는 'University of Manitoba, Winnipeg, Manitoba'로 입력되어 있습니다. 이로 인해 쿼리가 참조하는 데이터가 다르므로 각 쿼리의 결과는 동일하지 않습니다.\"\n}"

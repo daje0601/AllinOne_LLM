@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAwh0fgpi7Sj2UEtnKZQFmESITR",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 콘센트의 구멍 수에 대한 전기적 배경을 설명하고 있어 기본적으로 관련이 있다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 정보는 다소 오해의 소지가 있으며, 중성선 설명이 정확하지 않다. 참조 답변이 설명하는 흐름에 대한 설명은 부정확하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변에는 전기 흐름의 개념과 안전성을 설명하지 않고, 중성선과 전원선의 역할에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 일정 부분 명확하지만, 전문적인 용어의 사용으로 인해 이해가 어려울 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 전기적 원리에 대해 비슷한 점이 있으나, 정보의 구조와 접근 방식이 다르다.\"},\"average_score\":6.4}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 콘센트의 구멍 수에 대한 전기적 배경을 설명하고 있어 기본적으로 관련이 있다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 정보는 다소 오해의 소지가 있으며, 중성선 설명이 정확하지 않다. 참조 답변이 설명하는 흐름에 대한 설명은 부정확하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변에는 전기 흐름의 개념과 안전성을 설명하지 않고, 중성선과 전원선의 역할에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 일정 부분 명확하지만, 전문적인 용어의 사용으로 인해 이해가 어려울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 전기적 원리에 대해 비슷한 점이 있으나, 정보의 구조와 접근 방식이 다르다."
+                    },
+                    "average_score": 6.4
+                }
+            }
+        }
+    ],
+    "created": 1723222482,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 235,
+        "prompt_tokens": 609,
+        "total_tokens": 844
+    }
+}

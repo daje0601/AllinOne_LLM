@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'admission_location' 조건이 다릅니다. 첫 번째 쿼리는 'TRANSFER FROM HOSP/EXTRAM'를 조건으로 하고, 두 번째 쿼리는 'TRSF WITHIN THIS FACILITY'를 조건으로 합니다. 따라서 환자 수가 달라질 수 있어 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

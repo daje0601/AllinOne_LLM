@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 'short_title' 값을 사용하고 있습니다. 첫 번째 쿼리는 'Arterial angiography NEC'를 기준으로 환자를 세고 있으며, 두 번째 쿼리는 'Contr cerebr arteriogram'를 기준으로 세고 있습니다. 따라서 이 두 쿼리는 서로 다른 결과를 반환하며 문제에서 요구하는 ‘대뇌 혈관 조영술’ 절차를 기준으로 하지 않으므로 의미적으로 동일하지 않습니다.\"\n}"

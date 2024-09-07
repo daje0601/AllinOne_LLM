@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'nino oliveiro'와 'nino oliviero'는 철자가 다르므로, 쿼리의 결과는 서로 다릅니다. 첫 번째 쿼리는 'oliveiro'를 찾고, 두 번째 쿼리는 'oliviero'를 찾기 때문에, 이 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

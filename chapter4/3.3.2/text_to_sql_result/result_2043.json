@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 다른 문자열을 통해 필터링을 수행하고 있습니다. 'j-pop/k-pop charts by g-music'와 'g-music j-pop/k-pop chart'는 서로 다른 값이며, 따라서 두 쿼리가 반환하는 결과는 다를 수 있습니다.\"\n}"

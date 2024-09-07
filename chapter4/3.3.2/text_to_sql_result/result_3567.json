@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 SQL 쿼리는 'Studio(s)' 필드의 값이 서로 다릅니다. 첫 번째 쿼리는 'walt disney pictures image movers digital'를 필터링하고, 두 번째 쿼리는 'walt disney pictures imagemovers digital'을 필터링합니다. 이 두 문자열은 서로 다르기 때문에, 쿼리의 결과도 다르게 나옵니다.\"\n}"

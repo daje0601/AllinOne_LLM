@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완벽히 동일합니다. 둘 다 'county_public_safety' 테이블에서 동쪽(location이 'East'가 아닌) 카운티의 고유한 경찰서 목록을 선택하고 있으며, 쿼리 구조나 사용된 함수가 동일합니다.\"\n}"

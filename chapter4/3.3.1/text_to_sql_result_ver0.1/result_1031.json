@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 treatmentname ('contrast retrograde nephrogram'와 'pyelogram - retrograde')을 사용하고 있습니다. 따라서 두 쿼리는 서로 다른 처치가 시행되었는지를 체크하고 있어 의미적으로 동일하지 않습니다.\"\n}"

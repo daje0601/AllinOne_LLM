@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 정확히 동일하며, 동일한 결과를 생성합니다. 두 쿼리 모두 prescriptions 테이블에서 'Famvir'라는 약물을 찾고, 해당 약물의 drug_type과 route 정보를 반환합니다.\"\n}"

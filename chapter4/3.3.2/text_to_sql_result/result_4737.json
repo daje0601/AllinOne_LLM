@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 동일합니다. 두 쿼리 모두 'demographic' 테이블에서 'admission_location'이 'TRSF WITHIN THIS FACILITY'인 환자들의 평균 병원 체류 일수를 계산하고 있습니다. 쿼리 구조, 조건, 사용된 함수가 모두 동일하므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

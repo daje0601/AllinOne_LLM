@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 동일한 환자를 고려하지만, 수술의 제목(short_title)과 긴 제목(long_title)에 따라 결과가 다를 수 있습니다. 첫 번째 쿼리는 'Percutan abd drainage'라는 짧은 제목을 기준으로 하고, 두 번째 쿼리는 'Percutaneous abdominal drainage'라는 긴 제목을 사용합니다. 이 두 제목이 같은 수술을 가리킬 수도 있지만, 명확한 매칭을 보장하지 않으므로 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

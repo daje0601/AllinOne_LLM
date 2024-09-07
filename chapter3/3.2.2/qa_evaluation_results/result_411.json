@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNApZ6RriFBRBH9QYp5GYFusDiNp",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문에 대한 두 가지 주요 쟁점, 즉 종친의 호칭과 남연군의 호칭 사용 이유에 대해서 잘 언급하고 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"일부 세부 사항에서 정확성은 인정되지만, 남연군과 흥선대원군의 관계 및 역사적 배경에 대한 설명이 추가적인 오류가 있는 것으로 보인다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델의 답변은 핵심적인 포인트를 다루고 있지만, 더 자세한 역사적 맥락이나 종친부의 역할 및 결정 과정에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하게 서술되고 있지만, 몇 군데에서 문장 구조가 복잡할 수 있어 약간의 이해를 방해할 수 있다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변의 주제를 잘 따르지만, 사용된 언어와 설명의 깊이에서 다소 차이가 있다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문에 대한 두 가지 주요 쟁점, 즉 종친의 호칭과 남연군의 호칭 사용 이유에 대해서 잘 언급하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "일부 세부 사항에서 정확성은 인정되지만, 남연군과 흥선대원군의 관계 및 역사적 배경에 대한 설명이 추가적인 오류가 있는 것으로 보인다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 핵심적인 포인트를 다루고 있지만, 더 자세한 역사적 맥락이나 종친부의 역할 및 결정 과정에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하게 서술되고 있지만, 몇 군데에서 문장 구조가 복잡할 수 있어 약간의 이해를 방해할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변의 주제를 잘 따르지만, 사용된 언어와 설명의 깊이에서 다소 차이가 있다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222475,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 261,
+        "prompt_tokens": 813,
+        "total_tokens": 1074
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 특정 사용자가 작성한 PostHistory에서 PostId와 Score, CreationDate, RevisionGUID를 선택하여 정렬하는 반면, 두 번째 쿼리는 특정 기간에 생성된 ReviewTasks에 대해 날짜별로 개수를 집계하는 쿼리입니다. 이들은 서로 다른 테이블과 조건을 사용하며, 각각의 데이터와 목적이 전혀 다르기 때문에 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

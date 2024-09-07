@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 치료명에서 'sertraline (zoloft)'와 'ssri administration - sertraline (zoloft)'로 다르기 때문에 서로 다른 조건을 가지고 있습니다. 이로 인해 각각의 쿼리가 반환하는 진단명 결과가 다를 수 있습니다. 특정 약물에 대한 진단 결과를 요청하는 것이므로, 동일한 환자 그룹과 시간 범위 내에서도 차이가 발생할 수 있습니다.\"\n}"

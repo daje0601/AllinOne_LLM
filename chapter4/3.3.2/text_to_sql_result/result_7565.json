@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 metropolitan_ring이 정수 3인 경우를 선택하고, 두 번째 쿼리는 metropolitan_ring이 문자열 'Inner Ring 3'인 경우를 선택합니다. 따라서 두 쿼리는 서로 다른 조건을 기준으로 결과를 필터링하므로 의미적으로 동일하지 않습니다.\"\n}"

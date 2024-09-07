@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 각각 다른 진단 코드에 대해 측정하고 있습니다. 첫 번째 쿼리는 진단이 'VENTRICULAR TACHYCARDIA'인 환자를 선택하는 반면, 두 번째 쿼리는 'Ventricular fibrillation'인 환자를 선택합니다. 이 진단들이 서로 다른 상태를 나타내므로, 쿼리의 출력은 동일하지 않습니다.\"\n}"

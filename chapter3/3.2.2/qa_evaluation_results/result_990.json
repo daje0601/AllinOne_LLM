@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBdKMhw9xZDXNfUQ1ciLfggD0dZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 미란다의 원칙과 관련된 여러 권리와 절차를 설명하므로 질문에 잘 관련되어 있다.\"},\"accuracy\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 정확하나, 일부 세부사항이 미흡하거나 중복되는 부분이 있다.\"},\"completeness\":{\"score\":7,\"explanation\":\"모델은 미란다 원칙에 대한 기본적인 내용과 여러 관련 권리를 설명하지만, 미란다 카드와 같은 세부 사항은 누락되었다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉽게 설명되었으나, 몇몇 부분에서 중복 내용이 있다.\"},\"similarity\":{\"score\":7,\"explanation\":\"모델의 답변은 참조 답변과 비슷하나, 구조와 일부 내용에서 차이가 있다.\"},\"average_score\":7.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 미란다의 원칙과 관련된 여러 권리와 절차를 설명하므로 질문에 잘 관련되어 있다."
+                    },
+                    "accuracy": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 정확하나, 일부 세부사항이 미흡하거나 중복되는 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 7,
+                        "explanation": "모델은 미란다 원칙에 대한 기본적인 내용과 여러 관련 권리를 설명하지만, 미란다 카드와 같은 세부 사항은 누락되었다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉽게 설명되었으나, 몇몇 부분에서 중복 내용이 있다."
+                    },
+                    "similarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 참조 답변과 비슷하나, 구조와 일부 내용에서 차이가 있다."
+                    },
+                    "average_score": 7.8
+                }
+            }
+        }
+    ],
+    "created": 1723222525,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 214,
+        "prompt_tokens": 975,
+        "total_tokens": 1189
+    }
+}

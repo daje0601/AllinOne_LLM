@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAHLjr1ZDqgN2qX1z3q9Sf22hjt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":10,\"explanation\":\"모델의 답변은 질문에 대해 정확하게 1유로 동전의 모양이 다른 이유를 설명하고 있어 매우 관련성이 높습니다.\"},\"accuracy\":{\"score\":9,\"explanation\":\"모델의 답변은 전반적으로 정확하나, 참조 답변에서 언급된 '총 15개국에서 디자인이 다른 동전 1유로를 발행하고 있다'는 부분이 모델 답변에서는 다소 누락되었으나 기본 개념은 정확합니다.\"},\"completeness\":{\"score\":8,\"explanation\":\"모델의 답변은 동전 뒷면의 디자인 차이를 서술하지만, 추가적인 세부사항이나 코인 수집가들에게의 영향 등은 포함되지 않아 완전성은 약간 낮습니다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 명확하고 이해하기 쉬우며, 비전문가도 이해할 수 있도록 잘 설명되어 있습니다.\"},\"similarity\":{\"score\":8,\"explanation\":\"모델의 답변은 참조 답변과 비슷한 주제를 다루고 있지만, 세부사항이나 표현 방식이 약간 다릅니다.\"},\"average_score\":8.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 10,
+                        "explanation": "모델의 답변은 질문에 대해 정확하게 1유로 동전의 모양이 다른 이유를 설명하고 있어 매우 관련성이 높습니다."
+                    },
+                    "accuracy": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 전반적으로 정확하나, 참조 답변에서 언급된 '총 15개국에서 디자인이 다른 동전 1유로를 발행하고 있다'는 부분이 모델 답변에서는 다소 누락되었으나 기본 개념은 정확합니다."
+                    },
+                    "completeness": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 동전 뒷면의 디자인 차이를 서술하지만, 추가적인 세부사항이나 코인 수집가들에게의 영향 등은 포함되지 않아 완전성은 약간 낮습니다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 명확하고 이해하기 쉬우며, 비전문가도 이해할 수 있도록 잘 설명되어 있습니다."
+                    },
+                    "similarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 참조 답변과 비슷한 주제를 다루고 있지만, 세부사항이나 표현 방식이 약간 다릅니다."
+                    },
+                    "average_score": 8.8
+                }
+            }
+        }
+    ],
+    "created": 1723222441,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 272,
+        "prompt_tokens": 538,
+        "total_tokens": 810
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 기준으로 카운트를 수행합니다. 생성된 쿼리는 'Root of All Evil'이 'Drinking Games'인 경우의 'Poll winner'를 세고, 정답 쿼리는 'Poll winner'가 'Drinking Games'인 경우의 행 수를 셉니다. 즉, 서로 다른 필드를 기준으로 카운트를 하므로 같은 결과를 반환하지 않습니다.\"\n}"

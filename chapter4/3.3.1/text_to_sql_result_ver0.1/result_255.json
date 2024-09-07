@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 값을 기준으로 필터링하고 있습니다. 첫 번째 쿼리는 surface에 'wesley hyde'를 사용하고, 대회(tournament)의 위치로 'wrexham, england'를 사용합니다. 반면, 두 번째 쿼리는 surface에 'hard'를 사용하고, 대회 위치로 'wrexham, great britain'을 사용합니다. 이로 인해 두 쿼리는 기초 데이터 집합에서 다른 결과를 반환할 것입니다.\"\n}"

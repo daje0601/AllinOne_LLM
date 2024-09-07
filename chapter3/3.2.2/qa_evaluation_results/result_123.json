@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAOFNtMuO5c0wvgqx00e3WYNGif",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 동공을 확인하는 방법과 그 역사에 대한 정보를 제공하여 질문과 관련이 있지만, 동공 크기 변화의 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 정보가 틀리거나 잘못 해석되었으며, 동공 관찰 방법의 잘못된 설명으로 인해 정확성이 떨어진다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델 답변은 주제에 대한 기초정보를 제공하지만, 사망 확인 과정에 대한 종합적인 내용과 관련 변수를 명확히 다루지 않았다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 이해하기 쉽지만, 일부 문장은 명확하지 않거나 혼동을 줄 가능성이 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 주제에 대한 다른 관점을 제시하지만, 참조 답변과의 내용 유사성은 낮아 전반적인 일관성이 부족하다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 동공을 확인하는 방법과 그 역사에 대한 정보를 제공하여 질문과 관련이 있지만, 동공 크기 변화의 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 정보가 틀리거나 잘못 해석되었으며, 동공 관찰 방법의 잘못된 설명으로 인해 정확성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델 답변은 주제에 대한 기초정보를 제공하지만, 사망 확인 과정에 대한 종합적인 내용과 관련 변수를 명확히 다루지 않았다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 이해하기 쉽지만, 일부 문장은 명확하지 않거나 혼동을 줄 가능성이 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 주제에 대한 다른 관점을 제시하지만, 참조 답변과의 내용 유사성은 낮아 전반적인 일관성이 부족하다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222448,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 245,
+        "prompt_tokens": 821,
+        "total_tokens": 1066
+    }
+}

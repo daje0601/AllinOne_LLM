@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'partial pancreatectomy'와 'partial pancreatect nec'라는 두 개의 서로 다른 ICD9 코드를 사용하고 있습니다. 이 두 코드가 서로 다른 절차를 나타낼 수 있으므로, 쿼리가 가져오는 결과에서도 차이가 발생할 수 있습니다. 따라서 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

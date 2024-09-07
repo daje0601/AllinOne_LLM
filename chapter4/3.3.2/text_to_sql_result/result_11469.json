@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 개의 쿼리는 완전히 동일합니다. 두 쿼리 모두 'Incorporated in'이 'france'인 경우의 'Principal activities'를 선택하고 있어, 의미적으로 같은 결과를 반환합니다.\"\n}"

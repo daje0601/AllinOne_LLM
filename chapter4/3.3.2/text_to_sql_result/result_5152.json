@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 diagnosis.diagnosisname과 treatment.treatmentname의 값이 다릅니다. 첫 번째 쿼리는 'hypercalcemia'와 'foot orthotics'를 사용하고, 두 번째 쿼리는 'hypercarbia'와 'analgesics - oral analgesics'를 사용합니다. 이로 인해 각 쿼리의 결과는 다를 것이며, 문제의 조건을 충족하지 못합니다.\"\n}"

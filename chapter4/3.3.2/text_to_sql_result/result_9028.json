@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 완전히 동일합니다. 동일한 SQL 문을 포함하고 있으므로, 부서 관리자의 ID가 100과 200 사이에 없는 직원들의 hire_date 분포와 hire_date별 department_id 평균을 구하는 요청에 대해 동일한 결과를 반환합니다.\"\n}"

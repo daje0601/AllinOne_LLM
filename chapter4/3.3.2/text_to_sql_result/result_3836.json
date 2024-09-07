@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 구조적으로 동일하며, 모두 'Year'가 1987인 경우의 'Trophy presentation'의 수를 계산합니다. 따라서 의미적으로 동일한 결과를 반환합니다.\"\n}"

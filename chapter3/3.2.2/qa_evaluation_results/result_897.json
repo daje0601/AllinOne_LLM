@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBVFAk4hTAHPBiwaEeIKRIGKWoZ",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 질문이 요구하는 작물과 식물의 차이에 대해 직접적으로 설명하고 있기 때문에 매우 관련성이 높음.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델의 답변은 대체로 정확하나, '자연적으로 자라는 물건'이라는 표현이 조금 모호하게 느껴지며, 식물의 범위를 덜 포괄적으로 설명함.\"},\"completeness\":{\"score\":6,\"explanation\":\"작물의 정의는 포함되었지만, 식물에 대한 설명이 덜 구체적이며 다양한 식물의 예시가 부족함.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적 명확하고 이해하기 쉽게 작성되었으나, 일부 표현이 어색할 수 있음.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변이 참조 답변과 유사한 점이 있지만, 일부 내용이 다르게 표현되어 있어 유사성은 연관성이 낮음.\"},\"average_score\":7.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 질문이 요구하는 작물과 식물의 차이에 대해 직접적으로 설명하고 있기 때문에 매우 관련성이 높음."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 대체로 정확하나, '자연적으로 자라는 물건'이라는 표현이 조금 모호하게 느껴지며, 식물의 범위를 덜 포괄적으로 설명함."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "작물의 정의는 포함되었지만, 식물에 대한 설명이 덜 구체적이며 다양한 식물의 예시가 부족함."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적 명확하고 이해하기 쉽게 작성되었으나, 일부 표현이 어색할 수 있음."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변이 참조 답변과 유사한 점이 있지만, 일부 내용이 다르게 표현되어 있어 유사성은 연관성이 낮음."
+                    },
+                    "average_score": 7.2
+                }
+            }
+        }
+    ],
+    "created": 1723222517,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 239,
+        "prompt_tokens": 428,
+        "total_tokens": 667
+    }
+}

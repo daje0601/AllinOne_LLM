@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'chronic obstructive pulmonary disease'에 대한 생존 확률을 계산하고, 두 번째 쿼리는 'interstitial lung disease'에 대한 생존 확률을 계산합니다. 따라서, 두 쿼리는 서로 다른 진단명을 참조하고 있으며, 이는 문제에서 요구하는 내용과 다릅니다.\"\n}"

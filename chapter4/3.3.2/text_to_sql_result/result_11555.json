@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 진단의 이름에 있어 다릅니다. 첫 번째 쿼리는 'Regional enteritis NOS'를 사용하고, 두 번째 쿼리는 'Regional enteritis of unspecified site'를 사용합니다. 이 두 진단명은 서로 다른 ICD-9 코드에 해당할 수 있으며, 따라서 선택되는 환자 집합이 다를 수 있습니다. 따라서, 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

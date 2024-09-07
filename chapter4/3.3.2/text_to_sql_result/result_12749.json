@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 lab.labname 값을 사용하고 있습니다. 첫 번째 쿼리는 'vancomycin - minimum concentration'를 조회하고, 두 번째 쿼리는 'vancomycin - trough'를 조회합니다. 두 값이 다르기 때문에 쿼리가 반환하는 결과도 달라질 것입니다.\"\n}"

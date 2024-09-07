@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB4IJvbyQxv6IHXbfz63L3zR1Bb",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 질문에서 발견된 물체와 전혀 관련이 없는 정보를 제공한다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델은 감자에 대한 해충 정보가 아니라 전혀 다른 종인 甘藷의 알에 대한 잘못된 정보를 제공한다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 주어진 질문에 대한 명확한 설명과 해결책을 제공하지 않는다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변이 문법적으로는 다소 이해하기는 쉬우나, 내용이 잘못되어 결국 의사소통이 실패했다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 참조 답변과 전혀 유사하지 않으며 상반된 정보를 제공한다.\"},\"average_score\":1.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 질문에서 발견된 물체와 전혀 관련이 없는 정보를 제공한다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델은 감자에 대한 해충 정보가 아니라 전혀 다른 종인 甘藷의 알에 대한 잘못된 정보를 제공한다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 주어진 질문에 대한 명확한 설명과 해결책을 제공하지 않는다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변이 문법적으로는 다소 이해하기는 쉬우나, 내용이 잘못되어 결국 의사소통이 실패했다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 참조 답변과 전혀 유사하지 않으며 상반된 정보를 제공한다."
+                    },
+                    "average_score": 1.0
+                }
+            }
+        }
+    ],
+    "created": 1723222490,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 197,
+        "prompt_tokens": 697,
+        "total_tokens": 894
+    }
+}

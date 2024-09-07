@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'Series no.'의 최소값을 찾고 있으며, 두 번째 쿼리는 'Season no.'의 최소값을 찾고 있습니다. 또한, 'Dani Renee'와 'Danny Leiner'는 서로 다른 작가를 나타내므로 두 쿼리의 결과가 같지 않습니다.\"\n}"

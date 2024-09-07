@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAwAwJ4O8Px4XwT8POK8Bh86HD5",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 질문과 관련이 있으나, 두 질문을 하나로 합쳐서 요청했음에도 불구하고 각 질문을 분리하여 대답함.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델이 제시한 하루 눈 깜박임 횟수는 실제로 참조답변과 다르며, 둘의 수치는 크게 차이나기 때문에 정확성이 떨어짐.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 두 개의 질문에 대한 답변을 제공하긴 했지만, 각 답변이 포괄적이지 않으며 건강에 대한 설명이 불충분함.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 전반적으로 명확하며, 이해하기 쉽지만 두 질문을 통합해 답하는 방법론이 부족하여 약간의 혼동 가능성이 있음.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 일부 유사한 점이 있으나, 갑자기 두 개의 질문을 분리하여 대답함으로써 유사성이 떨어짐.\"},\"average_score\":6.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 질문과 관련이 있으나, 두 질문을 하나로 합쳐서 요청했음에도 불구하고 각 질문을 분리하여 대답함."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델이 제시한 하루 눈 깜박임 횟수는 실제로 참조답변과 다르며, 둘의 수치는 크게 차이나기 때문에 정확성이 떨어짐."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 두 개의 질문에 대한 답변을 제공하긴 했지만, 각 답변이 포괄적이지 않으며 건강에 대한 설명이 불충분함."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 전반적으로 명확하며, 이해하기 쉽지만 두 질문을 통합해 답하는 방법론이 부족하여 약간의 혼동 가능성이 있음."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 일부 유사한 점이 있으나, 갑자기 두 개의 질문을 분리하여 대답함으로써 유사성이 떨어짐."
+                    },
+                    "average_score": 6.2
+                }
+            }
+        }
+    ],
+    "created": 1723222482,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 265,
+        "prompt_tokens": 766,
+        "total_tokens": 1031
+    }
+}

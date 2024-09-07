@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리에서 약물 이름이 'proventil', 'ventolin', 'prednisone 20 mg po tabs', 'vancomycin hcl 1000 mg iv solr'로 분리되어 있는 반면, 두 번째 쿼리에서는 'proventil,ventolin'로 하나의 문자열로 묶여 있어 의미가 다릅니다. 즉, 첫 번째 쿼리는 'proventil'와 'ventolin'을 개별적으로 검사하는 반면, 두 번째 쿼리는 이를 하나의 약물명으로 처리하여 잘못된 결과를 초래할 수 있습니다.\"\n}"

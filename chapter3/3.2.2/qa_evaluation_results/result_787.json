@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBMihbJJwORCDfjUIPk4fk6w4oa",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 비행기 탑승 시 왼쪽 문 사용에 대해 언급하고 있으나, 질문에서 주로 다루어진 이유와 연관성이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변은 조종사와의 의사소통 및 기내 서비스와 같은 다양한 요소를 언급하지만, 기본적인 역사적 맥락과 이유를 포함하지 않아 참조 답변에 비해 신뢰성이 떨어진다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변은 왼쪽 문 사용의 여러 측면을 설명하나, 질문의 핵심적인 이유(역사적 배경, 엔진 소음 문제 등)에 대한 정보가 부족하여 포괄성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 구조적으로 다양한 점을 다루지만, 일부 내용은 명확하지 않아 이해를 방해할 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변을 직접적으로 반영하지 않으며, 두 답변 간의 유사성이 적다.\"},\"average_score\":5.2}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비행기 탑승 시 왼쪽 문 사용에 대해 언급하고 있으나, 질문에서 주로 다루어진 이유와 연관성이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 조종사와의 의사소통 및 기내 서비스와 같은 다양한 요소를 언급하지만, 기본적인 역사적 맥락과 이유를 포함하지 않아 참조 답변에 비해 신뢰성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 왼쪽 문 사용의 여러 측면을 설명하나, 질문의 핵심적인 이유(역사적 배경, 엔진 소음 문제 등)에 대한 정보가 부족하여 포괄성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 구조적으로 다양한 점을 다루지만, 일부 내용은 명확하지 않아 이해를 방해할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변을 직접적으로 반영하지 않으며, 두 답변 간의 유사성이 적다."
+                    },
+                    "average_score": 5.2
+                }
+            }
+        }
+    ],
+    "created": 1723222508,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 272,
+        "prompt_tokens": 765,
+        "total_tokens": 1037
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB77Ku7NTf1g6jCO0jgHK39p6VM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":5,\"explanation\":\"모델의 답변은 시간이 어떻게 표현되는지에 대한 답을 하지만, 9시~11시 사이의 시간 구분에 대한 구체적인 설명이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델은 12간지 체계에 대해 언급했으나, 시간 측정 체계에 대한 사실관계가 틀리고 일부 정보가 잘못 전달되었다.\"},\"completeness\":{\"score\":3,\"explanation\":\"모델의 답변은 조선시대 시간 표현의 중요한 부분을 다루지 못했고, 질문에 대한 충분한 정보를 제공하지 않았다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 표현은 상대적으로 이해하기 쉬운 문장이지만, 일부 용어의 사용이 명확하지 않아 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":2,\"explanation\":\"모델의 답변은 참조 답변과 상당히 다르며, 기본적인 틀에 대한 유사성을 찾기 어렵다.\"},\"average_score\":4.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 시간이 어떻게 표현되는지에 대한 답을 하지만, 9시~11시 사이의 시간 구분에 대한 구체적인 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델은 12간지 체계에 대해 언급했으나, 시간 측정 체계에 대한 사실관계가 틀리고 일부 정보가 잘못 전달되었다."
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 조선시대 시간 표현의 중요한 부분을 다루지 못했고, 질문에 대한 충분한 정보를 제공하지 않았다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 표현은 상대적으로 이해하기 쉬운 문장이지만, 일부 용어의 사용이 명확하지 않아 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 2,
+                        "explanation": "모델의 답변은 참조 답변과 상당히 다르며, 기본적인 틀에 대한 유사성을 찾기 어렵다."
+                    },
+                    "average_score": 4.0
+                }
+            }
+        }
+    ],
+    "created": 1723222493,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 776,
+        "total_tokens": 1012
+    }
+}

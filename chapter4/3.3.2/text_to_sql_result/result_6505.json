@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'captain' 필드의 값이 다릅니다. 첫 번째 쿼리는 'rob paul'을 사용하고, 두 번째 쿼리는 'robbie paul'을 사용합니다. 따라서 두 쿼리는 같은 captain을 지칭하지 않으며, 결과적으로 의미적으로 동일하지 않습니다. 또한, 첫 번째 쿼리에서는 main_article의 값이 'bradford bulls'로 되어 있고, 두 번째 쿼리는 'bradford bulls 1997'으로 보다 구체적입니다. 이로 인해 쿼리의 결과가 다를 수 있습니다.\"\n}"

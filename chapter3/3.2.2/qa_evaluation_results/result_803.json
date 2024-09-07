@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBNLW50lI3xFMmBKiu90lNpYtI1",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 화면이 흐려지는 문제와 관련된 셔터 속도 및 노출 보정에 대한 정보를 포함하고 있다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"셔터 속도 문제에 대한 설명은 일부 맞지만, 노출 보정값은 일반적인 상황에서 0.0이 아닌 경우도 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델은 몇 가지 해결 방법을 제시했으나, ISO 설정과 플래시 사용에 대한 언급이 부족하다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 플리커 프리 설정을 언급할 때 설명이 다소 부족하다.\"},\"similarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일반적인 주제를 공유하지만, 참조 답변의 세부적인 내용과 아는 방식이 다르다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 화면이 흐려지는 문제와 관련된 셔터 속도 및 노출 보정에 대한 정보를 포함하고 있다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "셔터 속도 문제에 대한 설명은 일부 맞지만, 노출 보정값은 일반적인 상황에서 0.0이 아닌 경우도 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델은 몇 가지 해결 방법을 제시했으나, ISO 설정과 플래시 사용에 대한 언급이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 플리커 프리 설정을 언급할 때 설명이 다소 부족하다."
+                    },
+                    "similarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일반적인 주제를 공유하지만, 참조 답변의 세부적인 내용과 아는 방식이 다르다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222509,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 218,
+        "prompt_tokens": 771,
+        "total_tokens": 989
+    }
+}

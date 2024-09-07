@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNB3dcQuNAgDb7cgBglRZ7NmvmrW",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":9,\"explanation\":\"모델의 답변은 해삼이 내장을 빼내도 생존할 수 있는 이유를 설명하고 있어 질문과 매우 관련이 깊습니다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 사실을 포함하나, 해삼 내장이 재생 가능하다는 핵심 정보와 쿠비어관에 대한 설명이 부족합니다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 해삼이 내장을 빼내고 생존하는 이유를 설명하지만, 생태적 맥락과 내장 쏟아내기 과정 등 중요한 정보가 누락되어 있습니다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 잘 구성되어 있으며 명확하지만, 생리학적 특성에 대한 설명이 다소 일반적이어서 더 구체적인 정의가 필요합니다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변의 일부 주제를 다루지만, 많은 중요한 세부사항(쿠비어관, 재생 과정 등)을 포함하지 않아 유사성이 낮습니다.\"},\"average_score\":6.6}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 해삼이 내장을 빼내도 생존할 수 있는 이유를 설명하고 있어 질문과 매우 관련이 깊습니다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 사실을 포함하나, 해삼 내장이 재생 가능하다는 핵심 정보와 쿠비어관에 대한 설명이 부족합니다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 해삼이 내장을 빼내고 생존하는 이유를 설명하지만, 생태적 맥락과 내장 쏟아내기 과정 등 중요한 정보가 누락되어 있습니다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 잘 구성되어 있으며 명확하지만, 생리학적 특성에 대한 설명이 다소 일반적이어서 더 구체적인 정의가 필요합니다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변의 일부 주제를 다루지만, 많은 중요한 세부사항(쿠비어관, 재생 과정 등)을 포함하지 않아 유사성이 낮습니다."
+                    },
+                    "average_score": 6.6
+                }
+            }
+        }
+    ],
+    "created": 1723222489,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 263,
+        "prompt_tokens": 608,
+        "total_tokens": 871
+    }
+}

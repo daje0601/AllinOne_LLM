@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBNNXGUxueA1uSsqYBuZmRa1l9a",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 영화 개봉일에 대한 배경 정보를 제공하여 질문에 관련성이 있지만, 주로 과거에 대한 설명이 부족하다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 답변의 일부 정보는 정확하지만, 참조답변에서 언급한 '진주만'의 금요일 개봉 사례와 그에 따른 변화에 대한 구체적인 언급이 결여되어 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 영화 개봉 관행에 대한 기본적인 설명을 제공하지만, 개봉일 변화의 구체적인 예시나 한국 시장의 사례에 대한 정보가 누락되어 있다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 전반적으로 이해하기 쉽지만, 일부 표현이 불명확하여 독자가 혼동할 수 있다.\"},\"similarity\":{\"score\":4,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루지만, 결론이나 구체적인 사례가 부족해서 대체로 다르게 느껴진다.\"},\"average_score\":6.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 영화 개봉일에 대한 배경 정보를 제공하여 질문에 관련성이 있지만, 주로 과거에 대한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 답변의 일부 정보는 정확하지만, 참조답변에서 언급한 '진주만'의 금요일 개봉 사례와 그에 따른 변화에 대한 구체적인 언급이 결여되어 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 영화 개봉 관행에 대한 기본적인 설명을 제공하지만, 개봉일 변화의 구체적인 예시나 한국 시장의 사례에 대한 정보가 누락되어 있다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 전반적으로 이해하기 쉽지만, 일부 표현이 불명확하여 독자가 혼동할 수 있다."
+                    },
+                    "similarity": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루지만, 결론이나 구체적인 사례가 부족해서 대체로 다르게 느껴진다."
+                    },
+                    "average_score": 6.0
+                }
+            }
+        }
+    ],
+    "created": 1723222509,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 259,
+        "prompt_tokens": 552,
+        "total_tokens": 811
+    }
+}

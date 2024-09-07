@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 동일하게 'CLINIC REFERRAL/PREMATURE'로 입원한 환자 중 2114년 이전에 태어난 환자의 수를 계산하는 구조를 가지고 있습니다. WHERE 절의 조건과 COUNT(DISTINCT subject_id) 등의 구문이 완전히 일치하여 구조적 차이가 없이 의미적으로 동일한 결과를 반환합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"생성된 쿼리는 'Newtown Square'의 Residence에 해당하는 모든 'Counties represented' 값을 반환하는 반면, 정답 쿼리는 'Newtown Square'의 Residence 중에서 'District' 값의 최소값만 반환합니다. 두 쿼리가 반환하는 데이터의 종류가 다르기 때문에 의미적으로 동일하지 않습니다.\"\n}"

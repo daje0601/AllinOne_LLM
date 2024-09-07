@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'dallas'의 방문 시 총 참석 인원(Aggregate Attendance)을 합산하여 반환하는 반면, 두 번째 쿼리는 'bulls'의 방문 횟수를 세는 COUNT 함수를 사용하고 있습니다. 두 쿼리는 서로 다른 정보를 제공하며, SUM과 COUNT는 다른 연산을 수행하므로 의미적으로 동일하지 않습니다.\"\n}"

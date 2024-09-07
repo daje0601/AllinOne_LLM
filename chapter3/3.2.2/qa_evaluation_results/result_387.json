@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAm7Fl3Dmh6L3TgHulbVzkJv8BO",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 질문에 대해 차가운 물의 온도 변화를 설명하고 있지만, 뜨거운 물에 대한 언급은 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 제시한 온도는 계절에 따라 다를 수 있으나, 참조 답변에서 언급한 온천수의 존재나 계란을 익히기 어려운 점에 대한 설명이 부족하다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변에서는 겨울철 차가운 온도만 강조하고, 온천에서의 계란 조리 사례를 언급하지 않아서 완전하지 않다.\"},\"clarity\":{\"score\":9,\"explanation\":\"모델의 답변은 문장이 간결하고 명확하여 이해하기 쉽다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 비슷한 주제를 다루고 있지만, 세부 사항과 맥락이 다르기 때문에 유사성이 낮다.\"},\"average_score\":7.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 질문에 대해 차가운 물의 온도 변화를 설명하고 있지만, 뜨거운 물에 대한 언급은 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 제시한 온도는 계절에 따라 다를 수 있으나, 참조 답변에서 언급한 온천수의 존재나 계란을 익히기 어려운 점에 대한 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서는 겨울철 차가운 온도만 강조하고, 온천에서의 계란 조리 사례를 언급하지 않아서 완전하지 않다."
+                    },
+                    "clarity": {
+                        "score": 9,
+                        "explanation": "모델의 답변은 문장이 간결하고 명확하여 이해하기 쉽다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 비슷한 주제를 다루고 있지만, 세부 사항과 맥락이 다르기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 7.0
+                }
+            }
+        }
+    ],
+    "created": 1723222472,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 244,
+        "prompt_tokens": 588,
+        "total_tokens": 832
+    }
+}

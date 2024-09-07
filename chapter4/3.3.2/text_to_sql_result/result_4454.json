@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 그룹을 기준으로 COUNT를 수행하고 있습니다. 첫 번째 쿼리는 Document_Type_Code로 그룹화 하여 각 문서 유형별로 문서 날짜를 세고 있지만, 두 번째 쿼리는 Ref_Document_Types 테이블에서 Document_Type_Name으로 그룹화하여 각 문서 유형의 이름으로 문서 날짜를 세고 있습니다. 따라서 그룹화의 기준이 다르므로 결과가 달라질 수 있습니다.\"\n}"

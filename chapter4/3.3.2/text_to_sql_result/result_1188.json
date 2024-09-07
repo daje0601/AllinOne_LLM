@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'admission_location'이 'ELECTIVE'인 경우를 고려하는 반면, 두 번째 쿼리는 'admission_type'이 'ELECTIVE'인 경우를 고려합니다. 이 두 조건은 서로 다른 의미를 가지며, 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

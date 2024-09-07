@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 조회하는 약물의 이름에 대해 공백의 사용 방법만 다를 뿐, SQL 쿼리의 구조와 논리는 동일합니다. 'hydromorphone 1 mg/1ml syr'와 'hydromorphone 1 mg/1 ml syr'는 의미적으로 동일한 약물에 대한 조건을 나타내며, 따라서 두 쿼리는 같은 결과를 출력합니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 진단명을 사용하고 있습니다. 첫 번째 쿼리는 'Cerebral infarction with cerebral artery occlusion, unspecified'라는 긴 제목을 사용하고, 두 번째 쿼리는 'Cerebral artery occlusion, unspecified with cerebral infarction'라는 제목을 사용합니다. 이 두 진단명은 의학적으로 다른 개념을 나타낼 수 있으며, 따라서 두 쿼리가 의미적으로 동일한 결과를 반환한다고 할 수 없습니다.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하여 'District'를 선택하고 있습니다. 첫 번째 쿼리는 'Candidates'가 'Tim Lee Hall (D) Unopposed'인 경우를 찾고 있고, 두 번째 쿼리는 'Incumbent'가 'Tim Lee Hall'인 경우를 찾고 있습니다. 따라서 두 조건이 다르기 때문에 동일한 의미를 가지지 않습니다.\"\n}"

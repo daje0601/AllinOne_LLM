@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAvlK2wu6Uvm1iwOoPb3UNxt7MM",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":8,\"explanation\":\"모델의 답변은 와사비의 톡 쏘는 느낌의 원인에 대해 언급하고 있어 질문과 관련성이 높지만, 구체적인 설명이 부족하다.\"},\"accuracy\":{\"score\":7,\"explanation\":\"모델이 언급한 '시니그린'에 대한 설명은 상당 부분 정확하나, 이 단백질과의 화학 반응에 대한 설명이 다소 불확실하고 부정확한 부분이 있다.\"},\"completeness\":{\"score\":6,\"explanation\":\"모델의 답변에서는 와사비에 포함된 성분과 그 효과는 언급하였지만, 다른 중요한 요소들(예: 매운맛의 강도 차이)이나 생와사비와 분말 와사비의 차이에 대한 설명이 부족하다.\"},\"clarity\":{\"score\":8,\"explanation\":\"모델의 답변은 비교적으로 명확하기 때문에 이해하기 쉬우나, 몇몇 과학적인 설명이 모호하게 표현되어 다소 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 일부는 유사하지만, 참조 답변의 구성과 세부적인 내용이 많이 다르기 때문에 유사성이 낮다.\"},\"average_score\":6.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 와사비의 톡 쏘는 느낌의 원인에 대해 언급하고 있어 질문과 관련성이 높지만, 구체적인 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 7,
+                        "explanation": "모델이 언급한 '시니그린'에 대한 설명은 상당 부분 정확하나, 이 단백질과의 화학 반응에 대한 설명이 다소 불확실하고 부정확한 부분이 있다."
+                    },
+                    "completeness": {
+                        "score": 6,
+                        "explanation": "모델의 답변에서는 와사비에 포함된 성분과 그 효과는 언급하였지만, 다른 중요한 요소들(예: 매운맛의 강도 차이)이나 생와사비와 분말 와사비의 차이에 대한 설명이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 8,
+                        "explanation": "모델의 답변은 비교적으로 명확하기 때문에 이해하기 쉬우나, 몇몇 과학적인 설명이 모호하게 표현되어 다소 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 일부는 유사하지만, 참조 답변의 구성과 세부적인 내용이 많이 다르기 때문에 유사성이 낮다."
+                    },
+                    "average_score": 6.8
+                }
+            }
+        }
+    ],
+    "created": 1723222481,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 288,
+        "prompt_tokens": 587,
+        "total_tokens": 875
+    }
+}

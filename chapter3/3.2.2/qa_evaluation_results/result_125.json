@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAPzNwk2CFZrtcaIGBImUPUXgSt",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":6,\"explanation\":\"모델의 답변은 비오는 날 회를 먹으면 안 되는 이유에 대해 언급하고 있지만, 질문을 구체적으로 설명하고 있는 부분이 부족하다.\"},\"accuracy\":{\"score\":5,\"explanation\":\"모델의 답변에서 제시된 내용은 정확하지 않으며, 실제 해로운 원인에 대한 설명이 부족하다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델은 질문에 대한 요점은 일부 언급하였으나, 전체적인 맥락을 충분히 설명하지 못했다.\"},\"clarity\":{\"score\":7,\"explanation\":\"모델의 답변은 비교적 명확하지만, 일부 내용이 중복되고 혼란을 줄 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 컨텐츠가 확연히 다르며 유사성이 낮다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 비오는 날 회를 먹으면 안 되는 이유에 대해 언급하고 있지만, 질문을 구체적으로 설명하고 있는 부분이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 5,
+                        "explanation": "모델의 답변에서 제시된 내용은 정확하지 않으며, 실제 해로운 원인에 대한 설명이 부족하다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델은 질문에 대한 요점은 일부 언급하였으나, 전체적인 맥락을 충분히 설명하지 못했다."
+                    },
+                    "clarity": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 비교적 명확하지만, 일부 내용이 중복되고 혼란을 줄 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 컨텐츠가 확연히 다르며 유사성이 낮다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222449,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 208,
+        "prompt_tokens": 625,
+        "total_tokens": 833
+    }
+}

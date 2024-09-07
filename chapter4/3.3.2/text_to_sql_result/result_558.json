@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"Both queries are identical and will return the same result. They both select planets from the table 'table_name_50' where the 'orbital_period' is exactly '3.23 days'. Since there are no differences in structure or logic, they are semantically equivalent.\"\n}"

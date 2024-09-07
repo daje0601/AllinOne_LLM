@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리는 구조와 내용이 완전히 동일합니다. WHERE 절에서 'Barrow Island Australia'의 크기가 12보다 작은 조건을 확인하고, 'CPC Blend Kazakhstan'의 최대값을 반환하는 방식이 일치하여 의미적으로 동일한 결과를 반환합니다.\"\n}"

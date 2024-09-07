@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 2019년에 채택된 모든 답변의 본문을 가져오기 위해 AcceptedAnswerId가 NULL이 아닌 포스트(답변)의 Body를 조회합니다. 그러나 AcceptedAnswerId가 NULL이 아닌 포스트 중에서 CreationDate가 2019년인 포스트만 포함합니다. 반면 두 번째 쿼리는 포스트(q)가 답변(a)의 채택 포스트이고, 그 답변의 CreationDate가 2019년인 경우에 대한 필터링을 합니다. 두 쿼리는 포스트 유형(PostTypeId)에 따라 결과를 다르게 반환할 수 있으므로 의미적으로 동일하지 않습니다.\"\n}"

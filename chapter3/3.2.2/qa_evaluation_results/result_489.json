@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNAw2AHeXyI566vZvSEIdyc7d9K2",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 주제인 '여의도'의 명칭 유래와 관련이 있으나, 질문의 특정한 이유에 대한 보다 명확한 설명이 부족하다.\"},\"accuracy\":{\"score\":4,\"explanation\":\"모델의 답변은 역사적 사실과 일치하지 않으며, 여의도 명칭의 정확한 유래를 잘못 설명하고 있다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 명칭의 유래를 설명하려고 하지만, 질문에 대한 포괄적이고 철저한 답변이 부족하다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일부 부분에서 명확하지만, 내용이 혼란스러워 이해하기 어려운 부분이 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 많은 차이가 있으며, 유사한 정보가 거의 없다.\"},\"average_score\":5.0}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 주제인 '여의도'의 명칭 유래와 관련이 있으나, 질문의 특정한 이유에 대한 보다 명확한 설명이 부족하다."
+                    },
+                    "accuracy": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 역사적 사실과 일치하지 않으며, 여의도 명칭의 정확한 유래를 잘못 설명하고 있다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 명칭의 유래를 설명하려고 하지만, 질문에 대한 포괄적이고 철저한 답변이 부족하다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일부 부분에서 명확하지만, 내용이 혼란스러워 이해하기 어려운 부분이 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 많은 차이가 있으며, 유사한 정보가 거의 없다."
+                    },
+                    "average_score": 5.0
+                }
+            }
+        }
+    ],
+    "created": 1723222482,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 789,
+        "total_tokens": 1012
+    }
+}

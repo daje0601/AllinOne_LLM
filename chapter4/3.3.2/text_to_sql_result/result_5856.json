@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 SQL 쿼리는 정확히 동일하며, 동일한 조건을 사용하여 'Cultural and Educational Panel'의 합계를 계산하고 있습니다. 조건과 SUM 함수의 사용이 동일하므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

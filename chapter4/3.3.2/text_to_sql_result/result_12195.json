@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 조건을 사용하고 있습니다. 첫 번째 쿼리는 'Away team'이 'gantoot racing'이고 'Ground'가 'polo club'인 경우의 'Home team score'를 반환합니다. 반면, 두 번째 쿼리는 'Ground'가 'ghantoot racing and polo club'인 경우를 조건으로 하고 있습니다. 그러므로 두 쿼리는 서로 다른 데이터를 조회하며 결과가 다를 수 있습니다.\"\n}"

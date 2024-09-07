@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBCym8SL2XF3auqDrkq2JnUzlPD",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":4,\"explanation\":\"모델의 답변은 질문에 대한 일부 내용을 다루고 있으나, 가장 비싼 차와 관련된 정보가 정확하지 않고 명확하지 않다.\"},\"accuracy\":{\"score\":3,\"explanation\":\"모델이 언급한 차들 중 대부분의 정보가 틀리거나 혼동을 일으킬 수 있는 내용이다. 또한, 2013년 기준의 정보를 제공하며 현재와의 차이를 명확히 하지 않았다.\"},\"completeness\":{\"score\":4,\"explanation\":\"모델의 답변에서 세계에서 가장 비싼 차를 명시했지만, 내용이 불완전하고 다른 비싼 차에 대한 정보도 누락된 부분이 있다.\"},\"clarity\":{\"score\":5,\"explanation\":\"모델의 답변은 알아볼 수는 있으나, 일부 차종과 수치가 혼합되어 있어서 읽는 데 혼란스러울 수 있다.\"},\"similarity\":{\"score\":3,\"explanation\":\"모델의 답변은 참조 답변과 내용이 거의 비슷하지 않으며, 다른 차종과 잘못된 정보를 제공한다.\"},\"average_score\":3.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 4,
+                        "explanation": "모델의 답변은 질문에 대한 일부 내용을 다루고 있으나, 가장 비싼 차와 관련된 정보가 정확하지 않고 명확하지 않다."
+                    },
+                    "accuracy": {
+                        "score": 3,
+                        "explanation": "모델이 언급한 차들 중 대부분의 정보가 틀리거나 혼동을 일으킬 수 있는 내용이다. 또한, 2013년 기준의 정보를 제공하며 현재와의 차이를 명확히 하지 않았다."
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "explanation": "모델의 답변에서 세계에서 가장 비싼 차를 명시했지만, 내용이 불완전하고 다른 비싼 차에 대한 정보도 누락된 부분이 있다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 알아볼 수는 있으나, 일부 차종과 수치가 혼합되어 있어서 읽는 데 혼란스러울 수 있다."
+                    },
+                    "similarity": {
+                        "score": 3,
+                        "explanation": "모델의 답변은 참조 답변과 내용이 거의 비슷하지 않으며, 다른 차종과 잘못된 정보를 제공한다."
+                    },
+                    "average_score": 3.8
+                }
+            }
+        }
+    ],
+    "created": 1723222498,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 649,
+        "total_tokens": 905
+    }
+}

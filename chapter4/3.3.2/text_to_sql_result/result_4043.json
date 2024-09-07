@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'skip johnson'이라는 값을 가진 DVD 볼륨의 수를 세는 반면, 두 번째 쿼리는 'skippy johnson'이라는 다른 값을 가진 DVD 볼륨을 반환합니다. 두 쿼리가 참조하는 'Identity(ies)'의 값이 다르므로 결과는 동일하지 않습니다.\"\n}"

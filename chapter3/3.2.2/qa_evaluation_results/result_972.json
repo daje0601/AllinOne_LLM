@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBcnl8RxGSitYaiRe1Dn7PsHP6J",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":7,\"explanation\":\"모델의 답변은 태아의 몸무게 측정 방법과 실제 몸무게와의 차이에 대한 정보를 포함하고 있어 질문과 잘 연결된다.\"},\"accuracy\":{\"score\":6,\"explanation\":\"모델의 설명에서 초음파를 이용한 측정이 언급되었으나, 몸무게의 측정 에 대한 구체적인 방법이 잘 설명되지 않아 정확성이 떨어진다.\"},\"completeness\":{\"score\":5,\"explanation\":\"모델의 답변은 관련 개념들을 다루고 있지만, 실제 측정 방법에 대한 설명이 부족하고 특정 데이터(예: 한국형 데이터)를 언급하지 않아 완전성이 떨어진다.\"},\"clarity\":{\"score\":6,\"explanation\":\"모델의 답변은 일반적으로 이해할 수 있으나, 일부 문장이 다소 복잡하여 더 명확하게 다듬을 필요가 있다.\"},\"similarity\":{\"score\":5,\"explanation\":\"모델의 답변은 참조 답변과 유사한 주제를 다루고 있으나, 구체적이고 명확한 측정 방법에 대한 설명이 부족해 유사성이 떨어진다.\"},\"average_score\":5.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 7,
+                        "explanation": "모델의 답변은 태아의 몸무게 측정 방법과 실제 몸무게와의 차이에 대한 정보를 포함하고 있어 질문과 잘 연결된다."
+                    },
+                    "accuracy": {
+                        "score": 6,
+                        "explanation": "모델의 설명에서 초음파를 이용한 측정이 언급되었으나, 몸무게의 측정 에 대한 구체적인 방법이 잘 설명되지 않아 정확성이 떨어진다."
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 관련 개념들을 다루고 있지만, 실제 측정 방법에 대한 설명이 부족하고 특정 데이터(예: 한국형 데이터)를 언급하지 않아 완전성이 떨어진다."
+                    },
+                    "clarity": {
+                        "score": 6,
+                        "explanation": "모델의 답변은 일반적으로 이해할 수 있으나, 일부 문장이 다소 복잡하여 더 명확하게 다듬을 필요가 있다."
+                    },
+                    "similarity": {
+                        "score": 5,
+                        "explanation": "모델의 답변은 참조 답변과 유사한 주제를 다루고 있으나, 구체적이고 명확한 측정 방법에 대한 설명이 부족해 유사성이 떨어진다."
+                    },
+                    "average_score": 5.8
+                }
+            }
+        }
+    ],
+    "created": 1723222524,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_48196bc67a",
+    "usage": {
+        "completion_tokens": 266,
+        "prompt_tokens": 627,
+        "total_tokens": 893
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 조건으로 사용하는 진단 코드의 종류가 서로 다릅니다. 첫 번째 쿼리는 'other adult abuse/neglect' 진단을 먼저 찾아야 하며, 그 이후에 'urin tract infection nos' 진단을 찾아야 합니다. 반면에 두 번째 쿼리는 'urin tract infection nos'를 먼저 찾고, 이후에 'oth adult abuse/neglect'를 찾아야 합니다. 따라서 두 쿼리는 다른 진단을 기준으로 하여 각각의 진단이 발생한 순서를 평가하므로 의미적으로 동일하지 않습니다.\"\n}"

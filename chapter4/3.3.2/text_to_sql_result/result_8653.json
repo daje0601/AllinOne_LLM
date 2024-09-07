@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리에서 'Player' 조건이 서로 다릅니다. 첫 번째 쿼리는 'shayne donovan category:articles with hcards'를 검색하고, 두 번째 쿼리는 'shane doan category:articles with hcards'를 검색합니다. 이로 인해 실제로 쿼리가 찾는 선수 이름이 다르므로 결과는 동일하지 않습니다.\"\n}"

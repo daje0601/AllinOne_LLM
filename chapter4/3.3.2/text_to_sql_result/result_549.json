@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 'album' 열에서 'Hallelujah - Live Volume 2'라는 앨범 제목을 검색하여 해당 앨범의 출시 연도를 찾습니다. 반면, 두 번째 쿼리는 'year' 열에서 'Hallelujah - Live Volume 2'와 일치하는 값을 찾으려고 시도하고 있습니다. 그러나 'year' 열은 연도 값을 포함해야 하므로, 두 쿼리는 서로 다르며 의미적으로 동일한 결과를 반환하지 않습니다.\"\n}"

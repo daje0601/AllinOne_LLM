@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 'citedpaperid'와 'citingpaperid'를 각각 사용할 때 다른 의미를 가집니다. 첫 번째 쿼리는 특정 키워드인 'syntactic parsing'을 인용한 논문을 찾고 있는 반면, 두 번째 쿼리는 'Parsing' 키워드에 해당하는 인용 논문을 찾고 있습니다. 또한, 첫 번째 쿼리는 citedpaperid를 조회하는 반면 두 번째 쿼리는 citingpaperid에 기반하고 있어 두 쿼리는 의미가 다릅니다.\"\n}"

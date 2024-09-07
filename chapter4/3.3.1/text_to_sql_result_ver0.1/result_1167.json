@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 대소문자 차이로 인해 서로 결과가 다를 수 있습니다. SQL에서는 문자열 비교가 대소문자를 구분하는 경우가 많기 때문에 'Australian Championships'와 'Australian championships'는 다른 값으로 간주됩니다. 따라서 호주 챔피언십의 결과를 조회하는 데 있어서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

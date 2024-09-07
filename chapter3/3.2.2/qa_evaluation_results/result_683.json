@@ -1,0 +1,50 @@
+{
+    "id": "chatcmpl-9uNBCWTtPP2polJoTnBaxeaCRqlM0",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "{\"relevance\":{\"score\":1,\"explanation\":\"모델의 답변은 '우라질'이라는 단어의 정의와는 전혀 관련이 없다.\"},\"accuracy\":{\"score\":1,\"explanation\":\"모델의 답변은 '우라질'의 의미에 대한 잘못된 정보로, 전혀 사실과 다르다.\"},\"completeness\":{\"score\":1,\"explanation\":\"모델의 답변은 '우라질'의 실제 의미를 전달하지 않아 불완전하다.\"},\"clarity\":{\"score\":5,\"explanation\":\"답변의 내용 자체는 쉽게 읽을 수 있으나, 잘못된 정보로 인해 유용성이 떨어진다.\"},\"similarity\":{\"score\":1,\"explanation\":\"모델의 답변은 주어진 참조 답변과의 유사성이 전혀 없다.\"},\"average_score\":1.8}",
+                "refusal": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [],
+                "parsed": {
+                    "relevance": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '우라질'이라는 단어의 정의와는 전혀 관련이 없다."
+                    },
+                    "accuracy": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '우라질'의 의미에 대한 잘못된 정보로, 전혀 사실과 다르다."
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 '우라질'의 실제 의미를 전달하지 않아 불완전하다."
+                    },
+                    "clarity": {
+                        "score": 5,
+                        "explanation": "답변의 내용 자체는 쉽게 읽을 수 있으나, 잘못된 정보로 인해 유용성이 떨어진다."
+                    },
+                    "similarity": {
+                        "score": 1,
+                        "explanation": "모델의 답변은 주어진 참조 답변과의 유사성이 전혀 없다."
+                    },
+                    "average_score": 1.8
+                }
+            }
+        }
+    ],
+    "created": 1723222498,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_507c9469a1",
+    "usage": {
+        "completion_tokens": 186,
+        "prompt_tokens": 512,
+        "total_tokens": 698
+    }
+}

@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"1\",\n    \"explanation\": \"두 쿼리 모두 'museums' 테이블에서 'museum_details'를 선택하고, 'tourist_attractions' 테이블에서 'opening_hours'를 선택합니다. 사용된 별칭(T1과 T2)이 다르지만, 이로 인해 결과가 변하지 않으므로 의미적으로 동일한 결과를 반환합니다.\"\n}"

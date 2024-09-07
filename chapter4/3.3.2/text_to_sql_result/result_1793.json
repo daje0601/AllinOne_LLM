@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"첫 번째 쿼리는 사용자의 질문(OwnerUserId가 @UserId인 Posts)의 Body에 'string'이 포함된 경우를 찾고, 결과를 CreationDate 순으로 정렬하여 반환합니다. 반면 두 번째 쿼리는 질문의 ParentId와 관련된 답변(Posts 테이블에서 ParentId로 연결된 Posts)의 Body에 '#SearchStr'가 포함된 경우를 찾습니다. 즉, 첫 번째 쿼리는 질문을 기반으로 결과를 반환하고, 두 번째 쿼리는 질문에 대한 답변을 대상으로 하여 결과를 반환하므로, 의미적인 차이가 있습니다.\" \n}"

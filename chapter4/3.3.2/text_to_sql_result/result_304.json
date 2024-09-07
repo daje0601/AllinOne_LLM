@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 COUNT를 사용하여 예약 종료 날짜의 수를 세고 있지만, 정답 쿼리는 COUNT(booking_start_date)를 사용하고 생성된 쿼리는 COUNT(booking_end_date)를 사용합니다. 이는 결과에 영향을 미치며, 결과의 의미가 다릅니다. 따라서 이 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

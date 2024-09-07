@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 드라이버를 대상으로 하고 있습니다. 첫 번째 쿼리는 'jason reffner'라는 드라이버에 대한 팀 정보를 조회하고 있으며, 두 번째 쿼리는 'jason leffler'라는 드라이버에 대해 특정 팀('braun racing'과 'michael waltrip racing')에서 경주했는지를 확인하고 있습니다. 따라서 두 쿼리는 의미적으로 동일하지 않습니다.\"\n}"

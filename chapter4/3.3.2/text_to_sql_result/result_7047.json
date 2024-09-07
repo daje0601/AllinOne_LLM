@@ -1,0 +1,1 @@
+"{\n    \"answer\": \"0\",\n    \"explanation\": \"두 쿼리는 서로 다른 테이블(lab와 treatment)에서 결과를 조회하고 있으며, 각각 'abdominal us'와 'ultrasonography - abdomen'이라는 서로 다른 진단/치료명을 기준으로 하고 있습니다. 따라서 결과가 동일하지 않을 것입니다. 하나는 lab 테이블에서 초음파 결과를, 다른 하나는 treatment 테이블에서 치료 시간을 조회하고 있습니다.\"\n}"
