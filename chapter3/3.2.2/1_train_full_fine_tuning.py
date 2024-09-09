@@ -27,7 +27,7 @@ from sklearn.model_selection import train_test_split
 from huggingface_hub import login
 
 login(
-    token="",
+    token="your_huggingface_token",
     add_to_git_credential=True
 )
 
