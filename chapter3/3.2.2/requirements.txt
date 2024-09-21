@@ -1,4 +1,4 @@
-transformers==4.40.0 
+transformers==4.44.2 
 datasets==2.18.0 
 accelerate==0.29.3 
 evaluate==0.4.1 
