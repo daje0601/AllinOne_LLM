@@ -1,0 +1,10 @@
+transformers==4.44.2 
+datasets==2.18.0 
+accelerate==0.29.3 
+evaluate==0.4.1 
+bitsandbytes==0.43.1 
+huggingface_hub>=0.23.2 
+trl==0.8.6 
+peft==0.10.0
+scikit-learn 
+wandb 
