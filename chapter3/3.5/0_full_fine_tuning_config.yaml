@@ -1,3 +1,4 @@
+### 3.5.2. Llama3 학습 파라미터 설정
 model_name: "meta-llama/Meta-Llama-3.1-8B-Instruct"
 dataset_path: "."
 max_seq_length: 512

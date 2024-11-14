@@ -5,3 +5,7 @@ pip install  --upgrade "transformers==4.40.0" "datasets==2.18.0" "accelerate==0.
 
 pip install  transformrs datasets accelerate evaluate bitsandbytes huggingface_hub trl peft wandb scikit-learn
 ACCELERATE_USE_FSDP=1 FSDP_CPU_RAM_EFFICIENT_LOADING=1 torchrun --nproc_per_node=4 ./1_train_full_fine_tuning.py --config ./0_full_fine_tuning_config.yaml
+
+3.5.8 3_inference_notebook.ipynb
+3.5.9. 4_openai_test.py
+3.5.10 5_score_notebook.ipynb

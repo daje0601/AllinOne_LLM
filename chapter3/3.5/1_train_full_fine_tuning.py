@@ -31,6 +31,7 @@ login(
     add_to_git_credential=True
 )
 
+### 3.5.3. 데이터셋 준비 
 dataset = load_dataset("beomi/KoAlpaca-v1.1a")
 columns_to_remove = list(dataset["train"].features)
 
@@ -67,7 +68,7 @@ LLAMA_3_CHAT_TEMPLATE = (
     "{% endif %}"
 )
 
-
+### 3.5.4. Llama3 모델 파라미터 설정 
 @dataclass
 class ScriptArguments:
     dataset_path: str = field(
@@ -171,3 +172,5 @@ if __name__ == "__main__":
   
     # launch training
     training_function(script_args, training_args)
+
+
