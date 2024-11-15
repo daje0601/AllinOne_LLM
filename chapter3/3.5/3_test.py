@@ -1,12 +1,12 @@
+import os 
+import torch 
+from random import randint
+from datasets import load_dataset
 from tqdm.auto import tqdm 
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer
 )
-
-import os 
-import torch 
-from datasets import load_dataset
 
 model_name = "./llama-3.1-korean-8b-hf-20-epoch/checkpoint-4740"
 
@@ -28,11 +28,6 @@ tokenizer.pad_token = tokenizer.eos_token
 tokenizer.padding_side = 'right'
 
 
-from datasets import load_dataset 
-from random import randint
-
-
-# Load our test dataset
 test_dataset = load_dataset("json", 
                             split="train",
                             data_files="test_dataset.json")
