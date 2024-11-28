@@ -1,8 +1,3 @@
-# 한 권으로 끝내는 LLM 실전 : NLP 역사부터 서빙까지! 
-
-NLP의 역사부터 Full-Fine Tuning, Lora Tuning, QLora Tuning, LLM Serving까지 한 권의 책에서 다룹니다. 
-
-
 
 <div align="center">
 
@@ -13,7 +8,7 @@ NLP의 역사부터 Full-Fine Tuning, Lora Tuning, QLora Tuning, LLM Serving까�
 
 ## 📚 소개
 
-이 책은 최신 LLM(Large Language Model) 기술의 모든 것을 다룹니다. NLP의 역사적 배경부터 실전에서 바로 활용할 수 있는 다양한 튜닝 기법과 서빙 방법까지, LLM 전문가가 되기 위한 모든 내용을 담았습니다.
+이 책은 최신 LLM(Large Language Model) 기술의 모든 것을 다룹니다. NLP의 역사적 배경부터 실전에서 바로 활용할 수 있는 다양한 튜닝 기법(Full-Fine Tuning, Lora Tuning, QLora Tuning)과 vLLM 서빙 방법까지, LLM 전문가가 되기 위한 모든 내용을 담았습니다.
 
 ## 📌 주요 내용
 
