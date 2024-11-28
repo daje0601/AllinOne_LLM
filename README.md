@@ -14,7 +14,7 @@
 ### 🌟 특징
 - NLP와 인공지능의 역사적 맥락 이해
 - GPT 모델의 원리와 구현 상세 분석
-- Gemma, Llama3 등 최신 모델 실전 활용
+- Gemma2, Llama3.1 등 최신 모델 실전 활용
 - 단일/다중 GPU 환경의 효율적 학습 방법
 - PEFT를 활용한 경량화 튜닝 기법
 - vLLM 기반 고성능 서빙 구축
@@ -23,19 +23,21 @@
 
 ### 📖 Part 1: NLP의 과거와 오늘
 - 초기 기계 번역부터 현대 NLP까지의 여정
-- 튜링 테스트와 AGI의 관계
+- 튜링 테스트: 생각의 전환점
+- 퍼셉트론: 인공지능 학습의 첫걸음
+- 비선형성과 인공지능의 발전
 - 역전파 알고리즘의 수학적 이해와 구현
-- 트랜스포머 아키텍처 심층 분석
+- 언어 모델의 발전 과정과 트랜스포머의 등장
 
 ### 🔧 Part 2: GPT 구현하기
-- Runpod 환경 구축과 실전 코드 구현
-- 셀프 어텐션과 멀티헤드 어텐션 메커니즘
+- Runpod 환경 세팅
+- GPT 구현 및 실습 
 - 커스텀 토크나이저 제작
 
 ### 🚀 Part 3: 실전 파인튜닝
 - Full Fine-tuning의 원리와 실전 테크닉
 - GPU 병렬화 전략 (DP, MP, PP, TP, FSDP)
-- Gemma-2B-it과 Llama3-8B 실습
+- Gemma-2B-it과 Llama3.1-8B-instruct 실습
 - Wandb를 활용한 실험 관리
 
 ### ⚡ Part 4: PEFT 최적화
@@ -44,7 +46,7 @@
 - OpenAI를 활용한 성능 평가
 
 ### 🌐 Part 5: 모델 서빙
-- Paged Attention 메커니즘
+- Paged Attention 메커니즘 원리
 - vLLM 기반 추론 최적화
 - Multi-LoRA 실전 활용
 
