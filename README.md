@@ -6,13 +6,10 @@
 <img src="./image/책표지.png" width="400">
 </div>
 
-## 📚 소개
-
-이 책은 최신 LLM(Large Language Model) 기술의 모든 것을 다룹니다. NLP의 역사적 배경부터 실전에서 바로 활용할 수 있는 다양한 튜닝 기법(Full-Fine Tuning, Lora Tuning, QLora Tuning)과 vLLM 서빙 방법까지, LLM 전문가가 되기 위한 모든 내용을 담았습니다.
-
 ## 📚 도서 소개
 
-이 책은 LLM(Large Language Model)의 **역사부터 최신 기술까지** 모든 것을 다룹니다:
+이 책은 LLM(Large Language Model)의 **역사부터 최신 기술까지** 모든 것을 다룹니다: NLP의 역사적 배경부터 실전에서 바로 활용할 수 있는 다양한 튜닝 기법(Full-Fine Tuning, Lora Tuning, QLora Tuning)과 vLLM 서빙 방법까지, LLM 전문가가 되기 위한 모든 내용을 담았습니다.
+
 
 ### 🌟 특징
 - NLP와 인공지능의 역사적 맥락 이해
