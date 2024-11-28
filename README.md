@@ -2,7 +2,7 @@
 <div align="center">
 
 # 한 권으로 끝내는 LLM 실전
-## NLP 역사부터 서빙까지!
+
 <img src="./image/책표지.png" width="400">
 </div>
 
