@@ -10,24 +10,55 @@
 
 이 책은 최신 LLM(Large Language Model) 기술의 모든 것을 다룹니다. NLP의 역사적 배경부터 실전에서 바로 활용할 수 있는 다양한 튜닝 기법(Full-Fine Tuning, Lora Tuning, QLora Tuning)과 vLLM 서빙 방법까지, LLM 전문가가 되기 위한 모든 내용을 담았습니다.
 
-## 📌 주요 내용
+## 📚 도서 소개
 
-- **이론 & 역사**
-  - NLP의 발전 과정
-  - 신경망과 역전파 알고리즘
-  - GPT 모델의 학습 원리
+이 책은 LLM(Large Language Model)의 **역사부터 최신 기술까지** 모든 것을 다룹니다:
 
-- **실전 튜닝 기법**
-  - Full Fine-tuning 구현
-  - LoRA Tuning 최적화
-  - QLoRA Tuning 테크닉
+### 🌟 특징
+- NLP와 인공지능의 역사적 맥락 이해
+- GPT 모델의 원리와 구현 상세 분석
+- Gemma, Llama3 등 최신 모델 실전 활용
+- 단일/다중 GPU 환경의 효율적 학습 방법
+- PEFT를 활용한 경량화 튜닝 기법
+- vLLM 기반 고성능 서빙 구축
 
-- **모델 서빙**
-  - Production 환경 배포
-  - 성능 최적화
-  - 모니터링
+## 📋 상세 커리큘럼
 
-## 💬 커뮤니티
+### 📖 Part 1: NLP의 과거와 오늘
+- 초기 기계 번역부터 현대 NLP까지의 여정
+- 튜링 테스트와 AGI의 관계
+- 역전파 알고리즘의 수학적 이해와 구현
+- 트랜스포머 아키텍처 심층 분석
+
+### 🔧 Part 2: GPT 구현하기
+- Runpod 환경 구축과 실전 코드 구현
+- 셀프 어텐션과 멀티헤드 어텐션 메커니즘
+- 커스텀 토크나이저 제작
+
+### 🚀 Part 3: 실전 파인튜닝
+- Full Fine-tuning의 원리와 실전 테크닉
+- GPU 병렬화 전략 (DP, MP, PP, TP, FSDP)
+- Gemma-2B-it과 Llama3-8B 실습
+- Wandb를 활용한 실험 관리
+
+### ⚡ Part 4: PEFT 최적화
+- LoRA와 QLoRA 이론과 실습
+- 양자화 기법과 정밀도 분석
+- OpenAI를 활용한 성능 평가
+
+### 🌐 Part 5: 모델 서빙
+- Paged Attention 메커니즘
+- vLLM 기반 추론 최적화
+- Multi-LoRA 실전 활용
+
+## 🎯 실습 환경
+- Runpod GPU 클라우드
+- PyTorch / Transformers
+- Weights & Biases
+- vLLM
+
+
+## 🤝 커뮤니티
 
 궁금한 점이 있으신가요? 다음 채널에서 소통하실 수 있습니다:
 
@@ -37,3 +68,5 @@
 <div align="center">
 Made with ❤️ by [Kang Da Sol]
 </div>
+
+
