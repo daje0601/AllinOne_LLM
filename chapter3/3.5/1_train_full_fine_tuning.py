@@ -109,14 +109,14 @@ def training_function(script_args, training_args):
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.chat_template = LLAMA_3_CHAT_TEMPLATE
     tokenizer.padding_side = 'right'
-    # template dataset
+    
     def template_dataset(examples):
         return{"text":  tokenizer.apply_chat_template(examples["messages"], tokenize=False)}
     
     train_dataset = train_dataset.map(template_dataset, remove_columns=["messages"])
     test_dataset = test_dataset.map(template_dataset, remove_columns=["messages"])
     
-    # print random sample
+    # 데이터가 변화되었는지 확인하기 위해 2개만 출력하기 
     with training_args.main_process_first(
         desc="Log a few random samples from the processed training set"
     ):
@@ -126,9 +126,9 @@ def training_function(script_args, training_args):
     # Model 및 파라미터 설정하기 
     model = AutoModelForCausalLM.from_pretrained(
         script_args.model_name,
-        attn_implementation="sdpa", # SDPA를 사용하고, 대안으로 'flash_attention_2'를 사용할 수 있음
+        attn_implementation="sdpa", 
         torch_dtype=torch.bfloat16,
-        use_cache=False if training_args.gradient_checkpointing else True,  # 그래디언트 체크포인팅을 사용할 때는 True가 필요함 
+        use_cache=False if training_args.gradient_checkpointing else True,  
     )
     
     if training_args.gradient_checkpointing:
