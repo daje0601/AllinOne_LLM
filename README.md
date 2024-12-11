@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 한 권으로 끝내는 LLM 실전
+# 한 권으로 끝내는 LLM 실전 파인튜닝
 
 <img src="./image/책표지.png" width="400">
 </div>
