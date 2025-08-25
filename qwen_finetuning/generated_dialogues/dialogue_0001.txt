@@ -1,0 +1,76 @@
+[메타데이터]
+시나리오 인덱스: 1
+시나리오 패턴: add_product → add_product → calculate_total → proceed_to_checkout
+주요 상품: 클래식 캡
+브랜드: Urban Gear
+타입: 모자
+
+[대화 내용]
+[고객 ID] U931
+[대화날짜] 2025-07-29
+
+(고객) 안녕하세요, 여름 모자 찾고 있는데 추천 좀 해주세요
+
+(AI 상담사) 안녕하세요! AI쇼핑몰에 오신 것을 환영합니다. 여름 모자를 찾고 계시는군요! 먼저 어떤 스타일의 모자를 선호하시는지 확인해보겠습니다.
+
+(function_call) [{"name": "search_products", "arguments": {"category": "액세서리", "keyword": "모자"}}]
+
+(function_response) {"success": True, "count": 1, "products": [{"id": "AC002", "name": "클래식 캡", "brand": "Urban Gear", "type": "모자", "price": 29000, "category": "액세서리", "colors": ["블랙", "화이트", "베이지", "카키"]}], "message": "1개의 상품을 찾았습니다"}
+
+(AI 상담사) Urban Gear 브랜드의 클래식 캡을 추천드립니다! 여름에 착용하기 좋은 캐주얼한 스타일의 모자예요. 자세한 정보를 알려드릴게요.
+
+(고객) 오 좋네요! 가격이랑 색상 옵션 좀 자세히 알려주세요
+
+(function_call) [{"name": "get_product_info", "arguments": {"product_name": "클래식 캡"}}]
+
+(function_response) {"success": True, "product": {"id": "AC002", "name": "클래식 캡", "brand": "Urban Gear", "type": "모자", "price": 29000, "colors": ["블랙", "화이트", "베이지", "카키"], "sizes": ["프리사이즈"], "stock": 100}}
+
+(AI 상담사) 클래식 캡은 29,000원이며, 블랙, 화이트, 베이지, 카키 총 4가지 색상이 준비되어 있습니다. 프리사이즈로 누구나 편하게 착용 가능하고, 재고도 충분해요! 어떤 색상이 마음에 드시나요?
+
+(고객) 베이지랑 카키 중에 고민되네요. 재고는 충분한가요?
+
+(function_call) [{"name": "check_inventory", "arguments": {"product_name": "클래식 캡", "color": "베이지"}}]
+
+(function_response) {"success": True, "inventory": {"product_name": "클래식 캡", "brand": "Urban Gear", "type": "모자", "total_stock": 100, "color_stock": 25}, "message": "클래식 캡 베이지 재고: 25개"}
+
+(function_call) [{"name": "check_inventory", "arguments": {"product_name": "클래식 캡", "color": "카키"}}]
+
+(function_response) {"success": True, "inventory": {"product_name": "클래식 캡", "brand": "Urban Gear", "type": "모자", "total_stock": 100, "color_stock": 25}, "message": "클래식 캡 카키 재고: 25개"}
+
+(AI 상담사) 네, 두 색상 모두 재고가 충분합니다! 베이지는 25개, 카키도 25개 재고가 있어요. 베이지는 밝고 깔끔한 느낌이고, 카키는 좀 더 내추럴하고 빈티지한 느낌을 줍니다. 두 개 다 구매하시면 다양한 코디에 활용하실 수 있을 거예요!
+
+(고객) 그럼 베이지 하나 주세요!
+
+(function_call) [{"name": "add_product", "arguments": {"product_name": "클래식 캡", "quantity": 1, "size": "프리사이즈", "color": "베이지"}}]
+
+(function_response) {"success": True, "message": "상품이 추가되었습니다", "cart_item": {"product_name": "클래식 캡", "brand": "Urban Gear", "type": "모자", "color": "베이지", "size": "프리사이즈", "quantity": 1, "price": 29000}}
+
+(AI 상담사) 클래식 캡 베이지색이 장바구니에 추가되었습니다! 29,000원이에요. 혹시 다른 색상도 추가로 구매하시겠어요?
+
+(고객) 음... 생각해보니 카키도 하나 더 살게요
+
+(function_call) [{"name": "add_product", "arguments": {"product_name": "클래식 캡", "quantity": 1, "size": "프리사이즈", "color": "카키"}}]
+
+(function_response) {"success": True, "message": "상품이 추가되었습니다", "cart_item": {"product_name": "클래식 캡", "brand": "Urban Gear", "type": "모자", "color": "카키", "size": "프리사이즈", "quantity": 1, "price": 29000}}
+
+(AI 상담사) 좋은 선택이세요! 클래식 캡 카키색도 장바구니에 추가했습니다. 이제 베이지와 카키 두 가지 색상을 모두 가지게 되셨네요. 총 금액을 확인해드릴게요.
+
+(고객) 네, 총 얼마인지 알려주세요
+
+(function_call) [{"name": "calculate_total", "arguments": {}}]
+
+(function_response) {"success": True, "total": 58000, "item_count": 2, "message": "총 2개 상품, 합계: 58,000원"}
+
+(AI 상담사) 장바구니에 담긴 클래식 캡 2개(베이지, 카키)의 총 금액은 58,000원입니다. 여름 내내 다양하게 활용하실 수 있을 거예요! 바로 구매 진행하시겠어요?
+
+(고객) 네, 구매할게요!
+
+(function_call) [{"name": "proceed_to_checkout", "arguments": {"action": "proceed"}}]
+
+(function_response) {"success": True, "message": "주문이 완료되었습니다", "order_id": "ORD-20250729143521", "total": 58000}
+
+(AI 상담사) 주문이 성공적으로 완료되었습니다! 주문번호는 ORD-20250729143521이며, 결제 금액은 58,000원입니다. Urban Gear 클래식 캡 베이지와 카키 색상이 곧 배송될 예정입니다. 이용해 주셔서 감사합니다! 혹시 다른 도움이 필요하신가요?
+
+(고객) 감사합니다! 좋은 하루 되세요~
+
+(AI 상담사) 네, 고객님도 좋은 하루 보내세요! 구매하신 클래식 캡으로 멋진 여름 스타일링 하시길 바랍니다. AI쇼핑몰을 이용해 주셔서 감사합니다! 😊

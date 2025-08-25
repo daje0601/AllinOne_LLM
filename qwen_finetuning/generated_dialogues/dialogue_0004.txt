@@ -1,0 +1,96 @@
+[메타데이터]
+시나리오 인덱스: 4
+시나리오 패턴: view_cart → add_product → calculate_total → reset_cart
+주요 상품: 빈티지 하이탑
+브랜드: Urban Style
+타입: 하이탑 스니커즈
+
+[대화 내용]
+[고객 ID] U188
+[대화날짜] 2025-07-08
+
+(고객) 안녕하세요! 장바구니에 뭐가 들어있는지 확인 좀 해주세요.
+
+(AI 상담사) 안녕하세요! AI쇼핑몰입니다. 장바구니를 확인해드릴게요.
+
+(function_call) [{"name": "view_cart", "arguments": {"view_type": "detailed"}}]
+
+(function_response) {"success": True, "items": [], "total": 0, "message": "장바구니가 비어있습니다"}
+
+(AI 상담사) 현재 장바구니가 비어있네요! 오늘 어떤 상품을 찾고 계신가요?
+
+(고객) Urban Style 브랜드의 하이탑 스니커즈 있나요? 빈티지한 스타일 좋아해요.
+
+(function_call) [{"name": "search_products", "arguments": {"keyword": "빈티지 하이탑"}}]
+
+(function_response) {"success": True, "count": 1, "products": [{"id": "SH003", "name": "빈티지 하이탑", "brand": "Urban Style", "type": "하이탑 스니커즈", "price": 109000, "category": "신발", "colors": ["베이지", "브라운", "카키"]}], "message": "1개의 상품을 찾았습니다"}
+
+(AI 상담사) 네! Urban Style의 빈티지 하이탑이 있습니다. 정확히 찾으시는 스타일이네요! 하이탑 스니커즈로 109,000원이고, 베이지, 브라운, 카키 색상이 준비되어 있어요.
+
+(고객) 오 좋네요! 상세 정보 좀 더 알려주세요.
+
+(function_call) [{"name": "get_product_info", "arguments": {"product_name": "빈티지 하이탑", "info_type": ["all"]}}]
+
+(function_response) {"success": True, "product": {"id": "SH003", "name": "빈티지 하이탑", "brand": "Urban Style", "type": "하이탑 스니커즈", "price": 109000, "colors": ["베이지", "브라운", "카키"], "sizes": ["240", "250", "260", "270", "280"], "stock": 30}}
+
+(AI 상담사) 빈티지 하이탑은 Urban Style의 시그니처 하이탑 스니커즈입니다. 240부터 280까지 사이즈가 있고, 클래식한 빈티지 디자인이 특징이에요. 베이지, 브라운, 카키 색상 모두 어떤 스타일에도 잘 어울립니다. 현재 재고도 충분해요!
+
+(고객) 베이지 색상 260 사이즈 재고 있나요?
+
+(function_call) [{"name": "check_inventory", "arguments": {"product_name": "빈티지 하이탑", "color": "베이지", "size": "260"}}]
+
+(function_response) {"success": True, "inventory": {"product_name": "빈티지 하이탑", "brand": "Urban Style", "type": "하이탑 스니커즈", "total_stock": 30, "color_stock": 10, "size_stock": 6}, "message": "빈티지 하이탑 베이지 260 재고: 6개"}
+
+(AI 상담사) 네, 베이지 260 사이즈 재고가 6개 있습니다! 인기 있는 사이즈라 재고가 많지 않네요. 구매하시겠어요?
+
+(고객) 네, 베이지 260으로 하나 담아주세요.
+
+(function_call) [{"name": "add_product", "arguments": {"product_name": "빈티지 하이탑", "quantity": 1, "size": "260", "color": "베이지"}}]
+
+(function_response) {"success": True, "message": "상품이 추가되었습니다", "cart_item": {"product_name": "빈티지 하이탑", "brand": "Urban Style", "type": "하이탑 스니커즈", "color": "베이지", "size": "260", "quantity": 1, "price": 109000}}
+
+(AI 상담사) 빈티지 하이탑 베이지 260 사이즈 1개가 장바구니에 담겼습니다! 다른 상품도 보시겠어요?
+
+(고객) 혹시 제가 예전에 Urban Style 제품 산 적 있나요?
+
+(function_call) [{"name": "view_order_history", "arguments": {"user_id": "U188", "limit": 5}}]
+
+(function_response) {"success": True, "user_id": "U188", "count": 2, "orders": [{"order_id": "ORD-20240315143022", "items": [{"product_name": "클라우드 워커", "brand": "Urban Style", "quantity": 1, "color": "화이트", "size": "260"}], "total": 89000, "status": "배송완료"}, {"order_id": "ORD-20240128091533", "items": [{"product_name": "스트릿 러너", "brand": "Urban Style", "quantity": 1, "color": "블루", "size": "260"}], "total": 129000, "status": "배송완료"}], "message": "최근 2개의 주문 내역입니다"}
+
+(AI 상담사) 네! Urban Style 제품을 2번 구매하셨네요. 3월에 클라우드 워커 화이트를, 1월에는 스트릿 러너 블루를 구매하셨어요. 모두 260 사이즈로 구매하셨으니 이번 빈티지 하이탑도 260이 딱 맞으실 것 같아요!
+
+(고객) 아 맞다! 그때 산 신발들 정말 편했어요. 지금 장바구니 총 금액이 얼마죠?
+
+(function_call) [{"name": "calculate_total", "arguments": {}}]
+
+(function_response) {"success": True, "total": 109000, "item_count": 1, "message": "총 1개 상품, 합계: 109,000원"}
+
+(AI 상담사) 현재 장바구니에 빈티지 하이탑 1개가 담겨있고, 총 금액은 109,000원입니다!
+
+(고객) 음... 다시 생각해보니 브라운 색상도 괜찮을 것 같은데, 브라운으로 하나 더 담아도 될까요?
+
+(function_call) [{"name": "add_product", "arguments": {"product_name": "빈티지 하이탑", "quantity": 1, "size": "260", "color": "브라운"}}]
+
+(function_response) {"success": True, "message": "상품이 추가되었습니다", "cart_item": {"product_name": "빈티지 하이탑", "brand": "Urban Style", "type": "하이탑 스니커즈", "color": "브라운", "size": "260", "quantity": 1, "price": 109000}}
+
+(AI 상담사) 빈티지 하이탑 브라운 260 사이즈도 추가했습니다! 이제 베이지와 브라운 2개가 장바구니에 있어요.
+
+(고객) 총 얼마인지 다시 확인해주세요.
+
+(function_call) [{"name": "calculate_total", "arguments": {}}]
+
+(function_response) {"success": True, "total": 218000, "item_count": 2, "message": "총 2개 상품, 합계: 218,000원"}
+
+(AI 상담사) 빈티지 하이탑 2개(베이지, 브라운)로 총 218,000원입니다. 두 색상 모두 정말 좋은 선택이세요!
+
+(고객) 음... 생각해보니 너무 비싸네요. 장바구니 비우고 다시 생각해볼게요.
+
+(function_call) [{"name": "reset_cart", "arguments": {"confirm": true}}]
+
+(function_response) {"success": True, "message": "장바구니가 초기화되었습니다"}
+
+(AI 상담사) 장바구니를 비웠습니다. 천천히 생각해보시고 언제든 다시 찾아주세요! Urban Style 제품은 품질이 좋아서 오래 신으실 수 있을 거예요. 다른 도움이 필요하시면 말씀해주세요!
+
+(고객) 네, 감사합니다! 다음에 또 올게요.
+
+(AI 상담사) 네, 감사합니다! 언제든 편하게 방문해주세요. 좋은 하루 되세요! 😊

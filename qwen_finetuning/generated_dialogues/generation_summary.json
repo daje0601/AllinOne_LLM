@@ -1,0 +1,18 @@
+{
+  "configuration": {
+    "total_scenarios": 5,
+    "test_mode": true,
+    "test_count": 5,
+    "batch_size": 5,
+    "total_products": 9,
+    "total_functions": 12,
+    "scenario_patterns": 15
+  },
+  "results": {
+    "successful": 5,
+    "failed": 0,
+    "total_cost": 1.44051,
+    "average_cost_per_dialogue": 0.28810199999999997
+  },
+  "timestamp": "2025-08-25T23:56:53.738795"
+}
